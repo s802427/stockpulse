@@ -39,4 +39,3 @@ RSS_FEEDS = [
     "https://feeds.reuters.com/reuters/financialsNews",
     "https://www.investors.com/feed/",
     "https://feeds.federalreserve.gov/feeds/press_monetary.xml",
-    "https://feeds​​​​​​​​​​​​​​​​
