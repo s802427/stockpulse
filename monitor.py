@@ -228,12 +228,24 @@ def send_summary(results):
 def main():
     seen = set()
     all_news = get_newsapi_titles() + get_rss_titles()
-    unique_news = []
+        unique_news = []
+    seen_titles = []
     for item in all_news:
         h = hashlib.md5(item[0].encode()).hexdigest()
-        if h not in seen:
+        if h in seen:
+            continue
+        is_dup = False
+        for t in seen_titles:
+            common = len(set(item[0].lower().split()) & set(t.lower().split()))
+            total = len(set(item[0].lower().split()) | set(t.lower().split()))
+            if total > 0 and common / total > 0.6:
+                is_dup = True
+                break
+        if not is_dup:
             seen.add(h)
+            seen_titles.append(item[0])
             unique_news.append(item)
+
     print(str(datetime.now()) + " 收集 " + str(len(unique_news)) + " 條")
     important_news = []
     for i in range(0, len(unique_news), 20):
