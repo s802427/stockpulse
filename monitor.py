@@ -105,6 +105,7 @@ def quick_filter(titles_batch):
         return [titles_batch[i] for i in indices if i < len(titles_batch)]
     except:
         return []
+
 def analyze(title):
     try:
         headers = {
@@ -247,43 +248,6 @@ def main():
             seen.add(h)
             seen_titles.append(item[0])
             unique_news.append(item)
-    print(str(datetime.now()) + " 收集 " + str(len(unique_news)) + " 條")
-    important_news = []
-    for i in range(0, len(unique_news), 20):
-        important_news += quick_filter(unique_news[i:i+20])
-    print(str(datetime.now()) + " 篩後 " + str(len(important_news)) + " 條")
-    results = []
-    news_for_json = []
-    for title, link, source in important_news:
-        zh, impact, sector, priority = analyze(title)
-        emoji = PRIORITY_EMOJI.get(priority, "🟡")
-        msg = emoji + " <b>" + title + "</b>\n"
-        msg += "🇹🇼 " + zh + "\n"
-        msg += "💡 " + impact + "\n\n"
-        msg += "🔗 <a href='" + link + "'>閱讀全文</a>\n"
-        msg += "📡 <code>" + source + "</code>"
-        send_telegram(CHANNELS["all"], msg)
-        if sector in CHANNELS and sector != "general":
-            send_telegram(CHANNELS[sector], msg)
-        results.append((title, zh, sector, priority))
-        news_for_json.append({
-            "title": title,
-            "zh": zh,
-            "impact": impact,
-            "sector": sector,
-            "priority": priority,
-            "link": link,
-            "source": source
-        })
-    if results:
-        send_summary(results)
-        update_news_json(news_for_json)
-    print(str(datetime.now()) + " 推送 " + str(len(results)) + " 條")
-
-if __name__ == "__main__":
-    main()
-
-
     print(str(datetime.now()) + " 收集 " + str(len(unique_news)) + " 條")
     important_news = []
     for i in range(0, len(unique_news), 20):
