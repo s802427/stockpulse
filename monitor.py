@@ -46,16 +46,16 @@ def translate(text):
 def send_telegram(title, link, source):
     zh = translate(title)
     message = (
-        f"📰 *{title}*\n"
-        f"🇹🇼 {zh}\n\n"
-        f"🔗 [閱讀全文]({link})\n"
-        f"📡 `{source}`"
-    )
+    f"📰 <b>{title}</b>\n"
+    f"🇹🇼 {zh}\n\n"
+    f"🔗 <a href='{link}'>閱讀全文</a>\n"
+    f"📡 <code>{source}</code>"
+)
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {
         "chat_id": CHAT_ID,
         "text": message,
-        "parse_mode": "Markdown",
+        "parse_mode": "HTML",
         "disable_web_page_preview": False
     }
     requests.post(url, json=payload)
