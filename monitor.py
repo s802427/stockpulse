@@ -8,10 +8,25 @@ from datetime import datetime
 DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK_URL")
 
 RSS_FEEDS = [
+    # Yahoo Finance
     "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^GSPC&region=US&lang=en-US",
     "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^DJI&region=US&lang=en-US",
     "https://finance.yahoo.com/news/rssindex",
+    # MarketWatch
     "https://feeds.marketwatch.com/marketwatch/topstories/",
+    "https://feeds.marketwatch.com/marketwatch/marketpulse/",
+    # CNBC
+    "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+    "https://www.cnbc.com/id/10001147/device/rss/rss.html",
+    # Reuters
+    "https://feeds.reuters.com/reuters/businessNews",
+    "https://feeds.reuters.com/reuters/companyNews",
+    # Seeking Alpha
+    "https://seekingalpha.com/market_currents.xml",
+    # SEC EDGAR 重大公告
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&dateb=&owner=include&count=10&search_text=&output=atom",
+]
+
 ]
 
 KEYWORDS = [
