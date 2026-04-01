@@ -36,6 +36,7 @@ RSS_FEEDS.append("https://www.investors.com/feed/")
 RSS_FEEDS.append("https://fortune.com/feed/")
 RSS_FEEDS.append("https://oilprice.com/rss/main")
 RSS_FEEDS.append("https://feeds.barrons.com/barrons/markets")
+
 def get_newsapi_titles():
     try:
         url = "https://newsapi.org/v2/top-headlines"
@@ -105,6 +106,17 @@ def quick_filter(titles_batch):
     except:
         return []
 
+def translate_backup(text):
+    try:
+        url = "https://translate.googleapis.com/translate_a/single"
+        params = {
+            "client": "gtx",
+            "sl": "en",
+            "tl": "zh-TW",
+            "dt": "t",
+            "q": text
+        }
+        r = requests.get(url,​​​​​​​​​​​​​​​​
 def analyze(title):
     try:
         headers = {
@@ -141,13 +153,16 @@ def analyze(title):
                 sector = line.replace("SECTOR:", "").strip().lower()
             elif line.startswith("PRIORITY:"):
                 priority = line.replace("PRIORITY:", "").strip().lower()
+        if not translation:
+            translation = translate_backup(title)
         if sector not in CHANNELS:
             sector = "general"
         if priority not in PRIORITY_EMOJI:
             priority = "medium"
         return translation, impact, sector, priority
     except:
-        return "", "", "general", "medium"
+        zh = translate_backup(title)
+        return zh, "", "general", "medium"
 
 def send_telegram(chat_id, text):
     url = "https://api.telegram.org/bot" + TELEGRAM_TOKEN + "/sendMessage"
@@ -161,6 +176,7 @@ def send_telegram(chat_id, text):
 
 def update_news_json(news_list):
     try:
+        import base64
         api_url = "https://api.github.com/repos/" + GITHUB_REPO + "/contents/news.json"
         headers = {
             "Authorization": "Bearer " + MY_GITHUB_TOKEN,
@@ -173,7 +189,6 @@ def update_news_json(news_list):
             "news": news_list
         }
         content = json.dumps(data, ensure_ascii=False, indent=2)
-        import base64
         encoded = base64.b64encode(content.encode()).decode()
         payload = {
             "message": "update news",
