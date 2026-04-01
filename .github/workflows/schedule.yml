@@ -3,11 +3,13 @@ name: StockPulse Monitor
 on:
   schedule:
     - cron: '0 */2 * * *'
+    - cron: '0 13 * * 1-5'
   workflow_dispatch:
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
+    if: github.event.schedule != '0 13 * * 1-5'
     steps:
       - uses: actions/checkout@v3
 
@@ -25,3 +27,23 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python monitor.py
+
+  morning_report:
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 13 * * 1-5'
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser requests
+
+      - name: Run morning report
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python morning_report.py
