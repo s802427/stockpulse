@@ -28,6 +28,12 @@ PRIORITY_EMOJI = {
     "low": "🟢",
 }
 
+PRIORITY_SCORE = {
+    "high": 10,
+    "medium": 6,
+    "low": 3,
+}
+
 RSS_FEEDS = [
     "https://finance.yahoo.com/news/rssindex",
     "https://feeds.marketwatch.com/marketwatch/topstories/",
@@ -139,7 +145,8 @@ def analyze_batch(news_batch):
         prompt += "TRANSLATION: 繁體中文翻譯\n"
         prompt += "IMPACT: 影響15字內\n"
         prompt += "SECTOR: tech或finance或energy或health或consumer或general\n"
-        prompt += "PRIORITY: high或medium或low\n\n"
+        prompt += "PRIORITY: high或medium或low\n"
+        prompt += "請務必使用繁體中文，不得使用簡體中文。\n\n"
         prompt += news_list
         body = {
             "model": "claude-haiku-4-5-20251001",
@@ -233,41 +240,51 @@ def update_news_json(news_list):
 def send_summary(results):
     try:
         now = datetime.now(TZ).strftime("%H:%M")
+        date = datetime.now(TZ).strftime("%Y/%m/%d")
         high = [r for r in results if r[3] == "high"]
         medium = [r for r in results if r[3] == "medium"]
         low = [r for r in results if r[3] == "low"]
+
+        # 板塊分數計算
         sectors = {}
         for r in results:
             s = r[2]
             if s not in sectors:
                 sectors[s] = []
-            sectors[s].append(r[3])
+            sectors[s].append(PRIORITY_SCORE.get(r[3], 6))
 
         msg = "📋 <b>本次掃描摘要 " + now + "</b>\n"
+        msg += "🗓 " + date + "\n"
         msg += "━━━━━━━━━━━━━━━\n"
         msg += "🔴 高重要 x" + str(len(high))
         msg += "  🟡 中重要 x" + str(len(medium))
         msg += "  🟢 一般 x" + str(len(low)) + "\n"
+        msg += "共 " + str(len(results)) + " 條重要財經新聞\n"
 
         if sectors:
-            msg += "\n💹 <b>板塊動態</b>\n"
+            msg += "\n━━━━━━━━━━━━━━━\n"
+            msg += "💹 <b>板塊動態</b>\n"
             icons = {
                 "tech": "💻", "finance": "🏦", "energy": "⚡",
                 "health": "💊", "consumer": "🛒"
             }
-            for s, priorities in sectors.items():
+            sector_scores = {}
+            for s, scores in sectors.items():
                 if s == "general":
                     continue
+                avg = round(sum(scores) / len(scores), 1)
+                sector_scores[s] = (avg, len(scores))
+            for s, (avg, count) in sorted(sector_scores.items(), key=lambda x: -x[1][0]):
                 icon = icons.get(s, "📰")
-                count = len(priorities)
-                top = "🔴" if "high" in priorities else "🟡" if "medium" in priorities else "🟢"
-                msg += icon + " " + s + " " + top + " x" + str(count) + "\n"
+                emoji = "🔴" if avg >= 8 else "🟡" if avg >= 5 else "🟢"
+                msg += icon + " " + s + "  " + emoji + " " + str(avg) + "/10  x" + str(count) + "\n"
 
         if high:
-            msg += "\n🔥 <b>重點摘要</b>\n"
-            for r in high[:3]:
+            msg += "\n━━━━━━━━━━━━━━━\n"
+            msg += "🔥 <b>重點摘要</b>\n"
+            for i, r in enumerate(high[:5]):
                 if r[1]:
-                    msg += "• " + r[1] + "\n"
+                    msg += str(i+1) + ". " + r[1] + "\n"
 
         send_telegram(CHANNELS["all"], msg)
     except Exception as e:
