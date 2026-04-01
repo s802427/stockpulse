@@ -6,7 +6,15 @@ from datetime import datetime
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY")
-CHAT_ID = "@stockpulse_news2"
+
+CHANNELS = {
+    "all": "@stockpulse_news2",
+    "tech": "@stockpulse_tech",
+    "finance": "@stockpulse_finance",
+    "energy": "@stockpulse_energy",
+    "health": "@stockpulse_health",
+    "consumer": "@stockpulse_consumer",
+}
 
 RSS_FEEDS = [
     "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^GSPC&region=US&lang=en-US",
@@ -40,7 +48,7 @@ def is_important(title):
             return True
     return sum(1 for kw in LOW if kw in t) >= 2
 
-def analyze(title):
+def analyze_and_classify(title):
     try:
         headers = {
             "x-api-key": ANTHROPIC_KEY,
@@ -49,33 +57,39 @@ def analyze(title):
         }
         body = {
             "model": "claude-haiku-4-5-20251001",
-            "max_tokens": 150,
+            "max_tokens": 200,
             "messages": [{
                 "role": "user",
-                "content": f"""以下是一條美股新聞標題，請用繁體中文回覆兩行：
-直接輸出兩行，不要有任何前綴：
-第一行是中文翻譯
-第二行加💡表情符號，說明對股市影響（15字以內）
-
+                "content": f"""以下是一條美股新聞標題，請回覆3行：
+第一行：繁體中文翻譯
+第二行：加💡說明對股市影響（15字以內）
+第三行：板塊分類，只能選一個：tech/finance/energy/health/consumer/general
 
 標題：{title}"""
             }]
         }
         r = requests.post("https://api.anthropic.com/v1/messages", headers=headers, json=body, timeout=10)
-        return r.json()["content"][0]["text"].strip()
+        lines = r.json()["content"][0]["text"].strip().split("\n")
+        translation = lines[0] if len(lines) > 0 else ""
+        impact = lines[1] if len(lines) > 1 else ""
+        sector = lines[2].strip().lower() if len(lines) > 2 else "general"
+        if sector not in CHANNELS:
+            sector = "general"
+        return translation, impact, sector
     except:
-        return ""
+        return "", "", "general"
 
-def send_telegram(title, link, source, analysis):
+def send_telegram(chat_id, title, link, source, translation, impact):
     message = (
         f"📰 <b>{title}</b>\n"
-        f"{analysis}\n\n"
+        f"{translation}\n"
+        f"{impact}\n\n"
         f"🔗 <a href='{link}'>閱讀全文</a>\n"
         f"📡 <code>{source}</code>"
     )
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {
-        "chat_id": CHAT_ID,
+        "chat_id": chat_id,
         "text": message,
         "parse_mode": "HTML",
         "disable_web_page_preview": False
@@ -95,8 +109,10 @@ def main():
             if h in seen or not is_important(title):
                 continue
             seen.add(h)
-            analysis = analyze(title)
-            send_telegram(title, link, source, analysis)
+            translation, impact, sector = analyze_and_classify(title)
+            send_telegram(CHANNELS["all"], title, link, source, translation, impact)
+            if sector in CHANNELS:
+                send_telegram(CHANNELS[sector], title, link, source, translation, impact)
             new_count += 1
     print(f"[{datetime.now()}] 推送了 {new_count} 條新聞")
 
