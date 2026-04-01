@@ -2,11 +2,14 @@ import feedparser
 import requests
 import hashlib
 import os
+import json
 from datetime import datetime
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY")
 NEWS_API_KEY = os.environ.get("NEWS_API_KEY")
+MY_GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN")
+GITHUB_REPO = "s802427/stockpulse"
 
 CHANNELS = {
     "all": "@stockpulse_news2",
@@ -156,6 +159,32 @@ def send_telegram(chat_id, text):
     }
     requests.post(url, json=payload)
 
+def update_news_json(news_list):
+    try:
+        api_url = "https://api.github.com/repos/" + GITHUB_REPO + "/contents/news.json"
+        headers = {
+            "Authorization": "Bearer " + MY_GITHUB_TOKEN,
+            "Accept": "application/vnd.github.v3+json"
+        }
+        r = requests.get(api_url, headers=headers)
+        sha = r.json().get("sha", "")
+        data = {
+            "updated": datetime.now().strftime("%Y/%m/%d %H:%M"),
+            "news": news_list
+        }
+        content = json.dumps(data, ensure_ascii=False, indent=2)
+        import base64
+        encoded = base64.b64encode(content.encode()).decode()
+        payload = {
+            "message": "update news",
+            "content": encoded,
+            "sha": sha
+        }
+        requests.put(api_url, headers=headers, json=payload)
+        print("news.json 更新完成")
+    except Exception as e:
+        print("news.json 更新失敗：" + str(e))
+
 def send_summary(results):
     now = datetime.now().strftime("%H:%M")
     high = [r for r in results if r[3] == "high"]
@@ -211,6 +240,7 @@ def main():
         important_news += quick_filter(unique_news[i:i+20])
     print(str(datetime.now()) + " 篩後 " + str(len(important_news)) + " 條")
     results = []
+    news_for_json = []
     for title, link, source in important_news:
         zh, impact, sector, priority = analyze(title)
         emoji = PRIORITY_EMOJI.get(priority, "🟡")
@@ -223,8 +253,18 @@ def main():
         if sector in CHANNELS and sector != "general":
             send_telegram(CHANNELS[sector], msg)
         results.append((title, zh, sector, priority))
+        news_for_json.append({
+            "title": title,
+            "zh": zh,
+            "impact": impact,
+            "sector": sector,
+            "priority": priority,
+            "link": link,
+            "source": source
+        })
     if results:
         send_summary(results)
+        update_news_json(news_for_json)
     print(str(datetime.now()) + " 推送 " + str(len(results)) + " 條")
 
 if __name__ == "__main__":
