@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-CHAT_ID = "@stockpulse_news"
+CHAT_ID = "@stockpulse_news2"
 
 RSS_FEEDS = [
     "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^GSPC&region=US&lang=en-US",
