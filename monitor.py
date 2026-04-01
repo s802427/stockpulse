@@ -228,7 +228,7 @@ def send_summary(results):
 def main():
     seen = set()
     all_news = get_newsapi_titles() + get_rss_titles()
-        unique_news = []
+    unique_news = []
     seen_titles = []
     for item in all_news:
         h = hashlib.md5(item[0].encode()).hexdigest()
@@ -236,8 +236,10 @@ def main():
             continue
         is_dup = False
         for t in seen_titles:
-            common = len(set(item[0].lower().split()) & set(t.lower().split()))
-            total = len(set(item[0].lower().split()) | set(t.lower().split()))
+            words_a = set(item[0].lower().split())
+            words_b = set(t.lower().split())
+            common = len(words_a & words_b)
+            total = len(words_a | words_b)
             if total > 0 and common / total > 0.6:
                 is_dup = True
                 break
@@ -245,6 +247,42 @@ def main():
             seen.add(h)
             seen_titles.append(item[0])
             unique_news.append(item)
+    print(str(datetime.now()) + " 收集 " + str(len(unique_news)) + " 條")
+    important_news = []
+    for i in range(0, len(unique_news), 20):
+        important_news += quick_filter(unique_news[i:i+20])
+    print(str(datetime.now()) + " 篩後 " + str(len(important_news)) + " 條")
+    results = []
+    news_for_json = []
+    for title, link, source in important_news:
+        zh, impact, sector, priority = analyze(title)
+        emoji = PRIORITY_EMOJI.get(priority, "🟡")
+        msg = emoji + " <b>" + title + "</b>\n"
+        msg += "🇹🇼 " + zh + "\n"
+        msg += "💡 " + impact + "\n\n"
+        msg += "🔗 <a href='" + link + "'>閱讀全文</a>\n"
+        msg += "📡 <code>" + source + "</code>"
+        send_telegram(CHANNELS["all"], msg)
+        if sector in CHANNELS and sector != "general":
+            send_telegram(CHANNELS[sector], msg)
+        results.append((title, zh, sector, priority))
+        news_for_json.append({
+            "title": title,
+            "zh": zh,
+            "impact": impact,
+            "sector": sector,
+            "priority": priority,
+            "link": link,
+            "source": source
+        })
+    if results:
+        send_summary(results)
+        update_news_json(news_for_json)
+    print(str(datetime.now()) + " 推送 " + str(len(results)) + " 條")
+
+if __name__ == "__main__":
+    main()
+
 
     print(str(datetime.now()) + " 收集 " + str(len(unique_news)) + " 條")
     important_news = []
