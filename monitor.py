@@ -17,6 +17,12 @@ CHANNELS = {
     "general": "@stockpulse_news2",
 }
 
+PRIORITY_EMOJI = {
+    "high": "🔴",
+    "medium": "🟡",
+    "low": "🟢",
+}
+
 RSS_FEEDS = [
     "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^GSPC&region=US&lang=en-US",
     "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^DJI&region=US&lang=en-US",
@@ -61,63 +67,7 @@ def analyze(title):
             "max_tokens": 200,
             "messages": [{
                 "role": "user",
-                "content": "分析這條美股新聞，用以下格式回覆，每行一個，不要加其他文字：\nTRANSLATION: 繁體中文翻譯\nIMPACT: 💡對股市影響（15字內）\nSECTOR: tech或finance或energy或health或consumer或general\n\n標題：" + title
+                "content": "分析這條美股新聞，用以下格式回覆，每行一個，不要加其他文字：\nTRANSLATION: 繁體中文翻譯\nIMPACT: 💡對股市影響（15字內）\nSECTOR: tech或finance或energy或health或consumer或general\nPRIORITY: high或medium或low\n\n標題：" + title
             }]
         }
-        r = requests.post("https://api.anthropic.com/v1/messages", headers=headers, json=body, timeout=10)
-        text = r.json()["content"][0]["text"].strip()
-        translation = ""
-        impact = ""
-        sector = "general"
-        for line in text.split("\n"):
-            if line.startswith("TRANSLATION:"):
-                translation = line.replace("TRANSLATION:", "").strip()
-            elif line.startswith("IMPACT:"):
-                impact = line.replace("IMPACT:", "").strip()
-            elif line.startswith("SECTOR:"):
-                sector = line.replace("SECTOR:", "").strip().lower()
-        if sector not in CHANNELS:
-            sector = "general"
-        return translation, impact, sector
-    except:
-        return "", "", "general"
-
-def send_telegram(chat_id, title, link, source, zh, impact):
-    message = (
-        "<b>" + title + "</b>\n"
-        + "🇹🇼 " + zh + "\n"
-        + impact + "\n\n"
-        + "🔗 <a href='" + link + "'>閱讀全文</a>\n"
-        + "📡 <code>" + source + "</code>"
-    )
-    url = "https://api.telegram.org/bot" + TELEGRAM_TOKEN + "/sendMessage"
-    payload = {
-        "chat_id": chat_id,
-        "text": message,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": False
-    }
-    requests.post(url, json=payload)
-
-def main():
-    seen = set()
-    new_count = 0
-    for feed_url in RSS_FEEDS:
-        feed = feedparser.parse(feed_url)
-        source = feed.feed.get("title", feed_url)
-        for entry in feed.entries[:10]:
-            title = entry.get("title", "")
-            link = entry.get("link", "")
-            h = hash_title(title)
-            if h in seen or not is_important(title):
-                continue
-            seen.add(h)
-            zh, impact, sector = analyze(title)
-            send_telegram(CHANNELS["all"], title, link, source, zh, impact)
-            if sector in CHANNELS and sector != "general":
-                send_telegram(CHANNELS[sector], title, link, source, zh, impact)
-            new_count += 1
-    print(str(datetime.now()) + " 推送了 " + str(new_count) + " 條新聞")
-
-if __name__ == "__main__":
-    main()
+        r = requests.post("https://​​​​​​​​​​​​​​​​
