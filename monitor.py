@@ -62,12 +62,75 @@ def analyze(title):
             "anthropic-version": "2023-06-01",
             "content-type": "application/json"
         }
+        prompt = "分析這條美股新聞，用以下格式回覆，每行一個：\n"
+        prompt += "TRANSLATION: 繁體中文翻譯\n"
+        prompt += "IMPACT: 對股市影響（15字內）\n"
+        prompt += "SECTOR: tech或finance或energy或health或consumer或general\n"
+        prompt += "PRIORITY: high或medium或low\n\n"
+        prompt += "標題：" + title
         body = {
             "model": "claude-haiku-4-5-20251001",
             "max_tokens": 200,
-            "messages": [{
-                "role": "user",
-                "content": "分析這條美股新聞，用以下格式回覆，每行一個，不要加其他文字：\nTRANSLATION: 繁體中文翻譯\nIMPACT: 💡對股市影響（15字內）\nSECTOR: tech或finance或energy或health或consumer或general\nPRIORITY: high或medium或low\n\n標題：" + title
-            }]
+            "messages": [{"role": "user", "content": prompt}]
         }
-        r = requests.post("https://​​​​​​​​​​​​​​​​
+        r = requests.post("https://api.anthropic.com/v1/messages", headers=headers, json=body, timeout=10)
+        text = r.json()["content"][0]["text"].strip()
+        translation = ""
+        impact = ""
+        sector = "general"
+        priority = "medium"
+        for line in text.split("\n"):
+            if line.startswith("TRANSLATION:"):
+                translation = line.replace("TRANSLATION:", "").strip()
+            elif line.startswith("IMPACT:"):
+                impact = line.replace("IMPACT:", "").strip()
+            elif line.startswith("SECTOR:"):
+                sector = line.replace("SECTOR:", "").strip().lower()
+            elif line.startswith("PRIORITY:"):
+                priority = line.replace("PRIORITY:", "").strip().lower()
+        if sector not in CHANNELS:
+            sector = "general"
+        if priority not in PRIORITY_EMOJI:
+            priority = "medium"
+        return translation, impact, sector, priority
+    except:
+        return "", "", "general", "medium"
+
+def send_telegram(chat_id, title, link, source, zh, impact, priority):
+    emoji = PRIORITY_EMOJI.get(priority, "🟡")
+    msg = emoji + " <b>" + title + "</b>\n"
+    msg += "🇹🇼 " + zh + "\n"
+    msg += "💡 " + impact + "\n\n"
+    msg += "🔗 <a href='" + link + "'>閱讀全文</a>\n"
+    msg += "📡 <code>" + source + "</code>"
+    url = "https://api.telegram.org/bot" + TELEGRAM_TOKEN + "/sendMessage"
+    payload = {
+        "chat_id": chat_id,
+        "text": msg,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": False
+    }
+    requests.post(url, json=payload)
+
+def main():
+    seen = set()
+    new_count = 0
+    for feed_url in RSS_FEEDS:
+        feed = feedparser.parse(feed_url)
+        source = feed.feed.get("title", feed_url)
+        for entry in feed.entries[:10]:
+            title = entry.get("title", "")
+            link = entry.get("link", "")
+            h = hash_title(title)
+            if h in seen or not is_important(title):
+                continue
+            seen.add(h)
+            zh, impact, sector, priority = analyze(title)
+            send_telegram(CHANNELS["all"], title, link, source, zh, impact, priority)
+            if sector in CHANNELS and sector != "general":
+                send_telegram(CHANNELS[sector], title, link, source, zh, impact, priority)
+            new_count += 1
+    print(str(datetime.now()) + " 推送了 " + str(new_count) + " 條新聞")
+
+if __name__ == "__main__":
+    main()
