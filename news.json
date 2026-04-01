@@ -1,82 +1,82 @@
 {
-  "updated": "2026/04/01 22:57",
+  "updated": "2026/04/01 23:07",
   "news": [
     {
-      "title": "Oil prices hold above $100 and Wall Street rebounds as US exchanges strikes with Iran - AP News",
-      "zh": "油價維持在100美元上方，美國與伊朗達成協議後華爾街反彈",
-      "impact": "地緣政治緩和推高油價，提振股市情緒",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://apnews.com/article/stock-markets-war-oil-trump-iran-84a7c46b51b3583f743c8da6a40d36ac",
-      "source": "Associated Press"
+      "title": "Unilever Foods to combine with McCormick - Unilever",
+      "zh": "聯合利華食品部門與美極調料公司合併",
+      "impact": "食品調料市場整合，聯合利華加強食品業務競爭力",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.unilever.com/investors/unilever-foods-to-combine-with-mccormick/",
+      "source": "Unilever.com"
     },
     {
-      "title": "Euro zone inflation smashes through ECB target to 2.5% in March as energy costs soar - CNBC",
-      "zh": "歐元區3月通脹率飆升至2.5%，超越歐央行目標，能源成本飆漲",
-      "impact": "通脹高企逼近，歐央行政策面臨壓力",
-      "sector": "finance",
+      "title": "Oracle Lays Off Employees As It Curbs Costs During AI Buildout - Business Insider",
+      "zh": "甲骨文在人工智能基建投入期間進行裁員以控制成本",
+      "impact": "科技巨頭削減成本，AI投資持續推進但面臨人力調整",
+      "sector": "tech",
       "priority": "high",
-      "link": "https://www.cnbc.com/2026/03/31/euro-zone-inflation-smashes-through-ecb-target-to-2point5percent-.html",
+      "link": "https://www.businessinsider.com/oracle-layoffs-employees-costs-ai-buildout-job-cuts-2026-3",
+      "source": "Business Insider"
+    },
+    {
+      "title": "Opendoor acquires Doma's closing and escrow business in bid to lower mortgage refinance costs - cnbc.com",
+      "zh": "Opendoor收購Doma的過戶及代管業務以降低房貸再融資成本",
+      "impact": "房地產科技整合，簡化購房流程降低客戶成本",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.cnbc.com/2026/03/31/opendoor-doma-closing-escrow-business-mortgage-refinance-costs.html",
       "source": "CNBC"
     },
     {
-      "title": "China factory activity rebounds in March as Iran war looms over growth - AP News",
-      "zh": "中國3月工廠活動反彈，但伊朗戰爭前景籠罩增長前景",
-      "impact": "製造業復甦與地緣政治風險並存",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://apnews.com/article/china-manufacturing-economy-pmi-iran-war-1dece7eda196b93706091b7b52eef94a",
-      "source": "Associated Press"
+      "title": "Biogen to Acquire Apellis, Enhancing the Company’s Growth Portfolio in Immunology and Rare Disease, Bolstering Growth Outlook and Accelerating Expansion into Nephrology - Biogen",
+      "zh": "百健收購Apellis以強化免疫學和罕見疾病業務投資組合",
+      "impact": "生醫併購深化罕見疾病治療能力，加速腎臟病學擴張",
+      "sector": "health",
+      "priority": "high",
+      "link": "https://investors.biogen.com/news-releases/news-release-details/biogen-acquire-apellis-enhancing-companys-growth-portfolio",
+      "source": "Biogen.com"
     },
     {
-      "title": "Asian Stocks Wipe Out 2026 Gains as War Drives Inflation Worries - Bloomberg",
-      "zh": "亞洲股市因戰爭驅動通脹擔憂，抹去2026年漲幅",
-      "impact": "地緣政治危機擊潰亞股年度漲幅",
+      "title": "Lilly to acquire Centessa Pharmaceuticals to advance treatments for sleep-wake disorders - Eli Lilly",
+      "zh": "禮來收購Centessa製藥公司以推進睡眠障礙治療藥物開發",
+      "impact": "禮來進軍睡眠醫學領域，擴大罕見病藥物管線",
+      "sector": "health",
+      "priority": "high",
+      "link": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-centessa-pharmaceuticals-advance-treatments-sleep",
+      "source": "Lilly.com"
+    },
+    {
+      "title": "Judge halts Nexstar/Tegna merger after FCC let firms exceed TV ownership limit - Ars Technica",
+      "zh": "法官叫停Nexstar/Tegna併購案因聯邦通訊委員會允許企業超越電視所有權限制",
+      "impact": "媒體併購遭司法阻擊，廣電產業整合受阻",
       "sector": "general",
       "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-31/asian-stocks-wipe-out-2026-gains-as-war-drives-inflation-worries",
-      "source": "Bloomberg"
+      "link": "https://arstechnica.com/tech-policy/2026/03/judge-halts-nexstar-tegna-merger-after-fcc-let-firms-exceed-tv-ownership-limit/",
+      "source": "Ars Technica"
     },
     {
       "title": "Virgin Galactic Announces Fourth Quarter and Full Year 2025 Financial Results and Provides Business Update - Virgin Galactic",
-      "zh": "維珍銀河公布第四季度及2025全年財務業績並提供業務更新",
-      "impact": "航天公司財報披露，關乎公司發展方向",
-      "sector": "tech",
+      "zh": "維珍銀河公佈2025年第四季度及全年財務結果並提供業務更新",
+      "impact": "太空旅遊公司年度業績披露，商業太空飛行進度說明",
+      "sector": "general",
       "priority": "low",
       "link": "https://investors.virgingalactic.com/news/news-details/2026/Virgin-Galactic-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Business-Update/default.aspx",
       "source": "Virgingalactic.com"
     },
     {
-      "title": "Nexstar Stock Drops Sharply After Judge Puts Brakes On Tegna Merger - Deadline",
-      "zh": "法官叫停特格納併購案後，Nexstar股價大幅下跌",
-      "impact": "併購受阻導致股價重挫",
-      "sector": "consumer",
+      "title": "Tech CEOs Suddenly Love Blaming AI For Mass Job Cuts - Slashdot",
+      "zh": "科技執行長突然熱衷於將大規模裁員歸咎於人工智能",
+      "impact": "科技業裁員潮聲稱因AI建設，引發社會輿論關注",
+      "sector": "tech",
       "priority": "medium",
-      "link": "http://deadline.com/2026/03/nexstar-stock-drops-judge-tegna-merger-1236768984/",
-      "source": "Deadline"
-    },
-    {
-      "title": "This is what really causes recessions, a former top Trump White House economist says - CNBC",
-      "zh": "前川普白宮經濟學家表示：這才是真正引發衰退的原因",
-      "impact": "經濟衰退風險警示，政策分析具參考價值",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/03/30/recession-economy-trump-white-house-economist.html",
-      "source": "CNBC"
-    },
-    {
-      "title": "Japan Is Placing a Multibillion-Dollar Bet on the U.S. Housing Market - WSJ",
-      "zh": "日本向美國房市投入數十億美元賭注",
-      "impact": "日本資本進軍美房市，跨國投資布局",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.wsj.com/real-estate/japan-is-placing-a-multibillion-dollar-bet-on-the-u-s-housing-market-2ced2a01",
-      "source": "The Wall Street Journal"
+      "link": "https://slashdot.org/story/26/03/30/043233/tech-ceos-suddenly-love-blaming-ai-for-mass-job-cuts",
+      "source": "Slashdot.org"
     },
     {
       "title": "Blackstone raises $6.3B life sciences fund in record fundraising haul - Endpoints News",
-      "zh": "貝萊德籌集63億美元生命科學基金，創紀錄融資規模",
-      "impact": "大額資金湧入生科領域，產業發展獲動力",
+      "zh": "黑石公司在創紀錄融資中為生命科學基金募集63億美元",
+      "impact": "私募投資巨擘加碼生科領域，生醫融資創新高",
       "sector": "health",
       "priority": "medium",
       "link": "https://endpoints.news/blackstone-raises-6-3b-life-sciences-fund-in-record-fundraising-haul/",
@@ -84,164 +84,236 @@
     },
     {
       "title": "Uber is buying Berlin startup Blacklane to bolster its ‘Elite’ offering - TechCrunch",
-      "zh": "優步收購柏林新創公司Blacklane以強化「精英」服務",
-      "impact": "優步強化高端打車服務，提升競爭力",
-      "sector": "tech",
-      "priority": "low",
+      "zh": "優步收購柏林新創Blacklane以強化其高端服務產品線",
+      "impact": "優步併購豪華運車服務，升級高端市場競爭力",
+      "sector": "consumer",
+      "priority": "medium",
       "link": "https://techcrunch.com/2026/03/30/uber-is-buying-berlin-startup-blacklane-to-bolster-its-elite-offering/",
       "source": "TechCrunch"
     },
     {
       "title": "Takeda begins US layoffs as part of massive $1.3B restructuring - Fierce Pharma",
-      "zh": "武田制药在大规模13亿美元重组中启动美国裁员",
-      "impact": "药企裁员，制药业就业前景不乐观",
+      "zh": "武田制藥開始美國裁員，作為13億美元大規模重組的一部分",
+      "impact": "藥廠裁員重組，將影響營運成本和就業市場",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.fiercepharma.com/pharma/takeda-begins-us-layoffs-part-massive-13b-restructuring",
       "source": "FiercePharma"
     },
     {
-      "title": "Government Bonds Everywhere Are Rallying on Slowdown Concerns - Bloomberg.com",
-      "zh": "全球政府债券因经济放缓担忧而普遍上涨",
-      "impact": "债市反映衰退预期，风险资产可能承压",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-30/bonds-everywhere-are-rallying-as-global-slowdown-fears-intensify",
-      "source": "Bloomberg"
-    },
-    {
       "title": "FTC Takes Action Against Match and OkCupid for Deceiving Users by Sharing Personal Data with Third Party - Federal Trade Commission (.gov)",
-      "zh": "美国联邦贸易委员会对Match和OkCupid采取行动，指控其欺骗用户并与第三方共享个人数据",
-      "impact": "约会应用面临监管处罚，用户隐私保护加强",
+      "zh": "美國聯邦貿易委員會對Match及OkCupid採取行動，指控其欺騙用戶並與第三方共享個人數據",
+      "impact": "約會應用面臨監管審查，用戶隱私保護加強",
       "sector": "consumer",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party",
       "source": "Ftc.gov"
     },
     {
       "title": "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round - TechCrunch",
-      "zh": "AI芯片初创公司Rebellions以23亿美元估值完成4亿美元融资",
-      "impact": "AI芯片融资火热，产业竞争加剧",
+      "zh": "人工智能芯片初創公司Rebellions在上市前融資4億美元，估值達23億美元",
+      "impact": "AI芯片領域融資活躍，競爭加劇",
       "sector": "tech",
       "priority": "high",
       "link": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
       "source": "TechCrunch"
     },
     {
-      "title": "Sysco to acquire Restaurant Depot for $29.1B - Restaurant Business Magazine",
-      "zh": "Sysco以291亿美元收购Restaurant Depot",
-      "impact": "食品分销巨头并购扩张，行业整合加速",
-      "sector": "consumer",
+      "title": "Mistral AI raises $830M in debt to set up a data center near Paris - TechCrunch",
+      "zh": "Mistral AI融資8.3億美元債務用於在巴黎附近建立數據中心",
+      "impact": "歐洲AI基礎設施投資增加，競爭格局變化",
+      "sector": "tech",
       "priority": "medium",
+      "link": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Sysco to acquire Restaurant Depot for $29.1B - Restaurant Business Magazine",
+      "zh": "Sysco收購Restaurant Depot，交易金額291億美元",
+      "impact": "食品配送行業整合，市場集中度提高",
+      "sector": "consumer",
+      "priority": "high",
       "link": "https://restaurantbusinessonline.com/financing/sysco-acquire-restaurant-depot-291b",
       "source": "Restaurant Business Online"
     },
     {
+      "title": "Budget airlines built on cheap fares now face a painful reality: Fuel is getting expensive - cnbc.com",
+      "zh": "廉航航空公司面臨痛苦現實：燃油價格上升",
+      "impact": "燃油成本上升壓低廉航利潤，票價可能上漲",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://www.cnbc.com/2026/03/30/asia-budget-airlines-fuel-costs-middle-east-routes-demand.html",
+      "source": "CNBC"
+    },
+    {
+      "title": "Who's winning under Trump's tariff policy? - dw.com",
+      "zh": "誰在川普關稅政策下獲勝？",
+      "impact": "關稅政策影響企業盈利和市場表現",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.dw.com/en/how-us-liberation-day-tariffs-reshaped-global-trade/a-76303601",
+      "source": "DW (English)"
+    },
+    {
       "title": "South Korea's Kospi leads declines in Asia as Middle East war enters fifth week - CNBC",
-      "zh": "随着中东战争进入第五周，韩国综合指数领跌亚洲股市",
-      "impact": "地缘政治风险升温，亚股承压下行",
+      "zh": "南韓Kospi指數領跌亞洲，中東戰爭進入第五週",
+      "impact": "地緣政治風險推升亞股下跌，市場風險情緒升高",
       "sector": "general",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/03/30/asia-pacific-markets-nikkei-225-kospi-hang-seng-index-oil.html",
       "source": "CNBC"
     },
     {
-      "title": "AI drug developer Insilico Medicine and Lilly ink commercialization deal worth up to $2.75 billion - statnews.com",
-      "zh": "AI药物开发商Insilico Medicine与礼来公司签署价值高达27.5亿美元的商业化协议",
-      "impact": "AI制药商业化加速，生物制药融资乐观",
-      "sector": "health",
-      "priority": "high",
-      "link": "https://www.statnews.com/2026/03/29/insilico-medicine-lilly-sign-ai-drug-commercialization-deal/",
-      "source": "STAT"
+      "title": "Jamie Dimon eyes prediction markets entry for JPMorgan",
+      "zh": "摩根大通首席執行官傑米·戴蒙看好進入預測市場",
+      "impact": "金融機構拓展衍生品市場，監管和風險管理挑戰",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/options/articles/jamie-dimon-eyes-prediction-markets-144630861.html",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Stock market today: Dow S&P 500, Nasdaq climb as deescalation talk in Iran extends rally",
-      "zh": "股市今日：道琼斯、标普500、纳斯达克因伊朗局势缓和预期上涨",
-      "impact": "地缘政治缓和带动风险资产反弹",
-      "sector": "general",
+      "title": "Nike Tumbles On Outlook, Turnaround Efforts Continue. China Sales Lag.",
+      "zh": "耐克股價下跌，轉型工作持續，中國銷售落後",
+      "impact": "耐克業績不佳，亞洲市場表現疲弱",
+      "sector": "consumer",
+      "priority": "high",
+      "link": "https://www.investors.com/news/nike-stock-earnings-q3-2026-turnaround-dow-jones-nke/?src=A00220&yptr=yahoo",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Here’s Why Centene Corporation (CNC) Fell in Q4",
+      "zh": "為什麼Centene公司（CNC）在第四季度下跌",
+      "impact": "保險公司業績不佳，股價承壓下滑",
+      "sector": "health",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-climb-as-deescalation-talk-in-iran-extends-rally-133208948.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-centene-corporation-cnc-fell-142129246.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Pinterest (PINS) Fell Following Softer Outlook",
+      "zh": "Pinterest（PINS）因前景疲軟而下跌",
+      "impact": "社交媒體公司指引下調，投資者信心受挫",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pinterest-pins-fell-following-softer-141555111.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Here’s Why CDW (CDW) Traded Lower in Q4",
+      "zh": "為什麼CDW（CDW）在第四季度交易走低",
+      "impact": "科技分銷商業績表現不佳，股價下行",
+      "sector": "tech",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-cdw-cdw-traded-lower-141529999.html",
       "source": "Yahoo Finance"
     },
     {
       "title": "Franklin Templeton to acquire CoinFund spinoff to expand crypto push",
-      "zh": "Franklin Templeton收购CoinFund分拆部门以扩大加密资产业务",
-      "impact": "传统资管巨头加码加密货币，行业认可度上升",
+      "zh": "Franklin Templeton收購CoinFund分拆公司以擴大加密貨幣推進",
+      "impact": "傳統基金管理公司深化加密資產佈局，行業整合加速",
       "sector": "finance",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://finance.yahoo.com/markets/crypto/articles/franklin-templeton-acquire-coinfund-spinoff-140252894.html",
       "source": "Yahoo Finance"
     },
     {
-      "title": "US manufacturing sector grows in March; supplier delivery performance deteriorates",
-      "zh": "美国制造业3月份增长，但供应商交货性能恶化",
-      "impact": "制造业增长但供应链压力仍存，经济信号混合",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/economy/articles/us-manufacturing-sector-grows-march-140114096.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nike stock tumbles more than 13%, hits 11-year low as weakness in China, high oil prices weigh on outlook",
-      "zh": "耐克股票暴跌超13%，跌至11年低點，中國疲軟和高油價拖累前景",
-      "impact": "中國銷售下滑與油價上升導致耐克業績預期下調，股價創近年新低",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/news/nike-stock-tumbles-more-than-13-hits-11-year-low-as-weakness-in-china-high-oil-prices-weigh-on-outlook-140026004.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Tesla EV Deliveries On Tap After China Rivals Report Rebounding Sales In March",
-      "zh": "特斯拉電動車交付數據即將公佈，中國競爭對手3月銷售反彈",
-      "impact": "中國EV市場競爭加劇，特斯拉交付數據成焦點，影響股價走勢",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.investors.com/news/tesla-ev-deliveries-china-electric-vehicles-li-auto-nio-xpeng-byd-xiaomi/?src=A00220&yptr=yahoo",
-      "source": "Yahoo Finance"
-    },
-    {
       "title": "Boeing’s stock surges again after 7-year missile deal with the Trump administration",
-      "zh": "波音股票再度飆升，與川普政府達成7年導彈合約",
-      "impact": "獲得政府軍事合約支撐股價上升，提升營收預期和投資信心",
+      "zh": "波音與川普政府達成7年飛彈合約後股價再次飆升",
+      "impact": "國防訂單確保，公司前景改善，股價反彈強勁",
       "sector": "general",
       "priority": "high",
       "link": "https://www.marketwatch.com/story/boeings-stock-extends-bounce-after-7-year-missile-deal-with-the-trump-administration-dd660e7e?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories"
     },
     {
-      "title": "China Resells Record LNG Volumes as Global Gas Crunch Bites",
-      "zh": "中國以創紀錄量重售液化天然氣，全球氣體短缺加劇",
-      "impact": "全球能源供應緊張，液化天然氣市場波動加劇，能源價格面臨壓力",
+      "title": "U.S. manufacturers see best month in 2 1/2 years, but Iran war threatens to derail progress",
+      "zh": "美國製造商迎來2.5年來最好月份，但伊朗戰爭威脅進展",
+      "impact": "製造業復甦但地緣政治風險上升，前景存在不確定性",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/u-s-manufacturers-see-best-month-in-2-1-2-years-but-iran-war-threatens-to-derail-progress-dd0d7b59?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories"
+    },
+    {
+      "title": "Prices Sag as US Oil Inventories Climb",
+      "zh": "美國石油庫存攀升導致油價下跌",
+      "impact": "供應過剩推低能源價格，油氣公司利潤承壓",
       "sector": "energy",
       "priority": "medium",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Prices-Sag-as-US-Oil-Inventories-Climb.html",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "China Resells Record LNG Volumes as Global Gas Crunch Bites",
+      "zh": "全球天然氣短缺之際中國轉售創紀錄液化天然氣量",
+      "impact": "中國出口套利推高全球能源價格，供應格局改變",
+      "sector": "energy",
+      "priority": "high",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/China-Resells-Record-LNG-Volumes-as-Global-Gas-Crunch-Bites.html",
       "source": "Oilprice.com"
     },
     {
       "title": "BP's New CEO Pledges Consistency as Company Tries to Rebuild Investor Trust",
-      "zh": "BP新任CEO承諾保持一致性，公司努力重建投資者信心",
-      "impact": "領導層更替信號，BP致力恢復市場信任和股價穩定",
+      "zh": "BP新任首席執行官承諾保持一致性以重建投資者信任",
+      "impact": "領導層變動旨在穩定股價，恢復市場信心",
       "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/BPs-New-CEO-Pledges-Consistency-as-Company-Tries-to-Rebuild-Investor-Trust.html",
       "source": "Oilprice.com"
     },
     {
-      "title": "Chevron and Microsoft Team Up for Giant Texas Gas Power Plant",
-      "zh": "雪佛龍與微軟聯手在德州建設大型天然氣發電廠",
-      "impact": "科技與能源跨界合作，支持數據中心電力需求，推動清潔能源轉型",
+      "title": "EU Warns Energy Prices Won't Fall Even If Iran War Ends Tomorrow",
+      "zh": "歐盟警告即使伊朗戰爭明天結束能源價格也不會下跌",
+      "impact": "能源價格結構性上升，企業與消費者成本負擔加重",
       "sector": "energy",
-      "priority": "medium",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/EU-Warns-Energy-Prices-Wont-Fall-Even-If-Iran-War-Ends-Tomorrow.html",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Oil-Starved Asia Turns to Russia After U.S. Waiver",
+      "zh": "缺油的亞洲在美國豁免後轉向俄羅斯",
+      "impact": "亞洲能源供應結構調整，俄羅斯油氣出口增加",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Starved-Asia-Turns-to-Russia-After-US-Waiver.html",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Chevron and Microsoft Team Up for Giant Texas Gas Power Plant",
+      "zh": "雪佛龍與微軟聯手在德州建造巨型天然氣電廠",
+      "impact": "科技巨頭與能源企業合作，推動大型基礎設施投資",
+      "sector": "energy",
+      "priority": "high",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-and-Microsoft-Team-Up-for-Giant-Texas-Gas-Power-Plant.html",
       "source": "Oilprice.com"
     },
     {
-      "title": "OPEC Output Plunges by 7 Million Bpd as War Chokes Supply",
-      "zh": "歐佩克產量暴跌700萬桶/日，戰爭阻礙供應",
-      "impact": "地緣政治衝突導致原油供應驟減，全球能源格局面臨重大調整",
+      "title": "Asian LNG Demand Plunges as Qatar Outages and Hormuz Chaos Bite",
+      "zh": "亞洲液化天然氣需求暴跌，卡達停運和荷莫茲海峽混亂加劇",
+      "impact": "全球天然氣市場供應緊張，亞洲能源價格面臨壓力",
       "sector": "energy",
       "priority": "high",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Output-Plunges-by-7-Million-Bpd-as-War-Chokes-Supply.html",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Asian-LNG-Demand-Plunges-as-Qatar-Outages-and-Hormuz-Chaos-Bite.html",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Brent Oil Dips Below $100 as Trump Signals End to Iran War",
+      "zh": "布倫特油價跌破100美元，川普暗示結束伊朗戰爭",
+      "impact": "地緣政治風險緩解，全球油價下跌，能源成本降低",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Oil-Dips-Below-100-as-Trump-Signals-End-to-Iran-War.html",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Trump Media To Merge With Nuclear Fusion Startup",
+      "zh": "川普媒體公司將與核融合新創公司合併",
+      "impact": "特殊目的收購公司融資核融合技術，清潔能源投資升溫",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Trump-Media-To-Merge-With-Nuclear-Fusion-Startup.html",
       "source": "Oilprice.com"
     }
   ]
