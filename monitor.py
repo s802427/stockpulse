@@ -1,6 +1,7 @@
 import feedparser
 import requests
 import hashlib
+import json
 import os
 from datetime import datetime
 
@@ -14,6 +15,7 @@ CHANNELS = {
     "energy": "@stockpulse_energy",
     "health": "@stockpulse_health",
     "consumer": "@stockpulse_consumer",
+    "general": "@stockpulse_news2",
 }
 
 RSS_FEEDS = [
@@ -48,7 +50,7 @@ def is_important(title):
             return True
     return sum(1 for kw in LOW if kw in t) >= 2
 
-def analyze_and_classify(title):
+def analyze(title):
     try:
         headers = {
             "x-api-key": ANTHROPIC_KEY,
@@ -60,29 +62,27 @@ def analyze_and_classify(title):
             "max_tokens": 200,
             "messages": [{
                 "role": "user",
-                "content": f"""以下是一條美股新聞標題，請回覆3行：
-第一行：繁體中文翻譯
-第二行：加💡說明對股市影響（15字以內）
-第三行：板塊分類，只能選一個：tech/finance/energy/health/consumer/general
+                "content": f"""分析這條美股新聞標題，只回覆JSON，不要其他文字：
+{{
+  "zh": "繁體中文翻譯",
+  "impact": "💡對股市影響一句話（15字內）",
+  "sector": "只能選一個：tech/finance/energy/health/consumer/general"
+}}
 
 標題：{title}"""
             }]
         }
         r = requests.post("https://api.anthropic.com/v1/messages", headers=headers, json=body, timeout=10)
-        lines = r.json()["content"][0]["text"].strip().split("\n")
-        translation = lines[0] if len(lines) > 0 else ""
-        impact = lines[1] if len(lines) > 1 else ""
-        sector = lines[2].strip().lower() if len(lines) > 2 else "general"
-        if sector not in CHANNELS:
-            sector = "general"
-        return translation, impact, sector
+        text = r.json()["content"][0]["text"].strip()
+        data = json.loads(text)
+        return data.get("zh", ""), data.get("impact", ""), data.get("sector", "general")
     except:
         return "", "", "general"
 
-def send_telegram(chat_id, title, link, source, translation, impact):
+def send_telegram(chat_id, title, link, source, zh, impact):
     message = (
         f"📰 <b>{title}</b>\n"
-        f"{translation}\n"
+        f"🇹🇼 {zh}\n"
         f"{impact}\n\n"
         f"🔗 <a href='{link}'>閱讀全文</a>\n"
         f"📡 <code>{source}</code>"
@@ -109,10 +109,10 @@ def main():
             if h in seen or not is_important(title):
                 continue
             seen.add(h)
-            translation, impact, sector = analyze_and_classify(title)
-            send_telegram(CHANNELS["all"], title, link, source, translation, impact)
-            if sector in CHANNELS:
-                send_telegram(CHANNELS[sector], title, link, source, translation, impact)
+            zh, impact, sector = analyze(title)
+            send_telegram(CHANNELS["all"], title, link, source, zh, impact)
+            if sector in CHANNELS and sector != "general":
+                send_telegram(CHANNELS[sector], title, link, source, zh, impact)
             new_count += 1
     print(f"[{datetime.now()}] 推送了 {new_count} 條新聞")
 
