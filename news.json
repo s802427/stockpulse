@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/02 03:13",
+  "updated": "2026/04/02 04:02",
   "news": [
     {
       "title": "Micron Stock Price Target Slashed After Plunge - Investor's Business Daily",
-      "zh": "美光股票目標價格大幅下調，股價暴跌",
-      "impact": "晶片股承壓，市場對存儲芯片需求前景擔憂",
+      "zh": "美光股價目標下調，股價大幅下跌",
+      "impact": "半導體芯片需求疲軟，美光前景承壓",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.investors.com/news/technology/micron-stock-mu-price-target-slashed-after-plunge/",
@@ -12,8 +12,8 @@
     },
     {
       "title": "Job openings slide to 6.9 million in February, another hint of sluggish hiring in America - abcnews.com",
-      "zh": "2月份職位空缺降至690萬，美國招聘疲軟跡象再現",
-      "impact": "勞動力市場冷卻，經濟增長動力減弱風險",
+      "zh": "2月職位空缺下滑至690萬，暗示美國招聘動力不足",
+      "impact": "勞動力市場走弱，經濟增長前景黯淡",
       "sector": "general",
       "priority": "high",
       "link": "https://abcnews.com/Business/wireStory/job-openings-slide-69-million-february-hint-sluggish-131577093",
@@ -21,26 +21,35 @@
     },
     {
       "title": "Allbirds to Be Bought by American Exchange for $39 Million - Bloomberg",
-      "zh": "Allbirds將被美國交易所以3900萬美元收購",
-      "impact": "可持續鞋類品牌估值縮水，零售業併購活動",
+      "zh": "美交所以3900萬美元收購Allbirds鞋業公司",
+      "impact": "消費零售併購活動，運動鞋市場整合",
       "sector": "consumer",
-      "priority": "low",
+      "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-03-31/allbirds-to-be-bought-by-american-exchange-for-39-million",
       "source": "Bloomberg"
     },
     {
       "title": "US Consumer Confidence Inched Up Again in March - Forex Factory",
-      "zh": "美國消費者信心在3月份再度小幅上升",
-      "impact": "消費動力溫和改善，經濟基本面穩定信號",
+      "zh": "美國消費者信心指數在3月份小幅上升",
+      "impact": "消費信心略有改善，零售景氣可能好轉",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.forexfactory.com/news/1391378-us-consumer-confidence-inched-up-again-in-march",
       "source": "Forex Factory"
     },
     {
+      "title": "Read the Email Oracle Is Sending to Laid-Off Employees - Business Insider",
+      "zh": "甲骨文向被裁員工發送電子郵件內容曝光",
+      "impact": "科技公司裁員持續，市場信心受衝擊",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.businessinsider.com/read-oracle-layoff-email-employees-job-cuts-2026-3",
+      "source": "Business Insider"
+    },
+    {
       "title": "Opendoor acquires Doma's closing and escrow business in bid to lower mortgage refinance costs - cnbc.com",
-      "zh": "Opendoor收購Doma的結清和託管業務，以降低抵押貸款再融資成本",
-      "impact": "地產科技整合加速，房貸成本優化競爭",
+      "zh": "Opendoor收購Doma的結單和托管業務，降低抵押貸款再融資成本",
+      "impact": "房地產科技整合，金融服務成本下降",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.cnbc.com/2026/03/31/opendoor-doma-closing-escrow-business-mortgage-refinance-costs.html",
@@ -48,8 +57,8 @@
     },
     {
       "title": "Microsoft hit with UK competition regulator probe over software business - CNBC",
-      "zh": "微軟遭英國競爭監管機構調查軟體業務",
-      "impact": "科技巨頭面臨反壟斷風險，監管不確定性增加",
+      "zh": "微軟遭英國競爭監管機構調查其軟體業務",
+      "impact": "監管風險增加，科技巨頭面臨合規壓力",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/03/31/microsoft-cma-investigation-uk-software-business.html",
@@ -57,8 +66,8 @@
     },
     {
       "title": "Biogen to Acquire Apellis, Enhancing the Company’s Growth Portfolio in Immunology and Rare Disease, Bolstering Growth Outlook and Accelerating Expansion into Nephrology - Biogen",
-      "zh": "百健收購Apellis，加強免疫學和罕見疾病投資組合，推動增長前景並加速腎臟科擴張",
-      "impact": "生物製藥併購加熱，罕見病療法管線擴充",
+      "zh": "百健收購Apellis公司，強化免疫學及罕見疾病治療組合",
+      "impact": "生物製藥併購活動，腎病治療領域擴張",
       "sector": "health",
       "priority": "medium",
       "link": "https://investors.biogen.com/news-releases/news-release-details/biogen-acquire-apellis-enhancing-companys-growth-portfolio",
@@ -66,8 +75,8 @@
     },
     {
       "title": "Lilly to acquire Centessa Pharmaceuticals to advance treatments for sleep-wake disorders - Eli Lilly",
-      "zh": "禮來製藥收購Centessa製藥公司以推進睡眠覺醒障礙治療",
-      "impact": "大製藥廠布局新療法，神經學領域併購升溫",
+      "zh": "禮來製藥收購Centessa製藥公司，推進睡眠障礙治療方案",
+      "impact": "製藥公司強化管道，睡眠障礙藥物研發加速",
       "sector": "health",
       "priority": "medium",
       "link": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-centessa-pharmaceuticals-advance-treatments-sleep",
@@ -75,26 +84,26 @@
     },
     {
       "title": "Whoop Raises $575 Million at a $10 Billion Valuation on Its Way to an IPO - Bloomberg",
-      "zh": "Whoop在估值達100億美元融資5.75億美元，朝IPO邁進",
-      "impact": "可穿戴科技獨角獸上市在即，健康監測市場前景",
-      "sector": "health",
+      "zh": "Whoop以100億美元估值融資5.75億美元，邁向首次公開募股",
+      "impact": "可穿戴設備熱度不減，健身科技融資火熱",
+      "sector": "tech",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-03-31/whoop-raises-575-million-at-a-10-billion-valuation-on-its-way-to-an-ipo",
       "source": "Bloomberg"
     },
     {
       "title": "Gold on track for worst month since 2008 as Iran war enters its fifth week - CNBC",
-      "zh": "伊朗戰爭進入第五週，黃金價格創2008年以來最差月度表現",
-      "impact": "地緣政治風險下降，避險資產需求衰退",
-      "sector": "energy",
+      "zh": "黃金追蹤創2008年以來最差月份表現，伊朗戰爭進入第五週",
+      "impact": "地緣政治風險推高避險需求，黃金價格面臨下行壓力",
+      "sector": "general",
       "priority": "medium",
       "link": "https://www.cnbc.com/2026/03/31/gold-on-track-for-worst-month-since-2008-as-iran-war-drags-on.html",
       "source": "CNBC"
     },
     {
       "title": "Google warns quantum computing may break bitcoin earlier than thought, prepares 2029 transition - The Block",
-      "zh": "谷歌警告量子運算可能比預期更早破壞比特幣，準備2029年過渡方案",
-      "impact": "加密貨幣面臨量子威脅，需提前應對安全風險",
+      "zh": "谷歌警告量子計算可能比預期更早破解比特幣，準備2029年轉換",
+      "impact": "量子計算威脅加密貨幣安全性，業界需加速密碼學升級",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.theblock.co/post/395814/google-quantum-computing-earlier",
@@ -102,8 +111,8 @@
     },
     {
       "title": "China factory activity rebounds in March as Iran war looms over growth - AP News",
-      "zh": "中國三月份工廠活動反彈，但伊朗戰爭威脅經濟增長",
-      "impact": "中國製造業復甦，地緣政治風險仍存",
+      "zh": "中國工廠活動在三月反彈，伊朗戰爭籠罩增長前景",
+      "impact": "中國製造業復甦但地緣政治風險仍存，全球供應鏈受關注",
       "sector": "general",
       "priority": "medium",
       "link": "https://apnews.com/article/china-manufacturing-economy-pmi-iran-war-1dece7eda196b93706091b7b52eef94a",
@@ -111,17 +120,17 @@
     },
     {
       "title": "Employees could use 401(k)s to invest in crypto, private equity under Trump plan - The Washington Post",
-      "zh": "員工可根據川普計畫用401(k)投資加密貨幣和私募股權",
-      "impact": "退休賬戶投資範圍擴大，增加高風險資產配置",
+      "zh": "員工在特朗普計畫下可使用401(k)投資加密貨幣和私募股權",
+      "impact": "政策變化擴大散戶投資選項，增加退休賬戶風險敞口",
       "sector": "finance",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.washingtonpost.com/business/2026/03/30/401k-retirement-crypto/",
       "source": "The Washington Post"
     },
     {
       "title": "Judge halts Nexstar/Tegna merger after FCC let firms exceed TV ownership limit - Ars Technica",
-      "zh": "法官在聯邦通信委員會允許公司超過電視所有權限制後叫停Nexstar/Tegna合併",
-      "impact": "大型媒體合併受阻，涉及監管與市場集中度問題",
+      "zh": "法官在美聯邦通信委員會允許公司超越電視所有權限制後叫停Nexstar/Tegna合併",
+      "impact": "監管機構阻止媒體整合，制約傳媒業併購活動",
       "sector": "general",
       "priority": "medium",
       "link": "https://arstechnica.com/tech-policy/2026/03/judge-halts-nexstar-tegna-merger-after-fcc-let-firms-exceed-tv-ownership-limit/",
@@ -129,26 +138,35 @@
     },
     {
       "title": "Virgin Galactic Announces Fourth Quarter and Full Year 2025 Financial Results and Provides Business Update - Virgin Galactic",
-      "zh": "維珍銀河公布第四季度及2025全年財務成果並提供業務更新",
-      "impact": "太空旅遊公司財報披露，反映商業太空飛行進展",
-      "sector": "tech",
+      "zh": "維珍銀河宣佈2025年第四季度及全年財務成績並提供業務更新",
+      "impact": "太空旅遊公司公佈財報，展現商業太空產業進展",
+      "sector": "consumer",
       "priority": "low",
       "link": "https://investors.virgingalactic.com/news/news-details/2026/Virgin-Galactic-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Business-Update/default.aspx",
       "source": "Virgingalactic.com"
     },
     {
       "title": "Debt Carried by Drivers Into New Car Loans Rockets to All-Time High - The Daily Beast",
-      "zh": "駕駛人新車貸款所攜帶債務飆升至歷史高位",
-      "impact": "消費者汽車債務創新高，潛在信用風險增加",
-      "sector": "consumer",
-      "priority": "medium",
+      "zh": "駕駛人帶入新車貸款中的債務創歷史新高",
+      "impact": "消費者債務負擔加重，汽車融資市場風險增加",
+      "sector": "finance",
+      "priority": "high",
       "link": "https://www.thedailybeast.com/debt-carried-by-drivers-into-new-car-loans-rockets-to-all-time-high/",
       "source": "Daily Beast"
     },
     {
+      "title": "Uber is buying Berlin startup Blacklane to bolster its ‘Elite’ offering - TechCrunch",
+      "zh": "優步收購柏林初創公司Blacklane以強化其高端服務供應",
+      "impact": "優步通過併購擴展高端市場份額，加強市場競爭力",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://techcrunch.com/2026/03/30/uber-is-buying-berlin-startup-blacklane-to-bolster-its-elite-offering/",
+      "source": "TechCrunch"
+    },
+    {
       "title": "FTC Takes Action Against Match and OkCupid for Deceiving Users by Sharing Personal Data with Third Party - Federal Trade Commission (.gov)",
-      "zh": "聯邦貿易委員會對Match和OkCupid採取行動，控告其通過與第三方共享個人數據欺騙用戶",
-      "impact": "交友應用違反隱私規定，面臨監管處罰",
+      "zh": "美國聯邦貿易委員會針對Match和OkCupid欺騙用戶與第三方分享個人數據採取行動",
+      "impact": "監管部門加強隱私保護，約會應用平台面臨罰款風險",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party",
@@ -156,80 +174,71 @@
     },
     {
       "title": "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round - TechCrunch",
-      "zh": "人工智能晶片新創企業Rebellions在融資前輪融資4億美元，估值23億美元",
-      "impact": "AI晶片企業融資進展，準備上市融資活動",
+      "zh": "人工智慧晶片初創公司Rebellions以23億美元估值融資4億美元進行上市前融資",
+      "impact": "AI晶片初創獲融資支持，加速上市進程，推動芯片產業競爭",
       "sector": "tech",
       "priority": "medium",
       "link": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
       "source": "TechCrunch"
     },
     {
-      "title": "What You Need to Know Ahead of Textron’s Earnings Release",
-      "zh": "需在Textron財報發布前了解的相關事項",
-      "impact": "航空航太製造商財報即將發布，市場關注營運表現",
-      "sector": "tech",
-      "priority": "low",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/know-ahead-textron-earnings-release-095947050.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Analysis-Treasury market's next test: rising war costs",
-      "zh": "分析：美債市場下一個考驗為不斷上升的戰爭成本",
-      "impact": "軍事支出增加衝擊債市，長期利率可能上升",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/economy/policy/articles/analysis-treasury-markets-next-test-100526857.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "3i Infrastructure Pre-Close: €1.1B TCR Exit, €300M Lefdal Deal, DNS:NET Equity to Zero",
-      "zh": "3i基礎設施盤前：€11億TCR退出、€3億Lefdal交易、DNS:NET股權歸零",
-      "impact": "基礎設施基金大幅調整投資組合，可能影響相關資產估值",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3i-infrastructure-pre-close-1-100359441.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "RH’s stock plunge shows even the ultrarich are worried about spending on their homes",
-      "zh": "RH股價暴跌顯示即使超富裕人群也擔心住宅支出",
-      "impact": "高端家居零售疲弱反映消費者信心下滑，經濟前景堪憂",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://www.marketwatch.com/story/rhs-stock-plunge-shows-even-the-ultrarich-are-worried-about-spending-on-their-homes-464294ba?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories"
-    },
-    {
-      "title": "Micron’s stock is seeing its biggest gain in a year, en route to a record market-cap boost",
-      "zh": "美光股票創一年最大漲幅，有望創市值新高",
-      "impact": "晶片需求強勁，美光等半導體企業前景向好",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.marketwatch.com/story/microns-stock-is-seeing-its-biggest-gain-in-a-year-en-route-to-a-record-market-cap-boost-1ca33504?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories"
-    },
-    {
-      "title": "‘Inflationary surge’: Fed economists warn AI hype is overheating the economy whether or not the technology ever delivers",
-      "zh": "聯邦儲備委員會經濟學家警告：AI炒作造成「通脹激增」，無論技術是否實現",
-      "impact": "AI泡沫風險警示，可能引發政策收緊，衝擊科技股估值",
+      "title": "Tariff turmoil: Refunds, lawsuits and new duties ahead",
+      "zh": "關稅混亂：退款、訴訟和新關稅即將到來",
+      "impact": "關稅政策導致企業退款、訴訟增加，市場面臨不確定性",
       "sector": "general",
       "priority": "high",
-      "link": "https://fortune.com/2026/04/01/inflationary-surge-ai-hype-fed-reserve-bank/",
+      "link": "https://finance.yahoo.com/economy/policy/articles/tariff-turmoil-refunds-lawsuits-duties-110000181.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "These 2 chip stocks were added to Deutsche Bank’s list of top tech picks",
+      "zh": "這2家晶片股被德銀列入頂級科技精選名單",
+      "impact": "晶片股獲機構看好，有助提振科技板塊投資信心",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/these-2-chip-stocks-were-added-to-deutsche-banks-list-of-top-tech-picks-6a243333?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories"
+    },
+    {
+      "title": "Tech stocks essentially haven’t been this cheap versus the S&P 500 in six years",
+      "zh": "科技股估值相對標普500指數在六年來最便宜",
+      "impact": "科技股具吸引力估值，可能刺激機構投資者進場",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.marketwatch.com/story/tech-stocks-essentially-havent-been-this-cheap-versus-the-s-p-500-in-six-years-677d2779?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories"
+    },
+    {
+      "title": "Why Block’s COO is tracking ‘gross profit per employee’—and how AI is on track to double it to $2 million",
+      "zh": "Block的首席運營官為何追蹤「每名員工毛利」—以及AI如何有望將其翻倍至200萬美元",
+      "impact": "AI提升企業人均毛利，反映生產力大幅成長潛力",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://fortune.com/2026/03/21/block-coo-amrita-ahuja-ai-layoffs-gross-profit-per-employee/",
       "source": "Fortune | FORTUNE"
     },
     {
-      "title": "Five hard lessons from Allbirds’ 99% stock plunge and $39 million fire sale",
-      "zh": "Allbirds股價暴跌99%及3,900萬美元資產拍賣的五大教訓",
-      "impact": "環保鞋類公司失利，反映可持續時尚概念落差與市場挑戰",
+      "title": "Retail sales tick up 0.6% in February before Iran war, gas price spike",
+      "zh": "二月零售銷售上升0.6%，伊朗戰爭與油價上漲前景",
+      "impact": "零售銷售溫和成長，但地緣政治風險可能衝擊後續數據",
       "sector": "consumer",
       "priority": "medium",
-      "link": "https://fortune.com/2026/04/01/allbirds-fire-sale-stock-plunge-39-million/",
+      "link": "https://fortune.com/2026/04/01/retail-sales-tick-up-0-6-in-february-before-iran-war-gas-price-spike/",
       "source": "Fortune | FORTUNE"
+    },
+    {
+      "title": "Chipmakers Scramble as Helium Crunch Threatens AI Expansion",
+      "zh": "晶片製造商因氦氣短缺威脅AI擴張而忙碌應對",
+      "impact": "供應鏈瓶頸限制晶片產能，延緩AI產業發展進度",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://oilprice.com/Energy/Energy-General/Chipmakers-Scramble-as-Helium-Crunch-Threatens-AI-Expansion.html",
+      "source": "Oilprice.com"
     },
     {
       "title": "China Resells Record LNG Volumes as Global Gas Crunch Bites",
-      "zh": "中國創紀錄液化天然氣轉售量，全球氣體短缺加劇",
-      "impact": "中國LNG套利機會，全球能源市場供應緊張加劇",
+      "zh": "中國以創紀錄液化天然氣銷量轉售，應對全球天然氣短缺",
+      "impact": "中國LNG轉售增加，改變全球能源市場供應格局",
       "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/China-Resells-Record-LNG-Volumes-as-Global-Gas-Crunch-Bites.html",
@@ -237,29 +246,20 @@
     },
     {
       "title": "BP's New CEO Pledges Consistency as Company Tries to Rebuild Investor Trust",
-      "zh": "BP新任執行長承諾保持一貫性，試圖重建投資者信任",
-      "impact": "新領導層政策穩定信號，有助能源公司恢復投資信心",
+      "zh": "英國石油公司新CEO承諾保持一致性，努力重建投資者信任",
+      "impact": "領導層更替穩定企業方向，有助恢復投資者信心",
       "sector": "energy",
-      "priority": "medium",
+      "priority": "low",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/BPs-New-CEO-Pledges-Consistency-as-Company-Tries-to-Rebuild-Investor-Trust.html",
       "source": "Oilprice.com"
     },
     {
       "title": "Chevron and Microsoft Team Up for Giant Texas Gas Power Plant",
-      "zh": "雪佛龍與微軟聯手在德州建造巨型天然氣發電廠",
-      "impact": "能源與科技聯動，AI數據中心電力需求帶動能源投資",
+      "zh": "雪佛龍與微軟聯手打造德州巨型天然氣發電廠",
+      "impact": "能源與科技聯動，支持AI數據中心電力需求",
       "sector": "energy",
       "priority": "high",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-and-Microsoft-Team-Up-for-Giant-Texas-Gas-Power-Plant.html",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "OPEC Output Plunges by 7 Million Bpd as War Chokes Supply",
-      "zh": "戰爭導致歐佩克產量暴跌700萬桶/日，供應受阻",
-      "impact": "地緣政治風險推升原油價格，全球能源供應不穩定加劇",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Output-Plunges-by-7-Million-Bpd-as-War-Chokes-Supply.html",
       "source": "Oilprice.com"
     }
   ]
