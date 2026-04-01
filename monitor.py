@@ -40,4 +40,3 @@ RSS_FEEDS = [
     "https://www.investors.com/feed/",
     "https://feeds.federalreserve.gov/feeds/press_monetary.xml",
     "https://feeds.federalreserve.gov/feeds/press_all.xml",
-    "https://www.sec.gov/cgi-bin/browse​​​​​​​​​​​​​​​​
