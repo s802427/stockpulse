@@ -24,17 +24,15 @@ PRIORITY_EMOJI = {
     "low": "🟢",
 }
 
-RSS_FEEDS = [
-    "https://finance.yahoo.com/news/rssindex",
-    "https://feeds.marketwatch.com/marketwatch/topstories/",
-    "https://feeds.reuters.com/reuters/businessNews",
-    "https://feeds.reuters.com/reuters/companyNews",
-    "https://www.investors.com/feed/",
-    "https://fortune.com/feed/",
-    "https://oilprice.com/rss/main",
-    "https://feeds.barrons.com/barrons/markets",
-]
-
+RSS_FEEDS = []
+RSS_FEEDS.append("https://finance.yahoo.com/news/rssindex")
+RSS_FEEDS.append("https://feeds.marketwatch.com/marketwatch/topstories/")
+RSS_FEEDS.append("https://feeds.reuters.com/reuters/businessNews")
+RSS_FEEDS.append("https://feeds.reuters.com/reuters/companyNews")
+RSS_FEEDS.append("https://www.investors.com/feed/")
+RSS_FEEDS.append("https://fortune.com/feed/")
+RSS_FEEDS.append("https://oilprice.com/rss/main")
+RSS_FEEDS.append("https://feeds.barrons.com/barrons/markets")
 def get_newsapi_titles():
     try:
         url = "https://newsapi.org/v2/top-headlines"
