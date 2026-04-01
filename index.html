@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StockPulse 股票脈搏</title>
+<style>
+body{font-family:sans-serif;background:#0f1117;color:#eee;margin:0;padding:16px}
+h1{color:#00d4aa;text-align:center;font-size:1.4em}
+.subtitle{text-align:center;color:#888;font-size:0.85em;margin-bottom:16px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;justify-content:center}
+.btn{padding:6px 14px;border-radius:20px;border:1px solid #333;background:#1a1d2e;color:#aaa;cursor:pointer;font-size:0.8em}
+.btn.active{background:#00d4aa;color:#000;border-color:#00d4aa}
+.card{background:#1a1d2e;border-radius:12px;padding:14px;margin-bottom:12px;border-left:4px solid #333}
+.card.high{border-left-color:#ff4444}
+.card.medium{border-left-color:#ffaa00}
+.card.low{border-left-color:#00cc66}
+.card-title{font-size:0.95em;font-weight:bold;margin-bottom:6px}
+.card-zh{color:#00d4aa;font-size:0.85em;margin-bottom:4px}
+.card-impact{color:#aaa;font-size:0.8em;margin-bottom:8px}
+.card-meta{display:flex;justify-content:space-between;font-size:0.75em;color:#666}
+.tag{padding:2px 8px;border-radius:10px;background:#2a2d3e;color:#aaa;font-size:0.75em}
+a{color:#00d4aa;text-decoration:none}
+.empty{text-align:center;color:#555;padding:40px}
+.update-time{text-align:center;color:#555;font-size:0.75em;margin-bottom:12px}
+</style>
+</head>
+<body>
+<h1>📊 StockPulse 股票脈搏</h1>
+<div class="subtitle">美股新聞即時監控</div>
+<div class="update-time" id="updateTime">載入中...</div>
+<div class="filters">
+<button class="btn active" onclick="filter('all')">全部</button>
+<button class="btn" onclick="filter('tech')">💻 科技</button>
+<button class="btn" onclick="filter('finance')">🏦 金融</button>
+<button class="btn" onclick="filter('energy')">⚡ 能源</button>
+<button class="btn" onclick="filter('health')">💊 醫藥</button>
+<button class="btn" onclick="filter('consumer')">🛒 消費</button>
+<button class="btn" onclick="filter('high')">🔴 高重要</button>
+</div>
+<div id="news-container"><div class="empty">載入新聞中...</div></div>
+<script>
+let allNews = [];
+let currentFilter = 'all';
+async function loadNews() {
+  try {
+    const r = await fetch('news.json?t=' + Date.now());
+    const data = await r.json();
+    allNews = data.news || [];
+    document.getElementById('updateTime').textContent = '最後更新：' + (data.updated || '未知');
+    renderNews();
+  } catch(e) {
+    document.getElementById('news-container').innerHTML = '<div class="empty">新聞載入失敗，請稍後再試</div>';
+  }
+}
+function filter(type) {
+  currentFilter = type;
+  document.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  renderNews();
+}
+function renderNews() {
+  let filtered = allNews;
+  if (currentFilter === 'high') {
+    filtered = allNews.filter(n => n.priority === 'high');
+  } else if (currentFilter !== 'all') {
+    filtered = allNews.filter(n => n.sector === currentFilter);
+  }
+  if (filtered.length === 0) {
+    document.getElementById('news-container').innerHTML = '<div class="empty">目前沒有相關新聞</div>';
+    return;
+  }
+  const html = filtered.map(n => {
+    const emoji = n.priority === 'high' ? '🔴' : n.priority === 'medium' ? '🟡' : '🟢';
+    return '<div class="card ' + n.priority + '">' +
+      '<div class="card-title">' + emoji + ' ' + n.title + '</div>' +
+      '<div class="card-zh">🇹🇼 ' + (n.zh || '') + '</div>' +
+      '<div class="card-impact">💡 ' + (n.impact || '') + '</div>' +
+      '<div class="card-meta">' +
+      '<span class="tag">' + (n.sector || '') + '</span>' +
+      '<a href="' + n.link + '" target="_blank">閱讀全文 →</a>' +
+      '</div></div>';
+  }).join('');
+  document.getElementById('news-container').innerHTML = html;
+}
+loadNews();
+</script>
+</body>
+</html>
