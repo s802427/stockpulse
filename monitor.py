@@ -4,7 +4,8 @@ import hashlib
 import os
 from datetime import datetime
 
-DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK_URL")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+CHAT_ID = "@stockpulse_news"
 
 RSS_FEEDS = [
     "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^GSPC&region=US&lang=en-US",
@@ -23,6 +24,8 @@ KEYWORDS = [
     "Fed", "interest rate", "inflation", "GDP",
     "merger", "acquisition", "buyback", "dividend",
     "layoff", "bankruptcy", "IPO", "recall",
+    "tariff", "rate hike", "rate cut", "jobless",
+    "beat", "miss", "outlook", "forecast", "downgrade", "upgrade",
 ]
 
 def hash_title(title):
@@ -40,10 +43,22 @@ def translate(text):
     except:
         return ""
 
-def send_discord(title, link, source):
+def send_telegram(title, link, source):
     zh = translate(title)
-    message = f"📰 **{title}**\n🇹🇼 {zh}\n🔗 {link}\n📡 `{source}`"
-    requests.post(DISCORD_WEBHOOK, json={"content": message})
+    message = (
+        f"📰 *{title}*\n"
+        f"🇹🇼 {zh}\n\n"
+        f"🔗 [閱讀全文]({link})\n"
+        f"📡 `{source}`"
+    )
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": CHAT_ID,
+        "text": message,
+        "parse_mode": "Markdown",
+        "disable_web_page_preview": False
+    }
+    requests.post(url, json=payload)
 
 def main():
     seen = set()
@@ -51,14 +66,14 @@ def main():
     for feed_url in RSS_FEEDS:
         feed = feedparser.parse(feed_url)
         source = feed.feed.get("title", feed_url)
-        for entry in feed.entries[:5]:
+        for entry in feed.entries[:8]:
             title = entry.get("title", "")
             link = entry.get("link", "")
             h = hash_title(title)
             if h in seen or not is_relevant(title):
                 continue
             seen.add(h)
-            send_discord(title, link, source)
+            send_telegram(title, link, source)
             new_count += 1
     print(f"[{datetime.now()}] 推送了 {new_count} 條新聞")
 
