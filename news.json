@@ -1,19 +1,10 @@
 {
-  "updated": "2026/04/02 06:02",
+  "updated": "2026/04/02 06:47",
   "news": [
     {
-      "title": "Stock Market Today: Dow Spikes 1,000 Points Amid Powerful Turnaround; These Drug Names Surge (Live Coverage) - Investor's Business Daily",
-      "zh": "股市今日：道瓊指數飆升1,000點，創強勁反彈；多隻藥股飆升（即時報導）",
-      "impact": "股市大幅上漲，藥品類股表現強勁",
-      "sector": "health",
-      "priority": "high",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-iran-war-oil-prices-climb/",
-      "source": "Investor's Business Daily"
-    },
-    {
       "title": "OpenAI raises $122 billion to accelerate the next phase of AI - OpenAI",
-      "zh": "OpenAI籌資1,220億美元以加速人工智能下一階段發展",
-      "impact": "OpenAI獲得巨額融資，推動AI發展進入新階段",
+      "zh": "OpenAI籌集122億美元以加速AI下一階段發展",
+      "impact": "AI投資大幅增加，推動科技產業創新與競爭加劇",
       "sector": "tech",
       "priority": "high",
       "link": "https://openai.com/index/accelerating-the-next-phase-ai/",
@@ -21,8 +12,8 @@
     },
     {
       "title": "Spice maker McCormick to combine with Hellmann's maker Unilever in latest food industry shakeup - AP News",
-      "zh": "香料製造商美極(McCormick)將與蛋黃醬製造商Hellmann's母公司聯合利華合併，為食品業最新整合案例",
-      "impact": "食品業重大整合，兩大品牌合併",
+      "zh": "香料製造商McCormick將與Hellmann's製造商聯合利華合併，為食品產業最新整合",
+      "impact": "食品產業整合加速，市場集中度提升，消費者選擇減少",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://apnews.com/article/unilever-mccormick-merger-spices-d395e09cc4637177bcfb7cf0f8ce6202",
@@ -30,8 +21,8 @@
     },
     {
       "title": "Hiring just hit a level not seen since the economy was ‘closed down literally’ during COVID, top economist says - Fortune",
-      "zh": "頂級經濟學家表示：招聘水平創COVID經濟\"完全關閉\"以來未見之境地",
-      "impact": "就業市場恢復強勁，招聘水平創新高",
+      "zh": "招聘達到COVID經濟封閉以來未見水準，資深經濟學家表示",
+      "impact": "勞動力市場緊張，可能推高薪資成本與通膨壓力",
       "sector": "general",
       "priority": "medium",
       "link": "https://fortune.com/2026/03/31/hiring-hits-pandemic-low-layoffs-firing-jobs-report-inflation-iran-war-federal-reserve/",
@@ -39,8 +30,8 @@
     },
     {
       "title": "Biogen Snaps Up $5.6 Billion Deal. Why Shares Fell. - Investor's Business Daily",
-      "zh": "Biogen宣佈56億美元併購案，但股價下跌",
-      "impact": "大型併購公告卻引發股價下行",
+      "zh": "百健以56億美元完成收購交易，為何股價反而下跌",
+      "impact": "生物製藥整合但市場質疑，投資者對交易價格持保留態度",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.investors.com/news/technology/biogen-apellis-pharmaceuticals-buyout-syfovre-empaveli/",
@@ -48,8 +39,8 @@
     },
     {
       "title": "Oracle Fires Thousands Of Employees As AI Spending Ramps Up—Shares Rise 2% - Forbes",
-      "zh": "Oracle隨著AI支出增加而進行大規模裁員，股價上漲2%",
-      "impact": "Oracle轉向AI投資，進行裁員但股市正面反應",
+      "zh": "甲骨文因AI支出增加而裁員數千人，股價上漲2%",
+      "impact": "科技公司AI轉型持續，結構性調整加強盈利能力",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.forbes.com/sites/tylerroush/2026/03/31/oracle-fires-thousands-of-employees-as-ai-spending-ramps-up-shares-rise-2/",
@@ -57,8 +48,8 @@
     },
     {
       "title": "Mercedes to invest $4 billion in Alabama plant, marks 5 millionth vehicle built in state - Alabama Department of Commerce",
-      "zh": "賓士將在阿拉巴馬州工廠投資40億美元，標誌著該州第500萬輛汽車的建成",
-      "impact": "汽車製造商重大投資，刺激當地製造業發展",
+      "zh": "賓士在阿拉巴馬州廠房投資40億美元，標誌該州第500萬輛汽車完成",
+      "impact": "汽車產業投資增加，製造業就業機會擴大，地區經濟提升",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.madeinalabama.com/2026/03/mercedes-to-invest-4-billion-in-alabama-plant/",
@@ -66,8 +57,8 @@
     },
     {
       "title": "Lilly to acquire Centessa Pharmaceuticals to advance treatments for sleep-wake disorders - Eli Lilly",
-      "zh": "禮來公司收購Centessa製藥公司以推進睡眠-覺醒障礙治療開發",
-      "impact": "禮來擴展製藥組合，專注睡眠疾病治療",
+      "zh": "禮來收購Centessa製藥公司以推進睡眠障礙治療方案",
+      "impact": "製藥併購活動活躍，新型治療藥物開發加速，患者選項增加",
       "sector": "health",
       "priority": "medium",
       "link": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-centessa-pharmaceuticals-advance-treatments-sleep",
@@ -75,8 +66,8 @@
     },
     {
       "title": "Europe faces its next big problem: The Iran war is driving up inflation - politico.eu",
-      "zh": "歐洲面臨下一大問題：伊朗戰爭正在推高通脹",
-      "impact": "地緣政治衝突加劇歐洲通脹壓力",
+      "zh": "歐洲面臨下一大難題：伊朗戰爭推高通膨",
+      "impact": "地緣政治風險引發通膨預期，歐洲經濟增長面臨下行壓力",
       "sector": "general",
       "priority": "high",
       "link": "https://www.politico.eu/article/iran-war-drives-eurozone-inflation-up-to-2-x-percent-in-march/",
@@ -84,125 +75,116 @@
     },
     {
       "title": "War Means Profits for LNG Producers, but Long-Term Challenges - WSJ",
-      "zh": "戰爭為液化天然氣生產商帶來利潤，但長期挑戰仍存",
-      "impact": "地緣政治推高能源價格，液化天然氣商機短期看好",
+      "zh": "戰爭對液化天然氣生產商帶來利潤，但長期面臨挑戰",
+      "impact": "能源價格上漲刺激LNG盈利，惟供應鏈風險與地緣政治不確定性增加",
       "sector": "energy",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.wsj.com/finance/commodities-futures/war-means-profits-for-lng-producers-but-long-term-challenges-30a6f257",
       "source": "The Wall Street Journal"
     },
     {
-      "title": "Allbirds is selling for $39M. It raised nearly 10 times that amount in its IPO. - TechCrunch",
-      "zh": "Allbirds 以39百萬美元出售。該公司在首次公開募股中籌集了近十倍的金額。",
-      "impact": "上市公司股價暴跌，投資者蒙受重大損失",
-      "sector": "consumer",
+      "title": "US average gas price hits $4 a gallon amid Iran war - Axios",
+      "zh": "伊朗戰爭推動美國平均汽油價格升至每加侖4美元",
+      "impact": "油價上升推高通膨預期，消費者支出壓力加大，經濟成長風險上升",
+      "sector": "energy",
       "priority": "high",
+      "link": "https://www.axios.com/2026/03/31/us-gas-price-iran-war",
+      "source": "Axios"
+    },
+    {
+      "title": "Allbirds is selling for $39M. It raised nearly 10 times that amount in its IPO. - TechCrunch",
+      "zh": "Allbirds以3,900萬美元售出。該公司在IPO中融資金額幾乎是這個數字的10倍。",
+      "impact": "公司上市後大幅貶值，投資者損失慘重",
+      "sector": "consumer",
+      "priority": "medium",
       "link": "https://techcrunch.com/2026/03/30/allbirds-is-selling-for-39-million-it-raised-nearly-10-times-that-amount-in-its-ipo/",
       "source": "TechCrunch"
     },
     {
       "title": "China factory activity rebounds in March as Iran war looms over growth - AP News",
-      "zh": "中國工廠活動在伊朗戰爭籠罩經濟增長之際於三月反彈",
-      "impact": "中國製造業復甦但地緣政治風險威脅全球經濟",
+      "zh": "中國3月份工廠活動反彈，但伊朗戰爭籠罩增長前景",
+      "impact": "地緣政治風險威脅中國經濟增長，可能影響全球供應鏈",
       "sector": "general",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://apnews.com/article/china-manufacturing-economy-pmi-iran-war-1dece7eda196b93706091b7b52eef94a",
       "source": "Associated Press"
     },
     {
       "title": "Uber Technologies, Inc. - Uber to Acquire Global Chauffeur Service Leader Blacklane - Uber Investor Relations",
-      "zh": "優步科技公司將收購全球豪華禮賓車服務領導者Blacklane",
-      "impact": "優步擴大高端運輸業務，市場整合加劇",
+      "zh": "優步科技公司宣布收購全球禮賓車服務領導者Blacklane",
+      "impact": "優步擴展高端運輸業務，增強市場競爭力",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-to-Acquire-Global-Chauffeur-Service-Leader-Blacklane/",
       "source": "Uber.com"
     },
     {
-      "title": "RTX Lands $3.8 Bil F-35 Contract, Defense Stocks Retreat Amid Iran War",
-      "zh": "雷神技術公司獲得38億美元F-35合約，防務股因伊朗戰爭而回落",
-      "impact": "國防承包商獲利但地緣政治風險導致防務板塊下跌",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.investors.com/news/rtx-3-8bil-f35-contract-defense-stocks-iran-war-middle-east/?src=A00220&yptr=yahoo",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Sysco Receives a Downgrade From Citi Due to Debt Load",
-      "zh": "美國食品服務公司Sysco因債務負擔遭花旗銀行調降評級",
-      "impact": "Sysco信用評級下調，債務風險上升，股價承壓",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sysco-receives-downgrade-citi-due-134651573.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Unilever Has Finally Managed to Shave off Its Food Business",
-      "zh": "聯合利華最終成功剝離其食品業務",
-      "impact": "聯合利華完成戰略重組，專注消費品核心業務",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/unilever-finally-managed-shave-off-135408618.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Rule Change Opens U.S. 401(k) Plans To Crypto Investments",
-      "zh": "規則改變開放美國401(k)退休計畫投資加密貨幣",
-      "impact": "美國退休基金可投資加密資產，推升虛擬貨幣需求",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/rule-change-opens-u-401-135300106.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Interactive Brokers Launches Crypto Trading In Europe",
-      "zh": "Interactive Brokers在歐洲推出加密貨幣交易服務",
-      "impact": "歐洲加密貨幣交易擴展，券商拓展數位資產業務",
+      "title": "What You Need To Know Ahead of Ameriprise Financial's Earnings Release",
+      "zh": "美瑞銀行財務公司財報發佈前需了解的信息",
+      "impact": "金融機構業績表現將影響市場對金融板塊前景評估",
       "sector": "finance",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/interactive-brokers-launches-crypto-trading-135500545.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/know-ahead-ameriprise-financials-earnings-144438207.html",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Strong Demand Lifted Lam Research Corporation (LRCX) in Q4",
-      "zh": "強勁需求推升Lam Research公司第四季度業績",
-      "impact": "半導體設備製造商需求強勁，科技產業景氣看好",
+      "title": "Meta Platforms (META) to Lay off a Few Hundred Employees",
+      "zh": "美國Meta平台公司將裁員數百名員工",
+      "impact": "科技巨頭持續縮減成本，反映行業競爭加劇",
       "sector": "tech",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/strong-demand-lifted-lam-research-133521612.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/meta-platforms-meta-lay-off-144319124.html",
       "source": "Yahoo Finance"
+    },
+    {
+      "title": "NVIDIA Corporation (NVDA) to Supply GPUs to AWS",
+      "zh": "英偉達公司將向AWS供應GPU",
+      "impact": "英偉達擴大雲計算市場份額，強化AI晶片供應鏈地位",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-corporation-nvda-supply-gpus-144224592.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Brookfield Renewable Corporation (BEPC) Surged Following a Strategic Partnership with the U.S. Department of Commerce",
+      "zh": "Brookfield可再生能源公司與美國商務部達成戰略夥伴關係後大幅上漲",
+      "impact": "政府支持可再生能源發展，利好綠能投資前景",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/sectors/energy/articles/brookfield-renewable-corporation-bepc-surged-144647024.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Coeur Mining, Inc. (CDE) Strengthens Portfolio with New Gold Acquisition Following Upgrade",
+      "zh": "Coeur採礦公司在升級後通過新的黃金收購加強投資組合",
+      "impact": "採礦公司擴展業務規模，增強貴金屬供應能力",
+      "sector": "energy",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/coeur-mining-inc-cde-strengthens-144713328.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Fired via email? Some of the 30,000 workers cut by Oracle woke up to a morning message saying they were laid off.",
+      "zh": "甲骨文公司裁減的30,000名員工中有人通過電子郵件被告知失業",
+      "impact": "科技業大規模裁員，反映IT產業結構調整壓力",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.marketwatch.com/story/fired-via-email-some-of-the-30-000-workers-cut-by-oracle-woke-up-to-a-morning-message-saying-they-were-laid-off-89a7af94?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories"
     },
     {
       "title": "Intel’s stock pops as its latest move signals a ‘turnaround’ is afoot",
-      "zh": "英特爾股價上漲，其最新舉動預示「轉機」即將來臨",
-      "impact": "英特爾扭轉頹勢跡象出現，芯片股漲勢喜人",
+      "zh": "英特爾股價上漲，其最新舉措信號表明「轉身」正在進行中",
+      "impact": "英特爾重組計畫受市場看好，有望恢復競爭力",
       "sector": "tech",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.marketwatch.com/story/intels-stock-pops-as-its-latest-move-signals-a-turnaround-is-afoot-527ea529?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories"
     },
     {
-      "title": "‘Liberation day’ one year later: What Trump’s tariffs are costing America",
-      "zh": "「解放日」一年後：川普關稅正在花費美國多少成本",
-      "impact": "川普關稅政策實施一年，評估其對美國經濟的實際成本影響",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.marketwatch.com/story/liberation-day-one-year-later-what-trumps-tariffs-are-costing-america-d8aacc13?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories"
-    },
-    {
-      "title": "These 2 chip stocks were added to Deutsche Bank’s list of top tech picks",
-      "zh": "這2檔晶片股被德銀列入頂級科技股精選名單",
-      "impact": "德銀看好兩檔晶片股，可能推動半導體板塊上升",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.marketwatch.com/story/these-2-chip-stocks-were-added-to-deutsche-banks-list-of-top-tech-picks-6a243333?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories"
-    },
-    {
       "title": "Deutsche Bank asked AI if it’s true that AI will solve the economy’s inflation problems. The robots answered",
-      "zh": "德銀詢問AI人工智慧是否能解決經濟通膨問題，機器人給出答案",
-      "impact": "AI對通膨解決能力存疑，反映市場對AI預期的謹慎態度",
+      "zh": "德意志銀行詢問人工智能是否真的能解決經濟通脹問題。機器人給出了答案",
+      "impact": "AI能否解決通脹成疑，市場對AI期望可能過高",
       "sector": "tech",
       "priority": "medium",
       "link": "https://fortune.com/2026/04/01/deutsche-bank-asks-ai-will-solve-inflation/",
@@ -210,38 +192,56 @@
     },
     {
       "title": "‘Inflationary surge’: Fed economists warn AI hype is overheating the economy whether or not the technology ever delivers",
-      "zh": "「通膨激增」：美聯儲經濟學家警告AI炒作正在過熱經濟，無論科技是否真正奏效",
-      "impact": "Fed警告AI炒作加劇通膨風險，對科技股估值造成向下壓力",
-      "sector": "tech",
+      "zh": "聯邦儲備委員會經濟學家警告，無論技術是否真正實現，AI炒作正在過熱經濟並引發「通脹激增」",
+      "impact": "聯儲警告AI炒作導致經濟過熱，可能促使政策收緊",
+      "sector": "general",
       "priority": "high",
       "link": "https://fortune.com/2026/04/01/inflationary-surge-ai-hype-fed-reserve-bank/",
       "source": "Fortune | FORTUNE"
     },
     {
       "title": "SpaceX has filed confidentially for IPO ahead of AI rivals",
-      "zh": "SpaceX在AI競爭對手之前秘密申請IPO",
-      "impact": "SpaceX啟動IPO流程，太空產業融資活動升溫",
+      "zh": "SpaceX已秘密提交IPO申請，領先於AI競爭對手",
+      "impact": "SpaceX啟動上市計劃，太空產業融資加速",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://fortune.com/2026/04/01/spacex-has-filed-confidentially-for-ipo/",
       "source": "Fortune | FORTUNE"
     },
     {
-      "title": "BP's New CEO Pledges Consistency as Company Tries to Rebuild Investor Trust",
-      "zh": "英國石油公司新任執行長承諾一致性，試圖重建投資人信心",
-      "impact": "BP新領導層致力於恢復投資人信心，能源股面臨重組期",
+      "title": "Record Wind Output Fails to Stop UK Energy Price Surge",
+      "zh": "英國風力發電創歷史新高但未能阻止能源價格飆升",
+      "impact": "可再生能源增長仍未解決能源價格上漲問題",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/BPs-New-CEO-Pledges-Consistency-as-Company-Tries-to-Rebuild-Investor-Trust.html",
+      "link": "https://oilprice.com/Alternative-Energy/Wind-Power/Record-Wind-Output-Fails-to-Stop-UK-Energy-Price-Surge.html",
       "source": "Oilprice.com"
     },
     {
-      "title": "EU Warns Energy Prices Won't Fall Even If Iran War Ends Tomorrow",
-      "zh": "歐盟警告即使伊朗戰爭明天結束，能源價格也不會下跌",
-      "impact": "歐盟認為地緣政治風險使能源價格難以回落，能源成本長期承壓",
-      "sector": "energy",
+      "title": "Chipmakers Scramble as Helium Crunch Threatens AI Expansion",
+      "zh": "芯片製造商面臨困境，氦氣短缺威脅AI產業擴張",
+      "impact": "氦氣短缺影響芯片生產，AI擴張面臨供應鏈風險",
+      "sector": "tech",
       "priority": "high",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/EU-Warns-Energy-Prices-Wont-Fall-Even-If-Iran-War-Ends-Tomorrow.html",
+      "link": "https://oilprice.com/Energy/Energy-General/Chipmakers-Scramble-as-Helium-Crunch-Threatens-AI-Expansion.html",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Prices Sag as US Oil Inventories Climb",
+      "zh": "美國石油庫存攀升導致油價下滑",
+      "impact": "石油庫存增加推低油價，能源成本短期向好",
+      "sector": "energy",
+      "priority": "low",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Prices-Sag-as-US-Oil-Inventories-Climb.html",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "BP's New CEO Pledges Consistency as Company Tries to Rebuild Investor Trust",
+      "zh": "BP新任首席執行官承諾保持一致性，公司努力重建投資者信心",
+      "impact": "BP領導層變更，致力修復投資者關係",
+      "sector": "energy",
+      "priority": "low",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/BPs-New-CEO-Pledges-Consistency-as-Company-Tries-to-Rebuild-Investor-Trust.html",
       "source": "Oilprice.com"
     }
   ]
