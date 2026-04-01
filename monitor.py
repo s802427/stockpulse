@@ -3,7 +3,7 @@ import requests
 import hashlib
 import os
 import json
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY")
@@ -37,6 +37,11 @@ RSS_FEEDS = [
     "https://oilprice.com/rss/main",
     "https://feeds.barrons.com/barrons/markets",
 ]
+
+TZ = timezone(timedelta(hours=8))
+
+def now_str():
+    return datetime.now(TZ).strftime("%Y-%m-%d %H:%M")
 
 def get_newsapi_titles():
     try:
@@ -199,7 +204,7 @@ def update_news_json(news_list):
         r = requests.get(api_url, headers=headers)
         sha = r.json().get("sha", "")
         data = {
-            "updated": datetime.now().strftime("%Y/%m/%d %H:%M"),
+            "updated": datetime.now(TZ).strftime("%Y/%m/%d %H:%M"),
             "news": news_list
         }
         content = json.dumps(data, ensure_ascii=False, indent=2)
@@ -216,7 +221,7 @@ def update_news_json(news_list):
 
 def send_summary(results):
     try:
-        now = datetime.now().strftime("%H:%M")
+        now = datetime.now(TZ).strftime("%H:%M")
         high = [r for r in results if r[3] == "high"]
         medium = [r for r in results if r[3] == "medium"]
         low = [r for r in results if r[3] == "low"]
@@ -226,26 +231,15 @@ def send_summary(results):
             if s not in sectors:
                 sectors[s] = []
             sectors[s].append(r[3])
+
         msg = "📋 <b>本次掃描摘要 " + now + "</b>\n"
         msg += "━━━━━━━━━━━━━━━\n"
-        if high:
-            msg += "\n🔴 <b>高重要 x" + str(len(high)) + "</b>\n"
-            for r in high:
-                if r[1]:
-                    msg += "• " + r[1] + "\n"
-        if medium:
-            msg += "\n🟡 <b>中重要 x" + str(len(medium)) + "</b>\n"
-            for r in medium:
-                if r[1]:
-                    msg += "• " + r[1] + "\n"
-        if low:
-            msg += "\n🟢 <b>一般關注 x" + str(len(low)) + "</b>\n"
-            for r in low:
-                if r[1]:
-                    msg += "• " + r[1] + "\n"
+        msg += "🔴 高重要 x" + str(len(high))
+        msg += "  🟡 中重要 x" + str(len(medium))
+        msg += "  🟢 一般 x" + str(len(low)) + "\n"
+
         if sectors:
-            msg += "\n━━━━━━━━━━━━━━━\n"
-            msg += "💹 <b>板塊動態</b>\n"
+            msg += "\n💹 <b>板塊動態</b>\n"
             icons = {
                 "tech": "💻", "finance": "🏦", "energy": "⚡",
                 "health": "💊", "consumer": "🛒"
@@ -254,8 +248,16 @@ def send_summary(results):
                 if s == "general":
                     continue
                 icon = icons.get(s, "📰")
+                count = len(priorities)
                 top = "🔴" if "high" in priorities else "🟡" if "medium" in priorities else "🟢"
-                msg += icon + " " + s + " " + top + "\n"
+                msg += icon + " " + s + " " + top + " x" + str(count) + "\n"
+
+        if high:
+            msg += "\n🔥 <b>重點摘要</b>\n"
+            for r in high[:3]:
+                if r[1]:
+                    msg += "• " + r[1] + "\n"
+
         send_telegram(CHANNELS["all"], msg)
     except Exception as e:
         print(f"send_summary 錯誤：{e}")
@@ -282,12 +284,12 @@ def main():
             seen.add(h)
             seen_titles.append(item[0])
             unique_news.append(item)
-    print(str(datetime.now()) + " 收集 " + str(len(unique_news)) + " 條")
+    print(now_str() + " 收集 " + str(len(unique_news)) + " 條")
 
     important_news = []
     for i in range(0, len(unique_news), 20):
         important_news += quick_filter(unique_news[i:i+20])
-    print(str(datetime.now()) + " 篩後 " + str(len(important_news)) + " 條")
+    print(now_str() + " 篩後 " + str(len(important_news)) + " 條")
 
     results = []
     news_for_json = []
@@ -321,7 +323,7 @@ def main():
     if results:
         send_summary(results)
         update_news_json(news_for_json)
-    print(str(datetime.now()) + " 推送 " + str(len(results)) + " 條")
+    print(now_str() + " 推送 " + str(len(results)) + " 條")
 
 if __name__ == "__main__":
     main()
