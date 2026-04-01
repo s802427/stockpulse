@@ -3,6 +3,7 @@ import requests
 import hashlib
 import os
 import json
+import time
 from datetime import datetime, timezone, timedelta
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
@@ -178,20 +179,30 @@ def analyze_batch(news_batch):
         print(f"analyze_batch 錯誤：{e}")
         return [("", "", "general", "medium")] * len(news_batch)
 
-def send_telegram(chat_id, text):
-    try:
-        url = "https://api.telegram.org/bot" + TELEGRAM_TOKEN + "/sendMessage"
-        payload = {
-            "chat_id": chat_id,
-            "text": text,
-            "parse_mode": "HTML",
-            "disable_web_page_preview": False
-        }
-        r = requests.post(url, json=payload)
-        if r.status_code != 200:
-            print(f"Telegram 發送失敗 {chat_id}：{r.text}")
-    except Exception as e:
-        print(f"Telegram 錯誤：{e}")
+def send_telegram(chat_id, text, retry=3):
+    url = "https://api.telegram.org/bot" + TELEGRAM_TOKEN + "/sendMessage"
+    payload = {
+        "chat_id": chat_id,
+        "text": text,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": False
+    }
+    for attempt in range(retry):
+        try:
+            r = requests.post(url, json=payload)
+            if r.status_code == 200:
+                time.sleep(1)
+                return
+            elif r.status_code == 429:
+                wait = r.json().get("parameters", {}).get("retry_after", 30)
+                print(f"Telegram 限速，等待 {wait} 秒")
+                time.sleep(wait)
+            else:
+                print(f"Telegram 發送失敗 {chat_id}：{r.text}")
+                return
+        except Exception as e:
+            print(f"Telegram 錯誤：{e}")
+            return
 
 def update_news_json(news_list):
     try:
