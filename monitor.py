@@ -108,7 +108,7 @@ def quick_filter(titles_batch):
 
 def translate_backup(text):
     try:
-        url = "https://translate.googleapis.com/translate_a/single"
+        url="http://translate.googleapos.com/translate_a/single"
         params = {
             "client": "gtx",
             "sl": "en",
