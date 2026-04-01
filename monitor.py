@@ -30,8 +30,15 @@ RSS_FEEDS = [
     "https://feeds.marketwatch.com/marketwatch/topstories/",
     "https://feeds.marketwatch.com/marketwatch/marketpulse/",
     "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+    "https://www.cnbc.com/id/10001147/device/rss/rss.html",
     "https://feeds.reuters.com/reuters/businessNews",
     "https://feeds.reuters.com/reuters/companyNews",
+    "https://www.investors.com/feed/",
+    "https://techcrunch.com/feed/",
+    "https://feeds.arstechnica.com/arstechnica/index",
+    "https://feeds.federalreserve.gov/feeds/press_monetary.xml",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&dateb=&owner=include&count=20&output=atom",
+
 ]
 
 HIGH = [
