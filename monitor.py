@@ -105,18 +105,6 @@ def quick_filter(titles_batch):
         return [titles_batch[i] for i in indices if i < len(titles_batch)]
     except:
         return []
-
-def translate_backup(text):
-    try:
-        url="http://translate.googleapos.com/translate_a/single"
-        params = {
-            "client": "gtx",
-            "sl": "en",
-            "tl": "zh-TW",
-            "dt": "t",
-            "q": text
-        }
-        r = requests.get(url,​​​​​​​​​​​​​​​​
 def analyze(title):
     try:
         headers = {
@@ -153,16 +141,13 @@ def analyze(title):
                 sector = line.replace("SECTOR:", "").strip().lower()
             elif line.startswith("PRIORITY:"):
                 priority = line.replace("PRIORITY:", "").strip().lower()
-        if not translation:
-            translation = translate_backup(title)
         if sector not in CHANNELS:
             sector = "general"
         if priority not in PRIORITY_EMOJI:
             priority = "medium"
         return translation, impact, sector, priority
     except:
-        zh = translate_backup(title)
-        return zh, "", "general", "medium"
+        return "", "", "general", "medium"
 
 def send_telegram(chat_id, text):
     url = "https://api.telegram.org/bot" + TELEGRAM_TOKEN + "/sendMessage"
