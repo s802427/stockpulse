@@ -14,25 +14,33 @@ RSS_FEEDS = [
     "https://feeds.marketwatch.com/marketwatch/topstories/",
     "https://feeds.marketwatch.com/marketwatch/marketpulse/",
     "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-    "https://www.cnbc.com/id/10001147/device/rss/rss.html",
     "https://feeds.reuters.com/reuters/businessNews",
     "https://feeds.reuters.com/reuters/companyNews",
 ]
 
-KEYWORDS = [
-    "earnings", "revenue", "profit", "loss", "guidance",
-    "Fed", "interest rate", "inflation", "GDP",
-    "merger", "acquisition", "buyback", "dividend",
-    "layoff", "bankruptcy", "IPO", "recall",
-    "tariff", "rate hike", "rate cut", "jobless",
-    "beat", "miss", "outlook", "forecast", "downgrade", "upgrade",
+# 高優先級：一定推
+HIGH = [
+    "fed rate", "rate hike", "rate cut", "earnings beat", "earnings miss",
+    "bankruptcy", "merger", "acquisition", "IPO", "layoff", "recalls",
+    "inflation", "GDP", "job report", "payroll", "crash", "surge",
+]
+
+# 低優先級：有其他條件才推
+LOW = [
+    "earnings", "revenue", "profit", "loss", "dividend",
+    "upgrade", "downgrade", "forecast", "outlook", "tariff",
 ]
 
 def hash_title(title):
     return hashlib.md5(title.encode()).hexdigest()
 
-def is_relevant(title):
-    return any(kw.lower() in title.lower() for kw in KEYWORDS)
+def is_important(title):
+    t = title.lower()
+    for kw in HIGH:
+        if kw in t:
+            return True
+    matches = sum(1 for kw in LOW if kw in t)
+    return matches >= 2
 
 def translate(text):
     try:
@@ -46,11 +54,11 @@ def translate(text):
 def send_telegram(title, link, source):
     zh = translate(title)
     message = (
-    f"📰 <b>{title}</b>\n"
-    f"🇹🇼 {zh}\n\n"
-    f"🔗 <a href='{link}'>閱讀全文</a>\n"
-    f"📡 <code>{source}</code>"
-)
+        f"📰 <b>{title}</b>\n"
+        f"🇹🇼 {zh}\n\n"
+        f"🔗 <a href='{link}'>閱讀全文</a>\n"
+        f"📡 <code>{source}</code>"
+    )
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {
         "chat_id": CHAT_ID,
@@ -66,12 +74,11 @@ def main():
     for feed_url in RSS_FEEDS:
         feed = feedparser.parse(feed_url)
         source = feed.feed.get("title", feed_url)
-        for entry in feed.entries[:8]:
+        for entry in feed.entries[:10]:
             title = entry.get("title", "")
             link = entry.get("link", "")
             h = hash_title(title)
-            if h in seen:
-
+            if h in seen or not is_important(title):
                 continue
             seen.add(h)
             send_telegram(title, link, source)
