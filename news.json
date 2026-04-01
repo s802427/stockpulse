@@ -1,5 +1,5 @@
 {
-  "updated": "2026/04/01 11:10",
+  "updated": "2026/04/01 11:33",
   "news": [
     {
       "title": "Stock Market Today: Oil Pauses, Dow Futures Rise — Live Updates - WSJ",
@@ -12,8 +12,8 @@
     },
     {
       "title": "Oil prices hold above $100 and Wall Street rebounds as US exchanges strikes with Iran - AP News",
-      "zh": "油價維持在100美元以上，美國與伊朗達成協議後華爾街反彈 - 美聯社",
-      "impact": "地緣政治緊張緩解，油價穩定支撐能源股，股市情緒改善",
+      "zh": "油價守住100美元上方，美國與伊朗達成協議時華爾街反彈 - 美聯社",
+      "impact": "地緣政治緩和推動油價穩定，股市受惠反彈上漲",
       "sector": "energy",
       "priority": "high",
       "link": "https://apnews.com/article/stock-markets-war-oil-trump-iran-84a7c46b51b3583f743c8da6a40d36ac",
@@ -30,17 +30,17 @@
     },
     {
       "title": "Euro zone inflation smashes through ECB target to 2.5% in March as energy costs soar - CNBC",
-      "zh": "歐元區3月通膨率飆升至2.5%，遠超歐洲央行目標，能源成本飆漲——CNBC",
-      "impact": "歐央行面臨通膨壓力，可能推遲降息計畫，歐元區經濟增長受阻",
-      "sector": "finance",
+      "zh": "歐元區通膨在3月飆升至2.5%，遠超歐洲央行目標，能源成本飆漲 - CNBC",
+      "impact": "歐元區通膨升高，歐洲央行政策面臨壓力，可能影響降息預期和歐股表現",
+      "sector": "general",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/03/31/euro-zone-inflation-smashes-through-ecb-target-to-2point5percent-.html",
       "source": "CNBC"
     },
     {
       "title": "China factory activity rebounds in March as Iran war looms over growth - AP News",
-      "zh": "中國3月工廠活動反彈，伊朗戰爭籠罩經濟增長前景",
-      "impact": "中國製造業回升利好科技和消費股，地緣政治風險增加市場不確定性",
+      "zh": "中國三月份工廠活動回升 伊朗戰爭隱憂籠罩經濟增長 - 美聯社",
+      "impact": "中國製造業復甦利好全球供應鏈，但中東局勢不確定性威脅能源價格和經濟前景",
       "sector": "general",
       "priority": "high",
       "link": "https://apnews.com/article/china-manufacturing-economy-pmi-iran-war-1dece7eda196b93706091b7b52eef94a",
@@ -48,8 +48,8 @@
     },
     {
       "title": "Asian Stocks Wipe Out 2026 Gains as War Drives Inflation Worries - Bloomberg",
-      "zh": "亞洲股市因戰爭引發通膨擔憂而抹去2026年漲幅 - 彭博社",
-      "impact": "地緣政治衝突推高通膨預期，亞洲股市承壓下跌，投資者風險情緒轉弱。",
+      "zh": "亞洲股市因戰爭推高通膨憂慮 抹去2026年漲幅 - 彭博社",
+      "impact": "亞洲股市下跌，通膨預期上升，投資者風險偏好下降，市場波動加劇",
       "sector": "general",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-03-31/asian-stocks-wipe-out-2026-gains-as-war-drives-inflation-worries",
@@ -57,8 +57,8 @@
     },
     {
       "title": "Employees could use 401(k)s to invest in crypto, private equity under Trump plan - The Washington Post",
-      "zh": "員工可在川普計畫下用401(k)投資加密貨幣和私募股權 - 華盛頓郵報",
-      "impact": "擴大退休金投資選項，利好加密和私募產業，但風險提升",
+      "zh": "根據川普計畫，員工可使用401(k)退休金投資加密貨幣和私募股權 - 華盛頓郵報",
+      "impact": "擴大401(k)投資範圍，增加加密及私募股權風險，影響退休儲蓄市場結構",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.washingtonpost.com/business/2026/03/30/401k-retirement-crypto/",
@@ -66,17 +66,17 @@
     },
     {
       "title": "Stock Market Today, March 30: Micron Technology Falls on TurboQuant Shock - The Motley Fool",
-      "zh": "股市今日，3月30日：美光科技因TurboQuant衝擊而下跌 - 傻瓜投資網",
-      "impact": "美光科技股價下跌，可能影響半導體板塊整體表現和投資者信心",
+      "zh": "股市今日，3月30日：美光科技因TurboQuant衝擊而下跌 - 傻瓜投資",
+      "impact": "美光科技股價下跌，可能反映市場對其業績或前景的擔憂",
       "sector": "tech",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.fool.com/coverage/stock-market-today/2026/03/30/stock-market-today-march-30-micron-technology-falls-on-turboquant-shock/",
       "source": "Motley Fool"
     },
     {
       "title": "Fannie, Freddie ‘Stupidly Cheap’ Ackman Says, Stocks Up Over 30% - Bloomberg.com",
-      "zh": "艾克曼表示房利美、房地美\"愚蠢便宜\"，股票上漲超過30% - 彭博社",
-      "impact": "房利美房地美股價大幅上漲，可能帶動金融股整體表現，影響抵押貸款市場預期",
+      "zh": "艾克曼表示房利美、房地美\"愚蠢地便宜\"，股價上漲超過30% - 彭博社",
+      "impact": "知名投資者看好兩房股票，可能帶動機構投資者跟進，推高股價",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-03-30/fannie-freddie-stupidly-cheap-ackman-says-stocks-up-over-30",
@@ -84,35 +84,44 @@
     },
     {
       "title": "Virgin Galactic Announces Fourth Quarter and Full Year 2025 Financial Results and Provides Business Update - Virgin Galactic",
-      "zh": "維珍銀河公布2025年第四季度及全年財務結果並提供業務更新",
-      "impact": "太空旅遊公司公布財務表現，反映商業航天發展進展",
-      "sector": "consumer",
+      "zh": "",
+      "impact": "",
+      "sector": "general",
       "priority": "medium",
       "link": "https://investors.virgingalactic.com/news/news-details/2026/Virgin-Galactic-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Business-Update/default.aspx",
       "source": "Virgingalactic.com"
     },
     {
       "title": "Nexstar Stock Drops Sharply After Judge Puts Brakes On Tegna Merger - Deadline",
-      "zh": "法官叫停Tegna併購案後，Nexstar股價急劇下跌",
-      "impact": "Nexstar併購計畫受阻，股價下跌，廣播媒體併購前景不明",
+      "zh": "法官叫停Tegna合併後，Nexstar股價大幅下跌",
+      "impact": "合併受阻，Nexstar市值縮水，廣播傳媒併購戰略受挫",
       "sector": "general",
       "priority": "high",
       "link": "http://deadline.com/2026/03/nexstar-stock-drops-judge-tegna-merger-1236768984/",
       "source": "Deadline"
     },
     {
+      "title": "JetBlue Airways raises checked bag fees at least $4 as fuel prices soar - CNBC",
+      "zh": "捷藍航空在燃油價格飆升之際，將托運行李費上調至少4美元",
+      "impact": "航空業成本上升，可能推高消費者出行成本，影響低成本航空競爭力",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.cnbc.com/2026/03/30/jetblue-airways-raises-checked-baggage-fees-as-fuel-prices-soar.html",
+      "source": "CNBC"
+    },
+    {
       "title": "This is what really causes recessions, a former top Trump White House economist says - CNBC",
-      "zh": "前特朗普白宮首席經濟學家表示：這才是真正導致衰退的原因",
-      "impact": "經濟政策討論影響市場預期，涉及衰退風險評估",
+      "zh": "",
+      "impact": "",
       "sector": "general",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.cnbc.com/2026/03/30/recession-economy-trump-white-house-economist.html",
       "source": "CNBC"
     },
     {
       "title": "Tech CEOs Suddenly Love Blaming AI For Mass Job Cuts - Slashdot",
-      "zh": "科技CEO突然喜歡將大規模裁員歸咎於人工智能",
-      "impact": "科技公司裁員加劇，可能引發就業危機和監管審查壓力",
+      "zh": "科技執行長突然喜歡將大規模裁員歸咎於AI - Slashdot",
+      "impact": "科技公司藉口AI進行大規模裁員，引發就業市場和監管關注。",
       "sector": "tech",
       "priority": "high",
       "link": "https://slashdot.org/story/26/03/30/043233/tech-ceos-suddenly-love-blaming-ai-for-mass-job-cuts",
@@ -120,18 +129,18 @@
     },
     {
       "title": "Blackstone raises $6.3B life sciences fund in record fundraising haul - Endpoints News",
-      "zh": "黑石集團在創紀錄融資中為生命科學基金籌集63億美元",
-      "impact": "黑石擴大生命科學投資，推動生物科技和醫療公司成長，增強產業資本實力",
-      "sector": "health",
-      "priority": "high",
+      "zh": "",
+      "impact": "",
+      "sector": "general",
+      "priority": "medium",
       "link": "https://endpoints.news/blackstone-raises-6-3b-life-sciences-fund-in-record-fundraising-haul/",
       "source": "Endpoints.news"
     },
     {
       "title": "Uber is buying Berlin startup Blacklane to bolster its ‘Elite’ offering - TechCrunch",
-      "zh": "優步收購柏林新創公司Blacklane以加強其「精英」服務",
-      "impact": "優步擴展高端出行市場，提升競爭力與服務品質",
-      "sector": "consumer",
+      "zh": "Uber收購柏林新創公司Blacklane以加強其\"Elite\"服務",
+      "impact": "強化Uber高端出行市場競爭力，擴展歐洲業務版圖",
+      "sector": "tech",
       "priority": "medium",
       "link": "https://techcrunch.com/2026/03/30/uber-is-buying-berlin-startup-blacklane-to-bolster-its-elite-offering/",
       "source": "TechCrunch"
@@ -139,7 +148,7 @@
     {
       "title": "Takeda begins US layoffs as part of massive $1.3B restructuring - Fierce Pharma",
       "zh": "武田製藥開始美國裁員，作為13億美元大規模重組計畫的一部分",
-      "impact": "武田將大幅削減成本，美國製藥業裁員壓力增加，員工就業市場受衝擊",
+      "impact": "武田製藥實施大規模重組，美國員工面臨失業風險，藥品研發與運營效率受影響",
       "sector": "health",
       "priority": "high",
       "link": "https://www.fiercepharma.com/pharma/takeda-begins-us-layoffs-part-massive-13b-restructuring",
@@ -148,7 +157,7 @@
     {
       "title": "Government Bonds Everywhere Are Rallying on Slowdown Concerns - Bloomberg.com",
       "zh": "全球政府債券因經濟放緩擔憂而普遍上漲",
-      "impact": "債券收益率下降，借貸成本下降，股市可能承壓，避險資產需求增加",
+      "impact": "債券價格上升推高債市，降息預期增強，股市可能承壓",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-03-30/bonds-everywhere-are-rallying-as-global-slowdown-fears-intensify",
@@ -156,8 +165,8 @@
     },
     {
       "title": "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round - TechCrunch",
-      "zh": "AI芯片初創公司Rebellions在IPO前融資輪中以23億美元估值籌集4億美元",
-      "impact": "AI芯片競爭加劇，新玩家融資強勁，有望挑戰英偉達市場地位",
+      "zh": "AI晶片新創公司Rebellions在IPO前融資輪中以23億美元估值籌集4億美元",
+      "impact": "強化AI晶片競爭格局，Rebellions估值大幅提升，挑戰英偉達市場地位",
       "sector": "tech",
       "priority": "high",
       "link": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
@@ -166,97 +175,133 @@
     {
       "title": "Sysco to acquire Restaurant Depot for $29.1B - Restaurant Business Magazine",
       "zh": "Sysco將以291億美元收購Restaurant Depot",
-      "impact": "食品配送行業整合，Sysco加強餐飲供應鏈競爭力，市場集中度提升",
+      "impact": "食品配送業整合，競爭格局改變，供應鏈集中度提升",
       "sector": "consumer",
       "priority": "high",
       "link": "https://restaurantbusinessonline.com/financing/sysco-acquire-restaurant-depot-291b",
       "source": "Restaurant Business Online"
     },
     {
+      "title": "Who's winning under Trump's tariff policy? - dw.com",
+      "zh": "誰在川普關稅政策下獲勝？",
+      "impact": "關稅政策改變貿易格局，影響企業利潤與供應鏈佈局，市場重新定價風險資產。",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.dw.com/en/how-us-liberation-day-tariffs-reshaped-global-trade/a-76303601",
+      "source": "DW (English)"
+    },
+    {
+      "title": "South Korea's Kospi leads declines in Asia as Middle East war enters fifth week - CNBC",
+      "zh": "韓國綜合指數領跌亞洲，中東戰爭進入第五週 - CNBC",
+      "impact": "地緣政治緊張局勢加劇，亞洲股市承壓下行，韓國市場首當其衝領跌",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/03/30/asia-pacific-markets-nikkei-225-kospi-hang-seng-index-oil.html",
+      "source": "CNBC"
+    },
+    {
       "title": "AI drug developer Insilico Medicine and Lilly ink commercialization deal worth up to $2.75 billion - statnews.com",
-      "zh": "AI藥物開發商Insilico Medicine與禮來公司達成商業化協議，金額最高達27.5億美元",
-      "impact": "加速AI在藥物開發領域應用，推動製藥業數位轉型，強化禮來研發實力",
+      "zh": "AI藥物開發商Insilico Medicine與禮來公司簽署商業化協議，價值高達27.5億美元",
+      "impact": "AI製藥合作加速，推動新藥開發效率提升，製藥業數位轉型加劇",
       "sector": "health",
       "priority": "high",
       "link": "https://www.statnews.com/2026/03/29/insilico-medicine-lilly-sign-ai-drug-commercialization-deal/",
       "source": "STAT"
     },
     {
-      "title": "Powell warns U.S. debt trajectory “will not end well.” How to move your riches from the ‘unsustainable’ path",
-      "zh": "鮑威爾警告美國債務軌跡「不會有好結果」。如何將財富從「不可持續」的道路上轉移",
-      "impact": "美聯儲主席發出債務警告，可能引發市場波動和投資者風險厭惡情緒上升",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/economy/policy/articles/powell-warns-u-debt-trajectory-104700026.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Tesla Q1 deliveries likely to dip sequentially as EV demand softens",
-      "zh": "特斯拉第一季度交付量可能環比下滑，因為電動車需求疲軟",
-      "impact": "電動車需求放緩，特斯拉收入及股價面臨下行壓力，產業景氣信號轉弱。",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-q1-deliveries-likely-dip-100411550.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "NIO Inc. (NIO) Rallies Ahead of Q1, March Vehicle Delivery Update",
-      "zh": "蔚來汽車(NIO)在第一季度和3月交付量更新前上升",
-      "impact": "蔚來股價上揚，市場對Q1業績與3月交付數據持樂觀態度",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nio-inc-nio-rallies-ahead-010526986.html",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Dow Inc. (DOW) Jumps 2.6% on Petrochem Shortage",
-      "zh": "",
-      "impact": "",
+      "title": "Stock market today: Dow S&P 500, Nasdaq futures climb as de-escalation talk in Iran sparks rally to close out Q1",
+      "zh": "股市今日：伊朗局勢緩和談話引發漲勢，道瓊斯、標普500和納斯達克期貨上升，結束第一季度",
+      "impact": "地緣政治緊張局勢緩解推高股市，投資者風險偏好回升，資金進場。",
       "sector": "general",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/dow-inc-dow-jumps-2-010952712.html",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-climb-as-de-escalation-talk-in-iran-sparks-rally-to-close-out-q1-224325839.html",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Australia central bank uncertain on path for rates after March hike",
-      "zh": "澳洲央行對3月升息後的利率路徑感到不確定",
-      "impact": "澳洲升息預期減弱，澳幣承壓，全球風險資產波動加劇",
-      "sector": "finance",
+      "title": "Plug Power (PLUG) Up More Than 20% Since Q4 2025 Earnings, Here’s What You Need to Know",
+      "zh": "插電動力公司(PLUG)自2025年第四季財報以來上漲超過20%，以下是你需要了解的內容",
+      "impact": "氫燃料電池企業股價大幅上升，反映投資者對其財務表現和業務前景的樂觀看法",
+      "sector": "energy",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/economy/policy/articles/australia-central-bank-uncertain-path-003332367.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/plug-power-plug-more-20-111122927.html",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Palo Alto (PANW) Jumps 5% as CEO Hikes Stake",
-      "zh": "帕洛阿爾托網絡公司(PANW)股價上漲5%，首席執行官增持股份",
-      "impact": "CEO增持顯示對公司前景信心，提升投資者情緒，利好股價短期表現",
+      "title": "NIO Inc. (NIO) Down More than 6% Since Q4 2025 Earnings",
+      "zh": "蔚來公司(NIO)自2025年第四季度財報發布以來下跌超過6%",
+      "impact": "蔚來股價下跌反映市場對其財務表現和前景的擔憂，可能影響新興電動車企業估值",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nio-inc-nio-down-more-111038516.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Goldman Sachs Upgrades Nokia (NOK) to Neutral, Raises PT",
+      "zh": "高盛將諾基亞(NOK)評級升至中性，上調目標價",
+      "impact": "諾基亞股價短期可能上漲，投資者情緒轉正，但中性評級表明增長空間有限",
       "sector": "tech",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-panw-jumps-5-012000244.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-upgrades-nokia-nok-110932917.html",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Lulu's Fashion Lounge Holdings, Inc. Q4 2025 Earnings Call Summary",
+      "title": "Lumen Technologies (LUMN) Announces Board Changes",
       "zh": "",
       "impact": "",
       "sector": "general",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/lulus-fashion-lounge-holdings-inc-002025872.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lumen-technologies-lumn-announces-board-110814311.html",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Insmed (INSM) Jumps as Morgan Stanley Raises PT by 28%",
-      "zh": "英思茅德(INSM)股價跳漲，摩根士丹利目標價上調28%",
-      "impact": "摩根士丹利上調目標價，提升市場對公司的樂觀預期，帶動股價上升。",
-      "sector": "health",
+      "title": "5 Biotechs That Big Pharma Could Snap Up as Oncology M&A Heats Up",
+      "zh": "",
+      "impact": "",
+      "sector": "general",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/insmed-insm-jumps-morgan-stanley-012515726.html",
+      "link": "https://finance.yahoo.com/sectors/healthcare/articles/5-biotechs-big-pharma-could-110546039.html",
       "source": "Yahoo Finance"
+    },
+    {
+      "title": "Dow Jones Futures Rise, Oil Prices Fall To $100; Trump To Speak To Nation On Iran War",
+      "zh": "道瓊期貨上升，油價跌至100美元；特朗普將就伊朗戰爭向全國發表講話",
+      "impact": "油價下跌緩解通膨壓力，地緣政治風險成焦點，市場波動加大",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-trump-iran-war-exit-oil-prices-sandisk-stock/?src=A00220&yptr=yahoo",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Act now or lose it: The IRS warns $1.2 billion in overdue tax refunds will expire this month. Here's how to claim yours",
+      "zh": "現在行動或失去機會：國稅局警告12億美元逾期稅款退款將於本月過期。以下是領取方式",
+      "impact": "納稅人需立即行動申請退款，否則將永久喪失12億美元退款權利",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/economy/policy/articles/act-now-lose-irs-warns-110000195.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "No Matter What Happens to the Market, These 5 Dividend Stocks Belong in Your Portfolio",
+      "zh": "無論市場發生什麼，這5檔股利股票都應該在您的投資組合中",
+      "impact": "推薦穩定配息股票，適合風險規避型投資者長期持有",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/no-matter-happens-market-5-110500712.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nike’s stock dives, as sales warning shows turnaround plan still isn’t working",
+      "zh": "",
+      "impact": "",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/nikes-results-were-better-than-expected-but-investors-still-arent-sold-on-its-turnaround-ef2d3b70?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories"
     },
     {
       "title": "Why prominent short-selling firm Muddy Waters is now targeting credit",
-      "zh": "知名做空機構泥水公司為何現在將目標轉向信貸領域",
-      "impact": "做空機構關注信貸風險，可能引發市場對債務市場穩定性的擔憂",
+      "zh": "知名做空機構泥水研究公司為何現在開始針對信用市場",
+      "impact": "做空機構開始關注信用市場風險，可能揭露企業債務問題，引發市場波動",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.marketwatch.com/story/why-prominent-short-selling-firm-muddy-waters-is-now-targeting-credit-28518c8f?mod=mw_rss_topstories",
@@ -264,74 +309,92 @@
     },
     {
       "title": "JPMorgan’s Jamie Dimon says bank could one day enter prediction markets",
-      "zh": "摩根大通首席執行官傑米·戴蒙表示銀行未來可能進入預測市場",
-      "impact": "預測市場可能成為銀行新業務，若監管允許將開拓金融創新領域",
+      "zh": "摩根大通首席執行官傑米·戴蒙表示銀行有朝一日可能進入預測市場",
+      "impact": "銀行涉足預測市場，金融創新擴展，監管風險需關注",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.marketwatch.com/story/jpmorgans-jamie-dimon-says-bank-could-one-day-enter-prediction-markets-12d2406f?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories"
     },
     {
-      "title": "Brent oil futures fall as low as $98 ahead of Trump’s address on Iran war",
-      "zh": "布倫特油期貨在特朗普伊朗戰爭講話前跌至98美元",
-      "impact": "油價下跌反映市場對中東局勢緩和的預期，能源股承壓",
-      "sector": "energy",
+      "title": "An Athens listing has created the world’s second largest gaming company. Finally, Europe has a #2 global player",
+      "zh": "雅典上市創造全球第二大遊戲公司，歐洲終於擁有全球第二名玩家",
+      "impact": "歐洲遊戲產業實現重大突破，全球遊戲市場競爭格局生變",
+      "sector": "tech",
       "priority": "high",
-      "link": "https://www.marketwatch.com/story/brent-oil-futures-fall-as-low-as-98-ahead-of-trumps-address-on-iran-war-02590d56?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories"
+      "link": "https://fortune.com/2026/04/01/athens-listing-second-largest-gaming-company-allwyn/",
+      "source": "Fortune | FORTUNE"
+    },
+    {
+      "title": "More people are using AI to manage their money— but they won’t let it make decisions alone",
+      "zh": "",
+      "impact": "",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://fortune.com/2026/04/01/more-people-using-ai-manage-money-wont-let-it-make-decisions-alone/",
+      "source": "Fortune | FORTUNE"
     },
     {
       "title": "Inside Delta CEO Ed Bastian’s turnaround playbook—from bankruptcy to most profitable U.S. airline",
-      "zh": "深入了解達美航空CEO艾德·巴斯蒂安的轉型手冊——從破產到美國最賺錢航空公司",
-      "impact": "達美航空扭虧為盈成為美國最獲利航空公司，展示成功轉型策略",
+      "zh": "深入了解達美航空CEO艾德·巴斯蒂安的轉變劇本——從破產到美國最賺錢航空公司",
+      "impact": "達美航空盈利能力提升，展示行業復甦和管理策略成效，影響航空股前景。",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://fortune.com/2026/04/01/delta-ceo-ed-bastian-turnaround-playbook-bankruptcy-to-most-profitable-us-airline/",
       "source": "Fortune | FORTUNE"
     },
     {
-      "title": "AI success is a leadership test—and the 100 Best Companies lead the way",
-      "zh": "AI成功是領導力測試——100家最佳公司領先示範",
-      "impact": "優秀企業AI戰略領先，可能推動科技股上漲，擴大市場差距",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://fortune.com/2026/04/01/ai-success-leadership-test-100-best-companies/",
-      "source": "Fortune | FORTUNE"
-    },
-    {
       "title": "Chevron and Microsoft Team Up for Giant Texas Gas Power Plant",
-      "zh": "雪佛龍與微軟合作在德州建造大型天然氣發電廠",
-      "impact": "推動清潔能源轉型，支持AI數據中心電力需求，利好能源及科技產業",
+      "zh": "雪佛龍與微軟聯手打造德州超大型天然氣發電廠",
+      "impact": "科技巨頭與能源公司合作，推動AI數據中心清潔能源供應，促進能源轉型",
       "sector": "energy",
       "priority": "high",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-and-Microsoft-Team-Up-for-Giant-Texas-Gas-Power-Plant.html",
       "source": "Oilprice.com"
     },
     {
-      "title": "Trump Media To Merge With Nuclear Fusion Startup",
-      "zh": "特朗普傳媒將與核融合初創公司合併",
-      "impact": "特朗普傳媒估值提升，核融合領域融資渠道拓寬，能源技術產業化推進",
+      "title": "Brent Oil Dips Below $100 as Trump Signals End to Iran War",
+      "zh": "特朗普暗示伊朗戰爭結束 布倫特油價跌破100美元",
+      "impact": "油價下跌，能源股承壓，地緣政治風險緩解，通膨預期降低",
       "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Oil-Dips-Below-100-as-Trump-Signals-End-to-Iran-War.html",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "OPEC Output Plunges by 7 Million Bpd as War Chokes Supply",
+      "zh": "歐佩克產量因戰爭扼殺供應而暴跌700萬桶/日",
+      "impact": "油價上升，推高能源股和通膨預期，影響運輸和製造業成本",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Output-Plunges-by-7-Million-Bpd-as-War-Chokes-Supply.html",
+      "source": "Oilprice.com"
+    },
+    {
+      "title": "Trump Media To Merge With Nuclear Fusion Startup",
+      "zh": "特朗普媒體將與核融合初創公司合併",
+      "impact": "特朗普媒體獲得新融資來源，核融合公司獲得融資渠道，科技媒體領域迎來新變化",
+      "sector": "tech",
       "priority": "medium",
       "link": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Trump-Media-To-Merge-With-Nuclear-Fusion-Startup.html",
       "source": "Oilprice.com"
     },
     {
       "title": "US Crude Oil Inventories See Surprise 10 Million Barrel Spike",
-      "zh": "美國原油庫存意外飆升1000萬桶",
-      "impact": "油價承壓下行，能源股短期面臨調整壓力",
+      "zh": "美國原油庫存出現意外增加1000萬桶",
+      "impact": "油價承壓下行，能源股承受賣壓，市場擔憂需求疲軟",
       "sector": "energy",
       "priority": "high",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-See-Surprise-10-Million-Barrel-Spike.html",
       "source": "Oilprice.com"
     },
     {
-      "title": "Microsoft and NVIDIA Are Using AI to Fast-Track Nuclear Power Development",
-      "zh": "微軟和NVIDIA利用AI加速核電發展",
-      "impact": "推動核能產業升級，支撐AI數據中心能源需求",
+      "title": "Guyana's Oil Boom Will Boost Energy Security in the Americas",
+      "zh": "圭亞那石油繁榮將提升美洲能源安全",
+      "impact": "圭亞那增加石油產量，有助於降低美洲對中東石油依賴，穩定區域能源供應。",
       "sector": "energy",
-      "priority": "high",
-      "link": "https://oilprice.com/Energy/Energy-General/Microsoft-and-NVIDIA-Are-Using-AI-to-Fast-Track-Nuclear-Power-Development.html",
+      "priority": "medium",
+      "link": "https://oilprice.com/Energy/Energy-General/Guyanas-Oil-Boom-Will-Boost-Energy-Security-in-the-Americas.html",
       "source": "Oilprice.com"
     }
   ]
