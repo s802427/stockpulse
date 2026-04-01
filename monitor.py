@@ -89,12 +89,14 @@ def quick_filter(titles_batch):
         news_list = "\n".join(
             str(i+1) + ". " + t[0] for i, t in enumerate(titles_batch)
         )
-        prompt = "篩選重要財經新聞，只回覆編號用逗號分隔：\n"
-        prompt += "標準：財報Fed政策併購裁員IPO經濟數據\n"
-        prompt += "排除：娛樂體育生活\n\n" + news_list
+        prompt = "篩選重要財經新聞，回覆格式：編號,分數（1-5）每行一條\n"
+        prompt += "例如：1,4\n2,2\n3,5\n\n"
+        prompt += "保留標準：財報、Fed政策、併購、裁員、IPO、經濟數據、央行決策、重大監管\n"
+        prompt += "排除標準：娛樂、體育、生活、點擊誘餌（如『驚人數字』『你不知道的』『熱門股推薦』）、廣告式標題\n\n"
+        prompt += news_list
         body = {
             "model": "claude-haiku-4-5-20251001",
-            "max_tokens": 100,
+            "max_tokens": 200,
             "messages": [{"role": "user", "content": prompt}]
         }
         r = requests.post(
@@ -102,18 +104,22 @@ def quick_filter(titles_batch):
             headers=headers, json=body, timeout=10
         )
         text = r.json()["content"][0]["text"].strip()
-        indices = [
-            int(x.strip()) - 1
-            for x in text.split(",")
-            if x.strip().isdigit()
-        ]
-        return [titles_batch[i] for i in indices if i < len(titles_batch)]
+        results = []
+        for line in text.split("\n"):
+            line = line.strip()
+            if "," in line:
+                parts = line.split(",")
+                if len(parts) == 2 and parts[0].strip().isdigit() and parts[1].strip().isdigit():
+                    idx = int(parts[0].strip()) - 1
+                    score = int(parts[1].strip())
+                    if score >= 4 and idx < len(titles_batch):
+                        results.append(titles_batch[idx])
+        return results
     except Exception as e:
         print(f"quick_filter 錯誤：{e}")
         return []
 
 def analyze_batch(news_batch):
-    """批次分析多條新聞，一次 API 呼叫處理全部"""
     try:
         headers = {
             "x-api-key": ANTHROPIC_KEY,
@@ -160,7 +166,6 @@ def analyze_batch(news_batch):
             if priority not in PRIORITY_EMOJI:
                 priority = "medium"
             results.append((translation, impact, sector, priority))
-        # 數量對不上時補空值
         while len(results) < len(news_batch):
             results.append(("", "", "general", "medium"))
         return results[:len(news_batch)]
@@ -226,15 +231,18 @@ def send_summary(results):
         if high:
             msg += "\n🔴 <b>高重要 x" + str(len(high)) + "</b>\n"
             for r in high:
-                msg += "• " + r[1] + "\n"
+                if r[1]:
+                    msg += "• " + r[1] + "\n"
         if medium:
             msg += "\n🟡 <b>中重要 x" + str(len(medium)) + "</b>\n"
             for r in medium:
-                msg += "• " + r[1] + "\n"
+                if r[1]:
+                    msg += "• " + r[1] + "\n"
         if low:
             msg += "\n🟢 <b>一般關注 x" + str(len(low)) + "</b>\n"
             for r in low:
-                msg += "• " + r[1] + "\n"
+                if r[1]:
+                    msg += "• " + r[1] + "\n"
         if sectors:
             msg += "\n━━━━━━━━━━━━━━━\n"
             msg += "💹 <b>板塊動態</b>\n"
@@ -284,11 +292,12 @@ def main():
     results = []
     news_for_json = []
 
-    # 批次分析，每次最多10條
     for i in range(0, len(important_news), 10):
         batch = important_news[i:i+10]
         analyzed = analyze_batch(batch)
         for (title, link, source), (zh, impact, sector, priority) in zip(batch, analyzed):
+            if not zh:
+                continue
             emoji = PRIORITY_EMOJI.get(priority, "🟡")
             msg = emoji + " <b>" + title + "</b>\n"
             msg += "🇹🇼 " + zh + "\n"
