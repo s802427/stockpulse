@@ -5,6 +5,7 @@ import os
 from datetime import datetime
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY")
 CHAT_ID = "@stockpulse_news2"
 
 RSS_FEEDS = [
@@ -18,14 +19,12 @@ RSS_FEEDS = [
     "https://feeds.reuters.com/reuters/companyNews",
 ]
 
-# 高優先級：一定推
 HIGH = [
     "fed rate", "rate hike", "rate cut", "earnings beat", "earnings miss",
-    "bankruptcy", "merger", "acquisition", "IPO", "layoff", "recalls",
+    "bankruptcy", "merger", "acquisition", "IPO", "layoff",
     "inflation", "GDP", "job report", "payroll", "crash", "surge",
 ]
 
-# 低優先級：有其他條件才推
 LOW = [
     "earnings", "revenue", "profit", "loss", "dividend",
     "upgrade", "downgrade", "forecast", "outlook", "tariff",
@@ -39,23 +38,36 @@ def is_important(title):
     for kw in HIGH:
         if kw in t:
             return True
-    matches = sum(1 for kw in LOW if kw in t)
-    return matches >= 2
+    return sum(1 for kw in LOW if kw in t) >= 2
 
-def translate(text):
+def analyze(title):
     try:
-        url = "https://translate.googleapis.com/translate_a/single"
-        params = {"client": "gtx", "sl": "en", "tl": "zh-TW", "dt": "t", "q": text}
-        r = requests.get(url, params=params, timeout=5)
-        return r.json()[0][0][0]
+        headers = {
+            "x-api-key": ANTHROPIC_KEY,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json"
+        }
+        body = {
+            "model": "claude-haiku-4-5-20251001",
+            "max_tokens": 150,
+            "messages": [{
+                "role": "user",
+                "content": f"""以下是一條美股新聞標題，請用繁體中文回覆兩行：
+第一行：翻譯標題
+第二行：一句話說明對股市的影響（15字以內）
+
+標題：{title}"""
+            }]
+        }
+        r = requests.post("https://api.anthropic.com/v1/messages", headers=headers, json=body, timeout=10)
+        return r.json()["content"][0]["text"].strip()
     except:
         return ""
 
-def send_telegram(title, link, source):
-    zh = translate(title)
+def send_telegram(title, link, source, analysis):
     message = (
         f"📰 <b>{title}</b>\n"
-        f"🇹🇼 {zh}\n\n"
+        f"{analysis}\n\n"
         f"🔗 <a href='{link}'>閱讀全文</a>\n"
         f"📡 <code>{source}</code>"
     )
@@ -81,7 +93,8 @@ def main():
             if h in seen or not is_important(title):
                 continue
             seen.add(h)
-            send_telegram(title, link, source)
+            analysis = analyze(title)
+            send_telegram(title, link, source, analysis)
             new_count += 1
     print(f"[{datetime.now()}] 推送了 {new_count} 條新聞")
 
