@@ -70,7 +70,8 @@ def main():
             title = entry.get("title", "")
             link = entry.get("link", "")
             h = hash_title(title)
-            if h in seen or not is_relevant(title):
+            if h in seen:
+
                 continue
             seen.add(h)
             send_telegram(title, link, source)
