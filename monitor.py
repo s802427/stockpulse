@@ -96,7 +96,6 @@ def detect_tickers(text):
     return found
 
 def verify_breaking_news(high_news):
-    """第三層篩選：嚴格驗證高重要新聞"""
     if not high_news:
         return []
     try:
@@ -144,7 +143,7 @@ def verify_breaking_news(high_news):
         return verified
     except Exception as e:
         print(f"verify_breaking_news 錯誤：{e}")
-        return high_news  # 出錯時保留原本
+        return high_news
 
 def load_sent():
     try:
@@ -346,18 +345,18 @@ def send_telegram(chat_id, text, retry=3):
         try:
             r = requests.post(url, json=payload)
             if r.status_code == 200:
-                time.sleep(1)
-                return
+                return True
             elif r.status_code == 429:
                 wait = r.json().get("parameters", {}).get("retry_after", 30)
                 print(f"Telegram 限速，等待 {wait} 秒")
                 time.sleep(wait)
             else:
                 print(f"Telegram 發送失敗 {chat_id}：{r.text}")
-                return
+                return False
         except Exception as e:
             print(f"Telegram 錯誤：{e}")
-            return
+            return False
+    return False
 
 def update_news_json(news_list):
     try:
@@ -656,9 +655,17 @@ def main():
             msg += "\n🔗 <a href='" + link + "'>閱讀全文</a>\n"
             msg += "📡 <code>" + source + "</code>"
 
-            send_telegram(CHANNELS["all"], msg)
+            # 推送到 all 和板塊頻道，間隔0.5秒
+            targets = [CHANNELS["all"]]
             if sector in CHANNELS and sector != "general":
-                send_telegram(CHANNELS[sector], msg)
+                targets.append(CHANNELS[sector])
+
+            for idx, target in enumerate(targets):
+                send_telegram(target, msg)
+                if idx < len(targets) - 1:
+                    time.sleep(0.5)
+
+            time.sleep(0.5)  # 下一條新聞前等0.5秒
 
             results.append((title, zh, sector, priority))
             if priority == "high":
@@ -686,6 +693,7 @@ def main():
         alert_msg += emoji + " <b>" + title + "</b>\n"
         alert_msg += "🇹🇼 " + zh + "\n"
         send_telegram(CHANNELS["all"], alert_msg)
+        time.sleep(0.5)
 
     cost = get_cost()
     print(f"本次 API 花費：${cost} USD（input: {api_usage['input_tokens']} tokens, output: {api_usage['output_tokens']} tokens）")
