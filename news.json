@@ -1,10 +1,120 @@
 {
-  "updated": "2026/04/03 00:01",
+  "updated": "2026/04/03 01:02",
   "news": [
     {
+      "title": "Retail sales rose more than expected in February - CNN",
+      "zh": "零售銷售在2月份超預期增長",
+      "impact": "經濟數據強勁，可能推高通膨預期和利率",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.cnn.com/2026/04/01/economy/us-retail-sales-consumer-spending-february",
+      "source": "CNN",
+      "tickers": []
+    },
+    {
+      "title": "Volkswagen deal with EV maker Xpeng shows how China tech threatens Western automakers - CNBC",
+      "zh": "大眾汽車與電動車製造商小鵬的交易顯示中國科技如何威脅西方汽車製造商",
+      "impact": "中國電動車勢力崛起威脅西方汽車產業競爭力",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.cnbc.com/2026/04/01/volkswagen-xpeng-deal-threat-rivian-us-automakers.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "Nike shares drop on unexpected forecast for sales decline - Financial Times",
+      "zh": "耐克股價因銷售下滑的意外預測而下跌",
+      "impact": "運動服飾銷售不佳，可能反映消費者支出放緩",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.ft.com/content/7e360bee-6768-4ca2-9bd0-fc0561cbc2f6?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "Nexstar Tells Judge Aspects Of Tegna Merger \"Cannot Be Reversed\" - Deadline",
+      "zh": "Nexstar告訴法官Tegna併購的某些方面「無法逆轉」",
+      "impact": "併購交易進展，涉及媒體行業整合",
+      "sector": "general",
+      "priority": "low",
+      "link": "http://deadline.com/2026/03/nexstar-tegna-merger-blocked-1236770348/",
+      "source": "Deadline",
+      "tickers": []
+    },
+    {
+      "title": "Biogen Snaps Up $5.6 Billion Deal. Why Shares Fell. - Investor's Business Daily",
+      "zh": "百健完成56億美元交易，為何股價下跌",
+      "impact": "大型併購交易，市場對策略存疑慮",
+      "sector": "health",
+      "priority": "medium",
+      "link": "https://www.investors.com/news/technology/biogen-apellis-pharmaceuticals-buyout-syfovre-empaveli/",
+      "source": "Investor's Business Daily",
+      "tickers": []
+    },
+    {
+      "title": "Brief remarks by Governor Barr on stablecoins - Federal Reserve Board (.gov)",
+      "zh": "聯邦準備委員會主席Barr關於穩定幣的簡短評論",
+      "impact": "央行對加密資產監管態度可能影響政策方向",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.federalreserve.gov/newsevents/speech/barr20260331a.htm",
+      "source": "Federalreserve.gov",
+      "tickers": []
+    },
+    {
+      "title": "Hiring just hit a level not seen since the economy was ‘closed down literally’ during COVID, top economist says - Fortune",
+      "zh": "聘僱人數達到COVID期間經濟「完全關閉」以來未見的水平，頂級經濟學家表示",
+      "impact": "就業市場疲弱，勞動力供給可能面臨挑戰",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://fortune.com/2026/03/31/hiring-hits-pandemic-low-layoffs-firing-jobs-report-inflation-iran-war-federal-reserve/",
+      "source": "Fortune",
+      "tickers": []
+    },
+    {
+      "title": "Unilever Foods to combine with McCormick - Unilever",
+      "zh": "聯合利華食品部門與美極公司合併",
+      "impact": "食品調味料行業併購，將提升市場集中度",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.unilever.com/investors/unilever-foods-to-combine-with-mccormick/",
+      "source": "Unilever.com",
+      "tickers": []
+    },
+    {
+      "title": "Lilly to acquire Centessa Pharmaceuticals to advance treatments for sleep-wake disorders - Eli Lilly",
+      "zh": "禮來公司收購Centessa製藥以推進睡眠障礙治療方案",
+      "impact": "製藥巨頭擴展產品線，睡眠健康領域發展",
+      "sector": "health",
+      "priority": "medium",
+      "link": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-centessa-pharmaceuticals-advance-treatments-sleep",
+      "source": "Lilly.com",
+      "tickers": []
+    },
+    {
+      "title": "Global television network files for bankruptcy facing lawsuit",
+      "zh": "全球電視網路公司面臨訴訟申請破產",
+      "impact": "傳統媒體公司經營困難，行業衰退信號",
+      "sector": "general",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/economy/policy/articles/global-television-network-files-bankruptcy-163300636.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "The outlook for the U.S. economy is now a lot worse than just two weeks ago, economists say",
+      "zh": "經濟學家表示，美國經濟前景比兩週前惡化許多",
+      "impact": "經濟衰退風險上升，市場面臨下行壓力",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.marketwatch.com/story/the-outlook-for-the-u-s-economy-is-now-a-lot-worse-than-just-two-weeks-ago-economists-say-e01eb3d0?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
       "title": "Donbas Coal Deal Exposes Fragile Enforcement of Russia Sanctions",
-      "zh": "頓巴斯煤炭交易揭露俄羅斯制裁執行力脆弱",
-      "impact": "俄羅斯制裁漏洞擴大，能源出口繞過限制",
+      "zh": "頓巴斯煤炭交易暴露俄羅斯制裁執行力薄弱",
+      "impact": "俄羅斯制裁實施效果受質疑，地緣政治風險凸顯",
       "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/Donbas-Coal-Deal-Exposes-Fragile-Enforcement-of-Russia-Sanctions.html",
@@ -13,21 +123,11 @@
     },
     {
       "title": "40% of Russia's Baltic Oil Export Capacity Offline as Gasoline Ban Widens",
-      "zh": "俄羅斯波羅的海石油出口能力40%因汽油禁令擴大而離線",
-      "impact": "俄羅斯石油出口受阻，全球油價可能上升",
+      "zh": "隨著汽油禁令擴大，俄羅斯波羅的海油品出口能力40%離線",
+      "impact": "全球油品供應緊張，能源價格上升壓力增加",
       "sector": "energy",
       "priority": "high",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/40-of-Russias-Baltic-Oil-Export-Capacity-Offline-as-Gasoline-Ban-Widens.html",
-      "source": "Oilprice.com",
-      "tickers": []
-    },
-    {
-      "title": "Tesla Disappoints With Q1 Deliveries Miss",
-      "zh": "特斯拉第一季交付量未達預期令市場失望",
-      "impact": "特斯拉營收預期下調，電動車需求疲軟信號",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://oilprice.com/Energy/Energy-General/Tesla-Disappoints-With-Q1-Deliveries-Miss.html",
       "source": "Oilprice.com",
       "tickers": []
     }
