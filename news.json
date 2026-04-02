@@ -1,20 +1,10 @@
 {
-  "updated": "2026/04/02 10:48",
+  "updated": "2026/04/02 23:02",
   "news": [
     {
-      "title": "Biogen to Acquire Apellis, Enhancing the Company’s Growth Portfolio in Immunology and Rare Disease, Bolstering Growth Outlook and Accelerating Expansion into Nephrology - Biogen",
-      "zh": "百健公司收購Apellis公司，增強公司在免疫學和罕見疾病領域的成長投資組合，強化成長展望並加速進入腎臟病學領域的擴張",
-      "impact": "生物製藥併購，增強百健罕見疾病治療能力和市場競爭力",
-      "sector": "health",
-      "priority": "high",
-      "link": "https://investors.biogen.com/news-releases/news-release-details/biogen-acquire-apellis-enhancing-companys-growth-portfolio",
-      "source": "Biogen.com",
-      "tickers": []
-    },
-    {
       "title": "Lilly to acquire Centessa Pharmaceuticals to advance treatments for sleep-wake disorders - Eli Lilly",
-      "zh": "禮來公司收購Centessa製藥公司，以推進睡眠-覺醒障礙的治療方法",
-      "impact": "製藥併購擴展產品線，進入睡眠障礙治療新領域",
+      "zh": "禮來製藥公司宣布收購Centessa製藥公司，以推進睡眠障礙治療方案",
+      "impact": "禮來加強睡眠疾病藥物管線，擴展治療選項",
       "sector": "health",
       "priority": "medium",
       "link": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-centessa-pharmaceuticals-advance-treatments-sleep",
@@ -22,53 +12,43 @@
       "tickers": []
     },
     {
-      "title": "Europe faces its next big problem: The Iran war is driving up inflation - politico.eu",
-      "zh": "歐洲面臨其下一個重大問題：伊朗戰爭正推高通貨膨脹",
-      "impact": "地緣政治局勢升級，推高歐洲通膨壓力，影響央行政策",
+      "title": "Prediction markets put SpaceX closing market cap at $1.86 trillion as Project Apex shapes up to be the biggest IPO in history",
+      "zh": "預測市場顯示SpaceX收盤市值達1.86兆美元，Project Apex計劃有望成為歷史最大規模IPO",
+      "impact": "SpaceX估值創新高，可能帶動太空產業融資熱潮",
       "sector": "general",
       "priority": "high",
-      "link": "https://www.politico.eu/article/iran-war-drives-eurozone-inflation-up-to-2-x-percent-in-march/",
-      "source": "POLITICO.eu",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-markets-put-spacex-closing-144505472.html",
+      "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "US average gas price hits $4 a gallon amid Iran war - Axios",
-      "zh": "伊朗戰爭推動下，美國平均汽油價格達到每加侖4美元",
-      "impact": "地緣政治衝突推高油價，增加通膨壓力和消費成本",
-      "sector": "energy",
+      "title": "The U.S. isn’t creating many jobs anymore. The March jobs report won’t buck the trend.",
+      "zh": "美國就業市場增長乏力，3月份就業報告預期難有起色",
+      "impact": "美國勞動力市場走弱，央行決策面臨下行壓力",
+      "sector": "general",
       "priority": "high",
-      "link": "https://www.axios.com/2026/03/31/us-gas-price-iran-war",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
-      "title": "US Department of Labor proposes landmark rule to democratize access to alternative investments in 401(k) plans - U.S. Department of Labor (.gov)",
-      "zh": "美國勞工部提議里程碑式法規，使民眾能更容易在401(k)退休計畫中取得替代性投資",
-      "impact": "退休帳戶投資規則改革，擴大替代資產可及性，利好私募股權",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.dol.gov/newsroom/releases/ebsa/ebsa20260330",
-      "source": "Dol.gov",
-      "tickers": []
-    },
-    {
-      "title": "Elon Musk’s SpaceX could lead a wave of jumbo IPOs after reportedly making this key move",
-      "zh": "埃隆·馬斯克的SpaceX公司據報在做出關鍵舉措後，可能引領大型IPO浪潮",
-      "impact": "SpaceX上市進展推動科技巨頭IPO預期，市場融資活動增加",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.marketwatch.com/story/elon-musks-spacex-could-lead-a-wave-of-jumbo-ipos-after-reportedly-making-this-key-move-03ac890f?mod=mw_rss_topstories",
+      "link": "https://www.marketwatch.com/story/the-u-s-isnt-creating-many-jobs-anymore-the-march-jobs-report-wont-buck-the-trend-4db266c8?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories",
       "tickers": []
     },
     {
-      "title": "The SpaceX IPO is great — but it won’t deliver 100x returns",
-      "zh": "SpaceX首次公開募股雖然很棒，但不會帶來100倍的投資回報",
-      "impact": "分析師對SpaceX IPO預期管理，提醒投資者合理評估收益",
-      "sector": "tech",
-      "priority": "low",
-      "link": "https://fortune.com/2026/04/01/why-spacex-ipo-wont-deliver-value-elon-musk/",
-      "source": "Fortune | FORTUNE",
+      "title": "Tesla Disappoints With Q1 Deliveries Miss",
+      "zh": "特斯拉第一季度交付量未達預期，業績表現令人失望",
+      "impact": "特斯拉銷售疲軟，電動車市場競爭加劇",
+      "sector": "consumer",
+      "priority": "high",
+      "link": "https://oilprice.com/Energy/Energy-General/Tesla-Disappoints-With-Q1-Deliveries-Miss.html",
+      "source": "Oilprice.com",
+      "tickers": []
+    },
+    {
+      "title": "China Directs Private Refiners to Maintain Fuel Output Even At A Loss",
+      "zh": "中國政府指導民營煉油廠維持燃油產出，即使虧損也要繼續",
+      "impact": "中國能源戰略調整，油價供應面臨政策干預",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/China-Directs-Private-Refiners-to-Maintain-Fuel-Output-Even-At-A-Loss.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
