@@ -46,13 +46,34 @@ RSS_FEEDS = [
 ]
 
 TZ = timezone(timedelta(hours=8))
-MAX_PER_SOURCE = 3  # 每個來源最多推送條數
+MAX_PER_SOURCE = 3
+
+# Haiku 價格（美元/百萬tokens）
+HAIKU_INPUT_PRICE = 0.80
+HAIKU_OUTPUT_PRICE = 4.00
+
+api_usage = {"input_tokens": 0, "output_tokens": 0}
 
 def now_str():
     return datetime.now(TZ).strftime("%Y-%m-%d %H:%M")
 
+def track_usage(response_json):
+    """記錄 API token 使用量"""
+    try:
+        usage = response_json.get("usage", {})
+        api_usage["input_tokens"] += usage.get("input_tokens", 0)
+        api_usage["output_tokens"] += usage.get("output_tokens", 0)
+    except:
+        pass
+
+def get_cost():
+    """計算預估花費（美元）"""
+    input_cost = api_usage["input_tokens"] / 1_000_000 * HAIKU_INPUT_PRICE
+    output_cost = api_usage["output_tokens"] / 1_000_000 * HAIKU_OUTPUT_PRICE
+    return round(input_cost + output_cost, 4)
+
 def load_sent():
-    """從 GitHub 載入已推送的 hash 清單"""
+    """從 GitHub 載入已推送的 hash 清單，清除7天前記錄"""
     try:
         import base64
         api_url = "https://api.github.com/repos/" + GITHUB_REPO + "/contents/sent.json"
@@ -65,16 +86,23 @@ def load_sent():
             return set(), ""
         data = r.json()
         sha = data.get("sha", "")
-        content = base64.b64decode(data["content"]).decode()
-        sent = set(json.loads(content).get("hashes", []))
-        print(f"已推送記錄：{len(sent)} 條")
-        return sent, sha
+        content = json.loads(base64.b64decode(data["content"]).decode())
+
+        # 清除7天前的記錄
+        cutoff = datetime.now(TZ) - timedelta(days=7)
+        filtered = {
+            h: date_str
+            for h, date_str in content.get("hashes", {}).items()
+            if datetime.fromisoformat(date_str) > cutoff
+        }
+        print(f"已推送記錄：{len(filtered)} 條（清除後）")
+        return set(filtered.keys()), sha, filtered
     except Exception as e:
         print(f"load_sent 錯誤：{e}")
-        return set(), ""
+        return set(), "", {}
 
-def save_sent(sent_hashes, sha):
-    """把已推送的 hash 存回 GitHub"""
+def save_sent(hashes_with_dates, sha):
+    """把已推送的 hash 存回 GitHub（含日期）"""
     try:
         import base64
         api_url = "https://api.github.com/repos/" + GITHUB_REPO + "/contents/sent.json"
@@ -82,9 +110,7 @@ def save_sent(sent_hashes, sha):
             "Authorization": "Bearer " + MY_GITHUB_TOKEN,
             "Accept": "application/vnd.github.v3+json"
         }
-        # 只保留最近 500 條避免檔案過大
-        hashes = list(sent_hashes)[-500:]
-        content = json.dumps({"hashes": hashes}, ensure_ascii=False)
+        content = json.dumps({"hashes": hashes_with_dates}, ensure_ascii=False)
         encoded = base64.b64encode(content.encode()).decode()
         payload = {
             "message": "update sent",
@@ -162,7 +188,9 @@ def quick_filter(titles_batch):
             "https://api.anthropic.com/v1/messages",
             headers=headers, json=body, timeout=10
         )
-        text = r.json()["content"][0]["text"].strip()
+        rj = r.json()
+        track_usage(rj)
+        text = rj["content"][0]["text"].strip()
         results = []
         for line in text.split("\n"):
             line = line.strip()
@@ -204,7 +232,9 @@ def analyze_batch(news_batch):
             "https://api.anthropic.com/v1/messages",
             headers=headers, json=body, timeout=30
         )
-        text = r.json()["content"][0]["text"].strip()
+        rj = r.json()
+        track_usage(rj)
+        text = rj["content"][0]["text"].strip()
         blocks = text.split("---")
         results = []
         for block in blocks:
@@ -284,7 +314,7 @@ def update_news_json(news_list):
     except Exception as e:
         print(f"news.json 更新失敗：{e}")
 
-def send_summary(results):
+def send_summary(results, cost):
     try:
         now = datetime.now(TZ).strftime("%H:%M")
         date = datetime.now(TZ).strftime("%Y/%m/%d")
@@ -306,6 +336,7 @@ def send_summary(results):
         msg += "  🟡 中重要 x" + str(len(medium))
         msg += "  🟢 一般 x" + str(len(low)) + "\n"
         msg += "共 " + str(len(results)) + " 條重要財經新聞\n"
+        msg += "💰 本次花費：$" + str(cost) + " USD\n"
 
         if sectors:
             msg += "\n━━━━━━━━━━━━━━━\n"
@@ -337,7 +368,6 @@ def send_summary(results):
         print(f"send_summary 錯誤：{e}")
 
 def send_daily_summary(daily_results):
-    """每日收盤後總結"""
     try:
         date = datetime.now(TZ).strftime("%Y/%m/%d")
         high = [r for r in daily_results if r[3] == "high"]
@@ -384,7 +414,6 @@ def send_daily_summary(daily_results):
         print(f"send_daily_summary 錯誤：{e}")
 
 def load_daily_results():
-    """從 GitHub 載入今日已推送的結果"""
     try:
         import base64
         today = datetime.now(TZ).strftime("%Y-%m-%d")
@@ -407,7 +436,6 @@ def load_daily_results():
         return [], "", datetime.now(TZ).strftime("%Y-%m-%d")
 
 def save_daily_results(results, sha, today):
-    """儲存今日推送結果"""
     try:
         import base64
         api_url = "https://api.github.com/repos/" + GITHUB_REPO + "/contents/daily.json"
@@ -430,22 +458,18 @@ def save_daily_results(results, sha, today):
         print(f"save_daily_results 錯誤：{e}")
 
 def main():
-    # 載入已推送記錄
-    sent_hashes, sent_sha = load_sent()
+    sent_hashes, sent_sha, hashes_with_dates = load_sent()
 
     seen = set()
     all_news = get_newsapi_titles() + get_rss_titles()
     unique_news = []
     seen_titles = []
-
-    # 來源計數器，限制每個來源最多 MAX_PER_SOURCE 條
     source_count = {}
 
     for item in all_news:
         h = hashlib.md5(item[0].encode()).hexdigest()
         if h in seen:
             continue
-        # 已推送過的跳過
         if h in sent_hashes:
             continue
         is_dup = False
@@ -479,7 +503,8 @@ def main():
 
     results = []
     news_for_json = []
-    new_hashes = set()
+    new_hashes_with_dates = {}
+    now_iso = datetime.now(TZ).isoformat()
 
     for i in range(0, len(important_news), 10):
         batch = important_news[i:i+10]
@@ -488,7 +513,7 @@ def main():
             if not zh:
                 continue
             h = hashlib.md5(title.encode()).hexdigest()
-            new_hashes.add(h)
+            new_hashes_with_dates[h] = now_iso
             emoji = PRIORITY_EMOJI.get(priority, "🟡")
             msg = emoji + " <b>" + title + "</b>\n"
             msg += "🇹🇼 " + zh + "\n"
@@ -509,18 +534,19 @@ def main():
                 "source": source
             })
 
-    if results:
-        send_summary(results)
-        update_news_json(news_for_json)
-        sent_hashes.update(new_hashes)
-        save_sent(sent_hashes, sent_sha)
+    cost = get_cost()
+    print(f"本次 API 花費：${cost} USD（input: {api_usage['input_tokens']} tokens, output: {api_usage['output_tokens']} tokens）")
 
-        # 每日總結：載入今日所有結果合併後儲存
+    if results:
+        send_summary(results, cost)
+        update_news_json(news_for_json)
+        hashes_with_dates.update(new_hashes_with_dates)
+        save_sent(hashes_with_dates, sent_sha)
+
         daily_results, daily_sha, today = load_daily_results()
         daily_results = [tuple(r) for r in daily_results] + results
         save_daily_results(daily_results, daily_sha, today)
 
-        # 判斷是否該發每日總結（台灣時間 05:00-05:59）
         hour = datetime.now(TZ).hour
         if hour == 5:
             send_daily_summary(daily_results)
