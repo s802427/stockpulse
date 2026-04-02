@@ -1,140 +1,155 @@
 {
-  "updated": "2026/04/02 09:31",
+  "updated": "2026/04/02 09:38",
   "news": [
     {
-      "title": "Asia-Pacific markets rebound with Kospi jumping 5% as Trump says Iran war could end in weeks - CNBC",
-      "zh": "亞太市場反彈，韓國綜合指數上漲5%，川普表示伊朗戰爭可能在數週內結束",
-      "impact": "地緣政治緩和推動亞股上升，風險資產受益",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/01/asia-markets-live-today-nikkei-kospi-boj-tankan-iran-war.html",
-      "source": "CNBC"
-    },
-    {
       "title": "Nike Guides for Sales Declines Ahead as Turnaround Plan Hits Snags - WSJ",
-      "zh": "耐克因轉型計畫受挫而下調銷售預期",
-      "impact": "零售巨頭銷售前景黯淡，消費信心疲軟",
+      "zh": "耐克預計銷售額下滑，轉型計劃受挫",
+      "impact": "耐克銷售下滑，轉型困難，股價可能承壓",
       "sector": "consumer",
       "priority": "high",
       "link": "https://www.wsj.com/business/retail/nike-third-quarter-profit-declines-as-weak-demand-in-china-drags-on-edd286cf",
-      "source": "The Wall Street Journal"
+      "source": "The Wall Street Journal",
+      "tickers": []
     },
     {
       "title": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise - TechCrunch",
-      "zh": "尚未上市的OpenAI從零售投資者籌資30億美元，創1220億美元融資記錄",
-      "impact": "AI獨角獸融資創紀錄，估值達歷史高位",
+      "zh": "OpenAI未上市前從散戶投資者融資30億美元，參與122億美元巨額融資",
+      "impact": "OpenAI估值122億美元，散戶投資機會，AI領域融資火熱",
       "sector": "tech",
       "priority": "high",
       "link": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
-      "source": "TechCrunch"
+      "source": "TechCrunch",
+      "tickers": []
     },
     {
       "title": "Hiring in the US drops to pandemic lows as job market under Trump stagnates - Al Jazeera",
-      "zh": "美國招聘跌至疫情低點，川普執政下就業市場陷入停滯",
-      "impact": "就業市場惡化，經濟增長動力減弱",
+      "zh": "美國招聘跌至疫情低點，特朗普執政下就業市場停滯",
+      "impact": "就業市場惡化，失業率可能上升，經濟增長受威脅",
       "sector": "general",
       "priority": "high",
       "link": "https://www.aljazeera.com/economy/2026/3/31/hiring-in-the-us-drops-to-pandemic-lows-as-job-market-under-trump-stagnates",
-      "source": "Al Jazeera English"
+      "source": "Al Jazeera English",
+      "tickers": []
     },
     {
       "title": "Spice maker McCormick to combine with Hellmann's maker Unilever in latest food industry shakeup - AP News",
-      "zh": "香料製造商美極客與美乃滋製造商康寶淳併購，掀起食品業整併浪潮",
-      "impact": "食品業整併加速，行業集中度上升",
+      "zh": "香料製造商美極與蛋黃醬製造商卡夫亨氏母公司聯合利華合併，食品行業又一重組",
+      "impact": "食品行業整合加劇，美極與聯合利華合併，產業集中度上升",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://apnews.com/article/unilever-mccormick-merger-spices-d395e09cc4637177bcfb7cf0f8ce6202",
-      "source": "Associated Press"
+      "source": "Associated Press",
+      "tickers": []
     },
     {
       "title": "Oracle cuts jobs across sales, engineering, security - theregister.com",
-      "zh": "甲骨文在銷售、工程和安全部門裁員",
-      "impact": "科技企業裁員擴大，就業市場承壓",
+      "zh": "甲骨文在銷售、工程、安全部門裁員",
+      "impact": "甲骨文大規模裁員，營運成本下降，但人才流失風險增加",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.theregister.com/2026/03/31/oracle_cuts_jobs/",
-      "source": "Theregister.com"
-    },
-    {
-      "title": "Senators Question FCC Chairman Over Approval Of Nexstar-Tegna Merger - Deadline",
-      "zh": "參議員質詢聯邦通信委員會主席有關Nexstar-Tegna併購案批准",
-      "impact": "監管部門關注傳媒併購，行業整合面臨阻力",
-      "sector": "general",
-      "priority": "medium",
-      "link": "http://deadline.com/2026/03/nexstar-tegna-merger-ted-cruz-brendan-carr-1236769908/",
-      "source": "Deadline"
+      "source": "Theregister.com",
+      "tickers": []
     },
     {
       "title": "Oil Prices Post Biggest Monthly Surge in History - Crude Oil Prices Today | OilPrice.com",
-      "zh": "油價創歷史單月最大漲幅",
-      "impact": "能源價格大幅上漲，通膨壓力加劇",
+      "zh": "油價創歷史最大月度漲幅",
+      "impact": "油價飆升，能源股上漲，但通膨壓力加劇，消費股承壓",
       "sector": "energy",
       "priority": "high",
       "link": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Post-Biggest-Monthly-Surge-in-History.html",
-      "source": "OilPrice.com"
+      "source": "OilPrice.com",
+      "tickers": []
+    },
+    {
+      "title": "S&P 500 Rallies on Unexpected Consumer Confidence Print - TipRanks",
+      "zh": "標普500指數因消費者信心數據意外強勁而上漲",
+      "impact": "消費者信心改善，股市上升，經濟前景樂觀信號",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.tipranks.com/news/sp-500-rallies-on-unexpected-consumer-confidence-print",
+      "source": "Tipranks.com",
+      "tickers": []
     },
     {
       "title": "Mercedes to invest $4 billion in Alabama plant, marks 5 millionth vehicle built in state - Alabama Department of Commerce",
-      "zh": "賓士投資40億美元在阿拉巴馬州工廠，標誌該州第500萬輛車下線",
-      "impact": "汽車製造商加大美國投資，就業機會增加",
+      "zh": "梅賽德斯將在阿拉巴馬州工廠投資40億美元，標誌著該州第500萬輛汽車竣工",
+      "impact": "梅賽德斯投資40億美元，製造業擴張，帶動就業增長",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.madeinalabama.com/2026/03/mercedes-to-invest-4-billion-in-alabama-plant/",
-      "source": "Madeinalabama.com"
+      "source": "Madeinalabama.com",
+      "tickers": []
     },
     {
       "title": "Novo Nordisk Launches Discounted Subscription Program for Wegovy - WSJ",
-      "zh": "諾和諾德推出Wegovy減肥藥折扣訂閱方案",
-      "impact": "降低肥胖症藥物成本，擴大患者取得途徑",
+      "zh": "諾和諾德推出Wegovy減肥藥折扣訂閱計劃",
+      "impact": "Wegovy價格下降，提高可及性，銷售量增加，市場滲透率上升",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.wsj.com/health/pharma/novo-nordisk-launches-discounted-subscription-program-for-wegovy-obesity-drugs-af810920",
-      "source": "The Wall Street Journal"
+      "source": "The Wall Street Journal",
+      "tickers": []
     },
     {
       "title": "Biogen to Acquire Apellis, Enhancing the Company’s Growth Portfolio in Immunology and Rare Disease, Bolstering Growth Outlook and Accelerating Expansion into Nephrology - Biogen",
-      "zh": "百健將收購Apellis公司，加強公司在免疫學和罕見疾病領域的成長組合，提升成長前景並加速進入腎臟病學領域",
-      "impact": "生物製藥公司通過收購擴展免疫學和罕見疾病產品線",
+      "zh": "百健收購Apellis，加強免疫學和罕見病組合，推動增長並加速腎臟科領域擴張",
+      "impact": "百健并購Apellis，進入新市場，增強增長動能，股價上升空間大",
       "sector": "health",
       "priority": "high",
       "link": "https://investors.biogen.com/news-releases/news-release-details/biogen-acquire-apellis-enhancing-companys-growth-portfolio",
-      "source": "Biogen.com"
+      "source": "Biogen.com",
+      "tickers": []
     },
     {
       "title": "Lilly to acquire Centessa Pharmaceuticals to advance treatments for sleep-wake disorders - Eli Lilly",
-      "zh": "禮來將收購Centessa製藥公司，推進睡眠-清醒障礙的治療方法",
-      "impact": "禮來擴展睡眠障礙治療產品組合，鞏固製藥地位",
+      "zh": "禮來公司收購Centessa製藥公司以推進睡眠-覺醒障礙治療方案",
+      "impact": "禮來強化睡眠類藥物研發管線，擴展治療領域布局",
       "sector": "health",
       "priority": "high",
       "link": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-centessa-pharmaceuticals-advance-treatments-sleep",
-      "source": "Lilly.com"
+      "source": "Lilly.com",
+      "tickers": []
     },
     {
       "title": "US Department of Labor proposes landmark rule to democratize access to alternative investments in 401(k) plans - U.S. Department of Labor (.gov)",
-      "zh": "美國勞工部提議里程碑式規則，在401(k)計劃中推行替代投資的民主化進入",
-      "impact": "政策調整將擴大散戶進入另類投資的機會",
+      "zh": "美國勞工部提議里程碑式規則以民主化401(k)計畫中替代投資的獲取途徑",
+      "impact": "散戶投資者獲得替代投資機會增加，資本市場民主化推進",
       "sector": "finance",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.dol.gov/newsroom/releases/ebsa/ebsa20260330",
-      "source": "Dol.gov"
+      "source": "Dol.gov",
+      "tickers": []
+    },
+    {
+      "title": "L3Harris Technologies' Quarterly Earnings Preview: What You Need to Know",
+      "zh": "L3Harris科技公司季度財報預覽：您需要了解的內容",
+      "impact": "國防科技企業業績表現將影響該領域投資評估",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/l3harris-technologies-quarterly-earnings-preview-140323333.html",
+      "source": "Yahoo Finance",
+      "tickers": []
     },
     {
       "title": "Elon Musk’s SpaceX could lead a wave of jumbo IPOs after reportedly making this key move",
-      "zh": "埃隆·馬斯克的SpaceX可能在完成關鍵舉措後領導一波大型IPO浪潮",
-      "impact": "SpaceX上市將推動太空產業發展並帶動新一輪IPO潮",
+      "zh": "埃隆·馬斯克的SpaceX據報進行關鍵舉措後可能引領大型IPO浪潮",
+      "impact": "SpaceX上市預期升溫，航太產業投資熱度上升，市場關注度提高",
       "sector": "general",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.marketwatch.com/story/elon-musks-spacex-could-lead-a-wave-of-jumbo-ipos-after-reportedly-making-this-key-move-03ac890f?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories"
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
     },
     {
       "title": "The SpaceX IPO is great — but it won’t deliver 100x returns",
-      "zh": "SpaceX上市前景看好，但不會帶來百倍回報",
-      "impact": "投資者應對SpaceX上市回報率保持理性預期",
+      "zh": "SpaceX首次公開募股雖好但不會帶來100倍回報",
+      "impact": "投資者應對SpaceX IPO回報預期進行理性調整，風險提示",
       "sector": "general",
-      "priority": "low",
+      "priority": "medium",
       "link": "https://fortune.com/2026/04/01/why-spacex-ipo-wont-deliver-value-elon-musk/",
-      "source": "Fortune | FORTUNE"
+      "source": "Fortune | FORTUNE",
+      "tickers": []
     }
   ]
 }
