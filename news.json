@@ -1,53 +1,33 @@
 {
-  "updated": "2026/04/02 23:02",
+  "updated": "2026/04/03 00:01",
   "news": [
     {
-      "title": "Lilly to acquire Centessa Pharmaceuticals to advance treatments for sleep-wake disorders - Eli Lilly",
-      "zh": "禮來製藥公司宣布收購Centessa製藥公司，以推進睡眠障礙治療方案",
-      "impact": "禮來加強睡眠疾病藥物管線，擴展治療選項",
-      "sector": "health",
+      "title": "Donbas Coal Deal Exposes Fragile Enforcement of Russia Sanctions",
+      "zh": "頓巴斯煤炭交易揭露俄羅斯制裁執行力脆弱",
+      "impact": "俄羅斯制裁漏洞擴大，能源出口繞過限制",
+      "sector": "energy",
       "priority": "medium",
-      "link": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-centessa-pharmaceuticals-advance-treatments-sleep",
-      "source": "Lilly.com",
-      "tickers": []
-    },
-    {
-      "title": "Prediction markets put SpaceX closing market cap at $1.86 trillion as Project Apex shapes up to be the biggest IPO in history",
-      "zh": "預測市場顯示SpaceX收盤市值達1.86兆美元，Project Apex計劃有望成為歷史最大規模IPO",
-      "impact": "SpaceX估值創新高，可能帶動太空產業融資熱潮",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-markets-put-spacex-closing-144505472.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "The U.S. isn’t creating many jobs anymore. The March jobs report won’t buck the trend.",
-      "zh": "美國就業市場增長乏力，3月份就業報告預期難有起色",
-      "impact": "美國勞動力市場走弱，央行決策面臨下行壓力",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.marketwatch.com/story/the-u-s-isnt-creating-many-jobs-anymore-the-march-jobs-report-wont-buck-the-trend-4db266c8?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
-      "title": "Tesla Disappoints With Q1 Deliveries Miss",
-      "zh": "特斯拉第一季度交付量未達預期，業績表現令人失望",
-      "impact": "特斯拉銷售疲軟，電動車市場競爭加劇",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://oilprice.com/Energy/Energy-General/Tesla-Disappoints-With-Q1-Deliveries-Miss.html",
+      "link": "https://oilprice.com/Energy/Energy-General/Donbas-Coal-Deal-Exposes-Fragile-Enforcement-of-Russia-Sanctions.html",
       "source": "Oilprice.com",
       "tickers": []
     },
     {
-      "title": "China Directs Private Refiners to Maintain Fuel Output Even At A Loss",
-      "zh": "中國政府指導民營煉油廠維持燃油產出，即使虧損也要繼續",
-      "impact": "中國能源戰略調整，油價供應面臨政策干預",
+      "title": "40% of Russia's Baltic Oil Export Capacity Offline as Gasoline Ban Widens",
+      "zh": "俄羅斯波羅的海石油出口能力40%因汽油禁令擴大而離線",
+      "impact": "俄羅斯石油出口受阻，全球油價可能上升",
       "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/China-Directs-Private-Refiners-to-Maintain-Fuel-Output-Even-At-A-Loss.html",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/40-of-Russias-Baltic-Oil-Export-Capacity-Offline-as-Gasoline-Ban-Widens.html",
+      "source": "Oilprice.com",
+      "tickers": []
+    },
+    {
+      "title": "Tesla Disappoints With Q1 Deliveries Miss",
+      "zh": "特斯拉第一季交付量未達預期令市場失望",
+      "impact": "特斯拉營收預期下調，電動車需求疲軟信號",
+      "sector": "consumer",
+      "priority": "high",
+      "link": "https://oilprice.com/Energy/Energy-General/Tesla-Disappoints-With-Q1-Deliveries-Miss.html",
       "source": "Oilprice.com",
       "tickers": []
     }
