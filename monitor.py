@@ -46,9 +46,56 @@ RSS_FEEDS = [
 ]
 
 TZ = timezone(timedelta(hours=8))
+MAX_PER_SOURCE = 3  # 每個來源最多推送條數
 
 def now_str():
     return datetime.now(TZ).strftime("%Y-%m-%d %H:%M")
+
+def load_sent():
+    """從 GitHub 載入已推送的 hash 清單"""
+    try:
+        import base64
+        api_url = "https://api.github.com/repos/" + GITHUB_REPO + "/contents/sent.json"
+        headers = {
+            "Authorization": "Bearer " + MY_GITHUB_TOKEN,
+            "Accept": "application/vnd.github.v3+json"
+        }
+        r = requests.get(api_url, headers=headers)
+        if r.status_code == 404:
+            return set(), ""
+        data = r.json()
+        sha = data.get("sha", "")
+        content = base64.b64decode(data["content"]).decode()
+        sent = set(json.loads(content).get("hashes", []))
+        print(f"已推送記錄：{len(sent)} 條")
+        return sent, sha
+    except Exception as e:
+        print(f"load_sent 錯誤：{e}")
+        return set(), ""
+
+def save_sent(sent_hashes, sha):
+    """把已推送的 hash 存回 GitHub"""
+    try:
+        import base64
+        api_url = "https://api.github.com/repos/" + GITHUB_REPO + "/contents/sent.json"
+        headers = {
+            "Authorization": "Bearer " + MY_GITHUB_TOKEN,
+            "Accept": "application/vnd.github.v3+json"
+        }
+        # 只保留最近 500 條避免檔案過大
+        hashes = list(sent_hashes)[-500:]
+        content = json.dumps({"hashes": hashes}, ensure_ascii=False)
+        encoded = base64.b64encode(content.encode()).decode()
+        payload = {
+            "message": "update sent",
+            "content": encoded,
+        }
+        if sha:
+            payload["sha"] = sha
+        requests.put(api_url, headers=headers, json=payload)
+        print("sent.json 更新完成")
+    except Exception as e:
+        print(f"save_sent 錯誤：{e}")
 
 def get_newsapi_titles():
     try:
@@ -245,7 +292,6 @@ def send_summary(results):
         medium = [r for r in results if r[3] == "medium"]
         low = [r for r in results if r[3] == "low"]
 
-        # 板塊分數計算
         sectors = {}
         for r in results:
             s = r[2]
@@ -290,14 +336,117 @@ def send_summary(results):
     except Exception as e:
         print(f"send_summary 錯誤：{e}")
 
+def send_daily_summary(daily_results):
+    """每日收盤後總結"""
+    try:
+        date = datetime.now(TZ).strftime("%Y/%m/%d")
+        high = [r for r in daily_results if r[3] == "high"]
+        medium = [r for r in daily_results if r[3] == "medium"]
+
+        sectors = {}
+        for r in daily_results:
+            s = r[2]
+            if s not in sectors:
+                sectors[s] = []
+            sectors[s].append(PRIORITY_SCORE.get(r[3], 6))
+
+        msg = "🌙 <b>每日總結 " + date + "</b>\n"
+        msg += "━━━━━━━━━━━━━━━\n"
+        msg += "今日共推送 " + str(len(daily_results)) + " 條財經新聞\n"
+        msg += "🔴 高重要 x" + str(len(high)) + "  🟡 中重要 x" + str(len(medium)) + "\n"
+
+        if sectors:
+            msg += "\n💹 <b>今日板塊表現</b>\n"
+            icons = {
+                "tech": "💻", "finance": "🏦", "energy": "⚡",
+                "health": "💊", "consumer": "🛒"
+            }
+            sector_scores = {}
+            for s, scores in sectors.items():
+                if s == "general":
+                    continue
+                avg = round(sum(scores) / len(scores), 1)
+                sector_scores[s] = (avg, len(scores))
+            for s, (avg, count) in sorted(sector_scores.items(), key=lambda x: -x[1][0]):
+                icon = icons.get(s, "📰")
+                emoji = "🔴" if avg >= 8 else "🟡" if avg >= 5 else "🟢"
+                msg += icon + " " + s + "  " + emoji + " " + str(avg) + "/10  x" + str(count) + "\n"
+
+        if high:
+            msg += "\n🏆 <b>今日最重要</b>\n"
+            for i, r in enumerate(high[:5]):
+                if r[1]:
+                    msg += str(i+1) + ". " + r[1] + "\n"
+
+        send_telegram(CHANNELS["all"], msg)
+        print("每日總結已發送")
+    except Exception as e:
+        print(f"send_daily_summary 錯誤：{e}")
+
+def load_daily_results():
+    """從 GitHub 載入今日已推送的結果"""
+    try:
+        import base64
+        today = datetime.now(TZ).strftime("%Y-%m-%d")
+        api_url = "https://api.github.com/repos/" + GITHUB_REPO + "/contents/daily.json"
+        headers = {
+            "Authorization": "Bearer " + MY_GITHUB_TOKEN,
+            "Accept": "application/vnd.github.v3+json"
+        }
+        r = requests.get(api_url, headers=headers)
+        if r.status_code == 404:
+            return [], "", today
+        data = r.json()
+        sha = data.get("sha", "")
+        content = json.loads(base64.b64decode(data["content"]).decode())
+        if content.get("date") != today:
+            return [], sha, today
+        return content.get("results", []), sha, today
+    except Exception as e:
+        print(f"load_daily_results 錯誤：{e}")
+        return [], "", datetime.now(TZ).strftime("%Y-%m-%d")
+
+def save_daily_results(results, sha, today):
+    """儲存今日推送結果"""
+    try:
+        import base64
+        api_url = "https://api.github.com/repos/" + GITHUB_REPO + "/contents/daily.json"
+        headers = {
+            "Authorization": "Bearer " + MY_GITHUB_TOKEN,
+            "Accept": "application/vnd.github.v3+json"
+        }
+        serializable = [list(r) for r in results]
+        content = json.dumps({"date": today, "results": serializable}, ensure_ascii=False)
+        encoded = base64.b64encode(content.encode()).decode()
+        payload = {
+            "message": "update daily",
+            "content": encoded,
+        }
+        if sha:
+            payload["sha"] = sha
+        requests.put(api_url, headers=headers, json=payload)
+        print("daily.json 更新完成")
+    except Exception as e:
+        print(f"save_daily_results 錯誤：{e}")
+
 def main():
+    # 載入已推送記錄
+    sent_hashes, sent_sha = load_sent()
+
     seen = set()
     all_news = get_newsapi_titles() + get_rss_titles()
     unique_news = []
     seen_titles = []
+
+    # 來源計數器，限制每個來源最多 MAX_PER_SOURCE 條
+    source_count = {}
+
     for item in all_news:
         h = hashlib.md5(item[0].encode()).hexdigest()
         if h in seen:
+            continue
+        # 已推送過的跳過
+        if h in sent_hashes:
             continue
         is_dup = False
         for t in seen_titles:
@@ -309,10 +458,19 @@ def main():
                 is_dup = True
                 break
         if not is_dup:
+            source = item[2]
+            source_count[source] = source_count.get(source, 0) + 1
+            if source_count[source] > MAX_PER_SOURCE:
+                continue
             seen.add(h)
             seen_titles.append(item[0])
             unique_news.append(item)
-    print(now_str() + " 收集 " + str(len(unique_news)) + " 條")
+
+    print(now_str() + " 收集 " + str(len(unique_news)) + " 條（新）")
+
+    if not unique_news:
+        print("沒有新新聞，結束")
+        return
 
     important_news = []
     for i in range(0, len(unique_news), 20):
@@ -321,6 +479,7 @@ def main():
 
     results = []
     news_for_json = []
+    new_hashes = set()
 
     for i in range(0, len(important_news), 10):
         batch = important_news[i:i+10]
@@ -328,6 +487,8 @@ def main():
         for (title, link, source), (zh, impact, sector, priority) in zip(batch, analyzed):
             if not zh:
                 continue
+            h = hashlib.md5(title.encode()).hexdigest()
+            new_hashes.add(h)
             emoji = PRIORITY_EMOJI.get(priority, "🟡")
             msg = emoji + " <b>" + title + "</b>\n"
             msg += "🇹🇼 " + zh + "\n"
@@ -351,6 +512,19 @@ def main():
     if results:
         send_summary(results)
         update_news_json(news_for_json)
+        sent_hashes.update(new_hashes)
+        save_sent(sent_hashes, sent_sha)
+
+        # 每日總結：載入今日所有結果合併後儲存
+        daily_results, daily_sha, today = load_daily_results()
+        daily_results = [tuple(r) for r in daily_results] + results
+        save_daily_results(daily_results, daily_sha, today)
+
+        # 判斷是否該發每日總結（台灣時間 05:00-05:59）
+        hour = datetime.now(TZ).hour
+        if hour == 5:
+            send_daily_summary(daily_results)
+
     print(now_str() + " 推送 " + str(len(results)) + " 條")
 
 if __name__ == "__main__":
