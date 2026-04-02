@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/03 06:01",
+  "updated": "2026/04/03 06:38",
   "news": [
     {
       "title": "Stellantis in Talks to Make Chinese EVs at Idle Canada Plant - bloomberg.com",
-      "zh": "斯坦蒂斯談在加拿大閒置工廠生產中國電動車",
-      "impact": "美國製造業轉移，可能影響北美汽車供應鏈",
+      "zh": "史坦利斯洽談在閒置加拿大廠房生產中國電動車",
+      "impact": "美國製造業政策面臨中國電動車產能轉移挑戰",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-01/stellantis-in-talks-to-make-chinese-evs-at-idled-canadian-plant",
@@ -13,8 +13,8 @@
     },
     {
       "title": "SpaceX files initial paperwork to sell shares to the public and likely make Musk a trillionaire - AP News",
-      "zh": "SpaceX提交初步文件進行公開募股，可能使馬斯克成為兆萬富豪",
-      "impact": "太空產業里程碑，馬斯克資產激增，市場關注度極高",
+      "zh": "SpaceX提交初步文件啟動公開融資，馬斯克可望成為兆萬富翁",
+      "impact": "科技獨角獸融資里程碑，馬斯克身價再創新高",
       "sector": "tech",
       "priority": "high",
       "link": "https://apnews.com/article/musk-spacex-nasa-trump-ipo-trillionaire-stock-offering-6a6bbdc41f9338b581f50450a496f11e",
@@ -23,28 +23,18 @@
     },
     {
       "title": "Nike shares drop on unexpected forecast for sales decline - Financial Times",
-      "zh": "耐克股價下跌，因銷售預期意外下滑",
-      "impact": "消費信心警訊，零售業前景悲觀",
+      "zh": "耐克股價下跌，因銷售下降預測超出預期",
+      "impact": "全球消費者需求疲軟，零售業景氣堪憂",
       "sector": "consumer",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.ft.com/content/7e360bee-6768-4ca2-9bd0-fc0561cbc2f6?syn-25a6b1a6\\\\u003d1",
       "source": "Financial Times",
       "tickers": []
     },
     {
-      "title": "Oil's worst-case scenario: $200 if Hormuz remains closed - Axios",
-      "zh": "石油最壞情景：若荷莫茲海峽封閉油價可漲至200美元",
-      "impact": "全球能源危機風險，經濟衰退威脅",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.axios.com/2026/04/01/oil-prices-200-barrel-strait-hormuz",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
       "title": "OpenAI starts to open the door to individual investors - Axios",
-      "zh": "OpenAI開放個人投資者參與",
-      "impact": "AI產業融資民主化，散戶參與獨角獸",
+      "zh": "OpenAI開始向個人投資者開放投資機會",
+      "impact": "AI領域融資民主化，散戶參與頂級AI公司投資",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.axios.com/2026/03/31/openai-ai-stock-investors-ipo",
@@ -52,9 +42,19 @@
       "tickers": []
     },
     {
+      "title": "Oracle Layoffs Lead To Heartbreaking Posts On LinkedIn - forbes.com",
+      "zh": "甲骨文裁員引發LinkedIn上令人心碎的員工貼文",
+      "impact": "科技業大規模裁員持續，員工市場信心下降",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.forbes.com/sites/johnbbrandon/2026/03/31/oracle-layoffs-lead-to-heartbreaking-posts-on-linkedin/",
+      "source": "Forbes",
+      "tickers": []
+    },
+    {
       "title": "Nexstar Tells Judge Aspects Of Tegna Merger \"Cannot Be Reversed\" - Deadline",
-      "zh": "Nexstar告訴法官Tegna併購的某些方面「無法逆轉」",
-      "impact": "媒體併購進展，監管風險評估",
+      "zh": "Nexstar告知法官Tegna併購交易「某些方面無法反轉」",
+      "impact": "媒體併購交易監管風險上升，法律訴訟面臨挑戰",
       "sector": "general",
       "priority": "low",
       "link": "http://deadline.com/2026/03/nexstar-tegna-merger-blocked-1236770348/",
@@ -63,8 +63,8 @@
     },
     {
       "title": "Stocks have their worst quarter since 2022, raising doubts about Trump's economic playbook - NBC News",
-      "zh": "股票經歷2022年以來最差季度，引發對川普經濟政策的質疑",
-      "impact": "市場前景悲觀，經濟政策有效性受質疑",
+      "zh": "美股經歷2022年來最差季度，引發對川普經濟政策的疑慮",
+      "impact": "市場走弱威脅新政府經濟政策效果預期",
       "sector": "general",
       "priority": "high",
       "link": "https://www.nbcnews.com/business/markets/trump-2026-losses-stocks-iran-war-rcna266009",
@@ -73,8 +73,8 @@
     },
     {
       "title": "Nvidia Invests $2 Billion in Marvell, Announces Partnership - bloomberg.com",
-      "zh": "英偉達向馬維爾投資20億美元，宣布合作夥伴關係",
-      "impact": "AI晶片產業整合，半導體供應鏈深化",
+      "zh": "英偉達投資20億美元於美瑞爾並宣佈夥伴關係",
+      "impact": "AI晶片生態整合深化，馬瑞爾價值重估",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-03-31/nvidia-invests-2-billion-in-marvell-announces-partnership",
@@ -83,8 +83,8 @@
     },
     {
       "title": "Biogen Snaps Up $5.6 Billion Deal. Why Shares Fell. - Investor's Business Daily",
-      "zh": "百健斥資56億美元完成交易，但股價反而下跌",
-      "impact": "藥業併購，市場對交易案持悲觀態度",
+      "zh": "百健斥資56億美元併購，股價卻下跌",
+      "impact": "大型併購未獲市場認可，生醫產業整合效益受質疑",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.investors.com/news/technology/biogen-apellis-pharmaceuticals-buyout-syfovre-empaveli/",
@@ -93,8 +93,8 @@
     },
     {
       "title": "Novo Nordisk cuts 400 roles at troubled Bloomington site - Fierce Pharma",
-      "zh": "諾和諾德在布盧明頓問題工廠削減400個職位",
-      "impact": "製藥業裁員，美國製造業就業下滑",
+      "zh": "諾和諾德在陷入困境的布盧明頓廠裁員400人",
+      "impact": "製藥業產能調整，布盧明頓廠營運面臨重組",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.fiercepharma.com/manufacturing/novo-nordisk-cuts-hundreds-roles-troubled-bloomington-site",
@@ -103,8 +103,8 @@
     },
     {
       "title": "U.S. Job Openings and Hiring Fell in February - wsj.com",
-      "zh": "美國2月份職位空缺和招聘人數下降",
-      "impact": "勞動市場疲軟，可能影響美聯儲政策決策",
+      "zh": "美國2月份職位空缺和招聘下降",
+      "impact": "勞動力市場冷卻，可能影響聯邦公開市場委員會政策方向",
       "sector": "general",
       "priority": "high",
       "link": "https://www.wsj.com/economy/jobs/u-s-job-openings-and-hiring-fell-in-february-39d3e609",
@@ -113,52 +113,32 @@
     },
     {
       "title": "The Home Depot Names Franziska Bell EVP and Chief Technology Officer - ir.homedepot.com",
-      "zh": "家得寶任命Franziska Bell為執行副總裁兼首席技術官",
-      "impact": "公司管理層調整，強化技術戰略",
+      "zh": "家得寶任命弗蘭茲斯卡·貝爾為執行副總裁兼首席技術官",
+      "impact": "零售龍頭加強數位轉型，強化技術領導層",
       "sector": "consumer",
-      "priority": "low",
+      "priority": "medium",
       "link": "https://ir.homedepot.com/news-releases/2026/03-31-2026-151518793",
       "source": "Homedepot.com",
       "tickers": []
     },
     {
-      "title": "Moody’s Rates First Bitcoin Backed Bond",
-      "zh": "穆迪對首個比特幣支持債券進行評級",
-      "impact": "加密資產融入傳統金融系統的重要進展",
-      "sector": "finance",
+      "title": "Sam’s Club is hiking its membership fees. Analysts suggest Costco and BJ’s could be next.",
+      "zh": "山姆會員店調漲會費，分析師預測好市多和必樂購可能跟進",
+      "impact": "零售會員模式變化，消費者成本上升，通膨壓力延續",
+      "sector": "consumer",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/moody-rates-first-bitcoin-backed-133500508.html",
-      "source": "Yahoo Finance",
+      "link": "https://www.marketwatch.com/story/sams-club-is-hiking-its-membership-fees-analysts-say-costco-and-bjs-could-be-next-a8eb71a3?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
       "tickers": []
     },
     {
-      "title": "CMS Energy's Quarterly Earnings Preview: What You Need to Know",
-      "zh": "CMS能源公司季度財報預覽：您需要了解的信息",
-      "impact": "能源企業營運表現預期更新",
-      "sector": "energy",
-      "priority": "low",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/cms-energys-quarterly-earnings-preview-134626054.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Trump wants to add nearly $7 trillion to the $39 trillion national debt with his new military budget, watchdog warns",
-      "zh": "監督機構警告川普計劃向39萬億美元國債增加近7萬億美元的新軍事預算",
-      "impact": "政策風險影響長期債務和財政穩定性",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://fortune.com/2026/04/02/how-much-would-trump-military-budget-add-to-national-debt-39-trillion/",
-      "source": "Fortune | FORTUNE",
-      "tickers": []
-    },
-    {
-      "title": "Mercor, a $10 billion AI startup that works with companies including OpenAI and Anthropic, confirms major data breach",
-      "zh": "價值100億美元的AI新創Mercor與OpenAI和Anthropic等公司合作，確認發生重大數據洩露",
-      "impact": "獨角獸公司資安危機，影響AI產業信譽",
+      "title": "AI Leads Record Deal Flow While Energy Reality Looms",
+      "zh": "人工智慧引領創紀錄交易流量，同時能源現實隱現",
+      "impact": "AI併購熱潮持續，但能源轉型挑戰凸顯市場分歧",
       "sector": "tech",
-      "priority": "high",
-      "link": "https://fortune.com/2026/04/02/mercor-ai-startup-security-incident-10-billion/",
-      "source": "Fortune | FORTUNE",
+      "priority": "medium",
+      "link": "https://oilprice.com/Energy/Energy-General/AI-Leads-Record-Deal-Flow-While-Energy-Reality-Looms.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
