@@ -35,7 +35,6 @@ PRIORITY_SCORE = {
     "low": 3,
 }
 
-# 常見股票代號對應中文名稱
 STOCK_NAMES = {
     "AAPL": "蘋果", "MSFT": "微軟", "GOOGL": "Google", "GOOG": "Google",
     "AMZN": "亞馬遜", "NVDA": "輝達", "META": "Meta", "TSLA": "特斯拉",
@@ -89,7 +88,6 @@ def get_cost():
     return round(input_cost + output_cost, 4)
 
 def detect_tickers(text):
-    """偵測文字中的股票代號，回傳標注後的字串"""
     found = []
     for ticker, name in STOCK_NAMES.items():
         pattern = r'\b' + ticker + r'\b'
@@ -381,12 +379,17 @@ def send_summary(results, cost):
                 if r[1]:
                     msg += str(i+1) + ". " + r[1] + "\n"
 
+            msg += "\n━━━━━━━━━━━━━━━\n"
+            msg += "🚨 <b>本次重大新聞</b>\n"
+            for r in high:
+                if r[0]:
+                    msg += "• " + r[0] + "\n"
+
         send_telegram(CHANNELS["all"], msg)
     except Exception as e:
         print(f"send_summary 錯誤：{e}")
 
 def send_premarket(daily_results):
-    """美股開盤前預告（台灣時間21:00）"""
     try:
         now = datetime.now(TZ).strftime("%H:%M")
         high = [r for r in daily_results if r[3] == "high"]
@@ -557,7 +560,6 @@ def main():
 
     if not unique_news:
         print("沒有新新聞，結束")
-        # 仍然檢查是否需要發開盤前預告或每日總結
         daily_results, daily_sha, today = load_daily_results()
         daily_results = [tuple(r) for r in daily_results]
         hour = datetime.now(TZ).hour
@@ -586,7 +588,6 @@ def main():
             h = hashlib.md5(title.encode()).hexdigest()
             new_hashes_with_dates[h] = now_iso
 
-            # 偵測股票代號
             tickers = detect_tickers(title)
 
             emoji = PRIORITY_EMOJI.get(priority, "🟡")
@@ -598,7 +599,6 @@ def main():
             msg += "\n🔗 <a href='" + link + "'>閱讀全文</a>\n"
             msg += "📡 <code>" + source + "</code>"
 
-            # 高重要新聞即時警報
             if priority == "high":
                 alert_msg = "🚨 <b>重大新聞警報</b>\n" + msg
                 send_telegram(CHANNELS["all"], alert_msg)
