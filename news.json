@@ -1,110 +1,20 @@
 {
-  "updated": "2026/04/02 09:45",
+  "updated": "2026/04/02 09:53",
   "news": [
     {
-      "title": "Asia-Pacific markets rebound with Kospi jumping 5% as Trump says Iran war could end in weeks - CNBC",
-      "zh": "亞太市場反彈，韓國綜合指數飆升5%，川普表示伊朗戰爭可能在數週內結束",
-      "impact": "地緣政治緩和推動市場情緒改善，亞股上漲",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.cnbc.com/2026/04/01/asia-markets-live-today-nikkei-kospi-boj-tankan-iran-war.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "Nike Guides for Sales Declines Ahead as Turnaround Plan Hits Snags - WSJ",
-      "zh": "耐克指導銷售將下滑，因轉型計畫遭遇挫折",
-      "impact": "耐克銷售前景疲弱，消費者需求下降",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://www.wsj.com/business/retail/nike-third-quarter-profit-declines-as-weak-demand-in-china-drags-on-edd286cf",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
-      "title": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise - TechCrunch",
-      "zh": "未上市的OpenAI從散戶投資者籌集30億美元，為1220億美元融資案的一部分",
-      "impact": "OpenAI估值達1220億美元，AI產業融資創新高",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
-      "source": "TechCrunch",
-      "tickers": []
-    },
-    {
-      "title": "Hiring in the US drops to pandemic lows as job market under Trump stagnates - Al Jazeera",
-      "zh": "美國招聘跌至疫情以來低點，川普執政下就業市場陷入停滯",
-      "impact": "美國就業市場嚴重惡化，經濟增長面臨風險",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.aljazeera.com/economy/2026/3/31/hiring-in-the-us-drops-to-pandemic-lows-as-job-market-under-trump-stagnates",
-      "source": "Al Jazeera English",
-      "tickers": []
-    },
-    {
-      "title": "Spice maker McCormick to combine with Hellmann's maker Unilever in latest food industry shakeup - AP News",
-      "zh": "香料製造商美極客與蛋黃醬製造商亨氏母公司聯合利華合併，為食品業最新整合案",
-      "impact": "食品業併購整合加速，市場集中度提升",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://apnews.com/article/unilever-mccormick-merger-spices-d395e09cc4637177bcfb7cf0f8ce6202",
-      "source": "Associated Press",
-      "tickers": []
-    },
-    {
-      "title": "Oracle cuts jobs across sales, engineering, security - theregister.com",
-      "zh": "甲骨文在銷售、工程、安全部門裁員",
-      "impact": "科技大廠裁員持續，營運成本控制",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.theregister.com/2026/03/31/oracle_cuts_jobs/",
-      "source": "Theregister.com",
-      "tickers": []
-    },
-    {
-      "title": "Senators Question FCC Chairman Over Approval Of Nexstar-Tegna Merger - Deadline",
-      "zh": "參議員質詢聯邦通訊委員會主席關於批准Nexstar併購Tegna案",
-      "impact": "媒體併購案面臨監管審查，交易前景不確定",
-      "sector": "general",
-      "priority": "low",
-      "link": "http://deadline.com/2026/03/nexstar-tegna-merger-ted-cruz-brendan-carr-1236769908/",
-      "source": "Deadline",
-      "tickers": []
-    },
-    {
-      "title": "Oil Prices Post Biggest Monthly Surge in History - Crude Oil Prices Today | OilPrice.com",
-      "zh": "油價創下歷史最大單月漲幅",
-      "impact": "能源價格急漲，推高通膨壓力和生產成本",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Post-Biggest-Monthly-Surge-in-History.html",
-      "source": "OilPrice.com",
-      "tickers": []
-    },
-    {
-      "title": "Mercedes to invest $4 billion in Alabama plant, marks 5 millionth vehicle built in state - Alabama Department of Commerce",
-      "zh": "賓士將在阿拉巴馬州投資40億美元建廠，標誌該州第500萬輛車下線",
-      "impact": "汽車製造商增加美國投資，就業機會擴增",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.madeinalabama.com/2026/03/mercedes-to-invest-4-billion-in-alabama-plant/",
-      "source": "Madeinalabama.com",
-      "tickers": []
-    },
-    {
       "title": "Biogen to Acquire Apellis, Enhancing the Company’s Growth Portfolio in Immunology and Rare Disease, Bolstering Growth Outlook and Accelerating Expansion into Nephrology - Biogen",
-      "zh": "百健收購Apellis，強化免疫學和罕見疾病投資組合，加強成長前景並加速拓展腎臟病領域",
-      "impact": "生物製藥併購擴大產品線，強化罕見病治療能力",
+      "zh": "百健公司收購Apellis，強化免疫學和罕見疾病投資組合，提升增長前景並加速進入腎臟病領域",
+      "impact": "百健透過併購擴展罕見疾病和腎臟病治療藥物組合",
       "sector": "health",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://investors.biogen.com/news-releases/news-release-details/biogen-acquire-apellis-enhancing-companys-growth-portfolio",
       "source": "Biogen.com",
       "tickers": []
     },
     {
       "title": "Lilly to acquire Centessa Pharmaceuticals to advance treatments for sleep-wake disorders - Eli Lilly",
-      "zh": "禮來製藥公司收購Centessa製藥公司，推進睡眠-覺醒障礙的治療方案",
-      "impact": "禮來製藥擴展睡眠疾病藥物管道，增強競爭力和收入潛力",
+      "zh": "禮來公司收購Centessa製藥公司以推進睡眠-清醒障礙治療",
+      "impact": "禮來拓展睡眠疾病治療領域的藥物管線",
       "sector": "health",
       "priority": "high",
       "link": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-centessa-pharmaceuticals-advance-treatments-sleep",
@@ -112,9 +22,29 @@
       "tickers": []
     },
     {
+      "title": "Europe faces its next big problem: The Iran war is driving up inflation - politico.eu",
+      "zh": "歐洲面臨下一個大問題：伊朗戰爭推高通貨膨脹",
+      "impact": "伊朗衝突加劇歐洲通膨壓力，衝擊能源價格",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.politico.eu/article/iran-war-drives-eurozone-inflation-up-to-2-x-percent-in-march/",
+      "source": "POLITICO.eu",
+      "tickers": []
+    },
+    {
+      "title": "US average gas price hits $4 a gallon amid Iran war - Axios",
+      "zh": "伊朗戰爭中美國平均汽油價格飆升至每加侖4美元",
+      "impact": "地緣政治風險推高油價，影響消費者和企業成本",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.axios.com/2026/03/31/us-gas-price-iran-war",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
       "title": "US Department of Labor proposes landmark rule to democratize access to alternative investments in 401(k) plans - U.S. Department of Labor (.gov)",
-      "zh": "美國勞工部提出里程碑式規則，民主化401(k)計劃中另類投資的准入",
-      "impact": "個人退休投資選擇增加，影響資產配置和金融市場結構",
+      "zh": "美國勞工部提出里程碑式規則，民主化401(k)計劃中替代投資的准入途徑",
+      "impact": "擴大散戶對替代投資的准入，影響財富管理業格局",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.dol.gov/newsroom/releases/ebsa/ebsa20260330",
@@ -123,20 +53,20 @@
     },
     {
       "title": "Elon Musk’s SpaceX could lead a wave of jumbo IPOs after reportedly making this key move",
-      "zh": "埃隆·馬斯克的SpaceX在做出關鍵舉措後，可能引領大型IPO浪潮",
-      "impact": "SpaceX潛在上市引發市場熱潮，吸引大型企業跟進融資",
-      "sector": "general",
-      "priority": "high",
+      "zh": "埃隆·馬斯克的SpaceX可能在做出關鍵舉動後領導一波巨型IPO浪潮",
+      "impact": "SpaceX可能啟動IPO，帶動科技公司上市潮",
+      "sector": "tech",
+      "priority": "medium",
       "link": "https://www.marketwatch.com/story/elon-musks-spacex-could-lead-a-wave-of-jumbo-ipos-after-reportedly-making-this-key-move-03ac890f?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories",
       "tickers": []
     },
     {
       "title": "The SpaceX IPO is great — but it won’t deliver 100x returns",
-      "zh": "SpaceX上市不錯，但不會帶來100倍回報",
-      "impact": "投資者應對SpaceX IPO設定現實期望，避免過度樂觀預期",
-      "sector": "general",
-      "priority": "medium",
+      "zh": "SpaceX IPO前景看好，但難以實現百倍回報",
+      "impact": "分析師對SpaceX IPO估值保持理性預期",
+      "sector": "tech",
+      "priority": "low",
       "link": "https://fortune.com/2026/04/01/why-spacex-ipo-wont-deliver-value-elon-musk/",
       "source": "Fortune | FORTUNE",
       "tickers": []
