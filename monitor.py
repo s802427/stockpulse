@@ -95,6 +95,57 @@ def detect_tickers(text):
             found.append("$" + ticker + "（" + name + "）")
     return found
 
+def verify_breaking_news(high_news):
+    """第三層篩選：嚴格驗證高重要新聞"""
+    if not high_news:
+        return []
+    try:
+        headers = {
+            "x-api-key": ANTHROPIC_KEY,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json"
+        }
+        news_list = "\n".join(
+            str(i+1) + ". " + item[0] for i, item in enumerate(high_news)
+        )
+        prompt = "以下新聞已被初步標記為高重要，請嚴格二次驗證。\n"
+        prompt += "只回覆通過驗證的編號，用逗號分隔。\n\n"
+        prompt += "必須符合以下其中一項才算真正重大新聞：\n"
+        prompt += "- 央行利率決策（Fed、ECB、日銀等）\n"
+        prompt += "- 重大財報（大幅超預期或miss）\n"
+        prompt += "- 大型併購（10億美元以上）\n"
+        prompt += "- 大規模裁員（千人以上）\n"
+        prompt += "- 重大IPO（獨角獸等級）\n"
+        prompt += "- 影響全球市場的地緣政治事件\n"
+        prompt += "- 系統性風險（銀行危機、市場崩盤）\n"
+        prompt += "- 重大經濟數據（CPI、GDP、非農就業等）\n\n"
+        prompt += "不符合以上標準的一律不通過。\n\n"
+        prompt += news_list
+        body = {
+            "model": "claude-haiku-4-5-20251001",
+            "max_tokens": 100,
+            "messages": [{"role": "user", "content": prompt}]
+        }
+        r = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers=headers, json=body, timeout=10
+        )
+        rj = r.json()
+        track_usage(rj)
+        text = rj["content"][0]["text"].strip()
+        verified = []
+        for x in text.split(","):
+            x = x.strip()
+            if x.isdigit():
+                idx = int(x) - 1
+                if idx < len(high_news):
+                    verified.append(high_news[idx])
+        print(f"重大新聞驗證：{len(high_news)} 條 → {len(verified)} 條通過")
+        return verified
+    except Exception as e:
+        print(f"verify_breaking_news 錯誤：{e}")
+        return high_news  # 出錯時保留原本
+
 def load_sent():
     try:
         import base64
@@ -236,7 +287,11 @@ def analyze_batch(news_batch):
         prompt += "TRANSLATION: 繁體中文翻譯\n"
         prompt += "IMPACT: 影響15字內\n"
         prompt += "SECTOR: tech或finance或energy或health或consumer或general\n"
-        prompt += "PRIORITY: high或medium或low\n"
+        prompt += "PRIORITY: high或medium或low\n\n"
+        prompt += "PRIORITY判斷標準：\n"
+        prompt += "high：央行決策、重大財報、10億美元以上併購、千人以上裁員、獨角獸IPO、系統性風險\n"
+        prompt += "medium：一般財經新聞有市場影響\n"
+        prompt += "low：資訊性、背景性新聞\n"
         prompt += "請務必使用繁體中文，不得使用簡體中文。\n\n"
         prompt += news_list
         body = {
@@ -330,7 +385,7 @@ def update_news_json(news_list):
     except Exception as e:
         print(f"news.json 更新失敗：{e}")
 
-def send_summary(results, cost):
+def send_summary(results, cost, verified_high):
     try:
         now = datetime.now(TZ).strftime("%H:%M")
         date = datetime.now(TZ).strftime("%Y/%m/%d")
@@ -379,11 +434,12 @@ def send_summary(results, cost):
                 if r[1]:
                     msg += str(i+1) + ". " + r[1] + "\n"
 
+        if verified_high:
             msg += "\n━━━━━━━━━━━━━━━\n"
             msg += "🚨 <b>本次重大新聞</b>\n"
-            for r in high:
-                if r[0]:
-                    msg += "• " + r[0] + "\n"
+            for r in verified_high:
+                if r[1]:
+                    msg += "• " + r[1] + "\n"
 
         send_telegram(CHANNELS["all"], msg)
     except Exception as e:
@@ -578,6 +634,7 @@ def main():
     news_for_json = []
     new_hashes_with_dates = {}
     now_iso = datetime.now(TZ).isoformat()
+    high_news_for_verify = []
 
     for i in range(0, len(important_news), 10):
         batch = important_news[i:i+10]
@@ -599,16 +656,14 @@ def main():
             msg += "\n🔗 <a href='" + link + "'>閱讀全文</a>\n"
             msg += "📡 <code>" + source + "</code>"
 
-            if priority == "high":
-                alert_msg = "🚨 <b>重大新聞警報</b>\n" + msg
-                send_telegram(CHANNELS["all"], alert_msg)
-            else:
-                send_telegram(CHANNELS["all"], msg)
-
+            send_telegram(CHANNELS["all"], msg)
             if sector in CHANNELS and sector != "general":
                 send_telegram(CHANNELS[sector], msg)
 
             results.append((title, zh, sector, priority))
+            if priority == "high":
+                high_news_for_verify.append((title, zh, sector, priority))
+
             news_for_json.append({
                 "title": title,
                 "zh": zh,
@@ -620,11 +675,23 @@ def main():
                 "tickers": tickers
             })
 
+    # 第三層：驗證重大新聞
+    verified_high = verify_breaking_news(high_news_for_verify)
+
+    # 重大新聞警報：只有通過驗證的才發
+    for r in verified_high:
+        title, zh, sector, priority = r
+        emoji = PRIORITY_EMOJI.get(priority, "🟡")
+        alert_msg = "🚨 <b>重大新聞警報</b>\n"
+        alert_msg += emoji + " <b>" + title + "</b>\n"
+        alert_msg += "🇹🇼 " + zh + "\n"
+        send_telegram(CHANNELS["all"], alert_msg)
+
     cost = get_cost()
     print(f"本次 API 花費：${cost} USD（input: {api_usage['input_tokens']} tokens, output: {api_usage['output_tokens']} tokens）")
 
     if results:
-        send_summary(results, cost)
+        send_summary(results, cost, verified_high)
         update_news_json(news_for_json)
         hashes_with_dates.update(new_hashes_with_dates)
         save_sent(hashes_with_dates, sent_sha)
