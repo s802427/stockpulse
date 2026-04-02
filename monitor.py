@@ -4,6 +4,7 @@ import hashlib
 import os
 import json
 import time
+import re
 from datetime import datetime, timezone, timedelta
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
@@ -34,6 +35,25 @@ PRIORITY_SCORE = {
     "low": 3,
 }
 
+# 常見股票代號對應中文名稱
+STOCK_NAMES = {
+    "AAPL": "蘋果", "MSFT": "微軟", "GOOGL": "Google", "GOOG": "Google",
+    "AMZN": "亞馬遜", "NVDA": "輝達", "META": "Meta", "TSLA": "特斯拉",
+    "AMD": "AMD", "INTC": "英特爾", "NFLX": "Netflix", "DIS": "迪士尼",
+    "JPM": "摩根大通", "BAC": "美國銀行", "GS": "高盛", "MS": "摩根史丹利",
+    "XOM": "埃克森美孚", "CVX": "雪佛龍", "COP": "康菲石油",
+    "JNJ": "嬌生", "PFE": "輝瑞", "MRK": "默克", "ABBV": "艾伯維",
+    "WMT": "沃爾瑪", "COST": "好市多", "TGT": "Target",
+    "BRK": "波克夏", "V": "Visa", "MA": "萬事達",
+    "UBER": "Uber", "LYFT": "Lyft", "ABNB": "Airbnb",
+    "COIN": "Coinbase", "HOOD": "Robinhood",
+    "NKE": "耐吉", "SBUX": "星巴克", "MCD": "麥當勞",
+    "BA": "波音", "CAT": "開拓重工", "GE": "通用電氣",
+    "PLTR": "Palantir", "SNOW": "Snowflake", "CRM": "Salesforce",
+    "ORCL": "甲骨文", "IBM": "IBM", "DELL": "戴爾", "HPQ": "惠普",
+    "TSM": "台積電", "ASML": "艾司摩爾",
+}
+
 RSS_FEEDS = [
     "https://finance.yahoo.com/news/rssindex",
     "https://feeds.marketwatch.com/marketwatch/topstories/",
@@ -48,17 +68,14 @@ RSS_FEEDS = [
 TZ = timezone(timedelta(hours=8))
 MAX_PER_SOURCE = 3
 
-# Haiku 價格（美元/百萬tokens）
 HAIKU_INPUT_PRICE = 0.80
 HAIKU_OUTPUT_PRICE = 4.00
-
 api_usage = {"input_tokens": 0, "output_tokens": 0}
 
 def now_str():
     return datetime.now(TZ).strftime("%Y-%m-%d %H:%M")
 
 def track_usage(response_json):
-    """記錄 API token 使用量"""
     try:
         usage = response_json.get("usage", {})
         api_usage["input_tokens"] += usage.get("input_tokens", 0)
@@ -67,13 +84,20 @@ def track_usage(response_json):
         pass
 
 def get_cost():
-    """計算預估花費（美元）"""
     input_cost = api_usage["input_tokens"] / 1_000_000 * HAIKU_INPUT_PRICE
     output_cost = api_usage["output_tokens"] / 1_000_000 * HAIKU_OUTPUT_PRICE
     return round(input_cost + output_cost, 4)
 
+def detect_tickers(text):
+    """偵測文字中的股票代號，回傳標注後的字串"""
+    found = []
+    for ticker, name in STOCK_NAMES.items():
+        pattern = r'\b' + ticker + r'\b'
+        if re.search(pattern, text, re.IGNORECASE):
+            found.append("$" + ticker + "（" + name + "）")
+    return found
+
 def load_sent():
-    """從 GitHub 載入已推送的 hash 清單，清除7天前記錄"""
     try:
         import base64
         api_url = "https://api.github.com/repos/" + GITHUB_REPO + "/contents/sent.json"
@@ -83,12 +107,10 @@ def load_sent():
         }
         r = requests.get(api_url, headers=headers)
         if r.status_code == 404:
-            return set(), ""
+            return set(), "", {}
         data = r.json()
         sha = data.get("sha", "")
         content = json.loads(base64.b64decode(data["content"]).decode())
-
-        # 清除7天前的記錄
         cutoff = datetime.now(TZ) - timedelta(days=7)
         filtered = {
             h: date_str
@@ -102,7 +124,6 @@ def load_sent():
         return set(), "", {}
 
 def save_sent(hashes_with_dates, sha):
-    """把已推送的 hash 存回 GitHub（含日期）"""
     try:
         import base64
         api_url = "https://api.github.com/repos/" + GITHUB_REPO + "/contents/sent.json"
@@ -112,10 +133,7 @@ def save_sent(hashes_with_dates, sha):
         }
         content = json.dumps({"hashes": hashes_with_dates}, ensure_ascii=False)
         encoded = base64.b64encode(content.encode()).decode()
-        payload = {
-            "message": "update sent",
-            "content": encoded,
-        }
+        payload = {"message": "update sent", "content": encoded}
         if sha:
             payload["sha"] = sha
         requests.put(api_url, headers=headers, json=payload)
@@ -367,6 +385,54 @@ def send_summary(results, cost):
     except Exception as e:
         print(f"send_summary 錯誤：{e}")
 
+def send_premarket(daily_results):
+    """美股開盤前預告（台灣時間21:00）"""
+    try:
+        now = datetime.now(TZ).strftime("%H:%M")
+        high = [r for r in daily_results if r[3] == "high"]
+        medium = [r for r in daily_results if r[3] == "medium"]
+
+        sectors = {}
+        for r in daily_results:
+            s = r[2]
+            if s not in sectors:
+                sectors[s] = []
+            sectors[s].append(PRIORITY_SCORE.get(r[3], 6))
+
+        msg = "🔔 <b>美股開盤前重點 " + now + "</b>\n"
+        msg += "━━━━━━━━━━━━━━━\n"
+        msg += "今日盤前共 " + str(len(daily_results)) + " 條財經新聞\n"
+        msg += "🔴 高重要 x" + str(len(high)) + "  🟡 中重要 x" + str(len(medium)) + "\n"
+
+        if sectors:
+            msg += "\n💹 <b>今日板塊焦點</b>\n"
+            icons = {
+                "tech": "💻", "finance": "🏦", "energy": "⚡",
+                "health": "💊", "consumer": "🛒"
+            }
+            sector_scores = {}
+            for s, scores in sectors.items():
+                if s == "general":
+                    continue
+                avg = round(sum(scores) / len(scores), 1)
+                sector_scores[s] = (avg, len(scores))
+            for s, (avg, count) in sorted(sector_scores.items(), key=lambda x: -x[1][0]):
+                icon = icons.get(s, "📰")
+                emoji = "🔴" if avg >= 8 else "🟡" if avg >= 5 else "🟢"
+                msg += icon + " " + s + "  " + emoji + " " + str(avg) + "/10  x" + str(count) + "\n"
+
+        if high:
+            msg += "\n⚡ <b>開盤前必看</b>\n"
+            for i, r in enumerate(high[:5]):
+                if r[1]:
+                    msg += str(i+1) + ". " + r[1] + "\n"
+
+        msg += "\n🕘 美股 21:30 開盤"
+        send_telegram(CHANNELS["all"], msg)
+        print("開盤前預告已發送")
+    except Exception as e:
+        print(f"send_premarket 錯誤：{e}")
+
 def send_daily_summary(daily_results):
     try:
         date = datetime.now(TZ).strftime("%Y/%m/%d")
@@ -446,10 +512,7 @@ def save_daily_results(results, sha, today):
         serializable = [list(r) for r in results]
         content = json.dumps({"date": today, "results": serializable}, ensure_ascii=False)
         encoded = base64.b64encode(content.encode()).decode()
-        payload = {
-            "message": "update daily",
-            "content": encoded,
-        }
+        payload = {"message": "update daily", "content": encoded}
         if sha:
             payload["sha"] = sha
         requests.put(api_url, headers=headers, json=payload)
@@ -494,6 +557,14 @@ def main():
 
     if not unique_news:
         print("沒有新新聞，結束")
+        # 仍然檢查是否需要發開盤前預告或每日總結
+        daily_results, daily_sha, today = load_daily_results()
+        daily_results = [tuple(r) for r in daily_results]
+        hour = datetime.now(TZ).hour
+        if hour == 21 and daily_results:
+            send_premarket(daily_results)
+        elif hour == 5 and daily_results:
+            send_daily_summary(daily_results)
         return
 
     important_news = []
@@ -514,15 +585,29 @@ def main():
                 continue
             h = hashlib.md5(title.encode()).hexdigest()
             new_hashes_with_dates[h] = now_iso
+
+            # 偵測股票代號
+            tickers = detect_tickers(title)
+
             emoji = PRIORITY_EMOJI.get(priority, "🟡")
             msg = emoji + " <b>" + title + "</b>\n"
             msg += "🇹🇼 " + zh + "\n"
-            msg += "💡 " + impact + "\n\n"
-            msg += "🔗 <a href='" + link + "'>閱讀全文</a>\n"
+            msg += "💡 " + impact + "\n"
+            if tickers:
+                msg += "📌 " + "  ".join(tickers) + "\n"
+            msg += "\n🔗 <a href='" + link + "'>閱讀全文</a>\n"
             msg += "📡 <code>" + source + "</code>"
-            send_telegram(CHANNELS["all"], msg)
+
+            # 高重要新聞即時警報
+            if priority == "high":
+                alert_msg = "🚨 <b>重大新聞警報</b>\n" + msg
+                send_telegram(CHANNELS["all"], alert_msg)
+            else:
+                send_telegram(CHANNELS["all"], msg)
+
             if sector in CHANNELS and sector != "general":
                 send_telegram(CHANNELS[sector], msg)
+
             results.append((title, zh, sector, priority))
             news_for_json.append({
                 "title": title,
@@ -531,7 +616,8 @@ def main():
                 "sector": sector,
                 "priority": priority,
                 "link": link,
-                "source": source
+                "source": source,
+                "tickers": tickers
             })
 
     cost = get_cost()
@@ -548,7 +634,9 @@ def main():
         save_daily_results(daily_results, daily_sha, today)
 
         hour = datetime.now(TZ).hour
-        if hour == 5:
+        if hour == 21:
+            send_premarket(daily_results)
+        elif hour == 5:
             send_daily_summary(daily_results)
 
     print(now_str() + " 推送 " + str(len(results)) + " 條")
