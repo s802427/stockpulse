@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/02 08:01",
+  "updated": "2026/04/02 09:24",
   "news": [
     {
       "title": "Nike Sales Miss in Middle East Region Sparks Investor Concern - Bloomberg.com",
       "zh": "耐克在中東地區銷售未達預期，引發投資者擔憂",
-      "impact": "中東市場表現不佳，地區營收下滑風險",
+      "impact": "中東市場銷售疲弱，影響耐克全球業績增長",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-03-31/nike-sales-gain-ground-as-sport-focused-push-produces-results",
@@ -12,8 +12,8 @@
     },
     {
       "title": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise - TechCrunch",
-      "zh": "OpenAI 尚未上市，從零售投資者籌集 30 億美元，參與 1220 億美元的大規模融資",
-      "impact": "OpenAI 估值大幅提升，AI 領域融資創新高",
+      "zh": "OpenAI尚未上市，從零售投資者募資30億美元，參與1220億美元巨額融資",
+      "impact": "OpenAI估值飆升，AI競爭加劇，未來上市前景明朗",
       "sector": "tech",
       "priority": "high",
       "link": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
@@ -21,8 +21,8 @@
     },
     {
       "title": "US consumer confidence rises, but job openings and hiring drop sharply - Reuters",
-      "zh": "美國消費者信心上升，但職位空缺和招聘大幅下降",
-      "impact": "就業市場冷卻，經濟增長前景存在不確定性",
+      "zh": "美國消費者信心上升，但職位空缺和招聘大幅下滑",
+      "impact": "經濟前景混合信號，就業市場冷卻，衰退風險增加",
       "sector": "general",
       "priority": "high",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcmllbWJwaFRtSDdLRFR4d0twd2w1ZjU0T2NkMVBDSDdKeUR6Y3g3b3ppbVc5T1JZMkRtVjMzSGVROGFVS3J5akUxbmpLWi1WMmlNczE4ajB5WWFQRkNxVVExTldqM0pzNkJsemJJRldYQXpVeXhOT1Qwb05tbno5SzVTUmQ4cFVNblc5S0VxRXI?oc=5",
@@ -30,8 +30,8 @@
     },
     {
       "title": "Spice maker McCormick to combine with Hellmann's maker Unilever in latest food industry shakeup - AP News",
-      "zh": "香料製造商美極將與荷蘭豬油品牌製造商聯合利華合併，食品業掀起最新整併風潮",
-      "impact": "食品行業整併加速，競爭格局調整",
+      "zh": "香料製造商美極與美乃滋製造商聯合利華合併，引發食品行業新一輪整合",
+      "impact": "食品行業整合加劇，市場競爭格局調整，消費品定價或上升",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://apnews.com/article/unilever-mccormick-merger-spices-d395e09cc4637177bcfb7cf0f8ce6202",
@@ -39,8 +39,8 @@
     },
     {
       "title": "Hiring just hit a level not seen since the economy was ‘closed down literally’ during COVID, top economist says - Fortune",
-      "zh": "招聘剛達到自新冠疫情期間經濟「完全關閉」以來未見水準，頂級經濟學家表示",
-      "impact": "就業市場大幅惡化，經濟衰退風險上升",
+      "zh": "招聘水準跌至疫情期間經濟完全關閉以來未見的水準，頂級經濟學家表示",
+      "impact": "勞動力市場急劇惡化，失業風險上升，經濟增長前景堪憂",
       "sector": "general",
       "priority": "high",
       "link": "https://fortune.com/2026/03/31/hiring-hits-pandemic-low-layoffs-firing-jobs-report-inflation-iran-war-federal-reserve/",
@@ -48,8 +48,8 @@
     },
     {
       "title": "Biogen Snaps Up $5.6 Billion Deal. Why Shares Fell. - Investor's Business Daily",
-      "zh": "百健公司完成 56 億美元併購交易，但股價反而下跌",
-      "impact": "併購交易規模大但市場反應負面，戰略有疑慮",
+      "zh": "百健(Biogen)完成56億美元收購交易，股價反而下跌",
+      "impact": "市場對收購估值或戰略存疑，生物製藥整合風險凸顯",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.investors.com/news/technology/biogen-apellis-pharmaceuticals-buyout-syfovre-empaveli/",
@@ -57,8 +57,8 @@
     },
     {
       "title": "Oracle Fires Thousands Of Employees As AI Spending Ramps Up—Shares Rise 2% - Forbes",
-      "zh": "甲骨文隨著 AI 支出增加而大規模裁員，股價上漲 2%",
-      "impact": "AI 轉型帶動組織優化，市場認可效率提升策略",
+      "zh": "甲骨文因AI支出增加而大規模裁員，股價上漲2%",
+      "impact": "AI轉型犧牲就業，但投資者看好成本控制和AI前景",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.forbes.com/sites/tylerroush/2026/03/31/oracle-fires-thousands-of-employees-as-ai-spending-ramps-up-shares-rise-2/",
@@ -66,8 +66,8 @@
     },
     {
       "title": "Oil Prices Post Biggest Monthly Surge in History - Crude Oil Prices Today | OilPrice.com",
-      "zh": "油價創造歷史上最大月度漲幅",
-      "impact": "油價飆升，推高通膨壓力和能源成本",
+      "zh": "油價創歷史最大單月漲幅",
+      "impact": "能源價格飆升，推高通膨壓力，影響消費和運輸成本",
       "sector": "energy",
       "priority": "high",
       "link": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Post-Biggest-Monthly-Surge-in-History.html",
@@ -75,57 +75,84 @@
     },
     {
       "title": "Micron Stock Price Target Slashed After Plunge - Investor's Business Daily",
-      "zh": "美光股票價格目標在股價暴跌後遭下調",
-      "impact": "芯片需求前景堪憂，半導體產業面臨挑戰",
+      "zh": "美光股票價格目標下調，股價暴跌後",
+      "impact": "半導體晶片需求預期下降，科技產業景氣信號減弱",
       "sector": "tech",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.investors.com/news/technology/micron-stock-mu-price-target-slashed-after-plunge/",
       "source": "Investor's Business Daily"
     },
     {
       "title": "Lilly to acquire Centessa Pharmaceuticals to advance treatments for sleep-wake disorders - Eli Lilly",
-      "zh": "禮來製藥公司收購塞特薩製藥公司，推進睡眠清醒障礙治療方案開發",
-      "impact": "禮來擴展睡眠疾病治療領域，併購完善產品線",
+      "zh": "禮來公司收購Centessa藥廠，推進睡眠障礙治療方案",
+      "impact": "禮來擴展睡眠藥物管線，有望開拓新市場，增強競爭力",
       "sector": "health",
       "priority": "medium",
       "link": "https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-centessa-pharmaceuticals-advance-treatments-sleep",
       "source": "Lilly.com"
     },
     {
-      "title": "‘Inflationary surge’: Fed economists warn AI hype is overheating the economy whether or not the technology ever delivers",
-      "zh": "「通脹激增」：美聯儲經濟學家警告，無論人工智能技術是否真正交付成果，AI炒作正在過度加熱經濟",
-      "impact": "AI炒作導致通脹風險，可能引發美聯儲政策調整和市場波動",
+      "title": "Europe faces its next big problem: The Iran war is driving up inflation - politico.eu",
+      "zh": "歐洲面臨下一個大問題：伊朗戰爭正推高通膨",
+      "impact": "伊朗衝突加劇歐洲通膨壓力，可能影響央行政策與消費者購買力",
       "sector": "general",
       "priority": "high",
-      "link": "https://fortune.com/2026/04/01/inflationary-surge-ai-hype-fed-reserve-bank/",
-      "source": "Fortune | FORTUNE"
+      "link": "https://www.politico.eu/article/iran-war-drives-eurozone-inflation-up-to-2-x-percent-in-march/",
+      "source": "POLITICO.eu"
     },
     {
-      "title": "SpaceX has filed confidentially for IPO ahead of AI rivals",
-      "zh": "SpaceX已機密提交IPO申請，搶先於AI競爭對手",
-      "impact": "SpaceX上市將改變太空商業格局，吸引大量科技投資流向太空產業",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://fortune.com/2026/04/01/spacex-has-filed-confidentially-for-ipo/",
-      "source": "Fortune | FORTUNE"
-    },
-    {
-      "title": "Chipmakers Scramble as Helium Crunch Threatens AI Expansion",
-      "zh": "芯片製造商爭相應對氦氣短缺威脅AI擴張",
-      "impact": "氦氣短缺將限制AI芯片生產能力，推高芯片成本和交期",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://oilprice.com/Energy/Energy-General/Chipmakers-Scramble-as-Helium-Crunch-Threatens-AI-Expansion.html",
-      "source": "Oilprice.com"
-    },
-    {
-      "title": "BP's New CEO Pledges Consistency as Company Tries to Rebuild Investor Trust",
-      "zh": "BP新任首席執行官承諾保持一致性，公司力圖重建投資者信心",
-      "impact": "BP領導層更替尋求恢復投資者信任，可能調整能源轉型策略",
+      "title": "War Means Profits for LNG Producers, but Long-Term Challenges - WSJ",
+      "zh": "戰爭意味著液化天然氣生產商獲利，但長期面臨挑戰",
+      "impact": "能源價格上升利好LNG企業短期收益，但供應鏈風險增加",
       "sector": "energy",
+      "priority": "high",
+      "link": "https://www.wsj.com/finance/commodities-futures/war-means-profits-for-lng-producers-but-long-term-challenges-30a6f257",
+      "source": "The Wall Street Journal"
+    },
+    {
+      "title": "US average gas price hits $4 a gallon amid Iran war - Axios",
+      "zh": "伊朗戰爭中美國平均油價升至每加侖4美元",
+      "impact": "汽油價格飆升將直接衝擊消費者支出與通膨預期",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.axios.com/2026/03/31/us-gas-price-iran-war",
+      "source": "Axios"
+    },
+    {
+      "title": "Allbirds is selling for $39M. It raised nearly 10 times that amount in its IPO. - TechCrunch",
+      "zh": "Allbirds以3,900萬美元出售，IPO融資額為此的近十倍",
+      "impact": "永續鞋履公司IPO後股價暴跌，投資人損失慘重",
+      "sector": "consumer",
       "priority": "medium",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/BPs-New-CEO-Pledges-Consistency-as-Company-Tries-to-Rebuild-Investor-Trust.html",
-      "source": "Oilprice.com"
+      "link": "https://techcrunch.com/2026/03/30/allbirds-is-selling-for-39-million-it-raised-nearly-10-times-that-amount-in-its-ipo/",
+      "source": "TechCrunch"
+    },
+    {
+      "title": "Employees could use 401(k)s to invest in crypto, private equity under Trump plan - The Washington Post",
+      "zh": "員工可在川普計畫下使用401(k)投資加密貨幣與私募股權",
+      "impact": "放寬退休金投資限制將增加零售投資者高風險資產敞口",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.washingtonpost.com/business/2026/03/30/401k-retirement-crypto/",
+      "source": "The Washington Post"
+    },
+    {
+      "title": "Sysco Receives a Downgrade From Citi Due to Debt Load",
+      "zh": "Sysco因債務負擔遭花旗評級下調",
+      "impact": "食品供應商信用評級下降反映財務狀況惡化",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sysco-receives-downgrade-citi-due-134651573.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Elon Musk’s SpaceX could lead a wave of jumbo IPOs after reportedly making this key move",
+      "zh": "伊隆馬斯克的SpaceX在做出關鍵舉動後可能領導大型IPO潮",
+      "impact": "SpaceX即將IPO預示科技與航太產業融資活動加劇",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.marketwatch.com/story/elon-musks-spacex-could-lead-a-wave-of-jumbo-ipos-after-reportedly-making-this-key-move-03ac890f?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories"
     }
   ]
 }
