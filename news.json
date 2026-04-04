@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/04 13:24",
+  "updated": "2026/04/04 14:01",
   "news": [
     {
       "title": "As Trump doubles down on Iran war, markets shudder and oil prices climb - The Washington Post",
-      "zh": "隨著川普加強對伊朗的戰爭立場，市場震盪，油價攀升",
-      "impact": "地緣政治緊張推高油價，能源股受惠但市場風險增加",
+      "zh": "特朗普對伊朗升級對抗，市場震盪油價攀升",
+      "impact": "地緣政治緊張推高油價，能源股受惠但整體市場承壓",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.washingtonpost.com/world/2026/04/02/us-iran-war-strait-hormuz-future/",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "川普勞工委員會命令亞馬遜與卡車司機工會進行談判",
-      "impact": "亞馬遜面臨勞資談判壓力，勞工成本可能增加",
+      "zh": "特朗普勞工委員會命令亞馬遜與卡車司機工會談判",
+      "impact": "亞馬遜面臨工會組織挑戰，勞工成本可能上升",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
@@ -23,18 +23,28 @@
     },
     {
       "title": "Blue Owl Reels as Investors Who Fueled Its Growth Now Want Out - Bloomberg.com",
-      "zh": "Blue Owl因曾經推動其增長的投資者現在要求退出而陷入困境",
-      "impact": "大型私募基金面臨贖回壓力，資金流出風險",
+      "zh": "藍鷹資本面臨投資者大規模贖回潮",
+      "impact": "主要投資者撤資導致資管公司流動性危機",
       "sector": "finance",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-02/blue-owl-reels-as-investors-who-fueled-its-growth-now-want-out",
       "source": "Bloomberg",
       "tickers": []
     },
     {
+      "title": "Tesla EV sales \"underwhelming\" as Elon Musk pivots to AI - Axios",
+      "zh": "特斯拉電動車銷售「令人失望」，馬斯克轉向人工智能",
+      "impact": "電動車銷售疲軟拖累營收，AI戰略前景未明",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.axios.com/2026/04/02/tesla-ev-elon-musk-gas-prices",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
       "title": "Stock Market Today: Dow, Nasdaq Slip; Oil Rises After Trump Iran Address — Live Updates - WSJ",
-      "zh": "股市今日：道指、納指下滑；川普伊朗演講後油價上升——即時更新",
-      "impact": "川普伊朗政策引發市場波動，油價上漲拖累股市",
+      "zh": "股市今日：道瓊斯、納斯達克下滑；特朗普伊朗演說後油價上升——即時更新",
+      "impact": "地緣政治風險導致股市回調，油價上漲",
       "sector": "general",
       "priority": "medium",
       "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-04-02-2026",
@@ -42,9 +52,19 @@
       "tickers": []
     },
     {
+      "title": "Globalstar Stock Rises on Amazon Deal Report. Why Apple Could Scuttle the Launch. - Barron's",
+      "zh": "Globalstar股價因亞馬遜交易傳聞上漲，蘋果可能阻撓推出",
+      "impact": "衛星通訊商機遇受蘋果競爭威脅",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.barrons.com/articles/amazon-globalstar-deal-spacex-starlink-apple-f57ce0d3",
+      "source": "Barron's",
+      "tickers": []
+    },
+    {
       "title": "'Uncle Larry’s biggest fan' cut by email in early morning Oracle layoff spree - theregister.com",
-      "zh": "「賴瑞叔叔的忠實粉絲」在甲骨文早晨大規模裁員電郵中遭裁",
-      "impact": "甲骨文進行大規模人員裁減，科技業裁員潮持續",
+      "zh": "甲骨文大規模裁員中，「Larry叔叔的頭號粉絲」被郵件通知裁員",
+      "impact": "甲骨文進行大規模人員調整，具體人數待確認",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.theregister.com/2026/04/01/laidoff_oracle_workers/",
@@ -53,8 +73,8 @@
     },
     {
       "title": "US Treasuries Extend Gains Before Retail, Manufacturing Data - Bloomberg.com",
-      "zh": "美國國債在零售與製造業數據前夜持續上漲",
-      "impact": "國債收益率下降，市場預期經濟數據疲軟",
+      "zh": "美國國債在零售與製造業數據公布前擴大漲幅",
+      "impact": "經濟數據前國債上漲，市場預期政策調整",
       "sector": "finance",
       "priority": "low",
       "link": "https://www.bloomberg.com/news/articles/2026-04-01/us-treasuries-extend-gains-before-retail-manufacturing-data",
@@ -63,8 +83,8 @@
     },
     {
       "title": "Five hard lessons from Allbirds’ 99% stock plunge and $39 million fire sale - Fortune",
-      "zh": "Allbirds股價暴跌99%和3,900萬美元大甩賣的五大沉痛教訓",
-      "impact": "新興消費品牌股價崩盤，企業估值泡沫破滅警示",
+      "zh": "Allbirds股價暴跌99%後的3,900萬美元資產清售的五大教訓",
+      "impact": "永續品牌IPO失敗典範，消費股風險警示",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://fortune.com/2026/04/01/allbirds-fire-sale-stock-plunge-39-million/",
@@ -74,7 +94,7 @@
     {
       "title": "Intel to Repurchase 49% Equity Interest in Ireland Fab Joint Venture - intc.com",
       "zh": "英特爾回購愛爾蘭晶圓廠合資企業49%股權",
-      "impact": "英特爾加強愛爾蘭廠控制權，資本支出持續承諾",
+      "impact": "英特爾加強對晶圓廠控制權，資本支出重組",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.intc.com/news-events/press-releases/detail/1764/intel-to-repurchase-49-equity-interest-in-ireland-fab",
@@ -84,29 +104,19 @@
       ]
     },
     {
-      "title": "End of an era: Elon Musk says Tesla is no longer producing the Model S and X - Business Insider",
-      "zh": "時代終結：馬斯克宣布特斯拉不再生產Model S和X",
-      "impact": "特斯拉產品線調整，專注高銷量車型策略轉變",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.businessinsider.com/elon-musk-tesla-model-s-x-orders-discontinued-2026-4",
-      "source": "Business Insider",
-      "tickers": []
-    },
-    {
       "title": "Cyclerion Therapeutics and Korsana Biosciences Announce Merger Agreement - businesswire.com",
-      "zh": "Cyclerion治療公司與Korsana生物科學公司宣布併購協議",
-      "impact": "生物製藥領域併購案，規模未達重大併購門檻",
+      "zh": "環循治療公司與科薩納生物科學公司宣佈合併協議",
+      "impact": "生物製藥公司合併，整合心血管及代謝疾病研發能力",
       "sector": "health",
-      "priority": "low",
+      "priority": "medium",
       "link": "https://www.businesswire.com/news/home/20260401287952/en/Cyclerion-Therapeutics-and-Korsana-Biosciences-Announce-Merger-Agreement",
       "source": "Business Wire",
       "tickers": []
     },
     {
       "title": "How TBPN went from nerdy online talk show to splashy OpenAI acquisition",
-      "zh": "TBPN如何從小眾線上談話節目成為OpenAI的矚目併購案",
-      "impact": "OpenAI策略性併購，擴展內容與影響力版圖",
+      "zh": "TBPN如何從小眾線上談話節目發展到被OpenAI收購",
+      "impact": "科技初創公司被收購，彰顯AI內容生成市場價值",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.marketwatch.com/story/how-tbpn-went-from-nerdy-online-talkshow-to-splashy-openai-acquisition-c204185e?mod=mw_rss_topstories",
@@ -115,8 +125,8 @@
     },
     {
       "title": "How the U.S. and Europe Are Betting Differently on Energy Security",
-      "zh": "美國和歐洲在能源安全上押注不同策略",
-      "impact": "地緣政治能源政策分化，影響全球能源市場格局",
+      "zh": "美國與歐洲在能源安全上的不同投注策略",
+      "impact": "地緣政治能源政策差異，影響長期能源產業發展方向",
       "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Alternative-Energy/Wind-Power/How-the-US-and-Europe-Are-Betting-Differently-on-Energy-Security.html",
