@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/05 00:01",
+  "updated": "2026/04/05 00:43",
   "news": [
     {
       "title": "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook - Bloomberg.com",
-      "zh": "美國債券因強勁就業數據削弱聯準會降息前景而下跌",
-      "impact": "強勁就業數據導致債券下跌，降息預期受挫",
+      "zh": "美國債券下跌，強勁就業數據削弱聯邦準備局降息前景",
+      "impact": "強勁就業數據推高債券殖利率，削弱市場對降息預期",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-03/treasuries-fall-as-strong-jobs-data-undermines-fed-cut-outlook",
@@ -13,20 +13,20 @@
     },
     {
       "title": "Jobs report set to offer key gauge of economy amid war with Iran - ABC News",
-      "zh": "伊朗戰爭期間就業報告將提供經濟關鍵指標",
-      "impact": "就業數據將反映伊朗衝突對經濟的影響",
+      "zh": "就業報告將在伊朗戰爭期間提供經濟關鍵指標",
+      "impact": "就業數據將評估戰爭對經濟的實際影響",
       "sector": "general",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://abcnews.com/Business/jobs-report-set-offer-key-gauge-economy-amid/story?id\\\\u003d131610908",
       "source": "Abcnews.com",
       "tickers": []
     },
     {
       "title": "Verdicts against Meta and Google may bring a new era of big tech accountability - npr.org",
-      "zh": "針對Meta和Google的判決可能帶來大型科技公司問責的新時代",
-      "impact": "科技巨頭面臨監管判決，可能增加合規成本",
+      "zh": "對Meta和Google的判決可能帶來大科技公司問責的新時代",
+      "impact": "科技巨頭面臨監管訴訟，可能改變行業監管環境",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
       "source": "NPR",
       "tickers": [
@@ -35,8 +35,8 @@
     },
     {
       "title": "Japan's Sakura Internet jumps 20% as Microsoft plans $10 billion AI push with SoftBank - CNBC",
-      "zh": "日本櫻花互聯網公司股價上漲20%，微軟計畫與軟銀進行100億美元AI投資",
-      "impact": "微軟百億美元AI投資計畫帶動相關股票上漲",
+      "zh": "日本櫻花網路公司股價上漲20%，微軟計畫與軟銀投入100億美元AI項目",
+      "impact": "微軟百億美元AI投資計畫帶動日本雲端廠商股價上揚",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html",
@@ -45,8 +45,8 @@
     },
     {
       "title": "US hiring likely improved last month, but Iran war and oil prices could take a toll later in 2026 - AP News",
-      "zh": "美國上月可能改善招聘，但伊朗戰爭和油價可能在2026年稍後造成衝擊",
-      "impact": "短期就業向好，但地緣政治風險威脅後續經濟",
+      "zh": "美國上月就業可能改善，但伊朗戰爭和油價可能在2026年稍後造成衝擊",
+      "impact": "短期就業樂觀，但地緣政治和能源風險威脅經濟前景",
       "sector": "general",
       "priority": "medium",
       "link": "https://apnews.com/article/jobs-unemployment-economy-trump-war-iran-oil-01c14a0e7ecbfb65925ba66c530f0834",
@@ -55,8 +55,8 @@
     },
     {
       "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "川普勞工委員會命令亞馬遜與卡車司機工會進行談判",
-      "impact": "亞馬遜被迫與工會談判，勞資關係面臨新挑戰",
+      "zh": "川普政府勞動委員會下令亞馬遜與國際卡車司機工會談判",
+      "impact": "勞動監管加強，亞馬遜面臨工會集體談判壓力",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
@@ -65,8 +65,8 @@
     },
     {
       "title": "Amazon to slap a 3.5% surcharge on third-party sellers as Iran war drives up fuel prices - Yahoo Finance",
-      "zh": "伊朗戰爭推高燃油價格，亞馬遜向第三方賣家徵收3.5%附加費",
-      "impact": "伊朗衝突推升物流成本，亞馬遜轉嫁賣家負擔",
+      "zh": "亞馬遜因伊朗戰爭推高燃油價格，對第三方賣家加徵3.5%附加費",
+      "impact": "燃油成本上升轉嫁賣家，可能推高消費者物價",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://finance.yahoo.com/economy/policy/articles/amazon-slap-3-5-surcharge-004528577.html",
@@ -75,8 +75,8 @@
     },
     {
       "title": "Tesla EV sales \"underwhelming\" as Elon Musk pivots to AI - Axios",
-      "zh": "伊隆·馬斯克轉向AI之際，特斯拉電動車銷售\"不如預期\"",
-      "impact": "特斯拉電動車銷售疲軟，公司策略調整存風險",
+      "zh": "特斯拉電動車銷售「令人失望」，馬斯克轉向人工智能",
+      "impact": "特斯拉電動車銷售不振，戰略轉向AI領域",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.axios.com/2026/04/02/tesla-ev-elon-musk-gas-prices",
@@ -85,8 +85,8 @@
     },
     {
       "title": "Treasury moves to gut financial research office - politico.com",
-      "zh": "財政部計畫削減金融研究辦公室",
-      "impact": "金融研究機構被削減，可能影響政策制定品質",
+      "zh": "財政部削減金融研究辦公室",
+      "impact": "金融監管研究機構被削弱，影響政策制定能力",
       "sector": "finance",
       "priority": "low",
       "link": "https://www.politico.com/news/2026/04/02/treasury-moves-to-gut-financial-research-office-00856631",
@@ -94,43 +94,13 @@
       "tickers": []
     },
     {
-      "title": "Globalstar Stock Rises on Amazon Deal Report. Why Apple Could Scuttle the Launch. - Barron's",
-      "zh": "全球星公司股票因亞馬遜交易傳聞上升，蘋果可能破壞該交易",
-      "impact": "亞馬遜與全球星潛在交易受蘋果干擾，市",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.barrons.com/articles/amazon-globalstar-deal-spacex-starlink-apple-f57ce0d3",
-      "source": "Barron's",
-      "tickers": []
-    },
-    {
-      "title": "‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity - Nature",
-      "zh": "「這是真正的衝擊」：量子計算突破對網絡安全構成迫在眉睫的風險 - 自然雜誌",
-      "impact": "量子計算威脅現有網絡安全體系，各行業需重新評估加密防護",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.nature.com/articles/d41586-026-01054-1",
-      "source": "Nature.com",
-      "tickers": []
-    },
-    {
-      "title": "Oracle 'Survivors' Reportedly Told to 'Stretch' After Massive Layoffs—But Workers Are Refusing Extra Hours - International Business Times UK",
-      "zh": "甲骨文「倖存者」reportedly被告知在大規模裁員後「加班」——但員工拒絕加班 - 國際商業時報英國版",
-      "impact": "甲骨文大規模裁員後要求員工加班引發反感，員工士氣受挫",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.ibtimes.co.uk/oracle-survivors-reportedly-told-stretch-after-headcount-cuts-workers-are-refusing-extra-1789949",
-      "source": "International Business Times UK",
-      "tickers": []
-    },
-    {
-      "title": "‘Mass layoffs by email might be the new norm’ as Oracle lays off thousands that way",
-      "zh": "「大規模電子郵件裁員可能成為新常態」，甲骨文以這種方式裁員數千人",
-      "impact": "甲骨文以電郵進行大規模裁員，反映科技業裁員趨勢及管理問題",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.marketwatch.com/story/fired-via-email-some-of-the-30-000-workers-cut-by-oracle-woke-up-to-a-morning-message-saying-they-were-laid-off-89a7af94?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
+      "title": "How Novo Is Combatting Lilly's New Pill Before It Launches - Investor's Business Daily",
+      "zh": "諾和公司如何在禮來新藥上市前進行對抗",
+      "impact": "製藥公司新產品競爭，市場份額爭奪加劇",
+      "sector": "health",
+      "priority": "low",
+      "link": "https://www.investors.com/news/technology/novo-nordisk-orion-study-foundayo-wegovy-oral-glp-1/",
+      "source": "Investor's Business Daily",
       "tickers": []
     }
   ]
