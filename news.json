@@ -1,74 +1,126 @@
 {
-  "updated": "2026/04/04 10:00",
+  "updated": "2026/04/04 12:01",
   "news": [
     {
-      "title": "More investors flee Blue Owl funds as private credit fears deepen - CNN",
-      "zh": "隨著私募信貸風險加深，更多投資者逃離藍貓頭鷹基金",
-      "impact": "私募信貸市場流動性風險擴大，可能引發連鎖效應",
-      "sector": "finance",
+      "title": "As Trump doubles down on Iran war, markets shudder and oil prices climb - The Washington Post",
+      "zh": "川普加強伊朗戰爭立場，市場震盪油價上升",
+      "impact": "地緣政治風險升高，能源價格上漲衝擊全球市場",
+      "sector": "energy",
       "priority": "high",
-      "link": "https://www.cnn.com/2026/04/02/business/blue-owl-private-credit-nightcap",
-      "source": "CNN",
+      "link": "https://www.washingtonpost.com/world/2026/04/02/us-iran-war-strait-hormuz-future/",
+      "source": "The Washington Post",
       "tickers": []
     },
     {
-      "title": "Tesla Deliveries Due. Here's What To Expect. - investors.com",
-      "zh": "特斯拉交付量即將公佈，以下是預期內容",
-      "impact": "特斯拉季度交付數據影響股價和電動車市場預期",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://www.investors.com/news/tesla-deliveries-elon-musk-byd-tesla-stock/",
-      "source": "Investor's Business Daily",
-      "tickers": []
-    },
-    {
-      "title": "SpaceX Targets More Than $2 Trillion Valuation in IPO - bloomberg.com",
-      "zh": "SpaceX目標在IPO中實現超過2兆美元估值",
-      "impact": "科技獨角獸IPO，潛在系統性影響及市場重組",
+      "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
+      "zh": "川普勞工委員會命令亞馬遜與teamsters工會談判",
+      "impact": "科技巨頭勞資關係緊張，工會運動擴大",
       "sector": "tech",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-02/spacex-is-said-to-target-more-than-2-trillion-valuation-in-ipo",
+      "priority": "medium",
+      "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
+      "source": "The Washington Post",
+      "tickers": []
+    },
+    {
+      "title": "Blue Owl Reels as Investors Who Fueled Its Growth Now Want Out - Bloomberg.com",
+      "zh": "Blue Owl遭遇投資者撤資潮，增長動力受挫",
+      "impact": "另類資產管理規模縮減，投資人信心動搖",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-02/blue-owl-reels-as-investors-who-fueled-its-growth-now-want-out",
       "source": "Bloomberg",
       "tickers": []
     },
     {
-      "title": "Adjusting Imports of Pharmaceuticals and Pharmaceutical Ingredients into the United States - The White House (.gov)",
-      "zh": "調整美國藥品及藥物成分進口",
-      "impact": "美國藥品供應鏈政策調整，影響醫藥產業成本",
-      "sector": "health",
+      "title": "Stock Market Today: Dow, Nasdaq Slip; Oil Rises After Trump Iran Address — Live Updates - WSJ",
+      "zh": "股市今日：道瓊納斯達克下滑，川普伊朗演說後油價上升",
+      "impact": "市場受地緣政治消息影響波動加劇",
+      "sector": "general",
       "priority": "medium",
-      "link": "http://www.whitehouse.gov/presidential-actions/2026/04/adjusting-imports-of-pharmaceuticals-and-pharmaceutical-ingredients-into-the-united-states/",
-      "source": "Whitehouse.gov",
-      "tickers": []
-    },
-    {
-      "title": "White House scales back plan to dismantle the CFPB but still wants to slash staff by two-thirds - AP News",
-      "zh": "白宮縮減解散消費者金融保護局計劃，但仍要裁員三分之二",
-      "impact": "監管機構人員大幅削減，金融監管能力下降風險",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://apnews.com/article/cfpb-vought-banks-nteu-trump-consumer-protection-e0069de83b4518e7aaa83be6ec323777",
-      "source": "Associated Press",
-      "tickers": []
-    },
-    {
-      "title": "Eli Lilly’s obesity pill approved by FDA, setting up fierce competition with Novo Nordisk - statnews.com",
-      "zh": "禮來肥胖症藥物獲FDA批准，與諾和諾德展開激烈競爭",
-      "impact": "肥胖症藥物市場競爭加劇，禮來搶占市場份額",
-      "sector": "health",
-      "priority": "medium",
-      "link": "https://www.statnews.com/2026/04/01/eli-lilly-obesity-pill-approved-orforglipron-foundayo/",
-      "source": "STAT",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-04-02-2026",
+      "source": "The Wall Street Journal",
       "tickers": []
     },
     {
       "title": "'Uncle Larry’s biggest fan' cut by email in early morning Oracle layoff spree - theregister.com",
-      "zh": "\"拉里叔叔的頭號粉絲\"在甲骨文早間大規模裁員中被郵件解僱",
-      "impact": "科技公司大規模裁員持續，人力成本優化趨勢",
+      "zh": "甲骨文早晨大規模裁員中，知名員工遭郵件告知",
+      "impact": "科技公司裁員風潮持續，規模數千人",
       "sector": "tech",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.theregister.com/2026/04/01/laidoff_oracle_workers/",
       "source": "Theregister.com",
+      "tickers": []
+    },
+    {
+      "title": "US Treasuries Extend Gains Before Retail, Manufacturing Data - Bloomberg.com",
+      "zh": "美國公債在零售及製造業數據前進一步上漲",
+      "impact": "債市走強反映經濟預期轉變",
+      "sector": "finance",
+      "priority": "low",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-01/us-treasuries-extend-gains-before-retail-manufacturing-data",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Five hard lessons from Allbirds’ 99% stock plunge and $39 million fire sale - Fortune",
+      "zh": "從Allbirds股價跌幅99%及3,900萬美元低價出售汲取五大教訓",
+      "impact": "上市公司破產案例警示，投資人警惕性提高",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://fortune.com/2026/04/01/allbirds-fire-sale-stock-plunge-39-million/",
+      "source": "Fortune",
+      "tickers": []
+    },
+    {
+      "title": "Intel to Repurchase 49% Equity Interest in Ireland Fab Joint Venture - intc.com",
+      "zh": "英特爾回購愛爾蘭晶圓廠合資企業49%股權",
+      "impact": "晶片製造布局調整，資本配置策略改變",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.intc.com/news-events/press-releases/detail/1764/intel-to-repurchase-49-equity-interest-in-ireland-fab",
+      "source": "Intc.com",
+      "tickers": [
+        "$INTC（英特爾）"
+      ]
+    },
+    {
+      "title": "Cyclerion Therapeutics and Korsana Biosciences Announce Merger Agreement - businesswire.com",
+      "zh": "Cyclerion治療公司與Korsana生物科學公司宣佈合併協議",
+      "impact": "小型生物製藥公司整合，產業整併持續",
+      "sector": "health",
+      "priority": "low",
+      "link": "https://www.businesswire.com/news/home/20260401287952/en/Cyclerion-Therapeutics-and-Korsana-Biosciences-Announce-Merger-Agreement",
+      "source": "Business Wire",
+      "tickers": []
+    },
+    {
+      "title": "Two solid ‘yes’ votes for Echo Global’s acquisition: Moody’s and S&P",
+      "zh": "Echo Global收購案獲穆迪與標普兩家評級機構認可",
+      "impact": "運輸物流併購交易獲支持，交易推進順利",
+      "sector": "general",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/two-solid-yes-votes-echo-215518877.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "How TBPN went from nerdy online talk show to splashy OpenAI acquisition",
+      "zh": "TBPN如何從小眾網路脫口秀發展成OpenAI的矚目併購案",
+      "impact": "OpenAI收購TBPN，強化AI內容生態布局，提升市場關注度",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/how-tbpn-went-from-nerdy-online-talkshow-to-splashy-openai-acquisition-c204185e?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "How the U.S. and Europe Are Betting Differently on Energy Security",
+      "zh": "美國和歐洲在能源安全上的不同押注策略",
+      "impact": "美歐能源政策分化，影響全球能源市場格局和地緣政治",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Alternative-Energy/Wind-Power/How-the-US-and-Europe-Are-Betting-Differently-on-Energy-Security.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
