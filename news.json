@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/04 15:09",
+  "updated": "2026/04/04 16:00",
   "news": [
     {
       "title": "Japan's Sakura Internet jumps 20% as Microsoft plans $10 billion AI push with SoftBank - CNBC",
-      "zh": "日本櫻花網際網路股價躍升20%，微軟計劃與軟銀合作推動100億美元AI計畫",
-      "impact": "微軟與軟銀AI合作，日本科技股受惠，帶動區域科技投資",
+      "zh": "日本櫻花互聯網公司股價飆升20%，因微軟計劃與軟銀合作推動100億美元AI計劃",
+      "impact": "微軟與軟銀AI合作確認，日本科技股受益",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "川普勞工委員會命令亞馬遜與卡車司機工會進行談判",
-      "impact": "工會組織成功推進，影響亞馬遜勞動成本與營運政策",
+      "zh": "特朗普勞工委員會命令亞馬遜與卡車司機工會進行談判",
+      "impact": "亞馬遜面臨工會談判壓力，勞資關係緊張",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
@@ -23,20 +23,20 @@
     },
     {
       "title": "US: March Jobs Report Expected to Show a Bounce Back in Hiring - Forex Factory",
-      "zh": "美國3月就業報告預期將顯示招聘反彈",
-      "impact": "就業數據關係聯準會決策，影響貨幣政策預期",
+      "zh": "美國：3月就業報告預期將顯示招聘反彈",
+      "impact": "就業數據可能改善，影響聯準會政策方向",
       "sector": "general",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.forexfactory.com/news/1391850-us-march-jobs-report-expected-to-show-a",
       "source": "Forex Factory",
       "tickers": []
     },
     {
       "title": "Blue Owl Reels as Investors Who Fueled Its Growth Now Want Out - Bloomberg.com",
-      "zh": "藍貓集團受挫，曾推動其增長的投資人現欲出場",
-      "impact": "私募信貸市場流動性風險，大型投資人贖回壓力上升",
+      "zh": "藍貓資本投資者撤出，導致公司股價下滑",
+      "impact": "大型投資者離場，私募股權公司面臨資金壓力",
       "sector": "finance",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-02/blue-owl-reels-as-investors-who-fueled-its-growth-now-want-out",
       "source": "Bloomberg",
       "tickers": []
@@ -44,7 +44,7 @@
     {
       "title": "Tesla EV sales \"underwhelming\" as Elon Musk pivots to AI - Axios",
       "zh": "特斯拉電動車銷售「令人失望」，馬斯克轉向AI業務",
-      "impact": "電動車銷售放緩，特斯拉策略轉變，股價面臨壓力",
+      "impact": "特斯拉核心業務增速放緩，戰略調整引發市場擔憂",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.axios.com/2026/04/02/tesla-ev-elon-musk-gas-prices",
@@ -53,42 +53,22 @@
     },
     {
       "title": "Elon Musk, world’s first trillionaire: one implication of the massive SpaceX IPO - Fortune",
-      "zh": "馬斯克成世界首位兆萬富翁：大規模SpaceX IPO的一項意涵",
-      "impact": "SpaceX預期IPO，馬斯克資產大幅增值，科技業併購預期",
+      "zh": "馬斯克成世界首位兆萬富翁：SpaceX大型IPO的一個影響",
+      "impact": "SpaceX IPO預期將至，太空商業化進程加速",
       "sector": "tech",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://fortune.com/2026/04/02/elon-musk-worlds-first-trillionaire-one-implication-of-the-massive-spacex-ipo/",
       "source": "Fortune",
       "tickers": []
     },
     {
       "title": "Amazon in talks to buy $9bn satellite group Globalstar in bid to rival Elon Musk’s Starlink - ft.com",
-      "zh": "亞馬遜洽談斥資90億美元收購衛星集團Globalstar，欲與馬斯克Starlink競爭",
-      "impact": "亞馬遜進軍衛星通訊，與Starlink競爭加劇，資本支出擴大",
+      "zh": "亞馬遜洽談以90億美元收購衛星集團Globalstar，欲對抗馬斯克Starlink",
+      "impact": "亞馬遜加速衛星網路布局，與Starlink競爭升溫",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.ft.com/content/abace066-fe93-4ff0-8378-d3c3eb49519c?syn-25a6b1a6\\\\u003d1",
       "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "'Uncle Larry’s biggest fan' cut by email in early morning Oracle layoff spree - theregister.com",
-      "zh": "「賴瑞叔叔的大粉絲」在甲骨文大規模裁員中遭電郵開除",
-      "impact": "甲骨文進行大規模裁員，人力成本調整，員工士氣受損",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.theregister.com/2026/04/01/laidoff_oracle_workers/",
-      "source": "Theregister.com",
-      "tickers": []
-    },
-    {
-      "title": "Shadow bank Blue Owl caps private credit redemptions after investors try to pull $5.4 billion",
-      "zh": "影子銀行藍貓集團在投資人試圖贖回54億美元後限制私募信貸贖回",
-      "impact": "私募信貸市場風險浮現，投資人流動性困境，系統性風險警訊",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/shadow-bank-blue-owl-caps-021700097.html",
-      "source": "Yahoo Finance",
       "tickers": []
     }
   ]
