@@ -1,94 +1,24 @@
 {
-  "updated": "2026/04/05 04:01",
+  "updated": "2026/04/05 06:00",
   "news": [
     {
-      "title": "Why Seattle tech companies are still laying off workers - The Seattle Times",
-      "zh": "西雅圖科技公司持續進行裁員",
-      "impact": "科技業裁員持續，就業市場承壓",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.seattletimes.com/business/technology/why-seattle-tech-companies-are-still-laying-off-workers/",
-      "source": "The Seattle Times",
-      "tickers": []
-    },
-    {
-      "title": "Once-booming cookie chain closes all stores after Chapter 11 filing - thestreet.com",
-      "zh": "曾經繁榮的餅乾連鎖店申請第11章破產，關閉所有門店",
-      "impact": "連鎖餐飲業經營困難，消費零售承壓",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://www.thestreet.com/restaurants/once-booming-cookie-chain-closes-all-stores-after-chapter-11-filing",
-      "source": "TheStreet",
-      "tickers": []
-    },
-    {
-      "title": "This Oil Shock Is So Big It Is Fueling a Turnaround in Energy Stocks - WSJ",
-      "zh": "石油價格大幅上漲推動能源股反轉向上",
-      "impact": "油價上升帶動能源板塊反彈，市場受惠",
+      "title": "U.S. Battery Expansion Surges Ahead of Demand Curve",
+      "zh": "美國電池擴產超前於需求曲線",
+      "impact": "電池產能過剩風險，可能導致行業價格競爭加劇和投資回報率下降",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://www.wsj.com/business/energy-oil/this-oil-shock-is-so-big-it-is-fueling-a-turnaround-in-energy-stocks-a9fbe198",
-      "source": "The Wall Street Journal",
+      "link": "https://oilprice.com/Energy/Energy-General/US-Battery-Expansion-Surges-Ahead-of-Demand-Curve.html",
+      "source": "Oilprice.com",
       "tickers": []
     },
     {
-      "title": "Japan's Sakura Internet jumps 20% as Microsoft plans $10 billion AI push with SoftBank - CNBC",
-      "zh": "日本櫻花網際網路公司因微軟與軟銀合作100億美元AI計畫而股價暴漲20%",
-      "impact": "微軟AI投資啟動，相關企業股價上揚",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "特朗普政府勞工委員會命令亞馬遜與運輸工人工會進行勞資談判",
-      "impact": "工會談判推進，企業勞資關係面臨變化",
+      "title": "The Two-Week Window That Could Break Global Commodity Markets",
+      "zh": "可能打破全球商品市場的兩週窗口期",
+      "impact": "短期內商品市場存在重大波動風險，可能影響全球供應鏈和通脹預期",
       "sector": "general",
-      "priority": "medium",
-      "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
-      "source": "The Washington Post",
-      "tickers": []
-    },
-    {
-      "title": "Amazon to slap a 3.5% surcharge on third-party sellers as Iran war drives up fuel prices - Yahoo Finance",
-      "zh": "亞馬遜因伊朗衝突導致燃料成本上升，向第三方賣家加徵3.5%費用",
-      "impact": "地緣政治風險推高營運成本，商家負擔增加",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/economy/policy/articles/amazon-slap-3-5-surcharge-004528577.html",
-      "source": "Yahoo Entertainment",
-      "tickers": []
-    },
-    {
-      "title": "SpaceX Targets More Than $2 Trillion Valuation in IPO - Bloomberg",
-      "zh": "SpaceX計畫IPO時估值目標超過2兆美元",
-      "impact": "太空產業獨角獸IPO，市場關注重點",
-      "sector": "tech",
       "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-02/spacex-is-said-to-target-more-than-2-trillion-valuation-in-ipo",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "Oracle 'Survivors' Reportedly Told to 'Stretch' After Massive Layoffs—But Workers Are Refusing Extra Hours - International Business Times UK",
-      "zh": "Oracle大規模裁員後倖存員工被要求加班，但遭員工拒絕",
-      "impact": "科技業裁員後員工士氣低落，企業文化挑戰",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.ibtimes.co.uk/oracle-survivors-reportedly-told-stretch-after-headcount-cuts-workers-are-refusing-extra-1789949",
-      "source": "International Business Times UK",
-      "tickers": []
-    },
-    {
-      "title": "IMF warns tokenized finance risks amplifying market crises ahead",
-      "zh": "國際貨幣基金組織警告代幣化金融風險可能放大市場危機",
-      "impact": "央行機構警示加密資產風險，系統性隱憂",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/imf-warns-tokenized-finance-risks-130000327.html",
-      "source": "Yahoo Finance",
+      "link": "https://oilprice.com/Energy/Crude-Oil/The-Two-Week-Window-That-Could-Break-Global-Commodity-Markets.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
