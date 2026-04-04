@@ -1,12 +1,12 @@
 {
-  "updated": "2026/04/04 21:08",
+  "updated": "2026/04/04 22:00",
   "news": [
     {
       "title": "Verdicts against Meta and Google may bring a new era of big tech accountability - npr.org",
-      "zh": "針對Meta和Google的判決可能帶來科技巨頭問責新時代",
-      "impact": "科技巨頭面臨監管風險，可能影響行業運營模式",
+      "zh": "對Meta和Google的裁決可能帶來科技大廠問責的新時代",
+      "impact": "科技巨頭面臨監管加強，可能影響商業模式",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
       "source": "NPR",
       "tickers": [
@@ -15,18 +15,18 @@
     },
     {
       "title": "March jobs report expected to show labor market stabilizing before Iran war - NBC News",
-      "zh": "三月就業報告預期顯示勞動力市場穩定，伊朗戰爭前景不明",
-      "impact": "就業數據影響聯準會政策，關乎經濟走勢判斷",
+      "zh": "三月就業報告預計顯示勞動力市場穩定，伊朗戰爭前景未明",
+      "impact": "就業數據影響聯準會政策，掌握經濟走向",
       "sector": "general",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.nbcnews.com/business/economy/march-jobs-report-iran-war-rcna266503",
       "source": "NBC News",
       "tickers": []
     },
     {
       "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "川普勞動委員會命令亞馬遜與teamsters工會談判",
-      "impact": "亞馬遜面臨工會壓力，可能提高勞動成本",
+      "zh": "川普勞工委員會命令亞馬遜與Teamsters工會談判",
+      "impact": "亞馬遜勞資關係緊張，工會力量增強",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
@@ -35,8 +35,8 @@
     },
     {
       "title": "Meta to eliminate nearly 200 Bay Area jobs - The Mercury News",
-      "zh": "Meta計畫裁減灣區近200個職位",
-      "impact": "Meta進一步裁員，總體業務調整信號",
+      "zh": "Meta將裁減灣區近200個職位",
+      "impact": "Meta持續優化組織，灣區就業受衝擊",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.mercurynews.com/2026/04/02/economy-jobs-tech-facebook-meta-layoff-work-ai-bay-area-sunnyvale/",
@@ -47,8 +47,8 @@
     },
     {
       "title": "SpaceX Targets More Than $2 Trillion Valuation in IPO - Bloomberg",
-      "zh": "SpaceX在IPO中目標估值超過2兆美元",
-      "impact": "火箭公司上市將創造重大融資機會，估值創新高",
+      "zh": "SpaceX目標IPO估值超過2兆美元",
+      "impact": "獨角獸IPO，科技業重大融資事件",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-02/spacex-is-said-to-target-more-than-2-trillion-valuation-in-ipo",
@@ -57,8 +57,8 @@
     },
     {
       "title": "CFTC sues Arizona, Connecticut, Illinois over prediction market regulation - CNBC",
-      "zh": "商品期貨交易委員會起訴亞利桑那州、康州、伊利諾州預測市場監管",
-      "impact": "預測市場監管收緊，新型交易平台面臨合規風險",
+      "zh": "美國商品期貨交易委員會控告亞利桑那、康州、伊州違反預測市場監管",
+      "impact": "監管機構加強預測市場管制，市場面臨規範挑戰",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.cnbc.com/2026/04/02/prediction-market-lawsuit-regulation-arizona-coonecticut-illinois.html",
@@ -66,29 +66,19 @@
       "tickers": []
     },
     {
-      "title": "Almost Half of US Data Centers That Were Supposed to Open This Year Slated to Be Canceled or Delayed - Futurism",
-      "zh": "美國近一半今年預計開幕的數據中心面臨取消或延期",
-      "impact": "AI基礎設施投資放緩，科技擴張計畫受阻",
+      "title": "Oracle 'Survivors' Reportedly Told to 'Stretch' After Massive Layoffs—But Workers Are Refusing Extra Hours - International Business Times UK",
+      "zh": "Oracle「倖存員工」被要求「加班」，但員工拒絕超時工作",
+      "impact": "大規模裁員後員工士氣低落，勞資對立升溫",
       "sector": "tech",
       "priority": "medium",
-      "link": "http://futurism.com/science-energy/data-centers-construction-supply",
-      "source": "Futurism",
-      "tickers": []
-    },
-    {
-      "title": "Oracle 'Survivors' Reportedly Told to 'Stretch' After Massive Layoffs—But Workers Are Refusing Extra Hours - International Business Times UK",
-      "zh": "甲骨文\"倖存者\"據報被要求\"加班\"，但員工拒絕超時工作",
-      "impact": "裁員後員工士氣低落，甲骨文面臨留任挑戰",
-      "sector": "tech",
-      "priority": "low",
       "link": "https://www.ibtimes.co.uk/oracle-survivors-reportedly-told-stretch-after-headcount-cuts-workers-are-refusing-extra-1789949",
       "source": "International Business Times UK",
       "tickers": []
     },
     {
       "title": "Charts show how much Meta, Google, and Amazon slashed H-1B petitions after Trump's visa crackdown - Business Insider",
-      "zh": "圖表顯示Meta、Google、亞馬遜在川普簽證打擊後大幅削減H-1B申請",
-      "impact": "科技企業招聘外籍人才受限，人才競爭加劇",
+      "zh": "數據顯示川普簽證緊縮後，Meta、Google、亞馬遜大幅削減H-1B申請",
+      "impact": "科技業人才招募受限，長期發展受阻",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.businessinsider.com/meta-google-amazon-microsoft-h-1b-visa-applications-decline-2026-4",
@@ -98,12 +88,12 @@
       ]
     },
     {
-      "title": "Week Ahead for FX, Bonds: U.S. Inflation Data Will Be Watched Alongside Middle East Developments",
-      "zh": "外匯與債券一週展望：美國通膨數據與中東局勢備受關注",
-      "impact": "宏觀經濟數據與地緣政治風險並行，市場波動待觀察",
-      "sector": "general",
+      "title": "Tesla Rival Rivian's US Sales Decline For Fourth Consecutive Month Ahead Of R2 Launch",
+      "zh": "Tesla競爭對手Rivian美國銷售連續四個月下滑，R2上市前景堪憂",
+      "impact": "Rivian銷售困境加重，新車型面臨市場考驗",
+      "sector": "consumer",
       "priority": "medium",
-      "link": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-u-s-inflation-data-will-be-watched-alongside-middle-east-developments-f0a19f52?siteid=yhoof2&yptr=yahoo",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-rival-rivians-us-sales-133138594.html",
       "source": "Yahoo Finance",
       "tickers": []
     }
