@@ -1,10 +1,32 @@
 {
-  "updated": "2026/04/04 20:01",
+  "updated": "2026/04/04 21:08",
   "news": [
     {
+      "title": "Verdicts against Meta and Google may bring a new era of big tech accountability - npr.org",
+      "zh": "針對Meta和Google的判決可能帶來科技巨頭問責新時代",
+      "impact": "科技巨頭面臨監管風險，可能影響行業運營模式",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
+      "source": "NPR",
+      "tickers": [
+        "$META（Meta）"
+      ]
+    },
+    {
+      "title": "March jobs report expected to show labor market stabilizing before Iran war - NBC News",
+      "zh": "三月就業報告預期顯示勞動力市場穩定，伊朗戰爭前景不明",
+      "impact": "就業數據影響聯準會政策，關乎經濟走勢判斷",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.nbcnews.com/business/economy/march-jobs-report-iran-war-rcna266503",
+      "source": "NBC News",
+      "tickers": []
+    },
+    {
       "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "特朗普勞工委員會命令亞馬遜與卡車司機工會談判",
-      "impact": "亞馬遜面臨工會談判壓力，可能影響勞動成本",
+      "zh": "川普勞動委員會命令亞馬遜與teamsters工會談判",
+      "impact": "亞馬遜面臨工會壓力，可能提高勞動成本",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
@@ -12,29 +34,21 @@
       "tickers": []
     },
     {
-      "title": "Warner, Schiff probe potential insider trading in government - CNBC",
-      "zh": "華納與希夫調查政府潛在內幕交易",
-      "impact": "政府官員內幕交易風險，涉及市場廉正性",
-      "sector": "finance",
+      "title": "Meta to eliminate nearly 200 Bay Area jobs - The Mercury News",
+      "zh": "Meta計畫裁減灣區近200個職位",
+      "impact": "Meta進一步裁員，總體業務調整信號",
+      "sector": "tech",
       "priority": "medium",
-      "link": "https://www.cnbc.com/2026/04/02/hegseth-trump-mark-warner-adam-schiff-insider-trading-probe.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "Treasury moves to gut financial research office - politico.com",
-      "zh": "財政部計劃削減金融研究辦公室",
-      "impact": "政府金融監管職能縮小，削弱市場監督",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.politico.com/news/2026/04/02/treasury-moves-to-gut-financial-research-office-00856631",
-      "source": "Politico",
-      "tickers": []
+      "link": "https://www.mercurynews.com/2026/04/02/economy-jobs-tech-facebook-meta-layoff-work-ai-bay-area-sunnyvale/",
+      "source": "The Mercury News",
+      "tickers": [
+        "$META（Meta）"
+      ]
     },
     {
       "title": "SpaceX Targets More Than $2 Trillion Valuation in IPO - Bloomberg",
-      "zh": "SpaceX首次公開募股目標估值超過2萬億美元",
-      "impact": "獨角獸IPO，科技業重大融資事件",
+      "zh": "SpaceX在IPO中目標估值超過2兆美元",
+      "impact": "火箭公司上市將創造重大融資機會，估值創新高",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-02/spacex-is-said-to-target-more-than-2-trillion-valuation-in-ipo",
@@ -43,8 +57,8 @@
     },
     {
       "title": "CFTC sues Arizona, Connecticut, Illinois over prediction market regulation - CNBC",
-      "zh": "CFTC控告亞利桑那州、康州、伊州違反預測市場監管",
-      "impact": "預測市場監管風險，涉及多州政策衝突",
+      "zh": "商品期貨交易委員會起訴亞利桑那州、康州、伊利諾州預測市場監管",
+      "impact": "預測市場監管收緊，新型交易平台面臨合規風險",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.cnbc.com/2026/04/02/prediction-market-lawsuit-regulation-arizona-coonecticut-illinois.html",
@@ -52,83 +66,45 @@
       "tickers": []
     },
     {
-      "title": "Oracle layoffs: Ex-employee alleges algorithm targeted senior executives with unvested stock - Mint",
-      "zh": "甲骨文裁員：前員工指控演算法針對未行權股票的資深高管",
-      "impact": "甲骨文大規模裁員，算法裁員引爭議",
+      "title": "Almost Half of US Data Centers That Were Supposed to Open This Year Slated to Be Canceled or Delayed - Futurism",
+      "zh": "美國近一半今年預計開幕的數據中心面臨取消或延期",
+      "impact": "AI基礎設施投資放緩，科技擴張計畫受阻",
       "sector": "tech",
       "priority": "medium",
-      "link": "https://www.livemint.com/companies/news/oracle-layoffs-ex-employee-alleges-algorithm-targeted-senior-executives-with-unvested-stock-11775129191394.html",
-      "source": "Livemint",
+      "link": "http://futurism.com/science-energy/data-centers-construction-supply",
+      "source": "Futurism",
       "tickers": []
     },
     {
-      "title": "Nike Can’t Fix Its China Problem and That’s Tanking Its Stock - WSJ",
-      "zh": "耐克無法解決中國問題，股價下跌",
-      "impact": "耐克中國市場困境，消費品股表現不佳",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.wsj.com/business/retail/nikes-road-to-recovery-in-china-is-hitting-new-hurdles-5aced75f",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
-      "title": "Intel to Pay $14 Billion to Buy Back Apollo Stake in Ireland Plant - Bloomberg",
-      "zh": "英特爾支付140億美元收購阿波羅在愛爾蘭工廠的股份",
-      "impact": "英特爾重大併購，涉及晶片製造產能擴張",
+      "title": "Oracle 'Survivors' Reportedly Told to 'Stretch' After Massive Layoffs—But Workers Are Refusing Extra Hours - International Business Times UK",
+      "zh": "甲骨文\"倖存者\"據報被要求\"加班\"，但員工拒絕超時工作",
+      "impact": "裁員後員工士氣低落，甲骨文面臨留任挑戰",
       "sector": "tech",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-01/intel-intc-to-pay-14-billion-to-buy-back-apollo-apo-stake-in-ireland-plant",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "New Orleans TV stations WWL, WGNO brace for changes, possible layoffs as parent companies merge - nola.com",
-      "zh": "紐奧良電視台WWL、WGNO因母公司合併面臨變化與可能裁員",
-      "impact": "媒體併購引發裁員，涉及傳播業重組",
-      "sector": "general",
       "priority": "low",
-      "link": "https://www.nola.com/news/business/new-orleans-wwl-wgno-tegna-nexstar-merger/article_bfaf5b94-4381-4677-a51d-7d9a550ef023.html",
-      "source": "NOLA.com",
+      "link": "https://www.ibtimes.co.uk/oracle-survivors-reportedly-told-stretch-after-headcount-cuts-workers-are-refusing-extra-1789949",
+      "source": "International Business Times UK",
       "tickers": []
     },
     {
-      "title": "Five hard lessons from Allbirds’ 99% stock plunge and $39 million fire sale - Fortune",
-      "zh": "Allbirds股價暴跌99%及3900萬美元火賣的五大慘痛教訓",
-      "impact": "Allbirds破產清算，創業失敗警示",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://fortune.com/2026/04/01/allbirds-fire-sale-stock-plunge-39-million/",
-      "source": "Fortune",
-      "tickers": []
-    },
-    {
-      "title": "BYD Mar NEV sales rebound to over 300,000 as overseas growth accelerates - CnEVPost",
-      "zh": "比亞迪三月新能源車銷售反彈超過30萬輛，海外增長加速",
-      "impact": "比亞迪新能源銷售強勁反彈，海外市場擴張推動增長",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://cnevpost.com/2026/04/01/byd-mar-2026-nev-sales/",
-      "source": "Cnevpost.com",
-      "tickers": []
-    },
-    {
-      "title": "How TBPN went from nerdy online talk show to splashy OpenAI acquisition",
-      "zh": "TBPN如何從小眾線上脫口秀發展到大手筆收購OpenAI",
-      "impact": "TBPN通過收購OpenAI實現華麗轉身，科技並購案例",
+      "title": "Charts show how much Meta, Google, and Amazon slashed H-1B petitions after Trump's visa crackdown - Business Insider",
+      "zh": "圖表顯示Meta、Google、亞馬遜在川普簽證打擊後大幅削減H-1B申請",
+      "impact": "科技企業招聘外籍人才受限，人才競爭加劇",
       "sector": "tech",
       "priority": "medium",
-      "link": "https://www.marketwatch.com/story/how-tbpn-went-from-nerdy-online-talkshow-to-splashy-openai-acquisition-c204185e?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
-      "tickers": []
+      "link": "https://www.businessinsider.com/meta-google-amazon-microsoft-h-1b-visa-applications-decline-2026-4",
+      "source": "Business Insider",
+      "tickers": [
+        "$META（Meta）"
+      ]
     },
     {
-      "title": "The Trump administration is blurring the public and private sector workforce, and OPM director Scott Kupor won’t rule out conflict of interest risks",
-      "zh": "川普政府模糊公私部門勞動力界限，人事管理局局長Scott Kupor未排除利益衝突風險",
-      "impact": "政府高管未排除利益衝突，引發公共治理擔憂",
+      "title": "Week Ahead for FX, Bonds: U.S. Inflation Data Will Be Watched Alongside Middle East Developments",
+      "zh": "外匯與債券一週展望：美國通膨數據與中東局勢備受關注",
+      "impact": "宏觀經濟數據與地緣政治風險並行，市場波動待觀察",
       "sector": "general",
-      "priority": "high",
-      "link": "https://fortune.com/2026/04/04/trump-administration-private-sector-federal-jobs-conflicts-of-interest-opm-director-scott-kupor/",
-      "source": "Fortune | FORTUNE",
+      "priority": "medium",
+      "link": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-u-s-inflation-data-will-be-watched-alongside-middle-east-developments-f0a19f52?siteid=yhoof2&yptr=yahoo",
+      "source": "Yahoo Finance",
       "tickers": []
     }
   ]
