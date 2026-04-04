@@ -1,23 +1,125 @@
 {
-  "updated": "2026/04/05 06:00",
+  "updated": "2026/04/05 06:37",
   "news": [
     {
-      "title": "U.S. Battery Expansion Surges Ahead of Demand Curve",
-      "zh": "美國電池擴產超前於需求曲線",
-      "impact": "電池產能過剩風險，可能導致行業價格競爭加劇和投資回報率下降",
+      "title": "March jobs report blows past expectations - washingtonpost.com",
+      "zh": "三月就業報告遠超預期",
+      "impact": "就業數據強勁，可能推高聯邦儲備利率預期",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.washingtonpost.com/business/2026/04/03/march-jobs-unemployment/",
+      "source": "The Washington Post",
+      "tickers": []
+    },
+    {
+      "title": "Why Seattle tech companies are still laying off workers - The Seattle Times",
+      "zh": "西雅圖科技公司仍在進行裁員",
+      "impact": "科技業持續調整，反映行業去泡沫化進程",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.seattletimes.com/business/technology/why-seattle-tech-companies-are-still-laying-off-workers/",
+      "source": "The Seattle Times",
+      "tickers": []
+    },
+    {
+      "title": "CFTC sues three states over efforts to regulate prediction markets - NBC Sports",
+      "zh": "美國商品期貨交易委員會起訴三州試圖監管預測市場",
+      "impact": "聯邦與州政府衝突，預測市場監管框架不明確",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cftc-sues-three-states-over-efforts-to-regulate-prediction-markets",
+      "source": "NBCSports.com",
+      "tickers": []
+    },
+    {
+      "title": "Wall Street closed for Good Friday, but US futures inch lower following strong March jobs report - AP News",
+      "zh": "華爾街因耶穌受難日休市，但美股期貨在強勁就業報告後小幅下跌",
+      "impact": "市場對經濟數據反應謹慎，利率前景引發調整",
+      "sector": "general",
+      "priority": "low",
+      "link": "https://apnews.com/article/financial-markets-oil-prices-iran-trump-cbf38b67032e2fae95073f4fbcc0ca24",
+      "source": "Associated Press",
+      "tickers": []
+    },
+    {
+      "title": "Verdicts against Meta and Google may bring a new era of big tech accountability - npr.org",
+      "zh": "針對Meta和Google的裁決可能開啟科技巨頭問責新時代",
+      "impact": "大科技公司面臨監管加強，潛在罰款和行為限制",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
+      "source": "NPR",
+      "tickers": [
+        "$META（Meta）"
+      ]
+    },
+    {
+      "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
+      "zh": "川普任命的勞工委員會下令亞馬遜與卡車司機工會談判",
+      "impact": "勞資關係變化，亞馬遜面臨工會組織壓力加大",
+      "sector": "consumer",
+      "priority": "high",
+      "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
+      "source": "The Washington Post",
+      "tickers": []
+    },
+    {
+      "title": "Amazon to Add 3.5% Fulfillment Surcharge as Fuel Costs Rise - CNET",
+      "zh": "亞馬遜因燃油成本上升將增加3.5%的配送中心附加費",
+      "impact": "電商運營成本增加，可能向消費者轉嫁成本",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.cnet.com/tech/amazon-to-add-3-5-fulfillment-surcharge-as-fuel-costs-rise/",
+      "source": "CNET",
+      "tickers": []
+    },
+    {
+      "title": "Blue Owl Reels as Investors Who Fueled Its Growth Now Want Out - Bloomberg.com",
+      "zh": "藍鴞資本投資者撤出，公司業績陷入困境",
+      "impact": "大型私募基金面臨流動性危機，投資者信心減弱",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-02/blue-owl-reels-as-investors-who-fueled-its-growth-now-want-out",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Almost Half of US Data Centers That Were Supposed to Open This Year Slated to Be Canceled or Delayed - Futurism",
+      "zh": "美國近半數計劃今年啟用的數據中心面臨取消或延期",
+      "impact": "AI基礎設施投資放緩，影響雲計算擴張步伐",
+      "sector": "tech",
+      "priority": "high",
+      "link": "http://futurism.com/science-energy/data-centers-construction-supply",
+      "source": "Futurism",
+      "tickers": []
+    },
+    {
+      "title": "Pentagon Taps Boeing, Lockheed To Triple Critical Missile Output",
+      "zh": "五角大廈指定波音、洛克希德馬丁三倍增產關鍵導彈",
+      "impact": "國防訂單增加，支持軍工業務增長",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/US-Battery-Expansion-Surges-Ahead-of-Demand-Curve.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pentagon-taps-boeing-lockheed-triple-220254992.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "U.S. Auto Industry Proposes Vehicle Fee to Replace Gas Tax",
+      "zh": "美國汽車產業提議用車輛費取代汽油稅",
+      "impact": "汽油稅改革將影響汽車業稅收結構和消費者成本",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Energy/Energy-General/US-Auto-Industry-Proposes-Vehicle-Fee-to-Replace-Gas-Tax.html",
       "source": "Oilprice.com",
       "tickers": []
     },
     {
-      "title": "The Two-Week Window That Could Break Global Commodity Markets",
-      "zh": "可能打破全球商品市場的兩週窗口期",
-      "impact": "短期內商品市場存在重大波動風險，可能影響全球供應鏈和通脹預期",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://oilprice.com/Energy/Crude-Oil/The-Two-Week-Window-That-Could-Break-Global-Commodity-Markets.html",
+      "title": "U.S. Battery Expansion Surges Ahead of Demand Curve",
+      "zh": "美國電池產能擴張超前於需求曲線",
+      "impact": "電池產業過度擴張可能導致供過於求和價格下降",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Energy/Energy-General/US-Battery-Expansion-Surges-Ahead-of-Demand-Curve.html",
       "source": "Oilprice.com",
       "tickers": []
     }
