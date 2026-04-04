@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/04 16:00",
+  "updated": "2026/04/04 16:51",
   "news": [
     {
       "title": "Japan's Sakura Internet jumps 20% as Microsoft plans $10 billion AI push with SoftBank - CNBC",
-      "zh": "日本櫻花互聯網公司股價飆升20%，因微軟計劃與軟銀合作推動100億美元AI計劃",
-      "impact": "微軟與軟銀AI合作確認，日本科技股受益",
+      "zh": "日本櫻花網際網路公司股價上漲20%，因微軟計劃與軟銀推動100億美元AI計畫",
+      "impact": "微軟巨額AI投資推動日本科技股上漲，帶動區域科技板塊",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "特朗普勞工委員會命令亞馬遜與卡車司機工會進行談判",
-      "impact": "亞馬遜面臨工會談判壓力，勞資關係緊張",
+      "zh": "川普勞工委員會下令亞馬遜與國際卡車駕駛員工會進行談判",
+      "impact": "亞馬遜勞資談判升級，可能影響薪資與工作條件談判結果",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
@@ -23,8 +23,8 @@
     },
     {
       "title": "US: March Jobs Report Expected to Show a Bounce Back in Hiring - Forex Factory",
-      "zh": "美國：3月就業報告預期將顯示招聘反彈",
-      "impact": "就業數據可能改善，影響聯準會政策方向",
+      "zh": "美國：3月就業報告預計顯示招聘反彈",
+      "impact": "就業數據對美聯儲政策和經濟前景有重要參考意義",
       "sector": "general",
       "priority": "medium",
       "link": "https://www.forexfactory.com/news/1391850-us-march-jobs-report-expected-to-show-a",
@@ -33,8 +33,8 @@
     },
     {
       "title": "Blue Owl Reels as Investors Who Fueled Its Growth Now Want Out - Bloomberg.com",
-      "zh": "藍貓資本投資者撤出，導致公司股價下滑",
-      "impact": "大型投資者離場，私募股權公司面臨資金壓力",
+      "zh": "Blue Owl投資公司面臨困境，曾助其成長的投資者現欲撤出",
+      "impact": "大型私募基金流動性危機，反映投資者信心下滑風險",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-02/blue-owl-reels-as-investors-who-fueled-its-growth-now-want-out",
@@ -42,33 +42,43 @@
       "tickers": []
     },
     {
-      "title": "Tesla EV sales \"underwhelming\" as Elon Musk pivots to AI - Axios",
-      "zh": "特斯拉電動車銷售「令人失望」，馬斯克轉向AI業務",
-      "impact": "特斯拉核心業務增速放緩，戰略調整引發市場擔憂",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.axios.com/2026/04/02/tesla-ev-elon-musk-gas-prices",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
       "title": "Elon Musk, world’s first trillionaire: one implication of the massive SpaceX IPO - Fortune",
-      "zh": "馬斯克成世界首位兆萬富翁：SpaceX大型IPO的一個影響",
-      "impact": "SpaceX IPO預期將至，太空商業化進程加速",
+      "zh": "馬斯克成世界首位兆萬富翁：SpaceX巨額IPO的一項含義",
+      "impact": "SpaceX上市推測提升馬斯克身家，太空產業融資前景看好",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://fortune.com/2026/04/02/elon-musk-worlds-first-trillionaire-one-implication-of-the-massive-spacex-ipo/",
       "source": "Fortune",
       "tickers": []
     },
     {
       "title": "Amazon in talks to buy $9bn satellite group Globalstar in bid to rival Elon Musk’s Starlink - ft.com",
-      "zh": "亞馬遜洽談以90億美元收購衛星集團Globalstar，欲對抗馬斯克Starlink",
-      "impact": "亞馬遜加速衛星網路布局，與Starlink競爭升溫",
+      "zh": "亞馬遜洽購90億美元衛星集團GlobalStar，意圖對抗馬斯克星鏈",
+      "impact": "亞馬遜高額併購衛星業務，加劇太空通訊產業競爭格局",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.ft.com/content/abace066-fe93-4ff0-8378-d3c3eb49519c?syn-25a6b1a6\\\\u003d1",
       "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "'Uncle Larry’s biggest fan' cut by email in early morning Oracle layoff spree - theregister.com",
+      "zh": "「Larry叔叔最大粉絲」在甲骨文清晨大裁員中遭電郵通知被裁",
+      "impact": "甲骨文進行大規模裁員，科技業人力調整持續",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.theregister.com/2026/04/01/laidoff_oracle_workers/",
+      "source": "Theregister.com",
+      "tickers": []
+    },
+    {
+      "title": "TotalEnergies and Masdar Launch $2.2 Billion Asia Renewables JV",
+      "zh": "道達爾能源與馬斯達聯手推出22億美元亞洲再生能源合資企業",
+      "impact": "能源巨頭投資亞洲綠電，加速全球能源轉型步伐",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/sectors/energy/articles/totalenergies-masdar-launch-2-2-040300083.html",
+      "source": "Yahoo Finance",
       "tickers": []
     }
   ]
