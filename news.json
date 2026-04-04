@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/04 18:00",
+  "updated": "2026/04/04 18:40",
   "news": [
     {
       "title": "US employment growth likely rebounded in March, war casting shadow over labor market - Yahoo Finance",
       "zh": "美國3月就業增長可能反彈，戰爭對勞動力市場投下陰影",
-      "impact": "就業數據影響聯準會政策決策與市場預期",
+      "impact": "就業數據向好但地緣政治風險增加，影響經濟前景",
       "sector": "general",
       "priority": "medium",
       "link": "https://finance.yahoo.com/economy/articles/us-employment-growth-likely-rebounded-041154850.html",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "川普勞工委員會命令亞馬遜與國際卡車司機工會進行集體談判",
-      "impact": "亞馬遜面臨工會談判壓力，可能增加營運成本",
+      "zh": "川普勞工委員會命令亞馬遜與卡車司機工會談判",
+      "impact": "亞馬遜面臨工會談判壓力，勞資關係升溫",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
@@ -23,18 +23,28 @@
     },
     {
       "title": "Blue Owl Reels as Investors Who Fueled Its Growth Now Want Out - Bloomberg.com",
-      "zh": "藍貓資本因投資者贖回潮而陷入困境",
-      "impact": "大型私募基金面臨投資者撤資，流動性風險上升",
+      "zh": "藍貓集團股價下挫，曾推動其增長的投資者現欲撤出",
+      "impact": "大型私募基金面臨投資者贖回壓力，流動性風險",
       "sector": "finance",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-02/blue-owl-reels-as-investors-who-fueled-its-growth-now-want-out",
       "source": "Bloomberg",
       "tickers": []
     },
     {
+      "title": "Tesla EV sales \"underwhelming\" as Elon Musk pivots to AI - Axios",
+      "zh": "特斯拉電動車銷售「令人失望」，馬斯克轉向人工智慧",
+      "impact": "特斯拉核心業務增長放緩，轉向AI戰略調整",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.axios.com/2026/04/02/tesla-ev-elon-musk-gas-prices",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
       "title": "SpaceX Targets More Than $2 Trillion Valuation in IPO - Bloomberg",
-      "zh": "SpaceX目標在IPO中估值超過2兆美元",
-      "impact": "SpaceX潛在上市將創科技業新紀錄，市場影響巨大",
+      "zh": "SpaceX計劃在首次公開募股中估值超過2兆美元",
+      "impact": "獨角獸巨頭IPO在即，市場融資規模創新高",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-02/spacex-is-said-to-target-more-than-2-trillion-valuation-in-ipo",
@@ -43,18 +53,18 @@
     },
     {
       "title": "CFTC sues Arizona, Connecticut, Illinois over prediction market regulation - CNBC",
-      "zh": "美國商品期貨交易委員會起訴亞利桑那州、康州、伊州違反預測市場監管規定",
-      "impact": "預測市場監管標準明確化，影響相關平台營運",
+      "zh": "美國商品期貨委員會起訴亞利桑那州、康州、伊州預測市場監管",
+      "impact": "預測市場監管爭議升級，政策風險增加",
       "sector": "finance",
-      "priority": "medium",
+      "priority": "low",
       "link": "https://www.cnbc.com/2026/04/02/prediction-market-lawsuit-regulation-arizona-coonecticut-illinois.html",
       "source": "CNBC",
       "tickers": []
     },
     {
       "title": "'Uncle Larry’s biggest fan' cut by email in early morning Oracle layoff spree - theregister.com",
-      "zh": "甲骨文高管在公司大規模裁員早晨郵件中被裁",
-      "impact": "甲骨文進行大規模裁員，規模與影響需關注",
+      "zh": "「賴瑞叔叔的鐵粉」在甲骨文清晨大規模裁員中被郵件解雇",
+      "impact": "甲骨文進行大規模人員調整，科技業裁員潮延續",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.theregister.com/2026/04/01/laidoff_oracle_workers/",
@@ -63,8 +73,8 @@
     },
     {
       "title": "Amazon’s AI Chat Ads Yield Data but Few Sales - The Information",
-      "zh": "亞馬遜AI聊天廣告產生數據但銷售有限",
-      "impact": "亞馬遜AI廣告業務效果不如預期，營收前景受關注",
+      "zh": "亞馬遜AI聊天廣告產生數據但銷售寥寥",
+      "impact": "亞馬遜AI廣告商業化進展緩慢，轉換率堪憂",
       "sector": "tech",
       "priority": "low",
       "link": "https://www.theinformation.com/articles/amazons-ai-chat-ads-yield-data-sales",
@@ -72,32 +82,52 @@
       "tickers": []
     },
     {
-      "title": "Europe must pay more for medicines, says Bayer - Financial Times",
-      "zh": "拜耳表示歐洲必須為藥物支付更高費用",
-      "impact": "製藥企業尋求提高藥品價格，影響歐洲醫療支出",
-      "sector": "health",
+      "title": "FAA Cuts SFO Capacity By 33% In Blow To United Airlines Hub - liveandletsfly.com",
+      "zh": "美國聯邦航空局削減舊金山機場容量33%，打擊聯合航空樞紐",
+      "impact": "聯合航空運營能力下降，航空業運力受限",
+      "sector": "consumer",
       "priority": "medium",
+      "link": "https://liveandletsfly.com/sfo-capacity-cut-united-airlines/",
+      "source": "Liveandletsfly.com",
+      "tickers": []
+    },
+    {
+      "title": "Europe must pay more for medicines, says Bayer - Financial Times",
+      "zh": "拜耳表示歐洲必須為醫療費用支付更多費用",
+      "impact": "製藥企業推高藥品價格，醫療成本壓力加大",
+      "sector": "health",
+      "priority": "low",
       "link": "https://www.ft.com/content/3c8e4f18-1e40-4c03-aefa-c92330b3562a?syn-25a6b1a6\\\\u003d1",
       "source": "Financial Times",
       "tickers": []
     },
     {
       "title": "Cyclerion Therapeutics and Korsana Biosciences Announce Merger Agreement - Business Wire",
-      "zh": "賽克蕾恩治療公司與科薩納生物科學公司宣布合併協議",
-      "impact": "生物製藥公司併購整合，交易規模需確認",
+      "zh": "賽克瑞恩治療公司與科爾薩納生物科學公司宣佈合併協議",
+      "impact": "兩家生物製藥公司合併，整合研發資源和臨床管線",
       "sector": "health",
-      "priority": "low",
+      "priority": "medium",
       "link": "https://www.businesswire.com/news/home/20260401287952/en/Cyclerion-Therapeutics-and-Korsana-Biosciences-Announce-Merger-Agreement",
       "source": "Business Wire",
       "tickers": []
     },
     {
-      "title": "SBA Communications (SBAC) Climbs 18.9% on Potential Sale",
-      "zh": "SBA通訊公司因潛在出售消息上漲18.9%",
-      "impact": "電信塔商可能被收購，存在重大交易機會",
-      "sector": "tech",
+      "title": "Cenovus Energy Incorporation (CVE) Gets Credit Outlook Upgrade",
+      "zh": "加拿大能源公司（CVE）獲得信用展望升級",
+      "impact": "信用評級改善，反映公司財務狀況好轉，融資成本降低",
+      "sector": "energy",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sba-communications-sbac-climbs-18-064322185.html",
+      "link": "https://finance.yahoo.com/sectors/energy/articles/cenovus-energy-incorporation-cve-gets-090637338.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Bunge Global SA (BG) Outlines Lavish Shareholder Return Plan",
+      "zh": "邦吉全球公司（BG）概述宏大股東回報計劃",
+      "impact": "增加股息和回購，提升股東價值，改善投資吸引力",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bunge-global-sa-bg-outlines-090650374.html",
       "source": "Yahoo Finance",
       "tickers": []
     }
