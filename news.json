@@ -1,31 +1,133 @@
 {
-  "updated": "2026/04/06 00:43",
+  "updated": "2026/04/06 02:01",
   "news": [
     {
-      "title": "Oil cargo prices surge as fears of supply shortage grip market - Financial Times",
-      "zh": "石油貨物價格飆升，供應短缺擔憂籠罩市場",
-      "impact": "能源價格上漲推高通膨預期，影響全球經濟",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://www.ft.com/content/a121ee37-dc4f-44da-a6fe-ecbcd71110f3?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
+      "title": "50-year-old pizza chain closes all restaurants, files Chapter 7 - thestreet.com",
+      "zh": "50年歷史披薩連鎖店關閉所有門店，申請第七章破產",
+      "impact": "老牌連鎖餐飲破產，消費零售景氣下滑信號",
+      "sector": "consumer",
+      "priority": "low",
+      "link": "https://www.thestreet.com/restaurants/50-year-old-pizza-chain-gina-marias-closes-all-restaurants-files-chapter-7",
+      "source": "TheStreet",
       "tickers": []
     },
     {
-      "title": "The bond market is helping resolve the Fed's interest rate dilemma",
-      "zh": "債券市場幫助美聯儲化解利率困境",
-      "impact": "債市信號影響聯準會政策決策，涉及系統性風險",
+      "title": "Netflix ordered to pay back millions of subscribers in landmark ruling - Android Central",
+      "zh": "Netflix被判令向數百萬用戶退款，此為里程碑式判決",
+      "impact": "Netflix面臨大額賠償，流媒體商業模式受挑戰",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.androidcentral.com/streaming-tv/netflix/netflix-ordered-to-pay-back-millions-of-subscribers-in-landmark-ruling",
+      "source": "Android Central",
+      "tickers": []
+    },
+    {
+      "title": "The global oil crisis is turning into an everything crisis - cnn.com",
+      "zh": "全球油價危機正演變成全面經濟危機",
+      "impact": "能源危機蔓延全球，推高通脹威脅經濟增長",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.cnn.com/2026/04/04/business/global-oil-crisis-shortage-everything-intl-hnk-dst",
+      "source": "CNN",
+      "tickers": []
+    },
+    {
+      "title": "Once-booming cookie chain closes all stores after Chapter 11 filing - malaysia.news.yahoo.com",
+      "zh": "曾紅極一時的餅乾連鎖店在申請第十一章破產後關閉所有門店",
+      "impact": "餐飲零售持續惡化，消費需求疲軟跡象",
+      "sector": "consumer",
+      "priority": "low",
+      "link": "https://www.thestreet.com/restaurants/once-booming-cookie-chain-closes-all-stores-after-chapter-11-filing",
+      "source": "TheStreet",
+      "tickers": []
+    },
+    {
+      "title": "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook - Bloomberg.com",
+      "zh": "美國債券因強勁就業數據下跌，削弱聯準會降息預期",
+      "impact": "就業強勁推升債券收益率，聯準會降息預期降低",
       "sector": "finance",
       "priority": "high",
-      "link": "https://finance.yahoo.com/economy/article/the-bond-market-is-helping-resolve-the-feds-interest-rate-dilemma-103000702.html",
-      "source": "Yahoo Finance",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-03/treasuries-fall-as-strong-jobs-data-undermines-fed-cut-outlook",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Feds sue three states over prediction market crackdowns - Axios",
+      "zh": "聯邦政府起訴三個州壓制預測市場",
+      "impact": "監管部門加強預測市場監管，市場發展受限",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.axios.com/2026/04/03/prediction-market-crackdown-kalshi-polymarket",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
+      "title": "The Magnificent 7 Stock Crash's Toll Reaches $2.1 Trillion - Investor's Business Daily",
+      "zh": "「七大科技巨頭」股價暴跌的損失達到2.1兆美元",
+      "impact": "科技股大幅下挫，市場資金蒸發，風險資產承壓",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.investors.com/etfs-and-funds/sectors/sp500-magnificent-7-stock-crashs-toll-reaches-trillions/",
+      "source": "Investor's Business Daily",
+      "tickers": []
+    },
+    {
+      "title": "Verdicts against Meta and Google may bring a new era of big tech accountability - npr.org",
+      "zh": "針對Meta和Google的判決可能開啟大型科技公司問責新時代",
+      "impact": "科技巨頭面臨監管加強，可能改變行業競爭格局",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
+      "source": "NPR",
+      "tickers": [
+        "$META（Meta）"
+      ]
+    },
+    {
+      "title": "Tesla outraces China’s BYD in pure electric car sales to regain world’s top spot - South China Morning Post",
+      "zh": "特斯拉超越中國比亞迪純電動車銷量，重奪全球第一寶座",
+      "impact": "特斯拉重獲全球電動車龍頭地位，競爭優勢提升",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.scmp.com/business/china-business/article/3348898/tesla-outraces-chinas-byd-pure-electric-car-sales-regain-worlds-top-spot",
+      "source": "Post Magazine",
+      "tickers": []
+    },
+    {
+      "title": "Japan's Sakura Internet jumps 20% as Microsoft plans $10 billion AI push with SoftBank - cnbc.com",
+      "zh": "日本櫻花網際網路股價飆漲20%，微軟計劃與軟銀合作推進100億美元AI投資",
+      "impact": "AI投資擴大，軟銀受惠股價上漲，科技投資加速",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "Outrage as Oracle files thousands of foreign-worker requests amid layoff bloodbath - finance.yahoo.com",
+      "zh": "甲骨文在大規模裁員的同時提出數千份外籍工人申請引發眾怒",
+      "impact": "甲骨文裁員同時申請外籍工人簽證，引發企業道德爭議和政策關注",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://nypost.com/2026/04/02/us-news/outrage-over-oracles-thousands-of-h-1b-requests-amid-layoffs/",
+      "source": "New York Post",
+      "tickers": []
+    },
+    {
+      "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
+      "zh": "川普勞工委員會命令亞馬遜與卡車司機工會進行談判",
+      "impact": "亞馬遜面臨強制談判，影響勞動關係和薪資談判先例",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
+      "source": "The Washington Post",
       "tickers": []
     },
     {
       "title": "Delta kicks off an earnings season focused on surging gas prices and the Iran war",
-      "zh": "達美航空開啟財報季，聚焦油價飆升與伊朗戰爭",
-      "impact": "航空股盈利受油價與地緣政治雙重衝擊",
-      "sector": "consumer",
+      "zh": "達美航空開啟財報季，焦點聚焦在飆升油價和伊朗戰爭影響",
+      "impact": "航空業財報受油價和地緣政治風險影響，影響能源和運輸成本",
+      "sector": "energy",
       "priority": "medium",
       "link": "https://www.marketwatch.com/story/delta-kicks-off-an-earnings-season-focused-on-surging-gas-prices-and-the-iran-war-4a4226fc?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories",
