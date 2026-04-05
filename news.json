@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/05 15:16",
+  "updated": "2026/04/05 16:01",
   "news": [
     {
       "title": "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook - Bloomberg.com",
-      "zh": "美國債券因強勁就業數據削弱美聯儲降息前景而下跌",
-      "impact": "強勁就業數據推高債券收益率，降息預期減弱",
+      "zh": "美國債券下跌，強勁就業數據削弱聯準會降息前景",
+      "impact": "債券收益率上升，降息預期減弱，市場波動加劇",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-03/treasuries-fall-as-strong-jobs-data-undermines-fed-cut-outlook",
@@ -13,8 +13,8 @@
     },
     {
       "title": "CFTC sues three states over efforts to regulate prediction markets - NBC Sports",
-      "zh": "美國商品期貨交易委員會起訴三州試圖監管預測市場",
-      "impact": "聯邦與州政府在預測市場監管權限上產生衝突",
+      "zh": "美國商品期貨交易委員會起訴三個州試圖監管預測市場",
+      "impact": "預測市場監管框架不確定性增加，行業發展面臨挑戰",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cftc-sues-three-states-over-efforts-to-regulate-prediction-markets",
@@ -23,8 +23,8 @@
     },
     {
       "title": "Verdicts against Meta and Google may bring a new era of big tech accountability - npr.org",
-      "zh": "針對Meta和Google的判決可能帶來科技巨頭問責的新時代",
-      "impact": "監管機構對科技巨頭加強追責，行業監管趨嚴",
+      "zh": "對Meta和Google的裁決可能帶來科技巨頭問責的新時代",
+      "impact": "大型科技公司面臨監管加強，行業合規成本上升",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
@@ -34,9 +34,19 @@
       ]
     },
     {
+      "title": "Tesla outraces China’s BYD in pure electric car sales to regain world’s top spot - South China Morning Post",
+      "zh": "特斯拉超越中國比亞迪純電動汽車銷量重奪全球第一",
+      "impact": "特斯拉市場地位回升，電動車競爭格局加劇",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.scmp.com/business/china-business/article/3348898/tesla-outraces-chinas-byd-pure-electric-car-sales-regain-worlds-top-spot",
+      "source": "Post Magazine",
+      "tickers": []
+    },
+    {
       "title": "Outrage as Oracle files thousands of foreign-worker requests amid layoff bloodbath - finance.yahoo.com",
-      "zh": "Oracle在大規模裁員中申請數千份外籍勞工請求引發憤怒",
-      "impact": "Oracle大幅裁員同時申請H-1B簽證，引發勞工政策爭議",
+      "zh": "甲骨文公司在大規模裁員期間提交數千份外籍員工申請引發憤怒",
+      "impact": "甲骨文遭質疑勞工政策矛盾，H-1B簽證爭議加劇",
       "sector": "tech",
       "priority": "high",
       "link": "https://nypost.com/2026/04/02/us-news/outrage-over-oracles-thousands-of-h-1b-requests-amid-layoffs/",
@@ -45,8 +55,8 @@
     },
     {
       "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "川普勞工委員會命令亞馬遜與卡車司機工會進行談判",
-      "impact": "勞動關係緊張加劇，亞馬遜面臨工會組織壓力",
+      "zh": "川普政府勞工委員會命令亞馬遜與聯合車隊工會談判",
+      "impact": "亞馬遜勞資談判義務加重，工會組織化加速",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
@@ -55,8 +65,8 @@
     },
     {
       "title": "Oil cargo prices surge as fears of supply shortage grip market - Financial Times",
-      "zh": "油輪貨運價格飆升，市場對供應短缺的擔憂加劇",
-      "impact": "地緣政治風險推高能源價格，全球供應鏈受壓",
+      "zh": "油貨價格飆升，供應短缺擔憂籠罩市場",
+      "impact": "能源成本上升，通膨壓力增加，消費者物價面臨上行",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.ft.com/content/a121ee37-dc4f-44da-a6fe-ecbcd71110f3?syn-25a6b1a6\\\\u003d1",
@@ -65,8 +75,8 @@
     },
     {
       "title": "Treasury moves to gut financial research office - Politico",
-      "zh": "美國財政部著手削弱金融研究辦公室",
-      "impact": "政府削減金融監管研究機構，監管透明度下降",
+      "zh": "財政部採取措施削弱金融研究辦公室",
+      "impact": "金融研究獨立性受損，市場監管透明度下降",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.politico.com/news/2026/04/02/treasury-moves-to-gut-financial-research-office-00856631",
@@ -75,8 +85,8 @@
     },
     {
       "title": "Blue Owl Investors Seek to Pull $5.4 Billion From Two Private-Credit Funds - WSJ",
-      "zh": "Blue Owl投資者尋求從兩隻私募信貸基金中撤回54億美元",
-      "impact": "私募信貸基金面臨大規模贖回，市場流動性風險上升",
+      "zh": "藍貓集團投資者尋求從兩檔私人信貸基金撤出54億美元",
+      "impact": "私募信貸基金流動性風險浮現，投資者信心動搖",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.wsj.com/finance/investing/blue-owls-36-billion-private-credit-fund-hit-by-22-withdrawal-request-6209c568",
@@ -84,19 +94,19 @@
       "tickers": []
     },
     {
-      "title": "Formerly bankrupt fast food dining chain faces Chapter 7",
-      "zh": "曾經破產的快餐連鎖店面臨第七章破產",
-      "impact": "快餐業競爭加劇導致連鎖店再次破產清算",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/formerly-bankrupt-fast-food-dining-224930599.html",
-      "source": "Yahoo Finance",
+      "title": "Grocery shock on the horizon for approaching U.S. elections as Iran war drags on - cnbc.com",
+      "zh": "美國大選臨近，伊朗戰爭導致食品雜貨價格衝擊迫在眉睫",
+      "impact": "食品通膨加劇，消費者成本上升，民生議題升溫",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/02/grocery-shock-on-the-horizon-for-us-elections-as-iran-war-drags-on.html",
+      "source": "CNBC",
       "tickers": []
     },
     {
       "title": "U.S. Auto Industry Proposes Vehicle Fee to Replace Gas Tax",
-      "zh": "美國汽車業提議用車輛費替代汽油稅",
-      "impact": "汽車業提出新稅收方案，影響能源和交通政策走向",
+      "zh": "美國汽車產業提議車輛費用以取代汽油稅",
+      "impact": "汽油稅改革可能影響汽車產業稅務結構與消費者購車成本",
       "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/US-Auto-Industry-Proposes-Vehicle-Fee-to-Replace-Gas-Tax.html",
@@ -105,8 +115,8 @@
     },
     {
       "title": "U.S. Battery Expansion Surges Ahead of Demand Curve",
-      "zh": "美國電池產業擴張超前需求增長",
-      "impact": "電池產能過剩風險增加，潛在影響新能源產業成本結構",
+      "zh": "美國電池產能擴張超越需求曲線成長",
+      "impact": "電池產能過剩可能導致價格下跌與行業競爭加劇",
       "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/US-Battery-Expansion-Surges-Ahead-of-Demand-Curve.html",
