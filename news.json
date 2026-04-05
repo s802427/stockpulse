@@ -1,30 +1,20 @@
 {
-  "updated": "2026/04/06 04:41",
+  "updated": "2026/04/06 06:01",
   "news": [
     {
-      "title": "Netflix ordered to pay back millions of subscribers in landmark ruling - Android Central",
-      "zh": "Netflix被判令在標誌性判決中向數百萬用戶退款",
-      "impact": "Netflix需支付鉅額退款，影響營收和用戶信任",
+      "title": "50-year-old pizza chain closes all restaurants, files Chapter 7 - thestreet.com",
+      "zh": "50年歷史披薩連鎖店關閉所有餐廳，申請第7章破產",
+      "impact": "老牌餐飲集團倒閉，消費者選擇減少",
       "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.androidcentral.com/streaming-tv/netflix/netflix-ordered-to-pay-back-millions-of-subscribers-in-landmark-ruling",
-      "source": "Android Central",
+      "priority": "low",
+      "link": "https://www.thestreet.com/restaurants/50-year-old-pizza-chain-gina-marias-closes-all-restaurants-files-chapter-7",
+      "source": "TheStreet",
       "tickers": []
     },
     {
-      "title": "The global oil crisis is turning into an everything crisis - cnn.com",
-      "zh": "全球石油危機演變成全面經濟危機",
-      "impact": "能源價格上漲波及全球經濟，推高通膨壓力",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.cnn.com/2026/04/04/business/global-oil-crisis-shortage-everything-intl-hnk-dst",
-      "source": "CNN",
-      "tickers": []
-    },
-    {
-      "title": "Once-booming cookie chain closes all stores after Chapter 11 filing - malaysia.news.yahoo.com",
-      "zh": "曾經繁榮的餅乾連鎖店在第11章破產申請後關閉所有門店",
-      "impact": "消費品牌因經營困難申請破產，零售業萎縮信號",
+      "title": "Once-booming cookie chain closes all stores after Chapter 11 filing - thestreet.com",
+      "zh": "曾經蓬勃發展的餅乾連鎖店在第11章破產申請後關閉所有門店",
+      "impact": "餐飲零售業困境加劇，就業機會喪失",
       "sector": "consumer",
       "priority": "low",
       "link": "https://www.thestreet.com/restaurants/once-booming-cookie-chain-closes-all-stores-after-chapter-11-filing",
@@ -32,9 +22,49 @@
       "tickers": []
     },
     {
+      "title": "Netflix ordered to pay back millions of subscribers in landmark ruling - Android Central",
+      "zh": "Netflix被判令向數百萬用戶支付賠款，創歷史性判決",
+      "impact": "Netflix面臨重大賠償責任，營利能力受損",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.androidcentral.com/streaming-tv/netflix/netflix-ordered-to-pay-back-millions-of-subscribers-in-landmark-ruling",
+      "source": "Android Central",
+      "tickers": []
+    },
+    {
+      "title": "The global oil crisis is turning into an everything crisis - cnn.com",
+      "zh": "全球石油危機正演變為全面經濟危機",
+      "impact": "能源成本上升衝擊全球通脹與經濟成長",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.cnn.com/2026/04/04/business/global-oil-crisis-shortage-everything-intl-hnk-dst",
+      "source": "CNN",
+      "tickers": []
+    },
+    {
+      "title": "How TBPN went from nerdy online talk show to splashy OpenAI acquisition - MarketWatch",
+      "zh": "TBPN如何從小眾線上脫口秀發展成被OpenAI收購的企業",
+      "impact": "OpenAI拓展內容領域戰略，科技併購活躍",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/how-tbpn-went-from-nerdy-online-talkshow-to-splashy-openai-acquisition-c204185e",
+      "source": "MarketWatch",
+      "tickers": []
+    },
+    {
+      "title": "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead ‘special projects’ - techcrunch.com",
+      "zh": "OpenAI高管變動，首席運營官布拉德·萊特卡普獲新職務領導特殊項目",
+      "impact": "OpenAI組織重組，公司戰略調整信號",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+      "source": "TechCrunch",
+      "tickers": []
+    },
+    {
       "title": "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook - Bloomberg.com",
-      "zh": "美國公債下跌，強勁就業數據削弱聯準會降息預期",
-      "impact": "強勁就業延遲降息預期，推高債券殖利率",
+      "zh": "美國債券下跌，強勁就業數據削弱聯邦準備委員會降息前景",
+      "impact": "降息預期破滅，債市承壓，利率維持高位",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-03/treasuries-fall-as-strong-jobs-data-undermines-fed-cut-outlook",
@@ -42,51 +72,19 @@
       "tickers": []
     },
     {
-      "title": "Feds sue three states over prediction market crackdowns - Axios",
-      "zh": "聯邦政府起訴三州打擊預測市場行為",
-      "impact": "政府監管預測市場，影響市場創新和交易活動",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.axios.com/2026/04/03/prediction-market-crackdown-kalshi-polymarket",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
-      "title": "The Magnificent 7 Stock Crash's Toll Reaches $2.1 Trillion - Investor's Business Daily",
-      "zh": "「七大科技股」暴跌損失達2.1兆美元",
-      "impact": "科技股大幅下跌引發市場恐慌，撼動市場信心",
+      "title": "What's behind the layoffs in Seattle's tech sector - The Seattle Times",
+      "zh": "西雅圖科技業裁員潮背後原因分析",
+      "impact": "科技業就業危機加劇，地區經濟承壓",
       "sector": "tech",
-      "priority": "high",
-      "link": "https://www.investors.com/etfs-and-funds/sectors/sp500-magnificent-7-stock-crashs-toll-reaches-trillions/",
-      "source": "Investor's Business Daily",
-      "tickers": []
-    },
-    {
-      "title": "Verdicts against Meta and Google may bring a new era of big tech accountability - npr.org",
-      "zh": "針對Meta和Google的判決可能帶來大科技公司問責新時代",
-      "impact": "科技巨頭面臨監管判決，或引發產業監管加強",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
-      "source": "NPR",
-      "tickers": [
-        "$META（Meta）"
-      ]
-    },
-    {
-      "title": "Tesla outraces China’s BYD in pure electric car sales to regain world’s top spot - South China Morning Post",
-      "zh": "Tesla超越中國比亞迪純電動車銷售重奪全球第一",
-      "impact": "Tesla重奪電動車銷量冠軍，強化市場領導地位",
-      "sector": "consumer",
       "priority": "medium",
-      "link": "https://www.scmp.com/business/china-business/article/3348898/tesla-outraces-chinas-byd-pure-electric-car-sales-regain-worlds-top-spot",
-      "source": "Post Magazine",
+      "link": "https://www.seattletimes.com/business/technology/why-seattle-tech-companies-are-still-laying-off-workers/",
+      "source": "The Seattle Times",
       "tickers": []
     },
     {
       "title": "Japan's Sakura Internet jumps 20% as Microsoft plans $10 billion AI push with SoftBank - cnbc.com",
-      "zh": "日本Sakura Internet因微軟計畫與SoftBank推進100億美元AI投資暴漲20%",
-      "impact": "微軟與SoftBank百億美元AI合作推動股價上漲",
+      "zh": "日本櫻花互聯網股價飆升20%，微軟與軟銀宣佈100億美元AI合作計畫",
+      "impact": "AI投資熱潮升溫，相關企業受惠",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html",
@@ -95,52 +93,12 @@
     },
     {
       "title": "Outrage as Oracle files thousands of foreign-worker requests amid layoff bloodbath - finance.yahoo.com",
-      "zh": "Oracle在大規模裁員期間申報數千份外籍員工申請引發公憤",
-      "impact": "Oracle邊裁員邊申請外籍員工簽證，引發輿論批評",
+      "zh": "Oracle招聘數千名外籍員工引發抗議，同時進行大規模裁員",
+      "impact": "Oracle招聘與裁員矛盾激化，企業倫理遭質疑",
       "sector": "tech",
       "priority": "medium",
       "link": "https://nypost.com/2026/04/02/us-news/outrage-over-oracles-thousands-of-h-1b-requests-amid-layoffs/",
       "source": "New York Post",
-      "tickers": []
-    },
-    {
-      "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "特朗普勞工委員會命令亞馬遜與卡車司機工會談判 - 華盛頓郵報",
-      "impact": "亞馬遜面臨勞工談判義務，可能影響勞動成本與運營模式",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
-      "source": "The Washington Post",
-      "tickers": []
-    },
-    {
-      "title": "Oil cargo prices surge as fears of supply shortage grip market - Financial Times",
-      "zh": "油輪貨物價格飆升，市場籠罩供應短缺恐慌 - 金融時報",
-      "impact": "油價上漲威脅全球通膨，影響運輸與能源成本",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://www.ft.com/content/a121ee37-dc4f-44da-a6fe-ecbcd71110f3?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "5 Things to Know About OpenAI Before Its IPO",
-      "zh": "OpenAI上市前須了解的5件事",
-      "impact": "獨角獸OpenAI預期IPO，市場關注其估值與商業前景",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/5-things-know-openai-ipo-200400215.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Inflation readings, oil volatility, and airline earnings: What to watch this week",
-      "zh": "本週關注重點：通膨數據、油價波動與航空公司業績",
-      "impact": "多項經濟指標公布，影響市場走向與投資決策",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/news/inflation-readings-oil-volatility-and-airline-earnings-what-to-watch-this-week-100027649.html",
-      "source": "Yahoo Finance",
       "tickers": []
     }
   ]
