@@ -1,24 +1,32 @@
 {
-  "updated": "2026/04/06 00:00",
+  "updated": "2026/04/06 00:43",
   "news": [
     {
-      "title": "Low-cost airline CEO gives stark warning about jet fuel - thestreet.com",
-      "zh": "廉價航空公司執行長對噴氣燃油發出嚴峻警告",
-      "impact": "燃油成本上升威脅航空業利潤率",
+      "title": "Oil cargo prices surge as fears of supply shortage grip market - Financial Times",
+      "zh": "石油貨物價格飆升，供應短缺擔憂籠罩市場",
+      "impact": "能源價格上漲推高通膨預期，影響全球經濟",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://www.thestreet.com/travel/low-cost-airline-ceo-gives-stark-warning-about-jet-fuel",
-      "source": "TheStreet",
-      "tickers": [
-        "$COST（好市多）"
-      ]
+      "link": "https://www.ft.com/content/a121ee37-dc4f-44da-a6fe-ecbcd71110f3?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "The bond market is helping resolve the Fed's interest rate dilemma",
+      "zh": "債券市場幫助美聯儲化解利率困境",
+      "impact": "債市信號影響聯準會政策決策，涉及系統性風險",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/economy/article/the-bond-market-is-helping-resolve-the-feds-interest-rate-dilemma-103000702.html",
+      "source": "Yahoo Finance",
+      "tickers": []
     },
     {
       "title": "Delta kicks off an earnings season focused on surging gas prices and the Iran war",
-      "zh": "達美航空啟動聚焦於油價飆升和伊朗戰爭的財報季",
-      "impact": "地緣政治風險和能源成本衝擊航空業盈利表現",
-      "sector": "energy",
-      "priority": "high",
+      "zh": "達美航空開啟財報季，聚焦油價飆升與伊朗戰爭",
+      "impact": "航空股盈利受油價與地緣政治雙重衝擊",
+      "sector": "consumer",
+      "priority": "medium",
       "link": "https://www.marketwatch.com/story/delta-kicks-off-an-earnings-season-focused-on-surging-gas-prices-and-the-iran-war-4a4226fc?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories",
       "tickers": []
