@@ -1,102 +1,10 @@
 {
-  "updated": "2026/04/05 22:41",
+  "updated": "2026/04/06 00:00",
   "news": [
     {
-      "title": "Once-booming cookie chain closes all stores after Chapter 11 filing - Yahoo News Malaysia",
-      "zh": "曾經興旺的餅乾連鎖店在申請第11章破產後關閉所有門店",
-      "impact": "零售業衰退，消費者選擇轉向，餐飲連鎖面臨挑戰",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://www.thestreet.com/restaurants/once-booming-cookie-chain-closes-all-stores-after-chapter-11-filing",
-      "source": "TheStreet",
-      "tickers": []
-    },
-    {
-      "title": "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook - Bloomberg.com",
-      "zh": "美國債券下跌，強勁就業數據削弱聯邦準備委員會降息前景",
-      "impact": "降息預期下調，債券收益率上升，經濟增長信號強勁",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-03/treasuries-fall-as-strong-jobs-data-undermines-fed-cut-outlook",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "CFTC sues three states over efforts to regulate prediction markets - NBC Sports",
-      "zh": "美國商品期貨交易委員會起訴三個州試圖監管預測市場",
-      "impact": "監管爭議，預測市場合法性面臨挑戰，政策不確定性增加",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cftc-sues-three-states-over-efforts-to-regulate-prediction-markets",
-      "source": "NBCSports.com",
-      "tickers": []
-    },
-    {
-      "title": "The Magnificent 7 Stock Crash's Toll Reaches $2.1 Trillion - Investor's Business Daily",
-      "zh": "「七大科技股」股價崩跌損失達2.1兆美元",
-      "impact": "科技股大幅回調，市場風險資產承壓，投資者信心動搖",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.investors.com/etfs-and-funds/sectors/sp500-magnificent-7-stock-crashs-toll-reaches-trillions/",
-      "source": "Investor's Business Daily",
-      "tickers": []
-    },
-    {
-      "title": "Verdicts against Meta and Google may bring a new era of big tech accountability - npr.org",
-      "zh": "針對Meta和Google的判決可能帶來大科技公司問責新時代",
-      "impact": "大型科技企業面臨監管風險，商業模式可能面臨改革",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
-      "source": "NPR",
-      "tickers": [
-        "$META（Meta）"
-      ]
-    },
-    {
-      "title": "Tesla outraces China’s BYD in pure electric car sales to regain world’s top spot - South China Morning Post",
-      "zh": "特斯拉超越中國比亞迪純電動汽車銷售量重奪全球第一",
-      "impact": "電動車市場競爭加劇，特斯拉市場地位鞏固，行業格局變化",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.scmp.com/business/china-business/article/3348898/tesla-outraces-chinas-byd-pure-electric-car-sales-regain-worlds-top-spot",
-      "source": "Post Magazine",
-      "tickers": []
-    },
-    {
-      "title": "Japan's Sakura Internet jumps 20% as Microsoft plans $10 billion AI push with SoftBank - cnbc.com",
-      "zh": "日本櫻花互聯網股價上漲20%，微軟計劃與軟銀聯手進行100億美元人工智慧投資",
-      "impact": "AI投資熱潮升溫，軟銀重獲關注，日本科技股受惠",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "Outrage as Oracle files thousands of foreign-worker requests amid layoff bloodbath - finance.yahoo.com",
-      "zh": "甲骨文在大規模裁員期間提交數千份外籍工人申請引發公憤",
-      "impact": "人力資源政策爭議，裁員與招聘矛盾激化，輿論負面",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://nypost.com/2026/04/02/us-news/outrage-over-oracles-thousands-of-h-1b-requests-amid-layoffs/",
-      "source": "New York Post",
-      "tickers": []
-    },
-    {
-      "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "川普勞動委員會命令亞馬遜與國際卡車司機工會進行談判",
-      "impact": "勞資關係緊張，工會組織力強化，企業成本壓力增加",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
-      "source": "The Washington Post",
-      "tickers": []
-    },
-    {
       "title": "Low-cost airline CEO gives stark warning about jet fuel - thestreet.com",
-      "zh": "低成本航空公司執行長對噴氣燃料發出嚴厲警告",
-      "impact": "燃油成本上升威脅利潤率，航空業營運壓力加劇",
+      "zh": "廉價航空公司執行長對噴氣燃油發出嚴峻警告",
+      "impact": "燃油成本上升威脅航空業利潤率",
       "sector": "energy",
       "priority": "medium",
       "link": "https://www.thestreet.com/travel/low-cost-airline-ceo-gives-stark-warning-about-jet-fuel",
@@ -107,32 +15,12 @@
     },
     {
       "title": "Delta kicks off an earnings season focused on surging gas prices and the Iran war",
-      "zh": "達美航空啟動財報季，聚焦油價飆升與伊朗戰爭影響",
-      "impact": "油價上升威脅航空業獲利，地緣政治風險升高",
+      "zh": "達美航空啟動聚焦於油價飆升和伊朗戰爭的財報季",
+      "impact": "地緣政治風險和能源成本衝擊航空業盈利表現",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.marketwatch.com/story/delta-kicks-off-an-earnings-season-focused-on-surging-gas-prices-and-the-iran-war-4a4226fc?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
-      "title": "U.S. Auto Industry Proposes Vehicle Fee to Replace Gas Tax",
-      "zh": "美國汽車業提議車輛費用取代汽油稅",
-      "impact": "汽車業稅制改革，影響長期營運成本結構",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/US-Auto-Industry-Proposes-Vehicle-Fee-to-Replace-Gas-Tax.html",
-      "source": "Oilprice.com",
-      "tickers": []
-    },
-    {
-      "title": "U.S. Battery Expansion Surges Ahead of Demand Curve",
-      "zh": "美國電池產能擴張超前需求曲線",
-      "impact": "電池供應過剩風險，綠能投資面臨產能過度問題",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/US-Battery-Expansion-Surges-Ahead-of-Demand-Curve.html",
-      "source": "Oilprice.com",
       "tickers": []
     }
   ]
