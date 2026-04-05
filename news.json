@@ -1,13 +1,95 @@
 {
-  "updated": "2026/04/05 08:00",
+  "updated": "2026/04/05 10:01",
   "news": [
     {
-      "title": "U.S. Battery Expansion Surges Ahead of Demand Curve",
-      "zh": "美國電池產能擴張超前於需求曲線",
-      "impact": "電池產業產能過剩風險上升，成本競爭加劇",
+      "title": "CFTC sues three states over efforts to regulate prediction markets - NBC Sports",
+      "zh": "美國商品期貨交易委員會起訴三個州試圖監管預測市場",
+      "impact": "預測市場監管框架面臨法律挑戰，市場發展存在不確定性",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cftc-sues-three-states-over-efforts-to-regulate-prediction-markets",
+      "source": "NBCSports.com",
+      "tickers": []
+    },
+    {
+      "title": "Once-booming cookie chain closes all stores after Chapter 11 filing - thestreet.com",
+      "zh": "曾經繁榮的餅乾連鎖店在申請第11章破產後關閉所有門店",
+      "impact": "零售消費品行業衰退跡象，大型零售商面臨經營困難",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.thestreet.com/restaurants/once-booming-cookie-chain-closes-all-stores-after-chapter-11-filing",
+      "source": "TheStreet",
+      "tickers": []
+    },
+    {
+      "title": "What's behind the layoffs in Seattle's tech sector - The Seattle Times",
+      "zh": "西雅圖科技行業大規模裁員的深層原因分析",
+      "impact": "科技行業結構性調整加深，就業市場面臨壓力",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.seattletimes.com/business/technology/why-seattle-tech-companies-are-still-laying-off-workers/",
+      "source": "The Seattle Times",
+      "tickers": []
+    },
+    {
+      "title": "Verdicts against Meta and Google may bring a new era of big tech accountability - npr.org",
+      "zh": "針對Meta和Google的判決可能開啟科技巨頭問責新時代",
+      "impact": "大型科技公司面臨監管強化，行業競爭格局或將改變",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
+      "source": "NPR",
+      "tickers": [
+        "$META（Meta）"
+      ]
+    },
+    {
+      "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
+      "zh": "川普政府勞動委員會命令亞馬遜與卡車司機工會進行談判",
+      "impact": "勞資關係升級，亞馬遜面臨談判新局面，勞動力成本增加風險",
+      "sector": "consumer",
+      "priority": "high",
+      "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
+      "source": "The Washington Post",
+      "tickers": []
+    },
+    {
+      "title": "Blue Owl Investors Seek to Pull $5.4 Billion From Two Private-Credit Funds - WSJ",
+      "zh": "藍貓投資者尋求從兩隻私募信貸基金撤出54億美元",
+      "impact": "私募信貸市場風險預警，投資者信心可能動搖",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.wsj.com/finance/investing/blue-owls-36-billion-private-credit-fund-hit-by-22-withdrawal-request-6209c568",
+      "source": "The Wall Street Journal",
+      "tickers": []
+    },
+    {
+      "title": "Grocery shock on the horizon for approaching U.S. elections as Iran war drags on - cnbc.com",
+      "zh": "隨著伊朗戰爭持續，美國大選前夕食品雜貨價格衝擊迫近",
+      "impact": "地緣政治風險推高物價，消費者購買力受壓，通膨預期上升",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/02/grocery-shock-on-the-horizon-for-us-elections-as-iran-war-drags-on.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "Oracle 'Survivors' Reportedly Told to 'Stretch' After Massive Layoffs—But Workers Are Refusing Extra Hours - International Business Times UK",
+      "zh": "甲骨文大規模裁員後，倖存員工被要求「加班」但工人拒絕加班",
+      "impact": "科技企業勞資關係緊張，員工流失風險加劇",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.ibtimes.co.uk/oracle-survivors-reportedly-told-stretch-after-headcount-cuts-workers-are-refusing-extra-1789949",
+      "source": "International Business Times UK",
+      "tickers": []
+    },
+    {
+      "title": "U.S. Auto Industry Proposes Vehicle Fee to Replace Gas Tax",
+      "zh": "美國汽車業提議設立車輛費用以取代汽油稅",
+      "impact": "汽車產業稅收結構面臨根本性改革，營運成本或上升",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/US-Battery-Expansion-Surges-Ahead-of-Demand-Curve.html",
+      "link": "https://oilprice.com/Energy/Energy-General/US-Auto-Industry-Proposes-Vehicle-Fee-to-Replace-Gas-Tax.html",
       "source": "Oilprice.com",
       "tickers": []
     }
