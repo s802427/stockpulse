@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/05 11:17",
+  "updated": "2026/04/05 12:01",
   "news": [
     {
       "title": "Elon Musk insists banks working on SpaceX IPO must buy Grok subscriptions - Ars Technica",
-      "zh": "埃隆·馬斯克堅持為SpaceX IPO工作的銀行必須購買Grok訂閱服務",
-      "impact": "SpaceX IPO融資可能受限，銀行成本增加",
+      "zh": "埃隆·馬斯克堅持為SpaceX IPO提供融資的銀行必須購買Grok訂閱服務",
+      "impact": "SpaceX融資與Grok業務綑綁，潛在融資複雜化",
       "sector": "tech",
       "priority": "low",
       "link": "https://arstechnica.com/tech-policy/2026/04/elon-musk-insists-banks-working-on-spacex-ipo-must-buy-grok-subscriptions/",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Once-booming cookie chain closes all stores after Chapter 11 filing - Yahoo News Malaysia",
-      "zh": "曾經興旺的餅乾連鎖店在第11章破產申請後關閉所有門店",
-      "impact": "連鎖零售商破產，消費者支出放緩信號",
+      "zh": "曾經繁榮的餅乾連鎖店在申請第11章破產後關閉所有門店",
+      "impact": "消費零售企業破產，反映市場經營困難",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.thestreet.com/restaurants/once-booming-cookie-chain-closes-all-stores-after-chapter-11-filing",
@@ -23,8 +23,8 @@
     },
     {
       "title": "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook - Bloomberg.com",
-      "zh": "美國債券下跌，強勁就業數據削弱聯準會降息前景",
-      "impact": "聯準會可能延遲降息，債券收益率上升",
+      "zh": "美國債券下跌，強勁就業數據削弱美聯儲降息前景",
+      "impact": "就業數據強勁推升債券收益率，降息預期下降",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-03/treasuries-fall-as-strong-jobs-data-undermines-fed-cut-outlook",
@@ -33,8 +33,8 @@
     },
     {
       "title": "CFTC sues three states over efforts to regulate prediction markets - NBC Sports",
-      "zh": "美國商品期貨交易委員會起訴三個州試圖監管預測市場",
-      "impact": "預測市場監管政策面臨法律挑戰",
+      "zh": "美國商品期貨交易委員會起訴三州規管預測市場",
+      "impact": "聯邦監管機構與州政府衝突，預測市場監管政策衝擊",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cftc-sues-three-states-over-efforts-to-regulate-prediction-markets",
@@ -43,8 +43,8 @@
     },
     {
       "title": "What's behind the layoffs in Seattle's tech sector - The Seattle Times",
-      "zh": "西雅圖科技行業裁員背後的原因",
-      "impact": "科技行業裁員趨勢影響當地就業市場",
+      "zh": "西雅圖科技行業裁員的幕後原因",
+      "impact": "科技業區域裁員潮，反映行業調整壓力",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.seattletimes.com/business/technology/why-seattle-tech-companies-are-still-laying-off-workers/",
@@ -53,10 +53,10 @@
     },
     {
       "title": "Verdicts against Meta and Google may bring a new era of big tech accountability - npr.org",
-      "zh": "對Meta和Google的判決可能帶來科技巨頭問責的新時代",
-      "impact": "科技巨頭面臨監管加強，商業模式受威脅",
+      "zh": "針對Meta和谷歌的裁決可能帶來科技巨頭問責的新時代",
+      "impact": "科技巨頭訴訟敗訴，面臨監管加強和問責風險",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
       "source": "NPR",
       "tickers": [
@@ -64,9 +64,19 @@
       ]
     },
     {
+      "title": "Tesla outraces China’s BYD in pure electric car sales to regain world’s top spot - South China Morning Post",
+      "zh": "特斯拉超越中國比亞迪的純電動車銷售，重奪全球第一寶座",
+      "impact": "特斯拉重奪電動車銷售全球冠軍，市場地位強化",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://www.scmp.com/business/china-business/article/3348898/tesla-outraces-chinas-byd-pure-electric-car-sales-regain-worlds-top-spot",
+      "source": "Post Magazine",
+      "tickers": []
+    },
+    {
       "title": "Outrage as Oracle files thousands of foreign-worker requests amid layoff bloodbath - finance.yahoo.com",
-      "zh": "Oracle在大規模裁員時申請數千份外國工作者請求引發憤怒",
-      "impact": "裁員同時申請H-1B簽證，引發公眾質疑",
+      "zh": "甲骨文在裁員潮中提交數千份外籍員工申請引發憤怒",
+      "impact": "大型科技公司裁員同時增加H-1B申請，引發政策爭議",
       "sector": "tech",
       "priority": "medium",
       "link": "https://nypost.com/2026/04/02/us-news/outrage-over-oracles-thousands-of-h-1b-requests-amid-layoffs/",
@@ -75,9 +85,9 @@
     },
     {
       "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "川普勞工委員會命令亞馬遜與teamsters工會協商",
-      "impact": "亞馬遜勞資談判義務增加，工會組織推進",
-      "sector": "consumer",
+      "zh": "川普時期勞工委員會下令亞馬遜與Teamsters工會談判",
+      "impact": "勞工委員會強制亞馬遜與工會談判，勞資關係升級",
+      "sector": "general",
       "priority": "high",
       "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
       "source": "The Washington Post",
@@ -85,8 +95,8 @@
     },
     {
       "title": "What's next for Meta in the wake of trial losses and layoffs? - NPR",
-      "zh": "Meta在訴訟失敗和裁員後的下一步是什麼？",
-      "impact": "Meta面臨法律和人事雙重挑戰，業務前景不明",
+      "zh": "Meta在訴訟失敗和裁員後的下一步動向如何",
+      "impact": "Meta面臨法律風險和組織變革，戰略調整未明",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.npr.org/2026/04/02/nx-s1-5768216/whats-next-for-meta-after-trial-losses-layoffs",
@@ -97,8 +107,8 @@
     },
     {
       "title": "Blue Owl Investors Seek to Pull $5.4 Billion From Two Private-Credit Funds - WSJ",
-      "zh": "Blue Owl投資者尋求從兩檔私募信貸基金撤出54億美元",
-      "impact": "私募信貸基金面臨贖回壓力，流動性風險增加",
+      "zh": "Blue Owl投資者尋求從兩隻私人信貸基金中撤出54億美元",
+      "impact": "私人信貸基金面臨贖回壓力，反映投資者信心下滑",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.wsj.com/finance/investing/blue-owls-36-billion-private-credit-fund-hit-by-22-withdrawal-request-6209c568",
@@ -106,20 +116,20 @@
       "tickers": []
     },
     {
-      "title": "FuelCell Energy Stockholders Back All 5 Proposals at 2026 AGM, Approve Director Slate and Plans",
-      "zh": "燃料電池能源股東在2026年年度股東大會上支持全部5項提案，批准董事候選人名單和計劃",
-      "impact": "燃料電池能源公司獲股東支持，有利於公司戰略推進",
-      "sector": "energy",
+      "title": "Tech, Media & Telecom Roundup: Market Talk",
+      "zh": "科技、媒體與電信行業綜合動態：市場談論",
+      "impact": "多個科技相關行業的綜合市場資訊更新",
+      "sector": "tech",
       "priority": "low",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/fuelcell-energy-stockholders-back-5-200228760.html",
+      "link": "https://www.wsj.com/finance/investing/tech-media-telecom-roundup-market-talk-80c4723f?siteid=yhoof2&yptr=yahoo",
       "source": "Yahoo Finance",
       "tickers": []
     },
     {
       "title": "U.S. Auto Industry Proposes Vehicle Fee to Replace Gas Tax",
-      "zh": "美國汽車業提議徵收車輛費用以取代汽油稅",
-      "impact": "汽車業稅收政策調整，影響行業營運成本和消費者負擔",
-      "sector": "consumer",
+      "zh": "美國汽車業提議車輛費用以替代汽油稅",
+      "impact": "可能改變汽車業稅務結構，影響電動車轉型策略",
+      "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/US-Auto-Industry-Proposes-Vehicle-Fee-to-Replace-Gas-Tax.html",
       "source": "Oilprice.com",
@@ -127,8 +137,8 @@
     },
     {
       "title": "U.S. Battery Expansion Surges Ahead of Demand Curve",
-      "zh": "美國電池產能擴張超前需求曲線",
-      "impact": "電池供應能力過剩風險，可能影響產業盈利和投資前景",
+      "zh": "美國電池產能擴張領先需求曲線",
+      "impact": "電池產能超前部署，支撐電動車產業長期成長動力",
       "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/US-Battery-Expansion-Surges-Ahead-of-Demand-Curve.html",
