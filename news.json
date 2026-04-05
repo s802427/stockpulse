@@ -1,20 +1,20 @@
 {
-  "updated": "2026/04/05 20:01",
+  "updated": "2026/04/05 21:10",
   "news": [
     {
       "title": "Once-booming cookie chain closes all stores after Chapter 11 filing - Yahoo News Malaysia",
-      "zh": "曾經繁榮的餅乾連鎖店在申請第11章破產後關閉所有門店",
-      "impact": "零售業衰退，消費者選擇變化",
+      "zh": "曾經繁榮的餅乾連鎖店在第11章破產申請後關閉所有門市",
+      "impact": "餐飲零售業破產，反映消費市場困境",
       "sector": "consumer",
-      "priority": "low",
+      "priority": "medium",
       "link": "https://www.thestreet.com/restaurants/once-booming-cookie-chain-closes-all-stores-after-chapter-11-filing",
       "source": "TheStreet",
       "tickers": []
     },
     {
       "title": "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook - Bloomberg.com",
-      "zh": "美國債券下跌，強勁就業數據削弱聯準會降息預期",
-      "impact": "債市波動，降息延遲預期上升",
+      "zh": "美國債券下跌，強勁就業數據削弱美聯儲降息前景",
+      "impact": "降息延遲預期，推高借貸成本，影響市場流動性",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-03/treasuries-fall-as-strong-jobs-data-undermines-fed-cut-outlook",
@@ -23,8 +23,8 @@
     },
     {
       "title": "CFTC sues three states over efforts to regulate prediction markets - NBC Sports",
-      "zh": "商品期貨交易委員會起訴三州試圖監管預測市場",
-      "impact": "預測市場監管政策面臨法律挑戰",
+      "zh": "美國商品期貨交易委員會起訴三州規範預測市場的努力",
+      "impact": "預測市場監管爭議，可能影響金融衍生品發展方向",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cftc-sues-three-states-over-efforts-to-regulate-prediction-markets",
@@ -33,8 +33,8 @@
     },
     {
       "title": "The Magnificent 7 Stock Crash's Toll Reaches $2.1 Trillion - Investor's Business Daily",
-      "zh": "「神奇七雄」股票崩跌損失達2.1兆美元",
-      "impact": "科技股大幅下跌，市值蒸發嚴重",
+      "zh": "「七巨頭」股票崩盤損失達2.1兆美元",
+      "impact": "科技股大幅下跌，市值蒸發，威脅整體股市穩定性",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.investors.com/etfs-and-funds/sectors/sp500-magnificent-7-stock-crashs-toll-reaches-trillions/",
@@ -43,10 +43,10 @@
     },
     {
       "title": "Verdicts against Meta and Google may bring a new era of big tech accountability - npr.org",
-      "zh": "針對Meta和Google的判決可能帶來科技大廠問責新時代",
-      "impact": "大科技公司面臨監管和法律風險增加",
+      "zh": "針對Meta和Google的判決可能帶來科技巨頭問責的新時代",
+      "impact": "科技巨頭面臨法律風險，可能改變商業模式和監管框架",
       "sector": "tech",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
       "source": "NPR",
       "tickers": [
@@ -55,8 +55,8 @@
     },
     {
       "title": "Tesla outraces China’s BYD in pure electric car sales to regain world’s top spot - South China Morning Post",
-      "zh": "特斯拉超越中國比亞迪純電動車銷售重奪全球第一",
-      "impact": "電動車市場競爭加劇，特斯拉領先地位鞏固",
+      "zh": "特斯拉超越中國比亞迪的純電動車銷售量，重奪全球第一寶座",
+      "impact": "特斯拉市場競爭力回升，全球電動車格局變化",
       "sector": "energy",
       "priority": "medium",
       "link": "https://www.scmp.com/business/china-business/article/3348898/tesla-outraces-chinas-byd-pure-electric-car-sales-regain-worlds-top-spot",
@@ -65,8 +65,8 @@
     },
     {
       "title": "Japan's Sakura Internet jumps 20% as Microsoft plans $10 billion AI push with SoftBank - cnbc.com",
-      "zh": "日本櫻花互聯網公司股價漲20%，微軟計劃與軟銀推進100億美元AI投資",
-      "impact": "AI投資加速，相關公司受惠",
+      "zh": "日本Sakura Internet因微軟計劃與軟銀進行100億美元AI投資而飆升20%",
+      "impact": "微軟AI策略調整，帶動日本科技股上漲，AI投資升溫",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html",
@@ -75,8 +75,8 @@
     },
     {
       "title": "Outrage as Oracle files thousands of foreign-worker requests amid layoff bloodbath - finance.yahoo.com",
-      "zh": "甲骨文在大規模裁員中申請數千名外籍員工簽證引發公憤",
-      "impact": "企業裁員同時申請外籍員工引發爭議",
+      "zh": "甲骨文在大規模裁員期間提交數千份外籍勞工申請引發憤怒",
+      "impact": "H-1B簽證濫用質疑，勞工政策爭議，企業形象受損",
       "sector": "tech",
       "priority": "medium",
       "link": "https://nypost.com/2026/04/02/us-news/outrage-over-oracles-thousands-of-h-1b-requests-amid-layoffs/",
@@ -85,41 +85,29 @@
     },
     {
       "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "川普勞工委員會下令亞馬遜與卡車司機工會進行談判",
-      "impact": "科技業勞動關係面臨政策風險",
-      "sector": "tech",
+      "zh": "川普勞工委員會命令亞馬遜與Teamsters工會進行談判",
+      "impact": "亞馬遜面臨工會談判義務，勞資關係惡化，營運成本上升",
+      "sector": "consumer",
       "priority": "medium",
       "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
       "source": "The Washington Post",
       "tickers": []
     },
     {
-      "title": "Low-cost airline CEO gives stark warning about jet fuel - thestreet.com",
-      "zh": "低成本航空公司執行長對噴射燃油發出嚴厲警告",
-      "impact": "燃油成本上升威脅航空業利潤",
+      "title": "U.S. Auto Industry Proposes Vehicle Fee to Replace Gas Tax",
+      "zh": "美國汽車業提議推行車輛費用以取代汽油稅",
+      "impact": "汽車業稅務結構改革提案，影響整體能源和運輸政策",
       "sector": "energy",
       "priority": "low",
-      "link": "https://www.thestreet.com/travel/low-cost-airline-ceo-gives-stark-warning-about-jet-fuel",
-      "source": "TheStreet",
-      "tickers": [
-        "$COST（好市多）"
-      ]
-    },
-    {
-      "title": "U.S. Auto Industry Proposes Vehicle Fee to Replace Gas Tax",
-      "zh": "美國汽車產業提議用車輛費用取代汽油稅",
-      "impact": "汽車產業稅制改革，影響燃油稅收入與電動車成本結構",
-      "sector": "energy",
-      "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/US-Auto-Industry-Proposes-Vehicle-Fee-to-Replace-Gas-Tax.html",
       "source": "Oilprice.com",
       "tickers": []
     },
     {
       "title": "U.S. Battery Expansion Surges Ahead of Demand Curve",
-      "zh": "美國電池產能擴張超前於需求曲線",
-      "impact": "電池產能過剩風險，影響相關企業利潤率與投資回報",
-      "sector": "tech",
+      "zh": "美國電池擴產超前需求曲線",
+      "impact": "電池產能過剩風險上升，相關企業利潤率可能承壓",
+      "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/US-Battery-Expansion-Surges-Ahead-of-Demand-Curve.html",
       "source": "Oilprice.com",
