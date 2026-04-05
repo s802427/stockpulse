@@ -1,20 +1,10 @@
 {
-  "updated": "2026/04/05 14:00",
+  "updated": "2026/04/05 15:16",
   "news": [
     {
-      "title": "Once-booming cookie chain closes all stores after Chapter 11 filing - Yahoo News Malaysia",
-      "zh": "曾經蓬勃發展的餅乾連鎖店在第11章破產後關閉所有門店",
-      "impact": "零售業衰退，連鎖餐飲面臨經營困難",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://www.thestreet.com/restaurants/once-booming-cookie-chain-closes-all-stores-after-chapter-11-filing",
-      "source": "TheStreet",
-      "tickers": []
-    },
-    {
       "title": "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook - Bloomberg.com",
-      "zh": "美國債券下跌，強勁就業數據削弱聯邦準備委員會降息前景",
-      "impact": "就業強勁推高利率，降息預期減弱",
+      "zh": "美國債券因強勁就業數據削弱美聯儲降息前景而下跌",
+      "impact": "強勁就業數據推高債券收益率，降息預期減弱",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-03/treasuries-fall-as-strong-jobs-data-undermines-fed-cut-outlook",
@@ -23,8 +13,8 @@
     },
     {
       "title": "CFTC sues three states over efforts to regulate prediction markets - NBC Sports",
-      "zh": "商品期貨交易委員會起訴三個州試圖監管預測市場",
-      "impact": "預測市場監管爭議，法律問題待釐清",
+      "zh": "美國商品期貨交易委員會起訴三州試圖監管預測市場",
+      "impact": "聯邦與州政府在預測市場監管權限上產生衝突",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cftc-sues-three-states-over-efforts-to-regulate-prediction-markets",
@@ -32,19 +22,21 @@
       "tickers": []
     },
     {
-      "title": "Tesla outraces China’s BYD in pure electric car sales to regain world’s top spot - South China Morning Post",
-      "zh": "特斯拉超越中國比亞迪純電動車銷售重奪全球第一寶座",
-      "impact": "特斯拉電動車競爭力強，市場份額領先",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.scmp.com/business/china-business/article/3348898/tesla-outraces-chinas-byd-pure-electric-car-sales-regain-worlds-top-spot",
-      "source": "Post Magazine",
-      "tickers": []
+      "title": "Verdicts against Meta and Google may bring a new era of big tech accountability - npr.org",
+      "zh": "針對Meta和Google的判決可能帶來科技巨頭問責的新時代",
+      "impact": "監管機構對科技巨頭加強追責，行業監管趨嚴",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
+      "source": "NPR",
+      "tickers": [
+        "$META（Meta）"
+      ]
     },
     {
       "title": "Outrage as Oracle files thousands of foreign-worker requests amid layoff bloodbath - finance.yahoo.com",
-      "zh": "甲骨文在大規模裁員期間申請數千份外籍勞工簽證引發憤怒",
-      "impact": "裁員同時招聘外籍員工，引發就業政策爭議",
+      "zh": "Oracle在大規模裁員中申請數千份外籍勞工請求引發憤怒",
+      "impact": "Oracle大幅裁員同時申請H-1B簽證，引發勞工政策爭議",
       "sector": "tech",
       "priority": "high",
       "link": "https://nypost.com/2026/04/02/us-news/outrage-over-oracles-thousands-of-h-1b-requests-amid-layoffs/",
@@ -53,8 +45,8 @@
     },
     {
       "title": "Trump labor board orders Amazon to bargain with Teamsters - The Washington Post",
-      "zh": "川普勞工委員會下令亞馬遜與卡車司機工會進行談判",
-      "impact": "勞動關係新動向，工會力量增強",
+      "zh": "川普勞工委員會命令亞馬遜與卡車司機工會進行談判",
+      "impact": "勞動關係緊張加劇，亞馬遜面臨工會組織壓力",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.washingtonpost.com/technology/2026/04/02/amazon-trump-teamsters-nlrb/",
@@ -62,23 +54,63 @@
       "tickers": []
     },
     {
-      "title": "Blue Owl Investors Seek to Pull $5.4 Billion From Two Private-Credit Funds - WSJ",
-      "zh": "藍貓投資者尋求從兩檔私募信用基金提取54億美元",
-      "impact": "私募基金大額贖回，市場流動性承壓",
+      "title": "Oil cargo prices surge as fears of supply shortage grip market - Financial Times",
+      "zh": "油輪貨運價格飆升，市場對供應短缺的擔憂加劇",
+      "impact": "地緣政治風險推高能源價格，全球供應鏈受壓",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.ft.com/content/a121ee37-dc4f-44da-a6fe-ecbcd71110f3?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "Treasury moves to gut financial research office - Politico",
+      "zh": "美國財政部著手削弱金融研究辦公室",
+      "impact": "政府削減金融監管研究機構，監管透明度下降",
       "sector": "finance",
       "priority": "medium",
+      "link": "https://www.politico.com/news/2026/04/02/treasury-moves-to-gut-financial-research-office-00856631",
+      "source": "Politico",
+      "tickers": []
+    },
+    {
+      "title": "Blue Owl Investors Seek to Pull $5.4 Billion From Two Private-Credit Funds - WSJ",
+      "zh": "Blue Owl投資者尋求從兩隻私募信貸基金中撤回54億美元",
+      "impact": "私募信貸基金面臨大規模贖回，市場流動性風險上升",
+      "sector": "finance",
+      "priority": "high",
       "link": "https://www.wsj.com/finance/investing/blue-owls-36-billion-private-credit-fund-hit-by-22-withdrawal-request-6209c568",
       "source": "The Wall Street Journal",
       "tickers": []
     },
     {
-      "title": "Key Real-World Oil Price Soars to Highest Level Since 2008 - Bloomberg.com",
-      "zh": "關鍵現貨油價飆升至2008年以來最高水準",
-      "impact": "油價上漲至15年高位，能源成本上升",
+      "title": "Formerly bankrupt fast food dining chain faces Chapter 7",
+      "zh": "曾經破產的快餐連鎖店面臨第七章破產",
+      "impact": "快餐業競爭加劇導致連鎖店再次破產清算",
+      "sector": "consumer",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/formerly-bankrupt-fast-food-dining-224930599.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "U.S. Auto Industry Proposes Vehicle Fee to Replace Gas Tax",
+      "zh": "美國汽車業提議用車輛費替代汽油稅",
+      "impact": "汽車業提出新稅收方案，影響能源和交通政策走向",
       "sector": "energy",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-02/the-world-s-main-physical-oil-price-soars-to-highest-since-2008",
-      "source": "Bloomberg",
+      "priority": "medium",
+      "link": "https://oilprice.com/Energy/Energy-General/US-Auto-Industry-Proposes-Vehicle-Fee-to-Replace-Gas-Tax.html",
+      "source": "Oilprice.com",
+      "tickers": []
+    },
+    {
+      "title": "U.S. Battery Expansion Surges Ahead of Demand Curve",
+      "zh": "美國電池產業擴張超前需求增長",
+      "impact": "電池產能過剩風險增加，潛在影響新能源產業成本結構",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Energy/Energy-General/US-Battery-Expansion-Surges-Ahead-of-Demand-Curve.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
