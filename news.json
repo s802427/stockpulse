@@ -1,104 +1,24 @@
 {
-  "updated": "2026/04/06 06:01",
+  "updated": "2026/04/06 06:38",
   "news": [
     {
-      "title": "50-year-old pizza chain closes all restaurants, files Chapter 7 - thestreet.com",
-      "zh": "50年歷史披薩連鎖店關閉所有餐廳，申請第7章破產",
-      "impact": "老牌餐飲集團倒閉，消費者選擇減少",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://www.thestreet.com/restaurants/50-year-old-pizza-chain-gina-marias-closes-all-restaurants-files-chapter-7",
-      "source": "TheStreet",
-      "tickers": []
-    },
-    {
-      "title": "Once-booming cookie chain closes all stores after Chapter 11 filing - thestreet.com",
-      "zh": "曾經蓬勃發展的餅乾連鎖店在第11章破產申請後關閉所有門店",
-      "impact": "餐飲零售業困境加劇，就業機會喪失",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://www.thestreet.com/restaurants/once-booming-cookie-chain-closes-all-stores-after-chapter-11-filing",
-      "source": "TheStreet",
-      "tickers": []
-    },
-    {
-      "title": "Netflix ordered to pay back millions of subscribers in landmark ruling - Android Central",
-      "zh": "Netflix被判令向數百萬用戶支付賠款，創歷史性判決",
-      "impact": "Netflix面臨重大賠償責任，營利能力受損",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.androidcentral.com/streaming-tv/netflix/netflix-ordered-to-pay-back-millions-of-subscribers-in-landmark-ruling",
-      "source": "Android Central",
-      "tickers": []
-    },
-    {
-      "title": "The global oil crisis is turning into an everything crisis - cnn.com",
-      "zh": "全球石油危機正演變為全面經濟危機",
-      "impact": "能源成本上升衝擊全球通脹與經濟成長",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.cnn.com/2026/04/04/business/global-oil-crisis-shortage-everything-intl-hnk-dst",
-      "source": "CNN",
-      "tickers": []
-    },
-    {
-      "title": "How TBPN went from nerdy online talk show to splashy OpenAI acquisition - MarketWatch",
-      "zh": "TBPN如何從小眾線上脫口秀發展成被OpenAI收購的企業",
-      "impact": "OpenAI拓展內容領域戰略，科技併購活躍",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.marketwatch.com/story/how-tbpn-went-from-nerdy-online-talkshow-to-splashy-openai-acquisition-c204185e",
-      "source": "MarketWatch",
-      "tickers": []
-    },
-    {
-      "title": "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead ‘special projects’ - techcrunch.com",
-      "zh": "OpenAI高管變動，首席運營官布拉德·萊特卡普獲新職務領導特殊項目",
-      "impact": "OpenAI組織重組，公司戰略調整信號",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
-      "source": "TechCrunch",
-      "tickers": []
-    },
-    {
-      "title": "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook - Bloomberg.com",
-      "zh": "美國債券下跌，強勁就業數據削弱聯邦準備委員會降息前景",
-      "impact": "降息預期破滅，債市承壓，利率維持高位",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-03/treasuries-fall-as-strong-jobs-data-undermines-fed-cut-outlook",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "What's behind the layoffs in Seattle's tech sector - The Seattle Times",
-      "zh": "西雅圖科技業裁員潮背後原因分析",
-      "impact": "科技業就業危機加劇，地區經濟承壓",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.seattletimes.com/business/technology/why-seattle-tech-companies-are-still-laying-off-workers/",
-      "source": "The Seattle Times",
-      "tickers": []
-    },
-    {
-      "title": "Japan's Sakura Internet jumps 20% as Microsoft plans $10 billion AI push with SoftBank - cnbc.com",
-      "zh": "日本櫻花互聯網股價飆升20%，微軟與軟銀宣佈100億美元AI合作計畫",
-      "impact": "AI投資熱潮升溫，相關企業受惠",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
       "title": "Outrage as Oracle files thousands of foreign-worker requests amid layoff bloodbath - finance.yahoo.com",
-      "zh": "Oracle招聘數千名外籍員工引發抗議，同時進行大規模裁員",
-      "impact": "Oracle招聘與裁員矛盾激化，企業倫理遭質疑",
+      "zh": "Oracle在大規模裁員浪潮中申請數千份外籍員工簽證引發公眾憤怒",
+      "impact": "Oracle裁員同時增加外籍員工申請，引發市場對企業用工政策的質疑",
       "sector": "tech",
       "priority": "medium",
       "link": "https://nypost.com/2026/04/02/us-news/outrage-over-oracles-thousands-of-h-1b-requests-amid-layoffs/",
       "source": "New York Post",
+      "tickers": []
+    },
+    {
+      "title": "Global Fuel Shortage Pushes Governments Toward Demand Controls",
+      "zh": "全球燃料短缺推動各國政府轉向實施需求控制政策",
+      "impact": "全球能源短缺可能導致經濟放緩，影響能源及相關產業股價",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Global-Fuel-Shortage-Pushes-Governments-Toward-Demand-Controls.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
