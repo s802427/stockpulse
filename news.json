@@ -1,21 +1,11 @@
 {
-  "updated": "2026/04/06 14:01",
+  "updated": "2026/04/06 14:02",
   "news": [
     {
-      "title": "JBS workers end strike without agreement in place - 9News",
-      "zh": "JBS員工結束罷工但未達成協議",
-      "impact": "JBS供應鏈恢復，食品生產能力逐步恢復",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.9news.com/article/money/business/jbs-workers-end-strike/73-2496bc80-059b-4338-8b4a-259ab3e9087d",
-      "source": "9News.com KUSA",
-      "tickers": []
-    },
-    {
       "title": "Data center boom poses early challenge for New Jersey’s affordability agenda - Politico",
-      "zh": "數據中心繁榮對紐澤西州可負擔性議程構成早期挑戰",
-      "impact": "數據中心需求推高房價，威脅州政府住房政策目標",
-      "sector": "tech",
+      "zh": "數據中心繁榮對新澤西州可負擔性議程構成早期挑戰",
+      "impact": "數據中心發展可能推高當地房價和生活成本",
+      "sector": "general",
       "priority": "low",
       "link": "https://www.politico.com/news/2026/04/04/data-center-boom-poses-early-challenge-for-new-jerseys-affordability-agenda-00858524",
       "source": "Politico",
@@ -23,8 +13,8 @@
     },
     {
       "title": "Veteran analyst sends message to Tesla investors after Q1 miss - thestreet.com",
-      "zh": "資深分析師在特斯拉Q1業績不佳後向投資者發出訊息",
-      "impact": "特斯拉第一季度表現不達預期，引發投資者信心擔憂",
+      "zh": "資深分析師在特斯拉第一季度未達預期後向投資者傳遞信息",
+      "impact": "特斯拉業績不符預期，影響股價和投資者信心",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/stocks/veteran-analyst-sends-message-to-tesla-investors-after-q1-miss",
@@ -33,8 +23,8 @@
     },
     {
       "title": "Nike’s latest quarter shows customers have changed - thestreet.com",
-      "zh": "耐克最新季度顯示客戶需求已改變",
-      "impact": "耐克消費需求轉變，運動服飾行業面臨市場調整",
+      "zh": "耐克最新季度顯示客戶消費習慣已改變",
+      "impact": "耐克銷售下滑反映消費者需求變化和零售困境",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/stocks/nikes-latest-quarter-shows-customers-have-changed",
@@ -43,8 +33,8 @@
     },
     {
       "title": "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course - CNBC",
-      "zh": "沃什提名推進，川普競爭性聯準會計劃面臨衝突",
-      "impact": "聯準會主席人事變動引發貨幣政策方向不確定性",
+      "zh": "沃什提名推進，特朗普相互競爭的聯準會計畫面臨衝突",
+      "impact": "聯準會領導層人事變動將影響美國貨幣政策方向",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
@@ -53,8 +43,8 @@
     },
     {
       "title": "Nexstar Starts to Undo Its Merger With Tegna’s ABC, CBS, FOX, & NBC After Judge’s Order - | Cord Cutters News",
-      "zh": "法院命令後Nexstar開始撤銷與Tegna（ABC、CBS、FOX、NBC）的合併",
-      "impact": "大規模媒體併購被法院阻止，媒體產業整合受挫",
+      "zh": "Nexstar開始根據法官命令撤銷與Tegna的ABC、CBS、FOX與NBC的合併",
+      "impact": "媒體併購案被法院叫停，影響行業重組和競爭格局",
       "sector": "general",
       "priority": "medium",
       "link": "https://cordcuttersnews.com/nexstar-starts-to-undo-its-merger-with-tegnas-abc-cbs-fox-nbc-after-judges-order/",
@@ -62,10 +52,50 @@
       "tickers": []
     },
     {
-      "title": "No, Says Economist, March US Jobs Report 'Is Not Good' - Common Dreams",
-      "zh": "經濟學家表示三月美國就業報告「並不樂觀」",
-      "impact": "美國勞動力市場疲軟，經濟成長動能受質疑",
+      "title": "Housing market trends favor home shoppers, but Iran war clouds the outlook for mortgage rates - AP News",
+      "zh": "房市趨勢對購房者有利，但伊朗戰爭使抵押貸款利率前景蒙陰",
+      "impact": "地緣政治風險可能推高抵押貸款利率，影響房市前景",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://apnews.com/article/real-estate-housing-mortgage-rates-home-prices-b90bdc2675c3216c2248f403981d475d",
+      "source": "Associated Press",
+      "tickers": []
+    },
+    {
+      "title": "The Iran War Is Making the American Economy More Dominant Than Ever - WSJ",
+      "zh": "伊朗戰爭使美國經濟比以往任何時候都更具主導地位",
+      "impact": "地緣政治衝突可能增強美元避險需求和美國經濟地位",
       "sector": "general",
+      "priority": "medium",
+      "link": "https://www.wsj.com/economy/the-iran-war-is-making-the-american-economy-more-dominant-than-ever-287f9569",
+      "source": "The Wall Street Journal",
+      "tickers": []
+    },
+    {
+      "title": "The global oil crisis is turning into an everything crisis - cnn.com",
+      "zh": "全球石油危機正演變成全面危機",
+      "impact": "油價上漲將推高能源和日用商品成本，威脅經濟穩定",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.cnn.com/2026/04/04/business/global-oil-crisis-shortage-everything-intl-hnk-dst",
+      "source": "CNN",
+      "tickers": []
+    },
+    {
+      "title": "Trump’s tales are still muddling markets - Financial Times",
+      "zh": "特朗普言論仍在攪亂市場",
+      "impact": "政策不確定性持續困擾投資者，增加市場波動風險",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.ft.com/content/57f1c55a-7eab-4a3e-83d5-c8e228b7e99d?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "No, Says Economist, March US Jobs Report 'Is Not Good' - Common Dreams",
+      "zh": "經濟學家表示美國3月就業報告「並不良好」",
+      "impact": "就業數據疲弱引發經濟增長和聯準會政策調整預期",
+      "sector": "finance",
       "priority": "medium",
       "link": "https://www.commondreams.org/news/trump-jobs-report",
       "source": "Common Dreams",
@@ -73,8 +103,8 @@
     },
     {
       "title": "What's behind the layoffs in Seattle's tech sector - The Seattle Times",
-      "zh": "西雅圖科技產業裁員的幕後原因",
-      "impact": "科技業大規模裁員持續，就業市場承受壓力",
+      "zh": "西雅圖科技產業裁員背後的原因 - 西雅圖時報",
+      "impact": "西雅圖科技公司大規模裁員，反映行業調整",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.seattletimes.com/business/technology/why-seattle-tech-companies-are-still-laying-off-workers/",
@@ -83,8 +113,8 @@
     },
     {
       "title": "Oil climbs and stock futures drop as fuel shortages spread while Trump makes series of apocalyptic threats against Iran ahead of moving deadline",
-      "zh": "燃油短缺擴大油價上升股指期貨下跌，川普對伊朗發出末日警告",
-      "impact": "地緣政治緊張推高油價，威脅全球能源供應與股市穩定",
+      "zh": "油價上漲股期下跌，燃料短缺加劇，川普對伊朗發出末日威脅",
+      "impact": "地緣政治風險升高，能源和股市雙重承壓",
       "sector": "energy",
       "priority": "high",
       "link": "https://fortune.com/2026/04/05/stock-market-today-oil-prices-stock-futures-fuel-shortages-trump-threats-iran-hormuz-deadline/",
@@ -93,8 +123,8 @@
     },
     {
       "title": "OPEC Commits to Boost Output Once Hormuz Reopens",
-      "zh": "石油輸出國組織承諾荷莫茲海峽重開後增加產量",
-      "impact": "OPEC增產預期緩解油價上漲壓力，能源市場風險部分抵銷",
+      "zh": "歐佩克承諾荷姆茲海峽重新開放後增加產量",
+      "impact": "未來油價可能下降，緩解能源供應危機",
       "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Commits-to-Boost-Output-Once-Hormuz-Reopens.html",
@@ -103,8 +133,8 @@
     },
     {
       "title": "Global Fuel Shortage Pushes Governments Toward Demand Controls",
-      "zh": "全球燃料短缺推動政府採取需求管制措施",
-      "impact": "能源價格上漲，政府干預市場，影響運輸和製造業成本",
+      "zh": "全球燃料短缺促使各國政府實施需求管制",
+      "impact": "全球能源危機加劇，政府干預市場引發通脹風險",
       "sector": "energy",
       "priority": "high",
       "link": "https://oilprice.com/Energy/Crude-Oil/Global-Fuel-Shortage-Pushes-Governments-Toward-Demand-Controls.html",
