@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/06 17:16",
+  "updated": "2026/04/06 18:01",
   "news": [
     {
       "title": "Veteran analyst sends message to Tesla investors after Q1 miss - thestreet.com",
-      "zh": "資深分析師在特斯拉Q1業績未達預期後向投資者發出信息",
-      "impact": "特斯拉股價及投資者信心可能受挫",
+      "zh": "資深分析師在特斯拉Q1業績不佳後向投資者傳達信息",
+      "impact": "特斯拉Q1未達預期，引發市場對其前景的擔憂",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/stocks/veteran-analyst-sends-message-to-tesla-investors-after-q1-miss",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Nike’s latest quarter shows customers have changed - thestreet.com",
-      "zh": "耐克最新季度數據顯示消費者行為已改變",
-      "impact": "消費者需求變化影響耐克銷售策略",
+      "zh": "耐克最新季度顯示客戶偏好已改變",
+      "impact": "消費者行為變化影響耐克銷售表現和業務策略",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/stocks/nikes-latest-quarter-shows-customers-have-changed",
@@ -23,8 +23,8 @@
     },
     {
       "title": "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course - CNBC",
-      "zh": "沃什被提名推進，特朗普相互矛盾的聯準會計畫面臨對峙",
-      "impact": "聯準會政策方向不確定性增加，影響市場預期",
+      "zh": "沃什提名推進，川普相互競爭的聯準會計畫面臨衝突",
+      "impact": "聯準會領導層變動可能影響美國貨幣政策方向和市場預期",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
@@ -33,8 +33,8 @@
     },
     {
       "title": "Nexstar Starts to Undo Its Merger With Tegna’s ABC, CBS, FOX, & NBC After Judge’s Order - | Cord Cutters News",
-      "zh": "聯邦法院命令後，Nexstar開始撤銷與Tegna ABC、CBS、FOX和NBC的合併",
-      "impact": "重大併購交易受阻，涉及數十億美元資產",
+      "zh": "Nexstar開始撤銷與Tegna的ABC、CBS、FOX和NBC合併交易（法官命令後）",
+      "impact": "大型媒體併購交易被法院推翻，涉及數十億美元資產重組",
       "sector": "general",
       "priority": "high",
       "link": "https://cordcuttersnews.com/nexstar-starts-to-undo-its-merger-with-tegnas-abc-cbs-fox-nbc-after-judges-order/",
@@ -43,9 +43,9 @@
     },
     {
       "title": "The Iran War Is Making the American Economy More Dominant Than Ever - WSJ",
-      "zh": "伊朗戰爭正使美國經濟主導地位達到前所未有的高度",
-      "impact": "地緣政治局勢影響全球經濟格局和美元主導地位",
-      "sector": "general",
+      "zh": "伊朗戰爭使美國經濟比以往更加主導",
+      "impact": "地緣政治風險重塑全球經濟格局，強化美元地位",
+      "sector": "energy",
       "priority": "medium",
       "link": "https://www.wsj.com/economy/the-iran-war-is-making-the-american-economy-more-dominant-than-ever-287f9569",
       "source": "The Wall Street Journal",
@@ -53,8 +53,8 @@
     },
     {
       "title": "Trump’s tales are still muddling markets - Financial Times",
-      "zh": "特朗普的言論仍在擾亂市場",
-      "impact": "政策不確定性導致市場波動和投資者困惑",
+      "zh": "川普的言論持續擾亂市場",
+      "impact": "政治言論增加市場波動性和不確定性",
       "sector": "general",
       "priority": "medium",
       "link": "https://www.ft.com/content/57f1c55a-7eab-4a3e-83d5-c8e228b7e99d?syn-25a6b1a6\\\\u003d1",
@@ -63,18 +63,18 @@
     },
     {
       "title": "United Airlines raises bag fees amid rising fuel costs and introduces tiered premium fares - AP News",
-      "zh": "聯合航空在燃油成本上升之際提高行李費，並推出分級高級票價",
-      "impact": "航空業成本上升轉嫁消費者，影響旅遊業務",
+      "zh": "聯合航空公司在燃油成本上升之際提高行李費並推出分層優質票價",
+      "impact": "航空公司調整費用結構應對成本上升，影響消費者支出",
       "sector": "consumer",
-      "priority": "medium",
+      "priority": "low",
       "link": "https://apnews.com/article/united-bag-fees-prices-40ad812a15f1cc8aeb981763db72745b",
       "source": "Associated Press",
       "tickers": []
     },
     {
       "title": "No, Says Economist, March US Jobs Report 'Is Not Good' - Common Dreams",
-      "zh": "經濟學家表示美國3月就業報告\"不樂觀\"",
-      "impact": "就業市場疲軟影響聯準會政策及經濟前景",
+      "zh": "經濟學家表示3月美國就業報告「並不樂觀」",
+      "impact": "就業數據疲弱引發對經濟增長和央行政策的擔憂",
       "sector": "general",
       "priority": "medium",
       "link": "https://www.commondreams.org/news/trump-jobs-report",
@@ -83,8 +83,8 @@
     },
     {
       "title": "Tyler Cowen: Why Oil Price Spikes Could Spark a Global Recession - The Free Press",
-      "zh": "泰勒·考恩：油價飆升可能引發全球經濟衰退",
-      "impact": "能源價格波動對全球經濟構成系統性風險",
+      "zh": "泰勒·考恩：油價飆升可能引發全球衰退",
+      "impact": "能源價格上漲風險可能危及全球經濟增長前景",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.thefp.com/p/tyler-cowen-why-oil-price-spikes",
@@ -92,9 +92,19 @@
       "tickers": []
     },
     {
+      "title": "Dealership Group May Have to Refund Car Buyers $75 Million Due to Alleged Predatory Pricing - Road & Track",
+      "zh": "經銷商集團可能因涉嫌掠奪性定價向購車者退款7,500萬美元",
+      "impact": "汽車經銷商面臨大額罰款，消費者保護監管趨嚴",
+      "sector": "consumer",
+      "priority": "low",
+      "link": "https://www.roadandtrack.com/news/a70927872/dealership-group-may-have-to-refund-car-buyers-75-million-dollars/",
+      "source": "RoadandTrack.com",
+      "tickers": []
+    },
+    {
       "title": "What's behind the layoffs in Seattle's tech sector - The Seattle Times",
-      "zh": "西雅圖科技行業裁員潮背後的原因",
-      "impact": "科技產業人力調整反映市場冷卻信號",
+      "zh": "西雅圖科技業裁員背後的原因 - 西雅圖時報",
+      "impact": "西雅圖科技業面臨裁員潮，反映行業調整",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.seattletimes.com/business/technology/why-seattle-tech-companies-are-still-laying-off-workers/",
@@ -102,12 +112,42 @@
       "tickers": []
     },
     {
-      "title": "OPEC Commits to Boost Output Once Hormuz Reopens",
-      "zh": "歐佩克承諾一旦荷姆茲海峽重新開放將增加產量",
-      "impact": "油價下跌風險，全球能源供應增加，通脹壓力緩解",
-      "sector": "energy",
+      "title": "Saks Global plans to exit bankruptcy this summer with $500m funding",
+      "zh": "Saks Global計劃今夏以5億美元融資退出破產",
+      "impact": "零售業龍頭Saks Global融資重組，市場信心恢復",
+      "sector": "consumer",
       "priority": "medium",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Commits-to-Boost-Output-Once-Hormuz-Reopens.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/saks-global-plans-exit-bankruptcy-093849937.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Crude oil dropping after historic $11 surge, as negotiators race against Trump’s deadline for Iran",
+      "zh": "原油在歷史性上漲11美元後回落，談判者與特朗普伊朗截止期限賽跑",
+      "impact": "原油波動劇烈，伊朗談判進展影響能源價格",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.marketwatch.com/story/crude-oil-dropping-after-historic-11-surge-as-negotiators-race-against-trumps-deadline-for-iran-407a2094?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "While other CEOs freeze entry-level roles, this AI founder is hiring Gen Z with zero experience",
+      "zh": "當其他CEO凍結應屆畢業生職位時，這位AI創辦人正在聘用零經驗的Gen Z員工",
+      "impact": "AI產業招聘熱度高，與科技業整體寒冬形成對比",
+      "sector": "tech",
+      "priority": "low",
+      "link": "https://fortune.com/2026/04/06/while-other-ceos-freeze-entry-level-roles-this-ai-founder-is-hiring-gen-z-with-zero-experience/",
+      "source": "Fortune | FORTUNE",
+      "tickers": []
+    },
+    {
+      "title": "Saudi Arabia Sets Record Premium for Flagship Crude as Hormuz Crisis Deepens",
+      "zh": "沙特阿拉伯為旗艦原油設定創紀錄溢價，荷姆茲海峽危機加深",
+      "impact": "地緣政治風險推升油價，全球能源供應鏈承壓",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Sets-Record-Premium-for-Flagship-Crude-as-Hormuz-Crisis-Deepens.html",
       "source": "Oilprice.com",
       "tickers": []
     }
