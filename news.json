@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/07 00:00",
+  "updated": "2026/04/07 00:57",
   "news": [
     {
       "title": "Kevin Warsh needs to be confirmed as Fed Chair in order to avoid an economic shutdown - New York Post",
-      "zh": "凱文·沃什需要獲得聯邦儲備委員會主席確認，以避免經濟停滯",
-      "impact": "美聯儲主席人選確認涉及貨幣政策走向，影響全球金融市場",
+      "zh": "凱文·沃什需要獲得確認為美聯儲主席，以避免經濟關閉",
+      "impact": "美聯儲主席人事變動，涉及貨幣政策走向和經濟前景",
       "sector": "finance",
       "priority": "high",
       "link": "https://nypost.com/2026/04/04/business/kevin-warsh-needs-to-be-confirmed-as-fed-chair-in-order-to-avoid-an-economic-shutdown/",
@@ -12,9 +12,19 @@
       "tickers": []
     },
     {
+      "title": "Veteran analyst sends message to Tesla investors after Q1 miss - thestreet.com",
+      "zh": "資深分析師在特斯拉第一季度未達預期後向投資者傳達信息",
+      "impact": "特斯拉財報表現不佳，影響股價和投資者信心",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.thestreet.com/investing/stocks/veteran-analyst-sends-message-to-tesla-investors-after-q1-miss",
+      "source": "TheStreet",
+      "tickers": []
+    },
+    {
       "title": "Nike’s latest quarter shows customers have changed - thestreet.com",
-      "zh": "耐克最新季度業績顯示消費者偏好已改變",
-      "impact": "耐克銷售趨勢變化反映消費者行為轉變，影響零售業前景",
+      "zh": "耐克最新一季度業績顯示客戶消費習慣已改變",
+      "impact": "消費需求轉變，影響耐克銷售前景和零售業走向",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/stocks/nikes-latest-quarter-shows-customers-have-changed",
@@ -23,8 +33,8 @@
     },
     {
       "title": "Nexstar Starts to Undo Its Merger With Tegna’s ABC, CBS, FOX, & NBC After Judge’s Order - | Cord Cutters News",
-      "zh": "Nexstar開始在法官命令後解除與Tegna的ABC、CBS、FOX和NBC合併",
-      "impact": "重大媒體併購交易面臨解除，涉及數十億美元資產重組",
+      "zh": "Nexstar開始根據法院命令撤銷與Tegna的ABC、CBS、FOX及NBC合併協議",
+      "impact": "大型媒體併購案遭法院阻止，涉及數十億美元交易",
       "sector": "general",
       "priority": "high",
       "link": "https://cordcuttersnews.com/nexstar-starts-to-undo-its-merger-with-tegnas-abc-cbs-fox-nbc-after-judges-order/",
@@ -33,8 +43,8 @@
     },
     {
       "title": "Oracle Fired 30,000 Employees, He Lost 18 Lakh Crores! - Gulte",
-      "zh": "甲骨文裁員30,000人，CEO失去180億盧比市值",
-      "impact": "甲骨文大規模裁員30,000人，為科技業重大人事調整事件",
+      "zh": "甲骨文裁員30,000人，首席執行官損失180億盧比",
+      "impact": "科技巨頭大規模裁員，影響就業市場和公司營運成本",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.gulte.com/trends/404236/oracle-fired-30000-employees-he-lost-18-lakh-crores",
@@ -42,42 +52,32 @@
       "tickers": []
     },
     {
-      "title": "Stock market today: US stocks rise, oil falls as hopes emerge for an end to Middle East hostilities",
-      "zh": "美股今日上漲，石油下跌，中東敵對行為結束希望出現",
-      "impact": "中東局勢緩和提升市場風險偏好，油價下行利好經濟前景",
-      "sector": "general",
+      "title": "United Airlines raises bag fees amid rising fuel costs and introduces tiered premium fares - AP News",
+      "zh": "聯合航空公司在燃油成本上升中提高行李費並推出分層高級票價方案",
+      "impact": "航空公司提價應對成本，消費者出行成本上升",
+      "sector": "consumer",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/news/live/stock-market-today-us-stock-futures-mixed-oil-dips-as-hopes-emerge-for-an-end-to-middle-east-hostilities-002656744.html",
-      "source": "Yahoo Finance",
+      "link": "https://apnews.com/article/united-bag-fees-prices-40ad812a15f1cc8aeb981763db72745b",
+      "source": "Associated Press",
       "tickers": []
     },
     {
-      "title": "Suspicious Oil Bets Before Trump’s Iran Announcement Under Scrutiny",
-      "zh": "川普伊朗聲明前的可疑石油投注受到審查",
-      "impact": "涉嫌內線交易調查，可能影響能源市場與監管政策執行",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/Suspicious-Oil-Bets-Before-Trumps-Iran-Announcement-Under-Scrutiny.html",
-      "source": "Oilprice.com",
+      "title": "Supermicro owes its rapid rise to $4 trillion Nvidia—but China smuggling allegations and a high-profile arrest could blow up the partnership",
+      "zh": "超微公司的迅速發展歸功於4兆美元的英偉達，但中國走私指控和高調逮捕可能摧毀此合作關係",
+      "impact": "超微與英偉達合作面臨法律風險，涉及地緣政治因素",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://fortune.com/2026/04/06/supermicro-nvidia-jensen-huang-charles-liang-wally-liaw/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     },
     {
       "title": "Tesla Q1 Deliveries Expected to Fall Far Short of Peak as EV Demand Cools",
-      "zh": "特斯拉第一季交付量預期遠低於歷史高峰，電動車需求冷卻",
-      "impact": "特斯拉銷售下滑反映電動車市場需求放緩，影響汽車業前景",
-      "sector": "consumer",
-      "priority": "high",
+      "zh": "特斯拉第一季度交付量預期遠低於歷史峰值，電動車需求出現冷卻",
+      "impact": "電動車市場需求下滑，特斯拉業績不佳影響股價",
+      "sector": "tech",
+      "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/Tesla-Q1-Deliveries-Expected-to-Fall-Far-Short-of-Peak-as-EV-Demand-Cools.html",
-      "source": "Oilprice.com",
-      "tickers": []
-    },
-    {
-      "title": "U.S. Oil Premiums Hit Record High as World Scrambles for Crude",
-      "zh": "美國石油溢價創歷史新高，全球爭相搶購原油",
-      "impact": "能源供應緊張推高油價，可能推升全球通膨壓力",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Oil-Premiums-Hit-Record-High-as-World-Scrambles-for-Crude.html",
       "source": "Oilprice.com",
       "tickers": []
     }
