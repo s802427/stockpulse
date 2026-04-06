@@ -1,24 +1,136 @@
 {
-  "updated": "2026/04/06 08:00",
+  "updated": "2026/04/06 10:01",
   "news": [
     {
-      "title": "Outrage as Oracle files thousands of foreign-worker requests amid layoff bloodbath - finance.yahoo.com",
-      "zh": "Oracle在大規模裁員的同時提交數千份外籍員工申請引發眾怒",
-      "impact": "企業大規模裁員同時招募外籍員工，引發政策和輿論風險",
+      "title": "Goldman Sachs has blunt message on gold price for rest of 2026 - thestreet.com",
+      "zh": "高盛對2026年黃金價格發表直言不諱的看法",
+      "impact": "黃金投資者需關注高盛對金價走勢的預測",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.thestreet.com/investing/goldman-sachs-has-blunt-message-on-gold-price-for-rest-of-2026",
+      "source": "TheStreet",
+      "tickers": []
+    },
+    {
+      "title": "Americans are feeling the Iran war’s economic pain with hints of worse ahead - The Washington Post",
+      "zh": "美國人感受到伊朗戰爭的經濟痛楚，未來可能更糟",
+      "impact": "伊朗衝突升級影響能源價格和通膨預期",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.washingtonpost.com/business/2026/04/04/iran-war-global-economy/",
+      "source": "The Washington Post",
+      "tickers": []
+    },
+    {
+      "title": "Nike’s latest quarter shows customers have changed - thestreet.com",
+      "zh": "耐克最新季度顯示消費者偏好已改變",
+      "impact": "消費者需求變化影響耐克銷售及消費股前景",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.thestreet.com/investing/stocks/nikes-latest-quarter-shows-customers-have-changed",
+      "source": "TheStreet",
+      "tickers": []
+    },
+    {
+      "title": "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course - CNBC",
+      "zh": "沃什提名推進，川普競爭性聯準會計畫面臨碰撞",
+      "impact": "聯準會領導層變化將影響美國利率政策方向",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "Housing market trends favor home shoppers, but Iran war clouds the outlook for mortgage rates - AP News",
+      "zh": "房市趨勢對購房者有利，但伊朗戰爭籠罩抵押貸款利率前景",
+      "impact": "地緣政治風險影響房市和利率走向",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://apnews.com/article/real-estate-housing-mortgage-rates-home-prices-b90bdc2675c3216c2248f403981d475d",
+      "source": "Associated Press",
+      "tickers": []
+    },
+    {
+      "title": "How TBPN went from nerdy online talk show to splashy OpenAI acquisition - MarketWatch",
+      "zh": "TBPN如何從小眾線上脫口秀搖身一變成為OpenAI的耀眼收購案",
+      "impact": "OpenAI收購新創公司擴展業務範圍",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/how-tbpn-went-from-nerdy-online-talkshow-to-splashy-openai-acquisition-c204185e",
+      "source": "MarketWatch",
+      "tickers": []
+    },
+    {
+      "title": "Department of Labour data shows Apple Meta, Google and Amazon have slashed H-1B petitions by almost half: - timesofindia.indiatimes.com",
+      "zh": "美國勞工部數據顯示蘋果、Meta、谷歌和亞馬遜的H-1B申請減少近一半",
+      "impact": "科技巨頭削減外籍員工申請反映招聘策略變化",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://timesofindia.indiatimes.com/technology/tech-news/department-of-labour-data-shows-apple-meta-google-and-amazon-have-slashed-h-1b-petitions-by-almost-half-here-are-the-numbers/articleshow/130005862.cms",
+      "source": "The Times of India",
+      "tickers": [
+        "$META（Meta）"
+      ]
+    },
+    {
+      "title": "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook - Bloomberg.com",
+      "zh": "美國債券因強勁就業數據下跌，削弱聯準會降息前景",
+      "impact": "就業強勁推高債券殖利率，降息預期減弱",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-03/treasuries-fall-as-strong-jobs-data-undermines-fed-cut-outlook",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Democratic Senators Call on Trump to Block Chinese Automakers From Manufacturing in U.S. - WSJ",
+      "zh": "民主黨參議員呼籲川普阻止中國汽車製造商在美國生產",
+      "impact": "貿易政策變化將影響汽車業供應鏈和投資",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.wsj.com/politics/policy/democratic-senators-call-on-trump-to-block-chinese-automakers-from-manufacturing-in-u-s-0b64bc20",
+      "source": "The Wall Street Journal",
+      "tickers": []
+    },
+    {
+      "title": "What's behind the layoffs in Seattle's tech sector - The Seattle Times",
+      "zh": "西雅圖科技業裁員背後的原因",
+      "impact": "科技業裁員浪潮反映產業結構調整和經濟預期",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.seattletimes.com/business/technology/why-seattle-tech-companies-are-still-laying-off-workers/",
+      "source": "The Seattle Times",
+      "tickers": []
+    },
+    {
+      "title": "Japan's Sakura Internet jumps 20% as Microsoft plans $10 billion AI push with SoftBank - cnbc.com",
+      "zh": "日本櫻花網際網路公司股價飆漲20%，微軟計劃與軟銀合作推進100億美元AI計畫",
+      "impact": "微軟與軟銀AI合作利好日本科技股，帶動亞洲科技板塊",
       "sector": "tech",
       "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/03/sakura-internet-microsoft-ai-japan-softbank-investment.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "Outrage as Oracle files thousands of foreign-worker requests amid layoff bloodbath - finance.yahoo.com",
+      "zh": "甲骨文在大規模裁員期間申請數千份外籍勞工簽證引發眾怒",
+      "impact": "企業裁員同時引進外籍勞工，引發勞工政策與誠信爭議",
+      "sector": "tech",
+      "priority": "medium",
       "link": "https://nypost.com/2026/04/02/us-news/outrage-over-oracles-thousands-of-h-1b-requests-amid-layoffs/",
       "source": "New York Post",
       "tickers": []
     },
     {
-      "title": "Gulf Funds Near Deal to Back Paramount’s $81 Billion Takeover of Warner",
-      "zh": "海灣基金接近達成協議支持派拉蒙以810億美元收購華納兄弟",
-      "impact": "好萊塢巨頭併購進展，涉及行業整合和資本流向",
-      "sector": "finance",
+      "title": "Oil climbs and stock futures drop as fuel shortages spread while Trump makes series of apocalyptic threats against Iran ahead of moving deadline",
+      "zh": "油價上升股指期貨下跌，燃料短缺蔓延之際川普對伊朗發出一系列極端威脅並逼近截止期限",
+      "impact": "地緣政治風險升高導致能源價格上漲，股市承壓",
+      "sector": "energy",
       "priority": "high",
-      "link": "https://www.wsj.com/business/deals/three-gulf-funds-agree-to-back-paramounts-81-billion-takeover-of-warner-04eda364?siteid=yhoof2&yptr=yahoo",
-      "source": "Yahoo Finance",
+      "link": "https://fortune.com/2026/04/05/stock-market-today-oil-prices-stock-futures-fuel-shortages-trump-threats-iran-hormuz-deadline/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     }
   ]
