@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/06 11:22",
+  "updated": "2026/04/06 12:01",
   "news": [
     {
       "title": "50-year-old pizza chain closes all restaurants, files Chapter 7 - thestreet.com",
-      "zh": "50年老牌披薩連鎖店關閉所有餐廳，申請第7章破產",
-      "impact": "老牌餐飲連鎖破產，消費服務業困境加深",
+      "zh": "50年歷史披薩連鎖店關閉所有餐廳，申請第七章破產",
+      "impact": "老牌餐飲企業破產，餐飲業困境加劇",
       "sector": "consumer",
       "priority": "low",
       "link": "https://www.thestreet.com/restaurants/50-year-old-pizza-chain-gina-marias-closes-all-restaurants-files-chapter-7",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Goldman Sachs has blunt message on gold price for rest of 2026 - thestreet.com",
-      "zh": "高盛對2026年黃金價格發表直白看法",
-      "impact": "貴金屬市場展望，投資配置參考",
+      "zh": "高盛對2026年其餘時間黃金價格發表直言不諱的看法",
+      "impact": "黃金價格走勢預期影響商品市場投資策略",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/goldman-sachs-has-blunt-message-on-gold-price-for-rest-of-2026",
@@ -23,8 +23,8 @@
     },
     {
       "title": "Veteran analyst sends message to Tesla investors after Q1 miss - thestreet.com",
-      "zh": "資深分析師在特斯拉Q1不達預期後向投資者發表看法",
-      "impact": "特斯拉業績預警，電動車龍頭前景存疑",
+      "zh": "資深分析師在特斯拉第一季度未達預期後向投資者傳達信息",
+      "impact": "特斯拉業績不佳引發分析師警告，影響股價走勢",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/stocks/veteran-analyst-sends-message-to-tesla-investors-after-q1-miss",
@@ -33,8 +33,8 @@
     },
     {
       "title": "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course - CNBC",
-      "zh": "沃什提名推進，特朗普相互衝突的聯準會計畫面臨對抗",
-      "impact": "聯準會領導人事確認，貨幣政策方向存重大分歧",
+      "zh": "沃什提名推進，將川普相互競爭的聯準會計畫推向對抗",
+      "impact": "聯準會主席人選確定將影響貨幣政策方向和市場預期",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
@@ -43,28 +43,18 @@
     },
     {
       "title": "Nexstar Starts to Undo Its Merger With Tegna’s ABC, CBS, FOX, & NBC After Judge’s Order - | Cord Cutters News",
-      "zh": "Nexstar開始根據法官令撤銷與Tegna的ABC、CBS、FOX及NBC合併",
-      "impact": "大型廣播併購交易受阻，媒體整合戰略調整",
+      "zh": "納斯達克開始撤銷與泰格納ABC、CBS、FOX及NBC合併，應法官命令",
+      "impact": "大型媒體併購案遭法院終止，涉及數十億美元交易",
       "sector": "general",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://cordcuttersnews.com/nexstar-starts-to-undo-its-merger-with-tegnas-abc-cbs-fox-nbc-after-judges-order/",
       "source": "Cord Cutters News, LLC",
       "tickers": []
     },
     {
-      "title": "Netflix ordered to pay back millions of subscribers in landmark ruling - Android Central",
-      "zh": "Netflix因劃時代裁決被要求向數百萬用戶退款",
-      "impact": "流媒體巨頭面臨重大退款責任，營收受損",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.androidcentral.com/streaming-tv/netflix/netflix-ordered-to-pay-back-millions-of-subscribers-in-landmark-ruling",
-      "source": "Android Central",
-      "tickers": []
-    },
-    {
       "title": "Trump’s tales are still muddling markets - Financial Times",
-      "zh": "特朗普言論持續擾亂市場",
-      "impact": "政治不確定性加劇市場波動，風險資產承壓",
+      "zh": "川普的言論仍在擾亂市場",
+      "impact": "政治不確定性造成市場波動和投資者情緒混亂",
       "sector": "general",
       "priority": "medium",
       "link": "https://www.ft.com/content/57f1c55a-7eab-4a3e-83d5-c8e228b7e99d?syn-25a6b1a6\\\\u003d1",
@@ -73,18 +63,18 @@
     },
     {
       "title": "US Bonds Fall as Strong Jobs Data Undermines Fed Cut Outlook - Bloomberg.com",
-      "zh": "美國債券因強勢就業數據下跌，削弱聯準會降息前景",
-      "impact": "就業強勁推高長期利率，債券市場走弱",
+      "zh": "美國債券下跌，強勁就業數據削弱聯準會降息預期",
+      "impact": "就業強勁延遲降息預期，債市承壓股市受益",
       "sector": "finance",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-03/treasuries-fall-as-strong-jobs-data-undermines-fed-cut-outlook",
       "source": "Bloomberg",
       "tickers": []
     },
     {
       "title": "Oracle layoffs: Reason the 6AM email from “Oracle leadership” told thousands of laid-off employees; 'Afte - The Times of India",
-      "zh": "甲骨文裁員：凌晨電郵通知數千名員工被裁，「之後」原因待明",
-      "impact": "科技巨頭大規模裁員千人以上，產業調整加速",
+      "zh": "甲骨文裁員：清晨電子郵件解釋數千名員工被解僱原因",
+      "impact": "科技巨頭甲骨文進行大規模裁員，涉及數千名員工",
       "sector": "tech",
       "priority": "high",
       "link": "https://timesofindia.indiatimes.com/technology/tech-news/oracle-layoffs-reason-the-6am-email-from-oracle-leadership-told-thousands-of-laid-off-employees-after-careful-consideration-of/articleshow/129998843.cms",
@@ -93,12 +83,52 @@
     },
     {
       "title": "What's behind the layoffs in Seattle's tech sector - The Seattle Times",
-      "zh": "西雅圖科技產業裁員潮背後原因",
-      "impact": "區域科技產業大規模裁員，就業市場惡化",
+      "zh": "西雅圖科技部門裁員背後原因分析",
+      "impact": "科技業區域性裁員趨勢反映行業調整和經濟擔憂",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.seattletimes.com/business/technology/why-seattle-tech-companies-are-still-laying-off-workers/",
       "source": "The Seattle Times",
+      "tickers": []
+    },
+    {
+      "title": "Rail and truck data highlight a strong industrial economy",
+      "zh": "鐵路和卡車運輸數據凸顯工業經濟強勁",
+      "impact": "運輸數據強勁反映工業需求穩健，經濟基本面向好",
+      "sector": "general",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/economy/articles/rail-truck-data-highlight-strong-165301602.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "The Two-Week Window That Could Break Global Commodity Markets",
+      "zh": "可能打破全球商品市場的兩週窗口期",
+      "impact": "商品市場面臨重大波動風險，影響全球經濟",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/two-week-window-could-break-170000068.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "90 days, dozens of interviews, billions on the line: Inside Blackstone’s CEO search process for its 250 companies",
+      "zh": "90天、數十場面試、數十億美元利益：黑石集團為其250家公司進行的CEO搜尋流程內幕",
+      "impact": "黑石集團大規模領導層調整，影響全球投資格局",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://fortune.com/2025/01/28/blackstone-ceo-search-process-succession-private-equity/",
+      "source": "Fortune | FORTUNE",
+      "tickers": []
+    },
+    {
+      "title": "Global Fuel Shortage Pushes Governments Toward Demand Controls",
+      "zh": "全球燃料短缺促使政府採取需求控制措施",
+      "impact": "燃料短缺威脅全球供應鏈，政府干預能源市場",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Global-Fuel-Shortage-Pushes-Governments-Toward-Demand-Controls.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
