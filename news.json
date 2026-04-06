@@ -1,20 +1,20 @@
 {
-  "updated": "2026/04/07 06:00",
+  "updated": "2026/04/07 06:42",
   "news": [
     {
       "title": "Trading Open Shadowed by Trump Escalation Threats: Markets Wrap - Bloomberg.com",
-      "zh": "交易開盤因川普升級威脅而蒙陰影：市場綜述",
-      "impact": "川普升級威脅引發市場擔憂，可能影響股市走勢",
+      "zh": "特朗普升級威脅籠罩交易開盤：市場綜述",
+      "impact": "貿易戰升級威脅引發市場不確定性",
       "sector": "general",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-05/trading-open-shadowed-by-trump-escalation-threats-markets-wrap",
       "source": "Bloomberg",
       "tickers": []
     },
     {
       "title": "US Inflation Seen Spiking in First Snapshot Since Iran War - Bloomberg.com",
-      "zh": "伊朗戰爭以來首份快照顯示美國通膨可能飆升",
-      "impact": "通膨數據若惡化將推高美聯儲加息預期",
+      "zh": "伊朗戰爭以來首份數據顯示美國通脹可能飆升",
+      "impact": "通脹數據惡化恐影響央行政策走向",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-04/us-inflation-seen-spiking-in-first-snapshot-since-iran-war",
@@ -22,9 +22,19 @@
       "tickers": []
     },
     {
+      "title": "Private Credit and the New World of Financial Risk - Paul Krugman | Substack",
+      "zh": "私募信貸與金融風險新世界",
+      "impact": "私募信貸市場潛在風險值得關注",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://paulkrugman.substack.com/p/private-credit-and-the-new-world",
+      "source": "Substack.com",
+      "tickers": []
+    },
+    {
       "title": "Kevin Warsh needs to be confirmed as Fed Chair in order to avoid an economic shutdown - New York Post",
-      "zh": "凱文·沃什需獲確認為聯邦儲備委員會主席以避免經濟關閉",
-      "impact": "美聯儲主席人選確認對經濟政策走向具決定性影響",
+      "zh": "凱文·沃什必須獲批美聯儲主席以避免經濟停滯",
+      "impact": "聯儲主席確認涉及經濟政策穩定性",
       "sector": "finance",
       "priority": "high",
       "link": "https://nypost.com/2026/04/04/business/kevin-warsh-needs-to-be-confirmed-as-fed-chair-in-order-to-avoid-an-economic-shutdown/",
@@ -32,9 +42,19 @@
       "tickers": []
     },
     {
+      "title": "Striking Beef Plant Workers to Resume Work - wsj.com",
+      "zh": "罷工牛肉加工廠工人將恢復工作",
+      "impact": "勞資糾紛解決有利食品供應鏈穩定",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.wsj.com/business/striking-beef-plant-workers-to-resume-work-bf1b81f3",
+      "source": "The Wall Street Journal",
+      "tickers": []
+    },
+    {
       "title": "Veteran analyst sends message to Tesla investors after Q1 miss - thestreet.com",
-      "zh": "資深分析師在特斯拉第一季度業績未達預期後向投資者傳遞信息",
-      "impact": "特斯拉Q1業績不佳引發對其增長前景的擔憂",
+      "zh": "資深分析師在特斯拉一季度未達預期後向投資者發聲",
+      "impact": "特斯拉業績不佳引發投資者關注",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/stocks/veteran-analyst-sends-message-to-tesla-investors-after-q1-miss",
@@ -43,8 +63,8 @@
     },
     {
       "title": "Nike’s latest quarter shows customers have changed - thestreet.com",
-      "zh": "耐克最新季度顯示消費者需求已改變",
-      "impact": "消費者行為轉變影響耐克銷售和市場表現",
+      "zh": "耐克最新季度表現顯示消費者偏好已改變",
+      "impact": "消費者需求轉變影響運動品牌銷售前景",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/stocks/nikes-latest-quarter-shows-customers-have-changed",
@@ -52,43 +72,13 @@
       "tickers": []
     },
     {
-      "title": "Nexstar Starts to Undo Its Merger With Tegna’s ABC, CBS, FOX, & NBC After Judge’s Order - | Cord Cutters News",
-      "zh": "Nexstar開始根據法官命令撤銷與Tegna的ABC、CBS、FOX和NBC合併",
-      "impact": "併購交易被法院命令撤銷，涉及重大媒體資產",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://cordcuttersnews.com/nexstar-starts-to-undo-its-merger-with-tegnas-abc-cbs-fox-nbc-after-judges-order/",
-      "source": "Cord Cutters News, LLC",
-      "tickers": []
-    },
-    {
       "title": "JPMorgan has a stark message on the next Fed rate cut",
-      "zh": "摩根大通對下一次聯邦儲備委員會降息發出明確信號",
-      "impact": "大型投行對降息態度將影響市場預期和債市表現",
+      "zh": "摩根大通對下一次聯儲降息傳達明確信息",
+      "impact": "聯儲政策預期影響債市及股市走向",
       "sector": "finance",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-stark-message-next-fed-180300978.html",
       "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Associated Press starts offering buyouts to newspaper journalists amid wider AI transformation",
-      "zh": "美聯社在AI轉型浪潮中向報紙記者提供買斷方案",
-      "impact": "傳媒業因AI轉型進行大規模裁員或人事調整",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://fortune.com/2026/04/06/associated-press-starts-offering-buyouts-to-newspaper-journalists-amid-wider-ai-transformation/",
-      "source": "Fortune | FORTUNE",
-      "tickers": []
-    },
-    {
-      "title": "California’s Battery Boom Is Rewriting Power Markets",
-      "zh": "加州電池行業繁榮正在重寫電力市場格局",
-      "impact": "新能源儲能技術發展改變電力市場供應結構",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Californias-Battery-Boom-Is-Rewriting-Power-Markets.html",
-      "source": "Oilprice.com",
       "tickers": []
     }
   ]
