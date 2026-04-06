@@ -1,110 +1,30 @@
 {
-  "updated": "2026/04/07 03:10",
+  "updated": "2026/04/07 04:01",
   "news": [
     {
-      "title": "Michael Saylor Says 'Bitcoin Has Won' - Benzinga",
-      "zh": "Michael Saylor表示「比特幣已經贏了」",
-      "impact": "加強比特幣市場信心，可能帶動加密資產價格上升",
-      "sector": "finance",
-      "priority": "low",
-      "link": "https://www.benzinga.com/crypto/cryptocurrency/26/04/51650966/michael-saylor-says-bitcoin-has-won",
-      "source": "Benzinga",
-      "tickers": []
-    },
-    {
-      "title": "OPEC+ Plans Symbolic Oil Quota Hike Amid War, Delegates Say - Bloomberg.com",
-      "zh": "OPEC+計畫在戰爭期間象徵性提高石油配額，據代表稱",
-      "impact": "石油供應增加，可能緩和油價上漲壓力",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-05/opec-plans-symbolic-output-quota-hike-amid-war-delegates-say",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "US Inflation Seen Spiking in First Snapshot Since Iran War - Bloomberg.com",
-      "zh": "伊朗戰爭後美國通膨見首次飆升跡象",
-      "impact": "通膨上升威脅經濟，可能促使聯準會調整政策立場",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-04/us-inflation-seen-spiking-in-first-snapshot-since-iran-war",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "Kevin Warsh needs to be confirmed as Fed Chair in order to avoid an economic shutdown - New York Post",
-      "zh": "Kevin Warsh需獲確認為聯準會主席以避免經濟關閉",
-      "impact": "聯準會領導層變化，影響未來貨幣政策方向和經濟前景",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://nypost.com/2026/04/04/business/kevin-warsh-needs-to-be-confirmed-as-fed-chair-in-order-to-avoid-an-economic-shutdown/",
-      "source": "New York Post",
-      "tickers": []
-    },
-    {
-      "title": "How the White House's $100,000 H-1B visa fee is impacting America's ability to attract global talent - CBS News",
-      "zh": "白宮10萬美元H-1B簽證費如何影響美國吸引全球人才能力",
-      "impact": "提高簽證成本，可能削弱科技企業招聘國際人才的競爭力",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.cbsnews.com/news/trump-administration-100000-dollar-h-1b-visa-fee-impacting-u-s-ability-to-attract-global-talent/",
-      "source": "CBS News",
-      "tickers": []
-    },
-    {
-      "title": "Veteran analyst sends message to Tesla investors after Q1 miss - thestreet.com",
-      "zh": "資深分析師在特斯拉Q1業績不佳後向投資者傳達訊息",
-      "impact": "特斯拉業績低於預期，引發市場對公司前景的擔憂",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.thestreet.com/investing/stocks/veteran-analyst-sends-message-to-tesla-investors-after-q1-miss",
-      "source": "TheStreet",
-      "tickers": []
-    },
-    {
-      "title": "Nike’s latest quarter shows customers have changed - thestreet.com",
-      "zh": "Nike最新季度顯示顧客偏好已改變",
-      "impact": "消費者行為轉變，威脅Nike銷售和市場地位",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.thestreet.com/investing/stocks/nikes-latest-quarter-shows-customers-have-changed",
-      "source": "TheStreet",
-      "tickers": []
-    },
-    {
-      "title": "Nexstar Starts to Undo Its Merger With Tegna’s ABC, CBS, FOX, & NBC After Judge’s Order - | Cord Cutters News",
-      "zh": "Nexstar在法官命令後開始撤銷與Tegna的ABC、CBS、FOX與NBC合併",
-      "impact": "重大媒體併購交易受阻，反映監管機構對市場集中度的限制",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://cordcuttersnews.com/nexstar-starts-to-undo-its-merger-with-tegnas-abc-cbs-fox-nbc-after-judges-order/",
-      "source": "Cord Cutters News, LLC",
-      "tickers": []
-    },
-    {
-      "title": "The Iran War Is Making the American Economy More Dominant Than Ever - WSJ",
-      "zh": "伊朗戰爭使美國經濟主導地位比以往更強",
-      "impact": "地緣政治衝突可能強化美國經濟優勢和市場吸引力",
-      "sector": "general",
-      "priority": "low",
-      "link": "https://www.wsj.com/economy/the-iran-war-is-making-the-american-economy-more-dominant-than-ever-287f9569",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
       "title": "Netflix ordered to pay back millions of subscribers in landmark ruling - Android Central",
-      "zh": "Netflix被判令向數百萬訂閱者退款（具有里程碑意義的判",
-      "impact": "",
-      "sector": "general",
-      "priority": "medium",
+      "zh": "Netflix被判令向數百萬訂戶退款 - 標誌性裁決",
+      "impact": "Netflix面臨退款義務，可能影響財務表現與用戶信任",
+      "sector": "consumer",
+      "priority": "high",
       "link": "https://www.androidcentral.com/streaming-tv/netflix/netflix-ordered-to-pay-back-millions-of-subscribers-in-landmark-ruling",
       "source": "Android Central",
       "tickers": []
     },
     {
+      "title": "Trump’s tales are still muddling markets - Financial Times",
+      "zh": "川普言論仍在攪亂市場 - 金融時報",
+      "impact": "政策不確定性導致市場波動，投資者信心受影響",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.ft.com/content/57f1c55a-7eab-4a3e-83d5-c8e228b7e99d?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
       "title": "Oracle Fired 30,000 Employees, He Lost 18 Lakh Crores! - Gulte",
-      "zh": "甲骨文解僱3萬名員工，董事長損失1800億盧比",
-      "impact": "科技公司大規模裁員，市場信心受打擊",
+      "zh": "甲骨文裁員3萬人，市值蒸發18盧比幣 - Gulte",
+      "impact": "科技業大規模裁員，超千人，反映產業調整與成本壓力",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.gulte.com/trends/404236/oracle-fired-30000-employees-he-lost-18-lakh-crores",
@@ -113,18 +33,18 @@
     },
     {
       "title": "Tyler Cowen: Why Oil Price Spikes Could Spark a Global Recession - The Free Press",
-      "zh": "泰勒·考溫：油價飆升如何可能引發全球經濟衰退",
-      "impact": "能源價格波動風險提升，經濟前景堪憂",
+      "zh": "泰勒考恩：油價飆升如何引發全球衰退 - 自由新聞社",
+      "impact": "能源價格上升可能觸發系統性經濟風險與衰退",
       "sector": "energy",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.thefp.com/p/tyler-cowen-why-oil-price-spikes",
       "source": "Thefp.com",
       "tickers": []
     },
     {
       "title": "JPMorgan has a stark message on the next Fed rate cut",
-      "zh": "摩根大通對聯準會下次降息發出嚴厲警告",
-      "impact": "聯準會貨幣政策取向不確定，市場波動加劇",
+      "zh": "摩根大通對下一次美聯儲降息釋出明確訊號",
+      "impact": "央行政策預期調整，影響金融市場與投資策略",
       "sector": "finance",
       "priority": "high",
       "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-stark-message-next-fed-180300978.html",
@@ -132,13 +52,23 @@
       "tickers": []
     },
     {
-      "title": "The Fed quietly altered its March inflation forecast — and it points to more pain for Americans. How to fight back",
-      "zh": "聯準會悄悄修改3月通膨預測，預示美國經濟前景堪憂",
-      "impact": "聯準會調整通膨預期，資產配置策略需調整",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/economy/policy/articles/fed-quietly-altered-march-inflation-100000735.html",
+      "title": "Borderlands Mexico: Tariff pressure shows up in customs data across North America",
+      "zh": "邊境墨西哥：關稅壓力在北美海關數據中顯現",
+      "impact": "關稅政策對北美貿易流動造成實質影響與經濟衝擊",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/economy/policy/articles/borderlands-mexico-tariff-pressure-shows-110000003.html",
       "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Trump is seeking the biggest defense budget surge in 75 years as the Pentagon stays committed to ‘exquisite’ weapons",
+      "zh": "川普尋求75年來最大國防預算增幅，五角大廈致力於「精密」武器",
+      "impact": "國防開支大幅增加，影響政府財政與軍工產業前景",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://fortune.com/2026/04/06/trump-defense-budget-increase-pentagon-exquisite-weapons-procurement/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     }
   ]
