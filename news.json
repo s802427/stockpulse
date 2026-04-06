@@ -1,10 +1,20 @@
 {
-  "updated": "2026/04/07 00:57",
+  "updated": "2026/04/07 02:01",
   "news": [
     {
+      "title": "Countries must not hoard fuel during Iran war, warns IEA - Financial Times",
+      "zh": "國際能源署警告各國在伊朗戰爭期間不得囤積燃料",
+      "impact": "全球能源供應穩定性；油價波動風險",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.ft.com/content/9e47e3b8-fae1-4c1c-b79c-22dda42bc2b1?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
       "title": "Kevin Warsh needs to be confirmed as Fed Chair in order to avoid an economic shutdown - New York Post",
-      "zh": "凱文·沃什需要獲得確認為美聯儲主席，以避免經濟關閉",
-      "impact": "美聯儲主席人事變動，涉及貨幣政策走向和經濟前景",
+      "zh": "凱文·沃什需要獲得聯邦儲備委員會主席確認以避免經濟停滯",
+      "impact": "美國央行決策；經濟政策走向；市場信心",
       "sector": "finance",
       "priority": "high",
       "link": "https://nypost.com/2026/04/04/business/kevin-warsh-needs-to-be-confirmed-as-fed-chair-in-order-to-avoid-an-economic-shutdown/",
@@ -13,8 +23,8 @@
     },
     {
       "title": "Veteran analyst sends message to Tesla investors after Q1 miss - thestreet.com",
-      "zh": "資深分析師在特斯拉第一季度未達預期後向投資者傳達信息",
-      "impact": "特斯拉財報表現不佳，影響股價和投資者信心",
+      "zh": "資深分析師在特斯拉Q1業績未達預期後向投資者發表評論",
+      "impact": "特斯拉股價波動；科技股表現評估",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/stocks/veteran-analyst-sends-message-to-tesla-investors-after-q1-miss",
@@ -23,8 +33,8 @@
     },
     {
       "title": "Nike’s latest quarter shows customers have changed - thestreet.com",
-      "zh": "耐克最新一季度業績顯示客戶消費習慣已改變",
-      "impact": "消費需求轉變，影響耐克銷售前景和零售業走向",
+      "zh": "耐克最新季度業績顯示消費者偏好已改變",
+      "impact": "消費需求變化；運動用品行業前景",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/stocks/nikes-latest-quarter-shows-customers-have-changed",
@@ -33,18 +43,18 @@
     },
     {
       "title": "Nexstar Starts to Undo Its Merger With Tegna’s ABC, CBS, FOX, & NBC After Judge’s Order - | Cord Cutters News",
-      "zh": "Nexstar開始根據法院命令撤銷與Tegna的ABC、CBS、FOX及NBC合併協議",
-      "impact": "大型媒體併購案遭法院阻止，涉及數十億美元交易",
+      "zh": "紐斯達集團開始根據法官令撤銷與Tegna的ABC、CBS、FOX及NBC合併交易",
+      "impact": "傳媒併購案受阻；廣播電視行業整合受影響",
       "sector": "general",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://cordcuttersnews.com/nexstar-starts-to-undo-its-merger-with-tegnas-abc-cbs-fox-nbc-after-judges-order/",
       "source": "Cord Cutters News, LLC",
       "tickers": []
     },
     {
       "title": "Oracle Fired 30,000 Employees, He Lost 18 Lakh Crores! - Gulte",
-      "zh": "甲骨文裁員30,000人，首席執行官損失180億盧比",
-      "impact": "科技巨頭大規模裁員，影響就業市場和公司營運成本",
+      "zh": "甲骨文裁員30,000人，首席執行官個人資產縮水180億美元",
+      "impact": "科技業大規模裁員；股價暴跌；人力成本重組",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.gulte.com/trends/404236/oracle-fired-30000-employees-he-lost-18-lakh-crores",
@@ -53,8 +63,8 @@
     },
     {
       "title": "United Airlines raises bag fees amid rising fuel costs and introduces tiered premium fares - AP News",
-      "zh": "聯合航空公司在燃油成本上升中提高行李費並推出分層高級票價方案",
-      "impact": "航空公司提價應對成本，消費者出行成本上升",
+      "zh": "聯合航空公司在燃油成本上升之際提高行李費並推出分層優質票價",
+      "impact": "航空業成本轉嫁消費者；旅遊行業成本壓力",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://apnews.com/article/united-bag-fees-prices-40ad812a15f1cc8aeb981763db72745b",
@@ -62,23 +72,23 @@
       "tickers": []
     },
     {
-      "title": "Supermicro owes its rapid rise to $4 trillion Nvidia—but China smuggling allegations and a high-profile arrest could blow up the partnership",
-      "zh": "超微公司的迅速發展歸功於4兆美元的英偉達，但中國走私指控和高調逮捕可能摧毀此合作關係",
-      "impact": "超微與英偉達合作面臨法律風險，涉及地緣政治因素",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://fortune.com/2026/04/06/supermicro-nvidia-jensen-huang-charles-liang-wally-liaw/",
-      "source": "Fortune | FORTUNE",
+      "title": "U.S. Treasury taps BNY, Robinhood to run Trump Accounts for American children",
+      "zh": "美國財政部任命紐約銀行和羅賓漢經營特朗普兒童儲蓄賬戶",
+      "impact": "政府政策；金融服務創新；零售投資推廣",
+      "sector": "finance",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/economy/policy/articles/u-treasury-taps-bny-robinhood-174143946.html",
+      "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Tesla Q1 Deliveries Expected to Fall Far Short of Peak as EV Demand Cools",
-      "zh": "特斯拉第一季度交付量預期遠低於歷史峰值，電動車需求出現冷卻",
-      "impact": "電動車市場需求下滑，特斯拉業績不佳影響股價",
+      "title": "AI is cutting 16,000 U.S. jobs a month — and Gen Z is taking the brunt, Goldman Sachs says",
+      "zh": "人工智能每月裁減16,000個美國工作；Z世代首當其衝，高盛調查指出",
+      "impact": "AI失業衝擊加速；青年就業危機；長期社會經濟風險",
       "sector": "tech",
-      "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/Tesla-Q1-Deliveries-Expected-to-Fall-Far-Short-of-Peak-as-EV-Demand-Cools.html",
-      "source": "Oilprice.com",
+      "priority": "high",
+      "link": "https://fortune.com/2026/04/06/ai-tech-displacement-effect-gen-z-16000-jobs-per-month/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     }
   ]
