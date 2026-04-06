@@ -1,40 +1,10 @@
 {
-  "updated": "2026/04/07 04:01",
+  "updated": "2026/04/07 04:44",
   "news": [
     {
-      "title": "Netflix ordered to pay back millions of subscribers in landmark ruling - Android Central",
-      "zh": "Netflix被判令向數百萬訂戶退款 - 標誌性裁決",
-      "impact": "Netflix面臨退款義務，可能影響財務表現與用戶信任",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://www.androidcentral.com/streaming-tv/netflix/netflix-ordered-to-pay-back-millions-of-subscribers-in-landmark-ruling",
-      "source": "Android Central",
-      "tickers": []
-    },
-    {
-      "title": "Trump’s tales are still muddling markets - Financial Times",
-      "zh": "川普言論仍在攪亂市場 - 金融時報",
-      "impact": "政策不確定性導致市場波動，投資者信心受影響",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.ft.com/content/57f1c55a-7eab-4a3e-83d5-c8e228b7e99d?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "Oracle Fired 30,000 Employees, He Lost 18 Lakh Crores! - Gulte",
-      "zh": "甲骨文裁員3萬人，市值蒸發18盧比幣 - Gulte",
-      "impact": "科技業大規模裁員，超千人，反映產業調整與成本壓力",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.gulte.com/trends/404236/oracle-fired-30000-employees-he-lost-18-lakh-crores",
-      "source": "Gulte",
-      "tickers": []
-    },
-    {
       "title": "Tyler Cowen: Why Oil Price Spikes Could Spark a Global Recession - The Free Press",
-      "zh": "泰勒考恩：油價飆升如何引發全球衰退 - 自由新聞社",
-      "impact": "能源價格上升可能觸發系統性經濟風險與衰退",
+      "zh": "泰勒·考恩：油價飆升如何可能引發全球衰退",
+      "impact": "油價上漲風險可能觸發全球經濟衰退",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.thefp.com/p/tyler-cowen-why-oil-price-spikes",
@@ -43,8 +13,8 @@
     },
     {
       "title": "JPMorgan has a stark message on the next Fed rate cut",
-      "zh": "摩根大通對下一次美聯儲降息釋出明確訊號",
-      "impact": "央行政策預期調整，影響金融市場與投資策略",
+      "zh": "摩根大通對下一次美聯儲降息發出了嚴厲警告",
+      "impact": "美聯儲政策前景不明，影響市場預期",
       "sector": "finance",
       "priority": "high",
       "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-stark-message-next-fed-180300978.html",
@@ -52,23 +22,23 @@
       "tickers": []
     },
     {
-      "title": "Borderlands Mexico: Tariff pressure shows up in customs data across North America",
-      "zh": "邊境墨西哥：關稅壓力在北美海關數據中顯現",
-      "impact": "關稅政策對北美貿易流動造成實質影響與經濟衝擊",
-      "sector": "general",
+      "title": "Why the Power Boom Could Break the Grid",
+      "zh": "為什麼電力繁榮可能導致電網崩潰",
+      "impact": "電力基礎設施面臨系統性風險，能源供應堪憂",
+      "sector": "energy",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/economy/policy/articles/borderlands-mexico-tariff-pressure-shows-110000003.html",
-      "source": "Yahoo Finance",
+      "link": "https://oilprice.com/Energy/Energy-General/Why-the-Power-Boom-Could-Break-the-Grid.html",
+      "source": "Oilprice.com",
       "tickers": []
     },
     {
-      "title": "Trump is seeking the biggest defense budget surge in 75 years as the Pentagon stays committed to ‘exquisite’ weapons",
-      "zh": "川普尋求75年來最大國防預算增幅，五角大廈致力於「精密」武器",
-      "impact": "國防開支大幅增加，影響政府財政與軍工產業前景",
-      "sector": "general",
+      "title": "Oil Price Shocks Make Brazil Key to Energy Security in the Americas",
+      "zh": "油價衝擊使巴西成為美洲能源安全的關鍵",
+      "impact": "地緣政治變化影響美洲能源格局",
+      "sector": "energy",
       "priority": "medium",
-      "link": "https://fortune.com/2026/04/06/trump-defense-budget-increase-pentagon-exquisite-weapons-procurement/",
-      "source": "Fortune | FORTUNE",
+      "link": "https://oilprice.com/Energy/Energy-General/Oil-Price-Shocks-Make-Brazil-Key-to-Energy-Security-in-the-Americas.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
