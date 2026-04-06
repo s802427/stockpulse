@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/06 19:03",
+  "updated": "2026/04/06 20:01",
   "news": [
     {
       "title": "Veteran analyst sends message to Tesla investors after Q1 miss - thestreet.com",
-      "zh": "資深分析師在特斯拉Q1業績未達預期後向投資者傳達信息",
-      "impact": "特斯拉財報不佳，引發投資者信心下滑",
+      "zh": "資深分析師在特斯拉Q1業績不佳後向投資者發出信號",
+      "impact": "特斯拉股價面臨下行壓力，市場信心受挫",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/stocks/veteran-analyst-sends-message-to-tesla-investors-after-q1-miss",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Nike’s latest quarter shows customers have changed - thestreet.com",
-      "zh": "耐克最新季度業績顯示客戶消費習慣已改變",
-      "impact": "消費者需求轉變影響耐克銷售表現",
+      "zh": "耐克最新季度顯示客戶消費習慣已改變",
+      "impact": "消費需求疲軟，零售業前景堪憂",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/stocks/nikes-latest-quarter-shows-customers-have-changed",
@@ -23,8 +23,8 @@
     },
     {
       "title": "Warsh nomination moves ahead, putting Trump's competing Fed plans on a collision course - CNBC",
-      "zh": "沃什提名推進，特朗普競爭性美聯儲計畫面臨衝突",
-      "impact": "美聯儲領導層人事變動可能影響貨幣政策方向",
+      "zh": "沃什提名推進，川普競爭性聯準會計畫面臨碰撞",
+      "impact": "聯準會政策方向不確定，市場波動風險上升",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/04/warsh-fed-nomination-hearing-set-for-mid-april.html",
@@ -33,38 +33,48 @@
     },
     {
       "title": "Nexstar Starts to Undo Its Merger With Tegna’s ABC, CBS, FOX, & NBC After Judge’s Order - | Cord Cutters News",
-      "zh": "納克斯達在法院命令後開始撤銷與特格納ABC、CBS、FOX和NBC的合併",
-      "impact": "大型廣播電視併購案被迫解散，市場整合受阻",
+      "zh": "奈克斯達爾開始撤銷與泰格納ABC、CBS、FOX與NBC的合併",
+      "impact": "廣播電視併購交易受阻，並購市場信心受損",
       "sector": "general",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://cordcuttersnews.com/nexstar-starts-to-undo-its-merger-with-tegnas-abc-cbs-fox-nbc-after-judges-order/",
       "source": "Cord Cutters News, LLC",
       "tickers": []
     },
     {
       "title": "The Iran War Is Making the American Economy More Dominant Than Ever - WSJ",
-      "zh": "伊朗戰爭使美國經濟主導地位更加鞏固",
-      "impact": "地緣政治局勢強化美國經濟競爭優勢",
+      "zh": "伊朗戰爭使美國經濟主導地位更加強固",
+      "impact": "地緣政治風險提升，美元避險需求增加",
       "sector": "general",
-      "priority": "medium",
+      "priority": "low",
       "link": "https://www.wsj.com/economy/the-iran-war-is-making-the-american-economy-more-dominant-than-ever-287f9569",
       "source": "The Wall Street Journal",
       "tickers": []
     },
     {
-      "title": "Trump’s tales are still muddling markets - Financial Times",
-      "zh": "特朗普的言論持續困擾市場",
-      "impact": "政治不確定性導致市場波動和投資者困惑",
-      "sector": "general",
+      "title": "Judge rejects Department of Justice bid to reinstate Powell subpoenas - Axios",
+      "zh": "法官駁回司法部重新傳喚鮑威爾的申請",
+      "impact": "聯準會主席獨立性獲保障，政治干預受限",
+      "sector": "finance",
       "priority": "medium",
-      "link": "https://www.ft.com/content/57f1c55a-7eab-4a3e-83d5-c8e228b7e99d?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
+      "link": "https://www.axios.com/2026/04/03/judge-powell-doj-subpoena-trump",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
+      "title": "Anthropic is having a moment in the private markets; SpaceX could spoil the party - techcrunch.com",
+      "zh": "人工智能公司Anthropic在私募市場表現亮眼，SpaceX可能破局",
+      "impact": "AI獨角獸估值高企，融資競爭加劇",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
+      "source": "TechCrunch",
       "tickers": []
     },
     {
       "title": "United Airlines raises bag fees amid rising fuel costs and introduces tiered premium fares - AP News",
-      "zh": "聯合航空公司在燃油成本上升之際提高行李費並推出分級高級票價",
-      "impact": "航空公司成本轉嫁消費者，運營成本壓力持續",
+      "zh": "聯合航空公司在燃油成本上升中提高行李費並推出分級高級票價",
+      "impact": "航空業成本轉嫁消費者，通膨壓力持續",
       "sector": "consumer",
       "priority": "low",
       "link": "https://apnews.com/article/united-bag-fees-prices-40ad812a15f1cc8aeb981763db72745b",
@@ -73,9 +83,9 @@
     },
     {
       "title": "No, Says Economist, March US Jobs Report 'Is Not Good' - Common Dreams",
-      "zh": "經濟學家表示美國三月就業報告「不樂觀」",
-      "impact": "就業數據疲弱，經濟增長動力不足",
-      "sector": "general",
+      "zh": "經濟學家表示美國3月就業報告表現不佳",
+      "impact": "勞動力市場疲軟，聯準會降息預期增強",
+      "sector": "finance",
       "priority": "medium",
       "link": "https://www.commondreams.org/news/trump-jobs-report",
       "source": "Common Dreams",
@@ -84,7 +94,7 @@
     {
       "title": "Tyler Cowen: Why Oil Price Spikes Could Spark a Global Recession - The Free Press",
       "zh": "泰勒·考恩：油價飆升可能引發全球衰退",
-      "impact": "油價上漲風險可能威脅全球經濟增長",
+      "impact": "能源價格風險威脅全球經濟，系統性風險預警",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.thefp.com/p/tyler-cowen-why-oil-price-spikes",
@@ -92,33 +102,23 @@
       "tickers": []
     },
     {
-      "title": "What's behind the layoffs in Seattle's tech sector - The Seattle Times",
-      "zh": "西雅圖科技產業裁員背後的原因",
-      "impact": "科技業結構調整，就業市場面臨壓力",
-      "sector": "tech",
+      "title": "Dealership Group May Have to Refund Car Buyers $75 Million Due to Alleged Predatory Pricing - Road & Track",
+      "zh": "經銷商集團因涉嫌掠奪性定價可能需向購車者退款7500萬美元",
+      "impact": "大型經銷商集團面臨鉅額退款，消費者權益受保護，行業監管趨嚴",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.roadandtrack.com/news/a70927872/dealership-group-may-have-to-refund-car-buyers-75-million-dollars/",
+      "source": "RoadandTrack.com",
+      "tickers": []
+    },
+    {
+      "title": "Indonesia moves to unify state banks’ asset management units – report",
+      "zh": "印尼計畫整合國有銀行資產管理部門",
+      "impact": "印尼金融體系改革，強化國有銀行競爭力，區域金融整合趨勢",
+      "sector": "finance",
       "priority": "low",
-      "link": "https://www.seattletimes.com/business/technology/why-seattle-tech-companies-are-still-laying-off-workers/",
-      "source": "The Seattle Times",
-      "tickers": []
-    },
-    {
-      "title": "SpaceX's IPO could supercharge the entire space industry",
-      "zh": "SpaceX的首次公開募股可能會推動整個太空產業發展",
-      "impact": "SpaceX上市將帶動太空產業估值提升和投資增加",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/sectors/technology/article/spacexs-ipo-could-supercharge-the-entire-space-industry-101227330.html",
+      "link": "https://finance.yahoo.com/economy/policy/articles/indonesia-moves-unify-state-banks-113927732.html",
       "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Crude oil dropping after historic $11 surge, as negotiators race against Trump’s deadline for Iran",
-      "zh": "原油在創紀錄的11美元漲幅後下跌，談判者爭相應對川普對伊朗的期限",
-      "impact": "油價波動幅度大，影響能源股及通膨預期，具系統性風險",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.marketwatch.com/story/crude-oil-dropping-after-historic-11-surge-as-negotiators-race-against-trumps-deadline-for-iran-407a2094?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
       "tickers": []
     }
   ]
