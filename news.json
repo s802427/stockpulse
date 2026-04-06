@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/06 21:23",
+  "updated": "2026/04/06 22:55",
   "news": [
     {
       "title": "OPEC+ Plans Symbolic Oil Quota Hike Amid War, Delegates Say - Bloomberg.com",
-      "zh": "OPEC+計劃在戰爭背景下象徵性提高石油配額，據代表透露",
-      "impact": "油價波動，影響全球能源成本和通膨預期",
+      "zh": "OPEC+計畫在戰爭中象徵性提高石油配額，代表稱",
+      "impact": "象徵性增產，市場供應面臨地緣政治風險",
       "sector": "energy",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-05/opec-plans-symbolic-output-quota-hike-amid-war-delegates-say",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Kevin Warsh needs to be confirmed as Fed Chair in order to avoid an economic shutdown - New York Post",
-      "zh": "凱文·沃什需獲聯準會主席確認以避免經濟停滯",
-      "impact": "央行領導層人事決策，影響美國貨幣政策方向",
+      "zh": "Kevin Warsh需獲聯邦儲備委員會主席確認以避免經濟停擺",
+      "impact": "央行領導人事關鍵，影響貨幣政策方向與經濟穩定",
       "sector": "finance",
       "priority": "high",
       "link": "https://nypost.com/2026/04/04/business/kevin-warsh-needs-to-be-confirmed-as-fed-chair-in-order-to-avoid-an-economic-shutdown/",
@@ -24,7 +24,7 @@
     {
       "title": "How the White House's $100,000 H-1B visa fee is impacting America's ability to attract global talent - CBS News",
       "zh": "白宮10萬美元H-1B簽證費如何影響美國吸引全球人才的能力",
-      "impact": "科技業人才短缺風險，影響企業競爭力和薪資成本",
+      "impact": "技術業招聘成本上升，人才競爭力下降",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.cbsnews.com/news/trump-administration-100000-dollar-h-1b-visa-fee-impacting-u-s-ability-to-attract-global-talent/",
@@ -32,39 +32,29 @@
       "tickers": []
     },
     {
+      "title": "Veteran analyst sends message to Tesla investors after Q1 miss - thestreet.com",
+      "zh": "資深分析師在特斯拉第一季度未達預期後向投資者傳遞信息",
+      "impact": "特斯拉業績不佳，投資前景存疑",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.thestreet.com/investing/stocks/veteran-analyst-sends-message-to-tesla-investors-after-q1-miss",
+      "source": "TheStreet",
+      "tickers": []
+    },
+    {
       "title": "Nexstar Starts to Undo Its Merger With Tegna’s ABC, CBS, FOX, & NBC After Judge’s Order - | Cord Cutters News",
-      "zh": "Nexstar根據法官命令開始撤銷與Tegna的ABC、CBS、FOX、NBC合併",
-      "impact": "重大併購交易解散，影響媒體產業整合格局",
+      "zh": "Nexstar在法官命令後開始撤銷與Tegna的ABC、CBS、FOX及NBC合併",
+      "impact": "大型媒體併購受阻，反壟斷監管趨嚴",
       "sector": "general",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://cordcuttersnews.com/nexstar-starts-to-undo-its-merger-with-tegnas-abc-cbs-fox-nbc-after-judges-order/",
       "source": "Cord Cutters News, LLC",
       "tickers": []
     },
     {
-      "title": "The Iran War Is Making the American Economy More Dominant Than Ever - WSJ",
-      "zh": "伊朗戰爭使美國經濟比以往任何時候都更加強大",
-      "impact": "地緣政治風險評估，影響美元強勢和避險資產需求",
-      "sector": "general",
-      "priority": "low",
-      "link": "https://www.wsj.com/economy/the-iran-war-is-making-the-american-economy-more-dominant-than-ever-287f9569",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
-      "title": "Trump’s tales are still muddling markets - Financial Times",
-      "zh": "川普的言論仍在攪亂市場",
-      "impact": "政策不確定性持續，增加市場波動性和投資風險",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.ft.com/content/57f1c55a-7eab-4a3e-83d5-c8e228b7e99d?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
       "title": "Oracle Fired 30,000 Employees, He Lost 18 Lakh Crores! - Gulte",
-      "zh": "甲骨文裁員3萬人，股價重挫",
-      "impact": "科技業千人以上大規模裁員，影響就業市場和企業獲利",
+      "zh": "Oracle裁員30,000人，市值縮水1,800億美元",
+      "impact": "科技業大規模裁員，企業盈利壓力顯現",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.gulte.com/trends/404236/oracle-fired-30000-employees-he-lost-18-lakh-crores",
@@ -74,7 +64,7 @@
     {
       "title": "No, Says Economist, March US Jobs Report 'Is Not Good' - Common Dreams",
       "zh": "經濟學家表示3月美國就業報告「並不樂觀」",
-      "impact": "就業數據疲弱信號，影響聯準會政策預期和經濟前景",
+      "impact": "就業數據疲軟，經濟成長動能減弱",
       "sector": "general",
       "priority": "medium",
       "link": "https://www.commondreams.org/news/trump-jobs-report",
@@ -83,8 +73,8 @@
     },
     {
       "title": "50-year-old pizza chain closes all restaurants, files Chapter 7 - Yahoo Finance",
-      "zh": "50年歷史披薩連鎖店關閉所有餐廳，申請第七章破產",
-      "impact": "零售餐飲業危機信號，反映消費者支出疲弱",
+      "zh": "歷史50年披薩連鎖店關閉所有分店，申請第七章破產",
+      "impact": "老字號餐飲企業倒閉，消費業面臨困境",
       "sector": "consumer",
       "priority": "low",
       "link": "https://www.thestreet.com/restaurants/50-year-old-pizza-chain-gina-marias-closes-all-restaurants-files-chapter-7",
@@ -92,23 +82,43 @@
       "tickers": []
     },
     {
-      "title": "Jamie Dimon isn’t too worried about private credit, but he sees another problem for markets",
-      "zh": "傑米·戴蒙對私募信貸不太擔心，但他看到市場存在另一個問題",
-      "impact": "金融領袖預警市場風險，影響信貸",
+      "title": "Stock market today: US stocks muted as hopes emerge for an end to Middle East hostilities",
+      "zh": "股市今日：美股表現平靜，中東敵對行為結束希望浮現",
+      "impact": "地緣政治風險緩解，股市情緒謹慎樂觀",
+      "sector": "general",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/news/live/stock-market-today-us-stock-futures-mixed-oil-dips-as-hopes-emerge-for-an-end-to-middle-east-hostilities-002656744.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Economy jolted by Iran war. Inflation bubbles up and service companies curb employment.",
+      "zh": "伊朗戰爭衝擊經濟，通膨浮現且服務業企業縮減聘僱",
+      "impact": "",
       "sector": "general",
       "priority": "medium",
+      "link": "https://www.marketwatch.com/story/economy-jolted-by-iran-war-inflation-bubbles-up-and-service-companies-reduce-employment-89e21443?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "Jamie Dimon warns rising oil prices could trigger a recession and a bear market in 2026",
+      "zh": "傑普摩根首席執行官傑米·戴蒙警告，油價上升可能在2026年引發經濟衰退和股市熊市。",
+      "impact": "油價上漲風險預警，潛在引發經濟衰退和股市下跌",
+      "sector": "energy",
+      "priority": "high",
       "link": "https://www.marketwatch.com/story/jamie-dimon-isnt-too-worried-about-private-credit-but-he-sees-another-problem-for-markets-8ba4aa1a?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories",
       "tickers": []
     },
     {
-      "title": "Supermicro owes its rapid rise to $4 trillion Nvidia—but China smuggling allegations and a high-profile arrest could blow up the partnership",
-      "zh": "超微電腦因英偉達4兆美元的急速崛起，但中國走私指控和高調逮捕可能會破壞這一夥伴關係",
-      "impact": "超微與英偉達的關鍵合作面臨風險，可能影響AI芯片供應鏈",
-      "sector": "tech",
+      "title": "U.S. Oil Premiums Hit Record High as World Scrambles for Crude",
+      "zh": "隨著全球爭奪原油供應，美國石油溢價創下歷史新高。",
+      "impact": "油價創新高，全球能源供應緊張，成本上升",
+      "sector": "energy",
       "priority": "high",
-      "link": "https://fortune.com/2026/04/06/supermicro-nvidia-jensen-huang-charles-liang-wally-liaw/",
-      "source": "Fortune | FORTUNE",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Oil-Premiums-Hit-Record-High-as-World-Scrambles-for-Crude.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
