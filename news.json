@@ -1,43 +1,93 @@
 {
-  "updated": "2026/04/07 04:44",
+  "updated": "2026/04/07 06:00",
   "news": [
     {
-      "title": "Tyler Cowen: Why Oil Price Spikes Could Spark a Global Recession - The Free Press",
-      "zh": "泰勒·考恩：油價飆升如何可能引發全球衰退",
-      "impact": "油價上漲風險可能觸發全球經濟衰退",
-      "sector": "energy",
+      "title": "Trading Open Shadowed by Trump Escalation Threats: Markets Wrap - Bloomberg.com",
+      "zh": "交易開盤因川普升級威脅而蒙陰影：市場綜述",
+      "impact": "川普升級威脅引發市場擔憂，可能影響股市走勢",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-05/trading-open-shadowed-by-trump-escalation-threats-markets-wrap",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "US Inflation Seen Spiking in First Snapshot Since Iran War - Bloomberg.com",
+      "zh": "伊朗戰爭以來首份快照顯示美國通膨可能飆升",
+      "impact": "通膨數據若惡化將推高美聯儲加息預期",
+      "sector": "finance",
       "priority": "high",
-      "link": "https://www.thefp.com/p/tyler-cowen-why-oil-price-spikes",
-      "source": "Thefp.com",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-04/us-inflation-seen-spiking-in-first-snapshot-since-iran-war",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Kevin Warsh needs to be confirmed as Fed Chair in order to avoid an economic shutdown - New York Post",
+      "zh": "凱文·沃什需獲確認為聯邦儲備委員會主席以避免經濟關閉",
+      "impact": "美聯儲主席人選確認對經濟政策走向具決定性影響",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://nypost.com/2026/04/04/business/kevin-warsh-needs-to-be-confirmed-as-fed-chair-in-order-to-avoid-an-economic-shutdown/",
+      "source": "New York Post",
+      "tickers": []
+    },
+    {
+      "title": "Veteran analyst sends message to Tesla investors after Q1 miss - thestreet.com",
+      "zh": "資深分析師在特斯拉第一季度業績未達預期後向投資者傳遞信息",
+      "impact": "特斯拉Q1業績不佳引發對其增長前景的擔憂",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.thestreet.com/investing/stocks/veteran-analyst-sends-message-to-tesla-investors-after-q1-miss",
+      "source": "TheStreet",
+      "tickers": []
+    },
+    {
+      "title": "Nike’s latest quarter shows customers have changed - thestreet.com",
+      "zh": "耐克最新季度顯示消費者需求已改變",
+      "impact": "消費者行為轉變影響耐克銷售和市場表現",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.thestreet.com/investing/stocks/nikes-latest-quarter-shows-customers-have-changed",
+      "source": "TheStreet",
+      "tickers": []
+    },
+    {
+      "title": "Nexstar Starts to Undo Its Merger With Tegna’s ABC, CBS, FOX, & NBC After Judge’s Order - | Cord Cutters News",
+      "zh": "Nexstar開始根據法官命令撤銷與Tegna的ABC、CBS、FOX和NBC合併",
+      "impact": "併購交易被法院命令撤銷，涉及重大媒體資產",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://cordcuttersnews.com/nexstar-starts-to-undo-its-merger-with-tegnas-abc-cbs-fox-nbc-after-judges-order/",
+      "source": "Cord Cutters News, LLC",
       "tickers": []
     },
     {
       "title": "JPMorgan has a stark message on the next Fed rate cut",
-      "zh": "摩根大通對下一次美聯儲降息發出了嚴厲警告",
-      "impact": "美聯儲政策前景不明，影響市場預期",
+      "zh": "摩根大通對下一次聯邦儲備委員會降息發出明確信號",
+      "impact": "大型投行對降息態度將影響市場預期和債市表現",
       "sector": "finance",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-stark-message-next-fed-180300978.html",
       "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Why the Power Boom Could Break the Grid",
-      "zh": "為什麼電力繁榮可能導致電網崩潰",
-      "impact": "電力基礎設施面臨系統性風險，能源供應堪憂",
-      "sector": "energy",
+      "title": "Associated Press starts offering buyouts to newspaper journalists amid wider AI transformation",
+      "zh": "美聯社在AI轉型浪潮中向報紙記者提供買斷方案",
+      "impact": "傳媒業因AI轉型進行大規模裁員或人事調整",
+      "sector": "general",
       "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/Why-the-Power-Boom-Could-Break-the-Grid.html",
-      "source": "Oilprice.com",
+      "link": "https://fortune.com/2026/04/06/associated-press-starts-offering-buyouts-to-newspaper-journalists-amid-wider-ai-transformation/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     },
     {
-      "title": "Oil Price Shocks Make Brazil Key to Energy Security in the Americas",
-      "zh": "油價衝擊使巴西成為美洲能源安全的關鍵",
-      "impact": "地緣政治變化影響美洲能源格局",
+      "title": "California’s Battery Boom Is Rewriting Power Markets",
+      "zh": "加州電池行業繁榮正在重寫電力市場格局",
+      "impact": "新能源儲能技術發展改變電力市場供應結構",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/Oil-Price-Shocks-Make-Brazil-Key-to-Energy-Security-in-the-Americas.html",
+      "link": "https://oilprice.com/Alternative-Energy/Renewable-Energy/Californias-Battery-Boom-Is-Rewriting-Power-Markets.html",
       "source": "Oilprice.com",
       "tickers": []
     }
