@@ -1,24 +1,24 @@
 {
-  "updated": "2026/04/06 06:38",
+  "updated": "2026/04/06 08:00",
   "news": [
     {
       "title": "Outrage as Oracle files thousands of foreign-worker requests amid layoff bloodbath - finance.yahoo.com",
-      "zh": "Oracle在大規模裁員浪潮中申請數千份外籍員工簽證引發公眾憤怒",
-      "impact": "Oracle裁員同時增加外籍員工申請，引發市場對企業用工政策的質疑",
+      "zh": "Oracle在大規模裁員的同時提交數千份外籍員工申請引發眾怒",
+      "impact": "企業大規模裁員同時招募外籍員工，引發政策和輿論風險",
       "sector": "tech",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://nypost.com/2026/04/02/us-news/outrage-over-oracles-thousands-of-h-1b-requests-amid-layoffs/",
       "source": "New York Post",
       "tickers": []
     },
     {
-      "title": "Global Fuel Shortage Pushes Governments Toward Demand Controls",
-      "zh": "全球燃料短缺推動各國政府轉向實施需求控制政策",
-      "impact": "全球能源短缺可能導致經濟放緩，影響能源及相關產業股價",
-      "sector": "energy",
+      "title": "Gulf Funds Near Deal to Back Paramount’s $81 Billion Takeover of Warner",
+      "zh": "海灣基金接近達成協議支持派拉蒙以810億美元收購華納兄弟",
+      "impact": "好萊塢巨頭併購進展，涉及行業整合和資本流向",
+      "sector": "finance",
       "priority": "high",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Global-Fuel-Shortage-Pushes-Governments-Toward-Demand-Controls.html",
-      "source": "Oilprice.com",
+      "link": "https://www.wsj.com/business/deals/three-gulf-funds-agree-to-back-paramounts-81-billion-takeover-of-warner-04eda364?siteid=yhoof2&yptr=yahoo",
+      "source": "Yahoo Finance",
       "tickers": []
     }
   ]
