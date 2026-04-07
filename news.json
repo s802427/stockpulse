@@ -1,104 +1,44 @@
 {
-  "updated": "2026/04/08 06:01",
+  "updated": "2026/04/08 06:45",
   "news": [
     {
-      "title": "Medicare Finalizes 2.48% Rate Hike for Private Insurers in 2027 - Bloomberg.com",
-      "zh": "醫療保險計畫確定2027年向私人保險公司提高2.48%費率",
-      "impact": "私人醫保費用上升，增加保險公司成本壓力",
+      "title": "How a four-month FDA delay forced a small biotech company to close its doors - statnews.com",
+      "zh": "FDA四個月延遲迫使小型生物科技公司關閉",
+      "impact": "小型生技公司因監管延遲而倒閉，凸顯FDA審批效率問題",
       "sector": "health",
       "priority": "medium",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-06/medicare-finalizes-2-48-rate-hike-for-private-insurers-in-2027",
-      "source": "Bloomberg",
+      "link": "https://www.statnews.com/2026/04/06/fda-delay-cited-in-closure-kezar-life-sciences-biotech-startup/",
+      "source": "STAT",
       "tickers": []
     },
     {
-      "title": "Exclusive | Amazon and U.S. Postal Service Reach Delivery Deal - wsj.com",
-      "zh": "獨家報導｜亞馬遜與美國郵政服務達成配送協議",
-      "impact": "亞馬遜物流成本下降，郵政服務增加收入",
-      "sector": "consumer",
+      "title": "US employment: more sludge - Financial Times",
+      "zh": "美國就業：更多困境",
+      "impact": "美國就業市場惡化，可能影響經濟成長和聯準會政策",
+      "sector": "general",
       "priority": "medium",
-      "link": "https://www.wsj.com/business/logistics/amazon-and-u-s-postal-service-reach-delivery-deal-66b34c63",
+      "link": "https://www.ft.com/content/65d2617f-ebee-488f-9407-aacab8f38e5e?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "An Inside Look at OpenAI and Anthropic’s Finances Ahead of Their IPOs - WSJ",
+      "zh": "OpenAI和Anthropic IPO前財務狀況深度解析",
+      "impact": "兩大AI獨角獸IPO在即，科技股市場重大事件",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.wsj.com/tech/ai/openai-anthropic-ipo-finances-04b3cfb9",
       "source": "The Wall Street Journal",
       "tickers": []
     },
     {
-      "title": "SpaceX’s IPO Pitch Centers on Elon Musk’s Ability to ‘Sell the Dream’ - Bloomberg.com",
-      "zh": "SpaceX首次公開募股推介重點強調馬斯克銷售夢想的能力",
-      "impact": "獨角獸IPO前融資，估值數百億美元級別",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-06/spacex-s-ipo-pitch-centers-on-elon-musk-s-ability-to-sell-the-dream",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "Key Fed official sees possible rate hike amid higher gas prices, inflation concerns - AP News",
-      "zh": "關鍵聯邦準備制度官員認為汽油價格上升與通膨擔憂可能引發加息",
-      "impact": "聯準會可能改變貨幣政策，市場利率面臨上升風險",
+      "title": "JPMorgan has a stark message on the next Fed rate cut",
+      "zh": "摩根大通對下一次聯準會降息發出強烈警告",
+      "impact": "央行政策預期調整，影響股債匯市場走勢",
       "sector": "finance",
       "priority": "high",
-      "link": "https://apnews.com/article/inflation-federal-reserve-interest-rates-de214f6eb7853bef424967f6d1caf11d",
-      "source": "Associated Press",
-      "tickers": []
-    },
-    {
-      "title": "Trading Open Shadowed by Trump Escalation Threats: Markets Wrap - Bloomberg.com",
-      "zh": "交易開盤籠罩川普升級威脅陰影：市場收盤簡訊",
-      "impact": "貿易戰升級威脅，市場波動加大，投資者情緒惡化",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-05/trading-open-shadowed-by-trump-escalation-threats-markets-wrap",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "'The end of the road': Market heavyweights Michael Burry and Jeff Gundlach eye trouble ahead for private credit - Business Insider",
-      "zh": "市場重量級人物邁克爾·伯瑞與傑夫·岡德拉克看好私人信貸前景黯淡",
-      "impact": "知名投資人警示私人信貸市場風險，可能引發金融市場調整",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.businessinsider.com/michael-burry-jeff-gundlach-private-credit-markets-investing-jpmorgan-2026",
-      "source": "Business Insider",
-      "tickers": []
-    },
-    {
-      "title": "Paramount Skydance Secures $24 Billion From Gulf States for Warner Bros. Deal - Variety",
-      "zh": "派拉蒙斯凱代爾從海灣國家獲得240億美元，用於華納兄弟交易融資",
-      "impact": "大型媒體併購融資完成，業界格局調整",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://variety.com/2026/tv/news/paramount-skydance-funding-saudi-arabia-qatar-abu-dhabi-funds-warner-bros-deal-1236709251/",
-      "source": "Variety",
-      "tickers": []
-    },
-    {
-      "title": "Fubo Releases Adjusted EBITDA Outlook and Long-Term Financial Targets - Fubo - Investor Relations",
-      "zh": "Fubo發佈調整後EBITDA展望與長期財務目標",
-      "impact": "串流媒體公司發佈財務指引，披露營運前景",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://ir.fubo.tv/news/news-details/2026/Fubo-Releases-Adjusted-EBITDA-Outlook-and-Long-Term-Financial-Targets/default.aspx",
-      "source": "Fubo.tv",
-      "tickers": []
-    },
-    {
-      "title": "Neurocrine to Acquire Soleno Therapeutics, Expanding Its Endocrinology and Rare Disease Portfolio - PR Newswire",
-      "zh": "神經素製藥公司收購索萊諾治療公司，擴展內分泌與罕見疾病投資組合",
-      "impact": "製藥公司併購，強化特殊領域產品線",
-      "sector": "health",
-      "priority": "medium",
-      "link": "https://www.prnewswire.com/news-releases/neurocrine-to-acquire-soleno-therapeutics-expanding-its-endocrinology-and-rare-disease-portfolio-302734531.html",
-      "source": "PRNewswire",
-      "tickers": []
-    },
-    {
-      "title": "The Federal Reserve's March and April Inflation Forecast Is In -- and Things Just Keep Getting Uglier for Wall Street - The Motley Fool",
-      "zh": "聯邦準備系統3月與4月通膨預測公佈——華爾街局勢持續惡化",
-      "impact": "聯準會通膨預期上升，市場對降息預期受打擊",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.fool.com/investing/2026/04/06/fed-march-april-inflation-forecast-ugly-wall-st/",
-      "source": "Motley Fool",
+      "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-stark-message-next-fed-180300978.html",
+      "source": "Yahoo Finance",
       "tickers": []
     }
   ]
