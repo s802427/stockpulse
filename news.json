@@ -1,30 +1,60 @@
 {
-  "updated": "2026/04/07 06:42",
+  "updated": "2026/04/07 08:01",
   "news": [
     {
-      "title": "Trading Open Shadowed by Trump Escalation Threats: Markets Wrap - Bloomberg.com",
-      "zh": "特朗普升級威脅籠罩交易開盤：市場綜述",
-      "impact": "貿易戰升級威脅引發市場不確定性",
-      "sector": "general",
+      "title": "Exclusive | Three Gulf Funds Agree to Back Paramount’s $81 Billion Takeover of Warner - WSJ",
+      "zh": "獨家報導｜三家海灣基金同意支持派拉蒙對華納兄弟進行810億美元收購",
+      "impact": "娛樂產業併購，涉及龐大資金流動與市場整合",
+      "sector": "consumer",
       "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-05/trading-open-shadowed-by-trump-escalation-threats-markets-wrap",
-      "source": "Bloomberg",
+      "link": "https://www.wsj.com/business/deals/three-gulf-funds-agree-to-back-paramounts-81-billion-takeover-of-warner-04eda364",
+      "source": "The Wall Street Journal",
+      "tickers": []
+    },
+    {
+      "title": "Airlines are starting to cancel flights as they face jet fuel shortages and rising prices brought on by the Iran war - Business Insider",
+      "zh": "航空公司因伊朗戰爭導致噴氣燃料短缺與價格上漲而開始取消航班",
+      "impact": "油價上升衝擊航空營運成本，恐引發通膨壓力",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.businessinsider.com/airlines-cancel-flights-rising-jet-fuel-prices-shortage-iran-2026-4",
+      "source": "Business Insider",
+      "tickers": []
+    },
+    {
+      "title": "OpenAI CEO and CFO Diverge on IPO Timing - The Information",
+      "zh": "OpenAI執行長與財務長在IPO時機上意見分歧",
+      "impact": "科技獨角獸上市計畫存在內部分歧，市場觀感不確定",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.theinformation.com/articles/openai-ceo-cfo-diverge-ipo-timing",
+      "source": "The Information",
       "tickers": []
     },
     {
       "title": "US Inflation Seen Spiking in First Snapshot Since Iran War - Bloomberg.com",
-      "zh": "伊朗戰爭以來首份數據顯示美國通脹可能飆升",
-      "impact": "通脹數據惡化恐影響央行政策走向",
-      "sector": "finance",
+      "zh": "美國通膨預計在伊朗戰爭後首份數據中飆升",
+      "impact": "地緣政治風險推升物價，央行政策面臨新挑戰",
+      "sector": "general",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-04/us-inflation-seen-spiking-in-first-snapshot-since-iran-war",
       "source": "Bloomberg",
       "tickers": []
     },
     {
+      "title": "Drones are beating missiles. AI is doing the same to corporate America - Axios",
+      "zh": "無人機正擊敗導彈，人工智能對美國企業亦如出一轍",
+      "impact": "AI技術持續顛覆傳統產業與軍事格局",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.axios.com/2026/04/05/small-teams-ai-drones-geopolitics-business",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
       "title": "Private Credit and the New World of Financial Risk - Paul Krugman | Substack",
-      "zh": "私募信貸與金融風險新世界",
-      "impact": "私募信貸市場潛在風險值得關注",
+      "zh": "私募信貸與金融風險的新時代",
+      "impact": "信用市場風險分析，涉及系統性金融穩定性考量",
       "sector": "finance",
       "priority": "medium",
       "link": "https://paulkrugman.substack.com/p/private-credit-and-the-new-world",
@@ -32,9 +62,19 @@
       "tickers": []
     },
     {
+      "title": "Workers plan to halt strike at major US meatpacking plant and resume negotiations - Yahoo",
+      "zh": "員工計劃停止美國主要肉品加工廠罷工並恢復談判",
+      "impact": "勞資談判進展，影響消費商品供應與成本",
+      "sector": "consumer",
+      "priority": "low",
+      "link": "https://www.yahoo.com/news/articles/workers-plan-halt-strike-major-014046394.html",
+      "source": "Yahoo Entertainment",
+      "tickers": []
+    },
+    {
       "title": "Kevin Warsh needs to be confirmed as Fed Chair in order to avoid an economic shutdown - New York Post",
-      "zh": "凱文·沃什必須獲批美聯儲主席以避免經濟停滯",
-      "impact": "聯儲主席確認涉及經濟政策穩定性",
+      "zh": "凱文‧沃什需獲確認為聯準會主席以避免經濟停擺",
+      "impact": "聯準會領導層任命涉及重大貨幣政策方向",
       "sector": "finance",
       "priority": "high",
       "link": "https://nypost.com/2026/04/04/business/kevin-warsh-needs-to-be-confirmed-as-fed-chair-in-order-to-avoid-an-economic-shutdown/",
@@ -42,43 +82,63 @@
       "tickers": []
     },
     {
-      "title": "Striking Beef Plant Workers to Resume Work - wsj.com",
-      "zh": "罷工牛肉加工廠工人將恢復工作",
-      "impact": "勞資糾紛解決有利食品供應鏈穩定",
+      "title": "Nexstar Starts to Undo Its Merger With Tegna’s ABC, CBS, FOX, & NBC After Judge’s Order - | Cord Cutters News",
+      "zh": "Nexstar開始在法官命令後撤銷與Tegna的美國廣播公司、哥倫比亞廣播公司、福克斯及全國廣播公司合併",
+      "impact": "媒體併購解散，市場集中度調整與競爭格局改變",
       "sector": "consumer",
       "priority": "medium",
-      "link": "https://www.wsj.com/business/striking-beef-plant-workers-to-resume-work-bf1b81f3",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
-      "title": "Veteran analyst sends message to Tesla investors after Q1 miss - thestreet.com",
-      "zh": "資深分析師在特斯拉一季度未達預期後向投資者發聲",
-      "impact": "特斯拉業績不佳引發投資者關注",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.thestreet.com/investing/stocks/veteran-analyst-sends-message-to-tesla-investors-after-q1-miss",
-      "source": "TheStreet",
-      "tickers": []
-    },
-    {
-      "title": "Nike’s latest quarter shows customers have changed - thestreet.com",
-      "zh": "耐克最新季度表現顯示消費者偏好已改變",
-      "impact": "消費者需求轉變影響運動品牌銷售前景",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.thestreet.com/investing/stocks/nikes-latest-quarter-shows-customers-have-changed",
-      "source": "TheStreet",
+      "link": "https://cordcuttersnews.com/nexstar-starts-to-undo-its-merger-with-tegnas-abc-cbs-fox-nbc-after-judges-order/",
+      "source": "Cord Cutters News, LLC",
       "tickers": []
     },
     {
       "title": "JPMorgan has a stark message on the next Fed rate cut",
-      "zh": "摩根大通對下一次聯儲降息傳達明確信息",
-      "impact": "聯儲政策預期影響債市及股市走向",
+      "zh": "摩根大通對下次聯準會降息發出明確訊息",
+      "impact": "主要投行對央行政策方向提示，影響市場預期",
       "sector": "finance",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-stark-message-next-fed-180300978.html",
       "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "The Two Materials That Predict Freight Demand Both Just Posted Gains. Here Is What February’s Data Is Telling Us.",
+      "zh": "預測貨運需求的兩種材料均發佈增長。以下是二月數據告訴我們的內容。",
+      "impact": "貨運需求回升，經濟景氣指標向好，或預示經濟復甦信號。",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/economy/articles/two-materials-predict-freight-demand-155839352.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Broadcom’s stock is rising. Here’s why its new Google and Anthropic deals are so significant.",
+      "zh": "博通股價上升。以下是其與谷歌和Anthropic新協議重要性的原因。",
+      "impact": "博通與科技巨頭加強合作，AI晶片需求強勁，營收前景看好。",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.marketwatch.com/story/broadcoms-stock-is-rising-heres-why-its-new-google-and-anthropic-deals-are-so-significant-6d98a067?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "Here’s the somewhat surprising stock that will soon join the S&P 500",
+      "zh": "以下是即將加入標普五百指數的令人驚訝的股票。",
+      "impact": "公司納入標普五百指數，流動性提升，股價可能上漲。",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/an-s-p-500-change-may-be-imminent-these-stocks-are-leading-contenders-to-join-the-index-497eb076?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "Oil Supply Shock Ripples Through Fertilizer, Plastics, and Tech",
+      "zh": "油價供應衝擊波及肥料、塑膠和科技產業。",
+      "impact": "油價上升推高成本，肥料、塑膠、科技等多產業面臨成本壓力。",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Energy/Energy-General/Oil-Supply-Shock-Ripples-Through-Fertilizer-Plastics-and-Tech.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
