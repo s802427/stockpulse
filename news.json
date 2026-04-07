@@ -1,133 +1,11 @@
 {
-  "updated": "2026/04/07 20:01",
+  "updated": "2026/04/07 21:43",
   "news": [
     {
-      "title": "Jamie Dimon warns private credit losses will be larger than feared - Financial Times",
-      "zh": "傑米·戴蒙警告私募信貸虧損將比預期更大",
-      "impact": "私募信貸市場風險上升，可能影響金融系統穩定性",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.ft.com/content/58df968f-de4d-4a00-87b6-0b790057f9d3?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "The massive economic impact of the global energy crisis - Axios",
-      "zh": "全球能源危機的巨大經濟影響",
-      "impact": "能源價格波動對全球經濟增長構成重大威脅",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://www.axios.com/2026/04/06/economic-impact-global-energy-crisis",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
-      "title": "Trading Open Shadowed by Trump Escalation Threats: Markets Wrap - Bloomberg.com",
-      "zh": "特朗普升級威脅籠罩交易開盤：市場動態",
-      "impact": "貿易緊張局勢加劇，市場波動性上升",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-05/trading-open-shadowed-by-trump-escalation-threats-markets-wrap",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "Emerging Market Stocks, Currencies Gain on Iran Ceasefire Report - Bloomberg.com",
-      "zh": "伊朗停火報導提振新興市場股票和貨幣",
-      "impact": "地緣政治緩和推動新興市場反彈",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-06/emerging-market-stocks-currencies-gain-on-iran-ceasefire-report",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "Tesla Stock (TSLA) Down 27% after Q1 Delivery Miss — What Comes Next? - TipRanks",
-      "zh": "特斯拉股票下跌27%，第一季度交付量未達預期——接下來會怎樣？",
-      "impact": "特斯拉業績不佳，電動車市場競爭加劇",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://www.tipranks.com/news/tesla-stock-tsla-down-27-after-delivery-miss-what-comes-next",
-      "source": "Tipranks.com",
-      "tickers": [
-        "$TSLA（特斯拉）"
-      ]
-    },
-    {
-      "title": "Neurocrine nears $2.5bn-plus deal for biotech behind obesity disorder treatment - Financial Times",
-      "zh": "神經生物學公司接近達成25億美元以上併購肥胖症治療生物技術公司",
-      "impact": "25億美元併購案，肥胖症治療市場整合加速",
-      "sector": "health",
-      "priority": "high",
-      "link": "https://www.ft.com/content/6642c09c-12df-4724-8ed4-a28c32b9b2b7?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "An Inside Look at OpenAI and Anthropic’s Finances Ahead of Their IPOs - WSJ",
-      "zh": "OpenAI和Anthropic上市前財務狀況內幕",
-      "impact": "兩家AI獨角獸IPO準備，市場關注度高",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.wsj.com/tech/ai/openai-anthropic-ipo-finances-04b3cfb9",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
-      "title": "Teamsters Reach Strong Settlement with UPS on Driver Severance Packages - International Brotherhood of Teamsters",
-      "zh": "卡車司機工會與UPS達成強勢協議，駕駛員遣散費方案",
-      "impact": "勞資談判達成，UPS成本壓力增加",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://teamster.org/2026/04/teamsters-reach-strong-settlement-with-ups-on-driver-severance-packages/",
-      "source": "Teamster.org",
-      "tickers": []
-    },
-    {
-      "title": "OpenAI CEO and CFO Diverge on IPO Timing - The Information",
-      "zh": "OpenAI執行長與財務長在IPO時機上看法不一",
-      "impact": "OpenAI IPO計畫存在內部分歧，時程不確定",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.theinformation.com/articles/openai-ceo-cfo-diverge-ipo-timing",
-      "source": "The Information",
-      "tickers": []
-    },
-    {
-      "title": "Novo Nordisk CEO says weight-loss drug boom has barely begun (NVO:NYSE) - Seeking Alpha",
-      "zh": "諾和諾德執行長表示減肥藥熱潮才剛開始",
-      "impact": "減肥藥市場前景廣闊，相關公司獲利空間大",
-      "sector": "health",
-      "priority": "medium",
-      "link": "https://seekingalpha.com/news/4572534-novo-nordisk-ceo-says-weight-loss-drug-boom-has-barely-begun",
-      "source": "Seeking Alpha",
-      "tickers": []
-    },
-    {
-      "title": "What to Watch in Markets This Week: CPI Report Headlines Inflation Data; Earnings Season; Iran War - Investopedia",
-      "zh": "本周市場關注焦點：消費者物價指數報告成為通膨數據頭條；財報季；伊朗戰爭",
-      "impact": "CPI數據將影響聯準會政策方向與市場預期",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.investopedia.com/what-to-watch-in-markets-this-week-cpi-report-headlines-inflation-data-earnings-season-iran-war-11941339",
-      "source": "Investopedia",
-      "tickers": []
-    },
-    {
-      "title": "Private Credit and the New World of Financial Risk - Paul Krugman | Substack",
-      "zh": "私募信貸與新興金融風險世界 - 保羅·克魯格曼",
-      "impact": "分析私募信貸市場風險對金融系統的潛在威脅",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://paulkrugman.substack.com/p/private-credit-and-the-new-world",
-      "source": "Substack.com",
-      "tickers": []
-    },
-    {
       "title": "Kevin Warsh needs to be confirmed as Fed Chair in order to avoid an economic shutdown - New York Post",
-      "zh": "凱文·沃什需要獲得聯準會主席確認以避免經濟關閉",
-      "impact": "聯準會領導權更替可能影響貨幣政策方向與市場穩定性",
-      "sector": "general",
+      "zh": "凱文·沃什需要獲得聯邦主席確認，以避免經濟關閉",
+      "impact": "美聯儲主席人事確認影響經濟政策方向與市場預期",
+      "sector": "finance",
       "priority": "high",
       "link": "https://nypost.com/2026/04/04/business/kevin-warsh-needs-to-be-confirmed-as-fed-chair-in-order-to-avoid-an-economic-shutdown/",
       "source": "New York Post",
@@ -135,71 +13,51 @@
     },
     {
       "title": "JPMorgan has a stark message on the next Fed rate cut",
-      "zh": "摩根大通對下一次聯準會降息發出明確信息",
-      "impact": "大型金融機構對利率政策預期的轉變影響市場走勢",
+      "zh": "摩根大通對下一次聯邦降息發出明確訊號",
+      "impact": "聯邦降息預期影響股債市場走向與投資策略",
       "sector": "finance",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-stark-message-next-fed-180300978.html",
       "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Tech stocks today: Big Tech's Q2 outlook and OpenAI's major policy proposals",
-      "zh": "科技股今日：大科技公司第二季展望與OpenAI重大政策提案",
-      "impact": "科技巨頭財報預期與AI政策變化影響科技板塊走勢",
+      "title": "Broadcom’s stock is rising. Here’s why its new Google and Anthropic deals are so significant.",
+      "zh": "博通股票上漲。以下是其與Google和Anthropic新交易的重要意義",
+      "impact": "AI芯片龍頭與科技巨頭合作加深，推動AI商業化進展",
       "sector": "tech",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/sectors/technology/article/tech-stocks-today-big-techs-q2-outlook-and-openais-major-policy-proposals-144220403.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "U.S. assets and gold are being sold offshore as the world scrambles to afford higher oil prices",
-      "zh": "美國資產與黃金在世界爭相負擔更高油價之際被拋售至海外",
-      "impact": "全球能源價格上升導致資本流動與資產配置重新調整",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://www.marketwatch.com/story/u-s-assets-and-gold-are-being-sold-offshore-as-the-world-scrambles-to-afford-higher-oil-prices-29dd5556?mod=mw_rss_topstories",
+      "link": "https://www.marketwatch.com/story/broadcoms-stock-is-rising-heres-why-its-new-google-and-anthropic-deals-are-so-significant-6d98a067?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories",
       "tickers": []
     },
     {
-      "title": "Anthropic economics chief talks about the jobs that could be killed by AI",
-      "zh": "Anthropic經濟學主管談論可能被AI消滅的職位",
-      "impact": "AI發展對就業市場的潛在衝擊引發經濟與社會關注",
+      "title": "AI is moving fast. CFOs have a narrow window to shape its value",
+      "zh": "人工智能發展迅速。首席財務官窗口期有限，需塑造其價值",
+      "impact": "企業需快速應對AI帶來的財務與運營影響",
       "sector": "tech",
-      "priority": "low",
-      "link": "https://fortune.com/2026/04/07/anthropic-economics-chief-peter-mccrory-jobs-killed-by-ai/",
+      "priority": "medium",
+      "link": "https://fortune.com/2026/04/07/ai-moving-fast-cfo-have-narrow-window-shape-value/",
       "source": "Fortune | FORTUNE",
       "tickers": []
     },
     {
-      "title": "Dangote Refinery Crude Supply Doubles, But High Import Costs Squeeze Margins",
-      "zh": "丹傑特煉油廠原油供應翻倍，但進口成本高企壓低利潤",
-      "impact": "非洲煉油產能提升受限於油價上漲導致利潤下降",
-      "sector": "energy",
-      "priority": "low",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Dangote-Refinery-Crude-Supply-Doubles-But-High-Import-Costs-Squeeze-Margins.html",
-      "source": "Oilprice.com",
-      "tickers": []
-    },
-    {
-      "title": "European Gas Futures Jump 3% as Trump's Iran Strike Deadline Nears",
-      "zh": "特朗普伊朗罷工最後期限逼近時歐洲天然氣期貨躍升3%",
-      "impact": "地緣政治緊張局勢推升能源期貨價格與通膨預期",
+      "title": "WTI Crude Oil Hits $115 as Strikes Target Iran's Kharg Island",
+      "zh": "西德州輕質原油價格升至115美元，因罷工針對伊朗哈格島",
+      "impact": "地緣政治衝突推高油價，影響全球能源成本與通膨預期",
       "sector": "energy",
       "priority": "high",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Futures-Jump-3-as-Trumps-Iran-Strike-Deadline-Nears.html",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/WTI-Crude-Oil-Hits-115-as-Strikes-Target-Irans-Kharg-Island.html",
       "source": "Oilprice.com",
       "tickers": []
     },
     {
-      "title": "India Turns to Venezuelan Crude as Middle East Supply Falters",
-      "zh": "印度轉向委內瑞拉原油以應對中東供應不足",
-      "impact": "全球油供格局調整反映地緣政治風險與能源安全隱憂",
+      "title": "Russia's Yamal LNG Ships First Cargo to China in Months as EU Ban Nears",
+      "zh": "俄羅斯亞馬爾液化天然氣數月來首次向中國運送貨物，歐盟禁令將至",
+      "impact": "俄羅斯繞過制裁調整能源貿易結構，改變全球能源地緣政治",
       "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Turns-to-Venezuelan-Crude-as-Middle-East-Supply-Falters.html",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Russias-Yamal-LNG-Ships-First-Cargo-to-China-in-Months-as-EU-Ban-Nears.html",
       "source": "Oilprice.com",
       "tickers": []
     }
