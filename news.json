@@ -1,104 +1,64 @@
 {
-  "updated": "2026/04/07 13:49",
+  "updated": "2026/04/07 14:01",
   "news": [
     {
-      "title": "Trading Open Shadowed by Trump Escalation Threats: Markets Wrap - Bloomberg.com",
-      "zh": "特朗普升級威脅籠罩交易開市：市場概覽",
-      "impact": "特朗普威脅升級引發市場不確定性和波動",
-      "sector": "general",
+      "title": "JPMorgan has a stark message on the next Fed rate cut",
+      "zh": "摩根大通對下一次美聯儲降息發出明確信號",
+      "impact": "美聯儲貨幣政策前景影響市場預期，影響資產估值",
+      "sector": "finance",
       "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-05/trading-open-shadowed-by-trump-escalation-threats-markets-wrap",
-      "source": "Bloomberg",
+      "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-stark-message-next-fed-180300978.html",
+      "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Neurocrine nears $2.5bn-plus deal for biotech behind obesity disorder treatment - Financial Times",
-      "zh": "神經生物製藥公司接近達成25億美元以上交易，收購肥胖症治療生物技術公司",
-      "impact": "大型生物製藥併購案，推動肥胖症治療領域發展",
-      "sector": "health",
-      "priority": "high",
-      "link": "https://www.ft.com/content/6642c09c-12df-4724-8ed4-a28c32b9b2b7?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "Paramount Nears Deal Securing Gulf State Funds To Back WBD Acquisition – Report - Deadline",
-      "zh": "派拉蒙接近達成協議獲得海灣國家資金以支持收購華納兄弟探索公司",
-      "impact": "重大媒體併購融資案，涉及海灣資本進入好萊塢",
+      "title": "PDD Holdings (PDD) Reports 2025 Revenue of RMB431.8B; Net Income Falls 12%",
+      "zh": "拼多多報告2025年營收人民幣4,318億元，淨利潤下降12%",
+      "impact": "中概股龍頭盈利下滑，反映電商競爭加劇",
       "sector": "consumer",
-      "priority": "high",
-      "link": "http://deadline.com/2026/04/paramount-wbd-merger-foreign-backing-gulf-funds-deal-1236780058/",
-      "source": "Deadline",
-      "tickers": []
-    },
-    {
-      "title": "Japan, South Korea stocks open higher as investors assess Trump's Iran war comments, extended deadline - CNBC",
-      "zh": "日本、南韓股市開盤走高，投資者評估特朗普伊朗戰爭言論和延長期限",
-      "impact": "亞股受伊朗局勢影響上漲，投資者觀望",
-      "sector": "general",
       "priority": "medium",
-      "link": "https://www.cnbc.com/2026/04/06/asia-markets-nikkei-225-crude-oil-trump-iran-hormuz.html",
-      "source": "CNBC",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-pdd-reports-2025-183115087.html",
+      "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Airlines are starting to cancel flights as they face jet fuel shortages and rising prices brought on by the Iran war - Business Insider",
-      "zh": "航空公司因伊朗戰爭導致的噴氣燃料短缺和價格上漲開始取消航班",
-      "impact": "伊朗戰爭推高燃油成本，航空業營運受影響",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.businessinsider.com/airlines-cancel-flights-rising-jet-fuel-prices-shortage-iran-2026-4",
-      "source": "Business Insider",
-      "tickers": []
-    },
-    {
-      "title": "OpenAI CEO and CFO Diverge on IPO Timing - The Information",
-      "zh": "OpenAI執行長與首席財務官在首次公開募股時機上意見分歧",
-      "impact": "OpenAI上市計劃管理層存在分歧，IPO時間表不確定",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.theinformation.com/articles/openai-ceo-cfo-diverge-ipo-timing",
-      "source": "The Information",
-      "tickers": []
-    },
-    {
-      "title": "US Inflation Seen Spiking in First Snapshot Since Iran War - Bloomberg.com",
-      "zh": "美國通脹在伊朗戰爭後首次數據中預計將飆升",
-      "impact": "伊朗戰爭推高通脹預期，影響貨幣政策方向",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-04/us-inflation-seen-spiking-in-first-snapshot-since-iran-war",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "What to Watch in Markets This Week: CPI Report Headlines Inflation Data; Earnings Season; Iran War - Investopedia",
-      "zh": "本週市場關注重點：消費者物價指數報告領銜通脹數據；財報季；伊朗戰爭",
-      "impact": "本週關鍵經濟數據和財報發布，市場重點關注",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.investopedia.com/what-to-watch-in-markets-this-week-cpi-report-headlines-inflation-data-earnings-season-iran-war-11941339",
-      "source": "Investopedia",
-      "tickers": []
-    },
-    {
-      "title": "Countries must not hoard fuel during Iran war, warns IEA - Financial Times",
-      "zh": "國際能源署警告各國在伊朗戰爭期間不得囤積燃料",
-      "impact": "全球能源供應警告，防止燃料市場扭曲和價格上漲",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://www.ft.com/content/9e47e3b8-fae1-4c1c-b79c-22dda42bc2b1?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "Striking Beef Plant Workers to Resume Work - WSJ",
-      "zh": "罷工的牛肉加工廠工人將恢復工作",
-      "impact": "勞資爭議解決，肉類生產恢復正常",
-      "sector": "consumer",
+      "title": "Apollo (APO) Funds Acquire Gatehouse Living Group from Gatehouse Bank",
+      "zh": "阿波羅基金從Gatehouse銀行收購Gatehouse Living集團",
+      "impact": "私募股權公司進行資產並購，規模及具體影響需確認",
+      "sector": "finance",
       "priority": "low",
-      "link": "https://www.wsj.com/business/striking-beef-plant-workers-to-resume-work-bf1b81f3",
-      "source": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apollo-apo-funds-acquire-gatehouse-183114049.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Broadcom’s stock is rising. Here’s why its new Google and Anthropic deals are so significant.",
+      "zh": "博通股價上漲，解析其與谷歌和Anthropic新交易的重大意義",
+      "impact": "晶片巨頭獲得AI大客戶訂單，受惠於AI基礎設施建設需求",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.marketwatch.com/story/broadcoms-stock-is-rising-heres-why-its-new-google-and-anthropic-deals-are-so-significant-6d98a067?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "Supermicro owes its rapid rise to $4 trillion Nvidia—but China smuggling allegations and a high-profile arrest could blow up the partnership",
+      "zh": "超微電腦因4兆美元Nvidia而快速崛起，但中國走私指控與高管被捕可能破壞合作",
+      "impact": "供應鏈風險和地緣政治風險威脅Nvidia生態系統穩定性",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://fortune.com/2026/04/06/supermicro-nvidia-jensen-huang-charles-liang-wally-liaw/",
+      "source": "Fortune | FORTUNE",
+      "tickers": []
+    },
+    {
+      "title": "Pentagon-Linked REalloys Secures U.S. Rare Earth Supply Ahead of China Ban",
+      "zh": "與美國防部相關的REalloys公司搶在中國禁令前確保稀土供應",
+      "impact": "美國提升稀土供應自主性，降低對中國稀土依賴風險",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Energy/Energy-General/Pentagon-Linked-REalloys-Secures-US-Rare-Earth-Supply-Ahead-of-China-Ban.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
