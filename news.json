@@ -1,14 +1,104 @@
 {
-  "updated": "2026/04/07 16:00",
+  "updated": "2026/04/07 17:11",
   "news": [
     {
-      "title": "Pentagon-Linked REalloys Secures U.S. Rare Earth Supply Ahead of China Ban",
-      "zh": "與五角大樓有關的REalloys公司在中國禁令前確保美國稀土供應",
-      "impact": "美國稀土供應鏈自主性增強，減少對中國依賴，利好國防產業",
-      "sector": "energy",
+      "title": "Neurocrine nears $2.5bn-plus deal for biotech behind obesity disorder treatment - Financial Times",
+      "zh": "神經生物科學公司洽談25億美元以上併購肥胖症治療生技公司交易",
+      "impact": "生技併購加速，肥胖症治療市場競爭升溫",
+      "sector": "health",
       "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/Pentagon-Linked-REalloys-Secures-US-Rare-Earth-Supply-Ahead-of-China-Ban.html",
-      "source": "Oilprice.com",
+      "link": "https://www.ft.com/content/6642c09c-12df-4724-8ed4-a28c32b9b2b7?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "Paramount Nears Deal Securing Gulf State Funds To Back WBD Acquisition – Report - Deadline",
+      "zh": "派拉蒙接近達成海灣國家資金支持以進行華納兄弟發現公司併購協議",
+      "impact": "派拉蒙融資進展，串流媒體整合推進",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "http://deadline.com/2026/04/paramount-wbd-merger-foreign-backing-gulf-funds-deal-1236780058/",
+      "source": "Deadline",
+      "tickers": []
+    },
+    {
+      "title": "OpenAI CEO and CFO Diverge on IPO Timing - The Information",
+      "zh": "OpenAI執行長與首席財務官在IPO時機上立場不一",
+      "impact": "OpenAI上市規劃存分歧，時程延後風險上升",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.theinformation.com/articles/openai-ceo-cfo-diverge-ipo-timing",
+      "source": "The Information",
+      "tickers": []
+    },
+    {
+      "title": "US Inflation Seen Spiking in First Snapshot Since Iran War - Bloomberg.com",
+      "zh": "美國通膨預期伊朗戰爭以來首份數據將出現飆升",
+      "impact": "通膨數據公佈，聯準會政策方向關鍵",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-04/us-inflation-seen-spiking-in-first-snapshot-since-iran-war",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "AI is breaking crypto security by making hacks cheaper and easier, Ledger CTO warns - CoinDesk",
+      "zh": "人工智慧導致加密貨幣安全漏洞風險上升，Ledger首席技術官警告駭客攻擊成本下降且更容易",
+      "impact": "加密資產安全風險加劇，駭客威脅增大",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.coindesk.com/tech/2026/04/05/ai-is-making-crypto-s-security-problem-even-worse-ledger-cto-warns",
+      "source": "CoinDesk",
+      "tickers": []
+    },
+    {
+      "title": "What to Watch in Markets This Week: CPI Report Headlines Inflation Data; Earnings Season; Iran War - Investopedia",
+      "zh": "本週市場觀察重點：消費者物價指數報告、盈利季、伊朗戰爭",
+      "impact": "匯總本週重要經濟數據與地緣政治風險",
+      "sector": "general",
+      "priority": "low",
+      "link": "https://www.investopedia.com/what-to-watch-in-markets-this-week-cpi-report-headlines-inflation-data-earnings-season-iran-war-11941339",
+      "source": "Investopedia",
+      "tickers": []
+    },
+    {
+      "title": "Private Credit and the New World of Financial Risk - Paul Krugman | Substack",
+      "zh": "私募信貸與新金融風險世界—保羅·克魯格曼評論",
+      "impact": "私募信貸潛在系統性風險分析評論",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://paulkrugman.substack.com/p/private-credit-and-the-new-world",
+      "source": "Substack.com",
+      "tickers": []
+    },
+    {
+      "title": "JPMorgan has a stark message on the next Fed rate cut",
+      "zh": "摩根大通針對下一次聯準會降息發表明確立場",
+      "impact": "摩根大通預示聯準會政策方向，市場預期調整",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-stark-message-next-fed-180300978.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Health insurers secured a better Medicare Advantage rate for 2027, and their stocks are soaring",
+      "zh": "健康保險商確保更好的2027年聯邦醫療保險優惠計畫費率，股票飆升",
+      "impact": "醫療保險商利潤改善，股價上漲",
+      "sector": "health",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/health-insurers-secured-a-better-medicare-advantage-rate-for-2027-and-their-stocks-are-soaring-1ca57d12?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "Supermicro owes its rapid rise to $4 trillion Nvidia—but China smuggling allegations and a high-profile arrest could blow up the partnership",
+      "zh": "超微電腦快速成長仰賴4兆美元英偉達，但中國走私指控與高知名度逮捕恐將打擊合作關係",
+      "impact": "超微與英偉達合作面臨地緣政治與法律風險威脅",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://fortune.com/2026/04/06/supermicro-nvidia-jensen-huang-charles-liang-wally-liaw/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     }
   ]
