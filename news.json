@@ -1,64 +1,94 @@
 {
-  "updated": "2026/04/07 14:01",
+  "updated": "2026/04/07 15:27",
   "news": [
     {
-      "title": "JPMorgan has a stark message on the next Fed rate cut",
-      "zh": "摩根大通對下一次美聯儲降息發出明確信號",
-      "impact": "美聯儲貨幣政策前景影響市場預期，影響資產估值",
-      "sector": "finance",
+      "title": "Neurocrine nears $2.5bn-plus deal for biotech behind obesity disorder treatment - Financial Times",
+      "zh": "Neurocrine接近達成25億美元以上交易收購肥胖症治療生技公司",
+      "impact": "Neurocrine完成25億美元併購，進軍肥胖症治療市場",
+      "sector": "health",
       "priority": "high",
+      "link": "https://www.ft.com/content/6642c09c-12df-4724-8ed4-a28c32b9b2b7?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "Paramount Nears Deal Securing Gulf State Funds To Back WBD Acquisition – Report - Deadline",
+      "zh": "派拉蒙接近敲定協議獲得海灣國家資金支持收購華納兄弟探索公司",
+      "impact": "派拉蒙獲海灣國家資金支持，推進收購華納兄弟探索計畫",
+      "sector": "general",
+      "priority": "high",
+      "link": "http://deadline.com/2026/04/paramount-wbd-merger-foreign-backing-gulf-funds-deal-1236780058/",
+      "source": "Deadline",
+      "tickers": []
+    },
+    {
+      "title": "OpenAI CEO and CFO Diverge on IPO Timing - The Information",
+      "zh": "OpenAI執行長與財務長在IPO時程上出現分歧",
+      "impact": "OpenAI領導層對IPO時程看法不一，上市計畫仍存不確定性",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.theinformation.com/articles/openai-ceo-cfo-diverge-ipo-timing",
+      "source": "The Information",
+      "tickers": []
+    },
+    {
+      "title": "US Inflation Seen Spiking in First Snapshot Since Iran War - Bloomberg.com",
+      "zh": "伊朗戰爭後首份快照顯示美國通膨可能上升",
+      "impact": "伊朗戰爭引發通膨上升預期，影響美國經濟前景",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-04/us-inflation-seen-spiking-in-first-snapshot-since-iran-war",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "What to Watch in Markets This Week: CPI Report Headlines Inflation Data; Earnings Season; Iran War - Investopedia",
+      "zh": "本週市場關注焦點：消費者物價指數報告、公司財報季、伊朗戰爭",
+      "impact": "本週多項重要經濟數據與公司財報發佈，市場波動預期增加",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.investopedia.com/what-to-watch-in-markets-this-week-cpi-report-headlines-inflation-data-earnings-season-iran-war-11941339",
+      "source": "Investopedia",
+      "tickers": []
+    },
+    {
+      "title": "Private Credit and the New World of Financial Risk - Paul Krugman | Substack",
+      "zh": "私募信貸與新金融風險時代──保羅·克魯格曼專欄",
+      "impact": "私募信貸市場擴張帶來新金融風險，值得關注",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://paulkrugman.substack.com/p/private-credit-and-the-new-world",
+      "source": "Substack.com",
+      "tickers": []
+    },
+    {
+      "title": "JPMorgan has a stark message on the next Fed rate cut",
+      "zh": "摩根大通對聯準會下次降息傳達明確立場",
+      "impact": "摩根大通發出降息信號，影響市場利率預期",
+      "sector": "finance",
+      "priority": "medium",
       "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-stark-message-next-fed-180300978.html",
       "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "PDD Holdings (PDD) Reports 2025 Revenue of RMB431.8B; Net Income Falls 12%",
-      "zh": "拼多多報告2025年營收人民幣4,318億元，淨利潤下降12%",
-      "impact": "中概股龍頭盈利下滑，反映電商競爭加劇",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-pdd-reports-2025-183115087.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Apollo (APO) Funds Acquire Gatehouse Living Group from Gatehouse Bank",
-      "zh": "阿波羅基金從Gatehouse銀行收購Gatehouse Living集團",
-      "impact": "私募股權公司進行資產並購，規模及具體影響需確認",
-      "sector": "finance",
-      "priority": "low",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/apollo-apo-funds-acquire-gatehouse-183114049.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
       "title": "Broadcom’s stock is rising. Here’s why its new Google and Anthropic deals are so significant.",
-      "zh": "博通股價上漲，解析其與谷歌和Anthropic新交易的重大意義",
-      "impact": "晶片巨頭獲得AI大客戶訂單，受惠於AI基礎設施建設需求",
+      "zh": "博通股價上升，其與谷歌和Anthropic的新交易為何如此重要",
+      "impact": "博通與谷歌、Anthropic簽署重要交易，強化AI晶片市場地位",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.marketwatch.com/story/broadcoms-stock-is-rising-heres-why-its-new-google-and-anthropic-deals-are-so-significant-6d98a067?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories",
       "tickers": []
     },
     {
       "title": "Supermicro owes its rapid rise to $4 trillion Nvidia—but China smuggling allegations and a high-profile arrest could blow up the partnership",
-      "zh": "超微電腦因4兆美元Nvidia而快速崛起，但中國走私指控與高管被捕可能破壞合作",
-      "impact": "供應鏈風險和地緣政治風險威脅Nvidia生態系統穩定性",
+      "zh": "超微電腦的快速成長歸功於4兆美元英偉達，但中國走私指控和高調逮捕可能摧毀此合作關係",
+      "impact": "超微電腦與英偉達合作面臨中國走私與逮捕風險，可能影響供應鏈",
       "sector": "tech",
       "priority": "high",
       "link": "https://fortune.com/2026/04/06/supermicro-nvidia-jensen-huang-charles-liang-wally-liaw/",
       "source": "Fortune | FORTUNE",
-      "tickers": []
-    },
-    {
-      "title": "Pentagon-Linked REalloys Secures U.S. Rare Earth Supply Ahead of China Ban",
-      "zh": "與美國防部相關的REalloys公司搶在中國禁令前確保稀土供應",
-      "impact": "美國提升稀土供應自主性，降低對中國稀土依賴風險",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/Pentagon-Linked-REalloys-Secures-US-Rare-Earth-Supply-Ahead-of-China-Ban.html",
-      "source": "Oilprice.com",
       "tickers": []
     }
   ]
