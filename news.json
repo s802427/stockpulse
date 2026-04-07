@@ -1,10 +1,20 @@
 {
-  "updated": "2026/04/08 00:01",
+  "updated": "2026/04/08 01:08",
   "news": [
     {
+      "title": "Bank Warns of Tesla Stock Collapse by 60% - Yahoo Finance",
+      "zh": "銀行警告特斯拉股票可能崩跌60%",
+      "impact": "特斯拉股價面臨重大下行風險，投資者信心受損",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bank-warns-tesla-stock-collapse-155334293.html",
+      "source": "Yahoo Entertainment",
+      "tickers": []
+    },
+    {
       "title": "Growth Slows at US Service Providers as Price Gauge Surges - Bloomberg.com",
-      "zh": "美國服務提供商增長放緩，價格指標飆升",
-      "impact": "服務業增速下滑，通膨壓力持續存在",
+      "zh": "美國服務業提供商增長放緩，價格指標飆升",
+      "impact": "經濟增長疲軟但通膨壓力持續，央行面臨兩難",
       "sector": "general",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-06/growth-slows-at-us-service-providers-as-price-gauge-surges",
@@ -12,29 +22,9 @@
       "tickers": []
     },
     {
-      "title": "AP plans staff cuts, restructuring amid broader business shift - Axios",
-      "zh": "美聯社計畫裁員和重組，因應業務轉型",
-      "impact": "傳媒業調整，涉及人員削減",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.axios.com/2026/04/06/ap-staff-cuts-restructuring",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
-      "title": "Treasury Department Designates BNY as Financial Agent to Support New Trump Accounts Program - U.S. Department of the Treasury (.gov)",
-      "zh": "財政部指定紐約梅隆銀行為特朗普新帳戶計畫的財務代理",
-      "impact": "政策支持，金融機構獲得重要委任",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://home.treasury.gov/news/press-releases/sb0433",
-      "source": "Treasury.gov",
-      "tickers": []
-    },
-    {
       "title": "Paramount Skydance Secures $24 Billion From Gulf States for Warner Bros. Deal - Variety",
-      "zh": "派拉蒙斯凱德蒙公司從海灣國家獲得240億美元融資，支持華納兄弟交易",
-      "impact": "超大型併購融資確保，涉及240億美元",
+      "zh": "Paramount Skydance從海灣國家獲得240億美元融資用於華納兄弟交易",
+      "impact": "好萊塢大型併購案融資落實，娛樂業整合加速",
       "sector": "consumer",
       "priority": "high",
       "link": "https://variety.com/2026/tv/news/paramount-skydance-funding-saudi-arabia-qatar-abu-dhabi-funds-warner-bros-deal-1236709251/",
@@ -43,8 +33,8 @@
     },
     {
       "title": "Strategy Posts $14.5 Billion Unrealized Loss in First Quarter - Bloomberg.com",
-      "zh": "策略公司第一季度未實現虧損145億美元",
-      "impact": "投資組合大幅虧損，風險資產面臨壓力",
+      "zh": "Strategy在第一季度出現145億美元未實現虧損",
+      "impact": "策略性投資面臨巨額虧損，公司業績承壓",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-06/strategy-posts-14-5-billion-unrealized-loss-in-first-quarter",
@@ -52,9 +42,29 @@
       "tickers": []
     },
     {
+      "title": "Oracle Names Hilary Maxson Chief Financial Officer - WSJ",
+      "zh": "甲骨文任命希拉里·麥克松為首席財務官",
+      "impact": "甲骨文高層人事變動，財務領導力調整",
+      "sector": "tech",
+      "priority": "low",
+      "link": "https://www.wsj.com/cfo-journal/oracle-names-hilary-maxson-chief-financial-officer-f764c69c",
+      "source": "The Wall Street Journal",
+      "tickers": []
+    },
+    {
+      "title": "Tesla is down sharply in 2026. JPMorgan sees the stock falling another 60% - CNBC",
+      "zh": "特斯拉在2026年股價大幅下跌，摩根大通認為股票將再跌60%",
+      "impact": "特斯拉面臨嚴重股價壓力，投資評級下調",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/06/tesla-is-down-sharply-in-2026-jpmorgan-sees-even-more-declines-ahead.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
       "title": "Neurocrine to Acquire Soleno Therapeutics, Expanding Its Endocrinology and Rare Disease Portfolio - PR Newswire",
-      "zh": "神經化學公司收購索倫治療公司，擴展內分泌及罕見疾病組合",
-      "impact": "健康科技併購，強化罕見病治療能力",
+      "zh": "Neurocrine收購Soleno Therapeutics，擴展內分泌和罕見病投資組合",
+      "impact": "生物製藥併購案完成，內分泌領域整合深化",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.prnewswire.com/news-releases/neurocrine-to-acquire-soleno-therapeutics-expanding-its-endocrinology-and-rare-disease-portfolio-302734531.html",
@@ -63,8 +73,8 @@
     },
     {
       "title": "The Federal Reserve's March and April Inflation Forecast Is In -- and Things Just Keep Getting Uglier for Wall Street - The Motley Fool",
-      "zh": "聯準會3月和4月通膨預測公佈，華爾街面臨困局",
-      "impact": "央行通膨預測惡化，市場面臨政策風險",
+      "zh": "聯邦準備委員會的3月和4月通膨預測出爐——華爾街面臨更糟狀況",
+      "impact": "通膨預期持續上升，央行政策面臨更大壓力",
       "sector": "general",
       "priority": "high",
       "link": "https://www.fool.com/investing/2026/04/06/fed-march-april-inflation-forecast-ugly-wall-st/",
@@ -72,19 +82,9 @@
       "tickers": []
     },
     {
-      "title": "Jamie Dimon warns private credit losses will be larger than feared - Financial Times",
-      "zh": "傑米·戴蒙警告私募信貸虧損將超預期",
-      "impact": "金融系統風險信號，信貸市場存在隱憂",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.ft.com/content/58df968f-de4d-4a00-87b6-0b790057f9d3?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
       "title": "How a four-month FDA delay forced a small biotech company to close its doors - statnews.com",
-      "zh": "美食藥局延遲四個月導致小型生技公司關閉",
-      "impact": "監管延遲致公司倒閉，生技業面臨風險",
+      "zh": "FDA四個月延誤迫使小型生物科技公司關閉",
+      "impact": "監管延誤導致企業倒閉，小型製藥公司風險凸顯",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.statnews.com/2026/04/06/fda-delay-cited-in-closure-kezar-life-sciences-biotech-startup/",
@@ -92,9 +92,19 @@
       "tickers": []
     },
     {
+      "title": "Oil Crisis Hitting Asia Foreshadows Tough Times for Europe - wsj.com",
+      "zh": "石油危機衝擊亞洲，預示歐洲面臨困難時期",
+      "impact": "全球能源危機惡化，歐洲經濟前景堪憂",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.wsj.com/finance/commodities-futures/oil-crisis-asia-europe-africa-iran-war-ea883ba2",
+      "source": "The Wall Street Journal",
+      "tickers": []
+    },
+    {
       "title": "An Inside Look at OpenAI and Anthropic’s Finances Ahead of Their IPOs - WSJ",
-      "zh": "深入剖析OpenAI和Anthropic在首次公開募股前的財務狀況",
-      "impact": "AI獨角獸IPO前景浮現，市場期待巨大融資",
+      "zh": "華爾街日報深入分析OpenAI和Anthropic在IPO前的財務狀況",
+      "impact": "兩家AI獨角獸即將上市，市場關注融資規模與估值",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.wsj.com/tech/ai/openai-anthropic-ipo-finances-04b3cfb9",
@@ -103,8 +113,8 @@
     },
     {
       "title": "Novo Nordisk CEO says weight-loss drug boom has barely begun (NVO:NYSE) - Seeking Alpha",
-      "zh": "諾和諾德首席執行官表示減肥藥熱潮才剛開始",
-      "impact": "減肥藥市場前景看好，GLP-1類藥物需求持續增長",
+      "zh": "諾和諾德CEO表示減肥藥熱潮才剛開始",
+      "impact": "減肥藥市場前景廣闊，藥廠增長潛力巨大",
       "sector": "health",
       "priority": "medium",
       "link": "https://seekingalpha.com/news/4572534-novo-nordisk-ceo-says-weight-loss-drug-boom-has-barely-begun",
@@ -113,18 +123,28 @@
     },
     {
       "title": "What to Watch in Markets This Week: CPI Report Headlines Inflation Data; Earnings Season; Iran War - Investopedia",
-      "zh": "本週市場關注焦點：消費者物價指數報告領銜通脹數據、財報季、伊朗戰爭",
-      "impact": "多項重要經濟數據和地緣政治事件將影響市場走勢",
+      "zh": "本週市場看點：CPI報告主導通膨數據、財報季、伊朗戰爭",
+      "impact": "多重經濟指標發布，市場波動風險上升",
       "sector": "general",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.investopedia.com/what-to-watch-in-markets-this-week-cpi-report-headlines-inflation-data-earnings-season-iran-war-11941339",
       "source": "Investopedia",
       "tickers": []
     },
     {
+      "title": "Private Credit and the New World of Financial Risk - Paul Krugman | Substack",
+      "zh": "保羅．克魯格曼談私募信貸與金融風險新時代",
+      "impact": "金融風險預警，影響市場穩定性評估",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://paulkrugman.substack.com/p/private-credit-and-the-new-world",
+      "source": "Substack.com",
+      "tickers": []
+    },
+    {
       "title": "JPMorgan has a stark message on the next Fed rate cut",
-      "zh": "摩根大通對下一次聯邦準備局降息傳達嚴肅信息",
-      "impact": "美聯儲政策前景不明朗，市場對降息時機預期改變",
+      "zh": "摩根大通對下一次美聯儲降息發出明確信號",
+      "impact": "美聯儲政策前景明確，影響債券與股市走向",
       "sector": "finance",
       "priority": "high",
       "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-stark-message-next-fed-180300978.html",
@@ -132,42 +152,32 @@
       "tickers": []
     },
     {
-      "title": "U.S. oil prices top $116 a barrel after reports that Iran’s Kharg Island is targeted with multiple strikes",
-      "zh": "伊朗霍爾木茲海峽油輪遭多次打擊後，美國油價突破每桶116美元",
-      "impact": "地緣政治風險推高油價，能源類股票受益，通脹壓力上升",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.marketwatch.com/story/crude-oil-futures-rise-into-trumps-deadline-as-socgen-sees-chance-prices-could-top-200-d648b2a3?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
+      "title": "Gautam Adani will seek to dismiss US SEC fraud case",
+      "zh": "高塔姆．阿達尼尋求駁回美國證券交易委員會詐欺指控",
+      "impact": "印度首富面臨法律訴訟，影響信譽與股價",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/gautam-adani-seek-dismiss-us-161607897.html",
+      "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Bitcoin slides with risk assets as Trump’s Iran ultimatum looms",
-      "zh": "比特幣隨著風險資產下跌，特朗普對伊朗發出最後通牒",
-      "impact": "地緣政治緊張局勢導致加密貨幣和風險資產拋售",
+      "title": "Top economist Mark Zandi says the indicator that has called every recession since WWII just signaled we’re already in one",
+      "zh": "頂級經濟學家馬克．讚迪指衰退預測指標發出警訊",
+      "impact": "二戰後預測每次衰退的指標示警，經濟前景堪憂",
       "sector": "general",
-      "priority": "medium",
-      "link": "https://fortune.com/2026/04/07/bitcoin-slides-with-risk-assets-as-trumps-iran-ultimatum-looms/",
+      "priority": "high",
+      "link": "https://fortune.com/2026/04/07/mark-zandi-moodys-is-us-in-a-recession-stagflation/",
       "source": "Fortune | FORTUNE",
       "tickers": []
     },
     {
       "title": "Global Economy Braces for Prolonged Shock From Iran War",
-      "zh": "全球經濟為伊朗戰爭持續衝擊做準備",
-      "impact": "地緣政治風險對全球經濟增長和物價造成系統性威脅",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://oilprice.com/Energy/Energy-General/Global-Economy-Braces-for-Prolonged-Shock-From-Iran-War.html",
-      "source": "Oilprice.com",
-      "tickers": []
-    },
-    {
-      "title": "IEA Chief: Current Energy Crisis Worse Than 1973, 1979, and 2022 Combined",
-      "zh": "國際能源署主席：當前能源危機嚴重程度超過1973年、1979年和2022年",
-      "impact": "能源供應短缺風險加劇，油氣價格上升空間大，通脹預期升溫",
+      "zh": "全球經濟為伊朗戰爭長期衝擊做準備",
+      "impact": "地緣政治風險升高，能源價格與經濟增長受威脅",
       "sector": "energy",
       "priority": "high",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Chief-Current-Energy-Crisis-Worse-Than-1973-1979-and-2022-Combined.html",
+      "link": "https://oilprice.com/Energy/Energy-General/Global-Economy-Braces-for-Prolonged-Shock-From-Iran-War.html",
       "source": "Oilprice.com",
       "tickers": []
     }
