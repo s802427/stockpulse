@@ -1,104 +1,24 @@
 {
-  "updated": "2026/04/07 18:01",
+  "updated": "2026/04/07 19:03",
   "news": [
     {
-      "title": "Neurocrine nears $2.5bn-plus deal for biotech behind obesity disorder treatment - Financial Times",
-      "zh": "神經科學公司Neurocrine即將達成25億美元以上交易，收購肥胖症治療生技公司",
-      "impact": "大型生技併購，擴展肥胖症藥物管線",
-      "sector": "health",
-      "priority": "medium",
-      "link": "https://www.ft.com/content/6642c09c-12df-4724-8ed4-a28c32b9b2b7?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "Paramount Nears Deal Securing Gulf State Funds To Back WBD Acquisition – Report - Deadline",
-      "zh": "派拉蒙接近與海灣國家基金達成協議，以支持WBD收購案",
-      "impact": "派拉蒙融資方案有進展，助力收購計畫推進",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "http://deadline.com/2026/04/paramount-wbd-merger-foreign-backing-gulf-funds-deal-1236780058/",
-      "source": "Deadline",
-      "tickers": []
-    },
-    {
-      "title": "OpenAI CEO and CFO Diverge on IPO Timing - The Information",
-      "zh": "OpenAI首席執行官與首席財務官在IPO時機上存在分歧",
-      "impact": "OpenAI上市時間表不確定，領導層意見相左",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.theinformation.com/articles/openai-ceo-cfo-diverge-ipo-timing",
-      "source": "The Information",
-      "tickers": []
-    },
-    {
-      "title": "US Inflation Seen Spiking in First Snapshot Since Iran War - Bloomberg.com",
-      "zh": "美國通膨預期在伊朗戰爭後首份數據中大幅上升",
-      "impact": "通膨數據惡化，央行政策面臨壓力與市場波動",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-04/us-inflation-seen-spiking-in-first-snapshot-since-iran-war",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "What to Watch in Markets This Week: CPI Report Headlines Inflation Data; Earnings Season; Iran War - Investopedia",
-      "zh": "本週市場關注焦點：消費者物價指數報告成為通膨數據頭條、財報季、伊朗戰爭",
-      "impact": "多重風險因素影響市場，投資者需密切關注",
+      "title": "CNN hosts left visibly stunned after US labor market bounces back with 178K jobs added in March. How to capitalize",
+      "zh": "CNN主持人在美國勞動力市場反彈、3月新增17.8萬個就業機會後表示震驚。如何把握此機會",
+      "impact": "就業數據超預期，支撐經濟軟著陸預期，利好風險資產",
       "sector": "general",
       "priority": "medium",
-      "link": "https://www.investopedia.com/what-to-watch-in-markets-this-week-cpi-report-headlines-inflation-data-earnings-season-iran-war-11941339",
-      "source": "Investopedia",
-      "tickers": []
-    },
-    {
-      "title": "Private Credit and the New World of Financial Risk - Paul Krugman | Substack",
-      "zh": "私募信貸與金融風險新時代—保羅·克魯格曼撰文",
-      "impact": "分析私募信貸市場風險，金融體系預警",
-      "sector": "finance",
-      "priority": "low",
-      "link": "https://paulkrugman.substack.com/p/private-credit-and-the-new-world",
-      "source": "Substack.com",
-      "tickers": []
-    },
-    {
-      "title": "JPMorgan has a stark message on the next Fed rate cut",
-      "zh": "摩根大通傳達關於美聯儲下次降息的明確信息",
-      "impact": "央行降息預期調整，影響利率市場方向",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-stark-message-next-fed-180300978.html",
+      "link": "https://finance.yahoo.com/economy/articles/cnn-hosts-left-visibly-stunned-101000859.html",
       "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Pershing Square proposes $64 billion Universal Music merger with acquisition company",
-      "zh": "潘興廣場提議640億美元環球音樂併購案，透過收購公司進行",
-      "impact": "大型娛樂產業併購案，音樂版權市場整合",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/pershing-square-proposes-64-billion-082618864.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Bill Ackman says his stake in Universal Music has languished — and now he’s come up with a $64 billion offer",
-      "zh": "比爾·艾克曼表示其環球音樂股份表現不佳，提出640億美元收購報價",
-      "impact": "環球音樂收購案推進，股東權益與價值重估",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.marketwatch.com/story/bill-ackman-says-his-stake-in-universal-music-has-languished-and-now-hes-come-up-with-a-64-billion-offer-bb923b8c?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
-      "title": "This AI founder is hiring Gen Z with zero experience because they’re not stuck in ‘old ways of working’—even as other CEOs slash entry‑level roles",
-      "zh": "一位人工智能創辦人聘請零經驗的Z世代員工，因他們不被舊工作方式束縛，與其他CEO削減入門級職位形成對比",
-      "impact": "AI產業人才招聘策略分化，代際工作觀念差異擴大",
-      "sector": "tech",
-      "priority": "low",
-      "link": "https://fortune.com/2026/04/06/while-other-ceos-freeze-entry-level-roles-this-ai-founder-is-hiring-gen-z-with-zero-experience/",
-      "source": "Fortune | FORTUNE",
+      "title": "European Gas Futures Jump 3% as Trump's Iran Strike Deadline Nears",
+      "zh": "隨著川普對伊朗攻擊截止期限臨近，歐洲天然氣期貨上漲3%",
+      "impact": "地緣政治風險升溫，能源價格上升，通膨預期上升",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Futures-Jump-3-as-Trumps-Iran-Strike-Deadline-Nears.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
