@@ -1,10 +1,30 @@
 {
-  "updated": "2026/04/07 12:01",
+  "updated": "2026/04/07 13:49",
   "news": [
     {
+      "title": "Trading Open Shadowed by Trump Escalation Threats: Markets Wrap - Bloomberg.com",
+      "zh": "特朗普升級威脅籠罩交易開市：市場概覽",
+      "impact": "特朗普威脅升級引發市場不確定性和波動",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-05/trading-open-shadowed-by-trump-escalation-threats-markets-wrap",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Neurocrine nears $2.5bn-plus deal for biotech behind obesity disorder treatment - Financial Times",
+      "zh": "神經生物製藥公司接近達成25億美元以上交易，收購肥胖症治療生物技術公司",
+      "impact": "大型生物製藥併購案，推動肥胖症治療領域發展",
+      "sector": "health",
+      "priority": "high",
+      "link": "https://www.ft.com/content/6642c09c-12df-4724-8ed4-a28c32b9b2b7?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
       "title": "Paramount Nears Deal Securing Gulf State Funds To Back WBD Acquisition – Report - Deadline",
-      "zh": "Paramount即將達成協議，獲得海灣國家資金以支持WBD收購交易",
-      "impact": "大型媒體併購案，涉及數十億美元融資與重組",
+      "zh": "派拉蒙接近達成協議獲得海灣國家資金以支持收購華納兄弟探索公司",
+      "impact": "重大媒體併購融資案，涉及海灣資本進入好萊塢",
       "sector": "consumer",
       "priority": "high",
       "link": "http://deadline.com/2026/04/paramount-wbd-merger-foreign-backing-gulf-funds-deal-1236780058/",
@@ -12,9 +32,19 @@
       "tickers": []
     },
     {
+      "title": "Japan, South Korea stocks open higher as investors assess Trump's Iran war comments, extended deadline - CNBC",
+      "zh": "日本、南韓股市開盤走高，投資者評估特朗普伊朗戰爭言論和延長期限",
+      "impact": "亞股受伊朗局勢影響上漲，投資者觀望",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.cnbc.com/2026/04/06/asia-markets-nikkei-225-crude-oil-trump-iran-hormuz.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
       "title": "Airlines are starting to cancel flights as they face jet fuel shortages and rising prices brought on by the Iran war - Business Insider",
-      "zh": "航空公司因伊朗戰爭引發的噴射燃油短缺和價格飆升開始取消航班",
-      "impact": "能源供應危機波及航空業，可能引發連鎖經濟衝擊",
+      "zh": "航空公司因伊朗戰爭導致的噴氣燃料短缺和價格上漲開始取消航班",
+      "impact": "伊朗戰爭推高燃油成本，航空業營運受影響",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.businessinsider.com/airlines-cancel-flights-rising-jet-fuel-prices-shortage-iran-2026-4",
@@ -23,8 +53,8 @@
     },
     {
       "title": "OpenAI CEO and CFO Diverge on IPO Timing - The Information",
-      "zh": "OpenAI首席執行官和首席財務官在首次公開募股時機上存在意見分歧",
-      "impact": "獨角獸IPO進度受阻，顯示內部決策分歧",
+      "zh": "OpenAI執行長與首席財務官在首次公開募股時機上意見分歧",
+      "impact": "OpenAI上市計劃管理層存在分歧，IPO時間表不確定",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.theinformation.com/articles/openai-ceo-cfo-diverge-ipo-timing",
@@ -33,8 +63,8 @@
     },
     {
       "title": "US Inflation Seen Spiking in First Snapshot Since Iran War - Bloomberg.com",
-      "zh": "伊朗戰爭後首份統計數據顯示美國通膨可能急劇上升",
-      "impact": "通膨數據攀升恐影響聯準會政策決策和市場預期",
+      "zh": "美國通脹在伊朗戰爭後首次數據中預計將飆升",
+      "impact": "伊朗戰爭推高通脹預期，影響貨幣政策方向",
       "sector": "general",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-04/us-inflation-seen-spiking-in-first-snapshot-since-iran-war",
@@ -42,93 +72,33 @@
       "tickers": []
     },
     {
-      "title": "‘Lights are blinking’: LaGuardia crash raises alarm over US aviation safety - Financial Times",
-      "zh": "拉瓜迪亞機場墜機事件引發對美國航空安全的警報",
-      "impact": "航空安全事故引發系統性風險隱憂",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.ft.com/content/ed302fca-0926-40c6-af06-dc373c3d9ef5?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
       "title": "What to Watch in Markets This Week: CPI Report Headlines Inflation Data; Earnings Season; Iran War - Investopedia",
-      "zh": "本週市場關注重點：CPI報告成為通膨數據焦點；財報季；伊朗戰爭",
-      "impact": "本週多重重大事件匯聚，市場波動風險高",
+      "zh": "本週市場關注重點：消費者物價指數報告領銜通脹數據；財報季；伊朗戰爭",
+      "impact": "本週關鍵經濟數據和財報發布，市場重點關注",
       "sector": "general",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.investopedia.com/what-to-watch-in-markets-this-week-cpi-report-headlines-inflation-data-earnings-season-iran-war-11941339",
       "source": "Investopedia",
       "tickers": []
     },
     {
-      "title": "Private Credit and the New World of Financial Risk - Paul Krugman | Substack",
-      "zh": "私募信貸與新時代金融風險分析",
-      "impact": "經濟學家警示私募信貸市場風險，為系統性風險預警",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://paulkrugman.substack.com/p/private-credit-and-the-new-world",
-      "source": "Substack.com",
-      "tickers": []
-    },
-    {
-      "title": "Kevin Warsh needs to be confirmed as Fed Chair in order to avoid an economic shutdown - New York Post",
-      "zh": "Kevin Warsh必須獲得聯準會主席職位確認以避免經濟停滯",
-      "impact": "央行領導人確認進展，直接影響貨幣政策方向",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://nypost.com/2026/04/04/business/kevin-warsh-needs-to-be-confirmed-as-fed-chair-in-order-to-avoid-an-economic-shutdown/",
-      "source": "New York Post",
-      "tickers": []
-    },
-    {
-      "title": "Nexstar Starts to Undo Its Merger With Tegna’s ABC, CBS, FOX, & NBC After Judge’s Order - | Cord Cutters News",
-      "zh": "Nexstar在法官命令後開始撤銷與Tegna旗下ABC、CBS、FOX和NBC的併購交易",
-      "impact": "大型媒體併購案被法院叫停，涉及數十億美元資產",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://cordcuttersnews.com/nexstar-starts-to-undo-its-merger-with-tegnas-abc-cbs-fox-nbc-after-judges-order/",
-      "source": "Cord Cutters News, LLC",
-      "tickers": []
-    },
-    {
-      "title": "The bond market is helping resolve the Fed's interest rate dilemma",
-      "zh": "債券市場正在幫助解決美聯儲的利率困境",
-      "impact": "債券市場反應可能影響美聯儲未來利率決策方向",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/economy/article/the-bond-market-is-helping-resolve-the-feds-interest-rate-dilemma-103000702.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Broadcom’s stock is rising. Here’s why its new Google and Anthropic deals are so significant.",
-      "zh": "博通股票上漲。以下是其與Google和Anthropic的新交易為何如此重要",
-      "impact": "博通與AI巨頭合作強化芯片業務地位，帶動股價上升",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.marketwatch.com/story/broadcoms-stock-is-rising-heres-why-its-new-google-and-anthropic-deals-are-so-significant-6d98a067?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
-      "title": "Supermicro owes its rapid rise to $4 trillion Nvidia—but China smuggling allegations and a high-profile arrest could blow up the partnership",
-      "zh": "超微電腦因4兆美元的英偉達而迅速崛起——但中國走私指控和高調逮捕可能會破壞這一合作",
-      "impact": "地緣政治風險威脅超微與英偉達的關鍵合作關係，影響芯片供應鏈",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://fortune.com/2026/04/06/supermicro-nvidia-jensen-huang-charles-liang-wally-liaw/",
-      "source": "Fortune | FORTUNE",
-      "tickers": []
-    },
-    {
-      "title": "Oil Supply Shock Ripples Through Fertilizer, Plastics, and Tech",
-      "zh": "石油供應衝擊波紋擾及肥料、塑膠和科技產業",
-      "impact": "油價波動引發連鎖效應，衝擊多個產業成本和利潤率",
+      "title": "Countries must not hoard fuel during Iran war, warns IEA - Financial Times",
+      "zh": "國際能源署警告各國在伊朗戰爭期間不得囤積燃料",
+      "impact": "全球能源供應警告，防止燃料市場扭曲和價格上漲",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/Oil-Supply-Shock-Ripples-Through-Fertilizer-Plastics-and-Tech.html",
-      "source": "Oilprice.com",
+      "link": "https://www.ft.com/content/9e47e3b8-fae1-4c1c-b79c-22dda42bc2b1?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "Striking Beef Plant Workers to Resume Work - WSJ",
+      "zh": "罷工的牛肉加工廠工人將恢復工作",
+      "impact": "勞資爭議解決，肉類生產恢復正常",
+      "sector": "consumer",
+      "priority": "low",
+      "link": "https://www.wsj.com/business/striking-beef-plant-workers-to-resume-work-bf1b81f3",
+      "source": "The Wall Street Journal",
       "tickers": []
     }
   ]
