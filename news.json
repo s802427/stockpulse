@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/08 17:11",
+  "updated": "2026/04/08 18:01",
   "news": [
     {
       "title": "Universal Music set for takeover by Bill Ackman's Pershing Square - CNBC",
-      "zh": "環球音樂集團將被比爾·艾克曼旗下的Pershing Square收購",
-      "impact": "音樂產業併購案，涉及全球最大唱片公司控制權變化",
+      "zh": "環球音樂集團即將被比爾·艾克曼旗下的Pershing Square收購",
+      "impact": "娛樂產業併購，影響音樂版權與流媒體生態",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.cnbc.com/2026/04/07/umg-pershing-square-merger-bil-ackman-universal-music.html",
@@ -13,8 +13,8 @@
     },
     {
       "title": "S&P 500 futures tumble as Trump’s deadline to reopen Strait of Hormuz nears: Live updates - CNBC",
-      "zh": "標普500指數期貨下跌，特朗普要求重新開放荷莫茲海峽的期限臨近",
-      "impact": "地緣政治風險升溫，可能引發市場系統性調整",
+      "zh": "標普500期貨暴跌，特朗普重開荷莫茲海峽截止日期臨近：實時更新",
+      "impact": "地緣政治風險升溫，油價與股市承壓",
       "sector": "general",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/06/stock-market-today-live-updates.html",
@@ -23,8 +23,8 @@
     },
     {
       "title": "Samsung shares rise after profit seen jumping 8-fold on AI chip boom - CNBC",
-      "zh": "三星股價上漲，預期受人工智慧晶片繁榮帶動利潤增長8倍",
-      "impact": "AI晶片需求強勁，三星獲利大幅改善",
+      "zh": "三星股價上漲，AI晶片熱潮推動利潤預計增長8倍",
+      "impact": "AI晶片需求旺盛，三星獲利大幅成長",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
@@ -33,8 +33,8 @@
     },
     {
       "title": "UnitedHealth, Humana, Health Insurers Jump On Higher Medicare Advantage Payments - Investor's Business Daily",
-      "zh": "聯合健康、Humana等健保公司因醫療保險優惠計劃支付提高而上漲",
-      "impact": "醫保政策利好，健保企業盈利前景改善",
+      "zh": "聯合健康、Humana等健保公司因醫療保險優勢計劃給付提高而上升",
+      "impact": "Medicare政策利好，健保公司獲利增加",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.investors.com/news/unitedhealth-humana-health-insurers-medicare-advantage-payments/",
@@ -43,8 +43,8 @@
     },
     {
       "title": "Anthropic in chips deals with Google and Broadcom worth hundreds of billions - Financial Times",
-      "zh": "Anthropic與Google及Broadcom達成價值數百億美元的晶片交易",
-      "impact": "AI晶片供應鏈重大合作，涉及百億美元以上投資",
+      "zh": "Anthropic與Google及博通簽訂價值數百億美元的晶片交易",
+      "impact": "AI企業砸百億美元採購晶片，產業版圖重塑",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.ft.com/content/28757ce7-0d9f-4ffb-bb91-16dc83f2cf6a?syn-25a6b1a6\\\\u003d1",
@@ -53,8 +53,8 @@
     },
     {
       "title": "Phillips 66 forecasts up to $1B in derivatives losses as oil prices rise (PSX:NYSE) - Seeking Alpha",
-      "zh": "Phillips 66預測隨著油價上升，衍生品損失可達10億美元",
-      "impact": "油價上升導致能源企業衍生品虧損，風險管理面臨挑戰",
+      "zh": "菲利普斯66預計衍生品損失最高達10億美元，油價上漲所致",
+      "impact": "油價上升導致鉅額衍生品虧損",
       "sector": "energy",
       "priority": "medium",
       "link": "https://seekingalpha.com/news/4572832-phillips-66-forecasts-up-to-1b-in-derivatives-losses-as-oil-prices-rise",
@@ -63,8 +63,8 @@
     },
     {
       "title": "SEC crypto safe harbor heads to White House review, proposal due 'shortly' says Atkins - The Block",
-      "zh": "美國證券交易委員會加密貨幣安全港草案提交白宮審查，提案預計即將提出",
-      "impact": "加密貨幣監管框架進展，影響數位資產市場",
+      "zh": "美證交會加密貨幣安全港提案提交白宮審查，Atkins表示提案即將推出",
+      "impact": "加密貨幣監管框架推進，市場規範化",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.theblock.co/post/396472/sec-crypto-safe-harbor-white-house-review-proposal-due-shortly-atkins",
@@ -73,8 +73,8 @@
     },
     {
       "title": "Analysts Cut Tesla Price Targets As Regulators Shutter Investigation - Investor's Business Daily",
-      "zh": "分析師在監管機構終止調查後下調特斯拉目標股價",
-      "impact": "監管風險解除，但分析師對特斯拉前景評估調整",
+      "zh": "分析師因監管機構終止調查而下調特斯拉目標價",
+      "impact": "監管調查結束，特斯拉股價面臨調整",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.investors.com/news/tesla-elon-musk-electric-vehicles-cars-autos-robotaxi/",
@@ -83,9 +83,9 @@
     },
     {
       "title": "Fed’s Goolsbee, Hammack: Inflation is flashing ‘orange,’ or worse - Honolulu Star-Advertiser",
-      "zh": "美聯儲官員古爾斯比、哈馬克表示通脹正閃現「橙色」或更嚴重信號",
-      "impact": "央行對通脹趨勢警示升級，可能影響後續政策決定",
-      "sector": "general",
+      "zh": "美聯儲理事Goolsbee、Hammack：通膨警訊轉為「橙色」或更嚴重",
+      "impact": "聯儲官員示警通膨升溫，政策收緊預期增強",
+      "sector": "finance",
       "priority": "high",
       "link": "https://www.staradvertiser.com/2026/04/06/breaking-news/feds-goolsbee-hammack-inflation-is-flashing-orange-or-worse/",
       "source": "Honolulu Star-Advertiser",
@@ -93,92 +93,12 @@
     },
     {
       "title": "SpaceX’s IPO Pitch Centers on Elon Musk’s Ability to ‘Sell the Dream’ - Bloomberg.com",
-      "zh": "SpaceX的IPO融資計劃重點強調埃隆·馬斯克「銷售夢想」的能力",
-      "impact": "獨角獸企業IPO籌備，涉及數百億美元估值",
+      "zh": "SpaceX IPO推介主打馬斯克「銷售夢想」的能力",
+      "impact": "火箭公司上市籌備，估值數百億美元",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-06/spacex-s-ipo-pitch-centers-on-elon-musk-s-ability-to-sell-the-dream",
       "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "Neurocrine, eying ‘blockbuster in the making,’ strikes its largest-ever M&A deal with $2.9B Soleno buyout - Fierce Pharma",
-      "zh": "神經科學公司Neurocrine以29億美元收購Soleno生物製藥公司，此為該公司有史以來最大的併購交易，目標開發潛在暢銷藥物。",
-      "impact": "生物製藥併購，29億美元交易規模，強化Neurocrine藥物管線。",
-      "sector": "health",
-      "priority": "high",
-      "link": "https://www.fiercepharma.com/pharma/neurocrine-strikes-29b-soleno-buyout-its-largest-ma-ever-eyeing-blockbuster-rare-disease",
-      "source": "FiercePharma",
-      "tickers": []
-    },
-    {
-      "title": "AP plans staff cuts, restructuring amid broader business shift - Axios",
-      "zh": "美聯社宣佈進行人員削減和公司重組，以適應更廣泛的商業策略調整。",
-      "impact": "媒體公司裁員重組，具體規模待公佈。",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.axios.com/2026/04/06/ap-staff-cuts-restructuring",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
-      "title": "Paramount Skydance Secures $24 Billion From Saudi Arabia, Qatar and Abu Dhabi Funds for Warner Bros. Deal - Variety",
-      "zh": "Paramount Skydance從中東主權基金獲得240億美元投資，用於支持華納兄弟的併購交易。",
-      "impact": "240億美元超大型娛樂併購交易，中東資本大舉進入。",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://variety.com/2026/tv/news/paramount-skydance-funding-saudi-arabia-qatar-abu-dhabi-funds-warner-bros-deal-1236709251/",
-      "source": "Variety",
-      "tickers": []
-    },
-    {
-      "title": "The Federal Reserve's March and April Inflation Forecast Is In -- and Things Just Keep Getting Uglier for Wall Street - The Motley Fool",
-      "zh": "聯邦準備委員會公佈最新通膨預測數據，顯示通膨形勢對華爾街構成更大挑戰。",
-      "impact": "央行通膨預測惡化，可能影響利率政策和股市走向。",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.fool.com/investing/2026/04/06/fed-march-april-inflation-forecast-ugly-wall-st/",
-      "source": "Motley Fool",
-      "tickers": []
-    },
-    {
-      "title": "Oil Crisis Hitting Asia Foreshadows Tough Times for Europe - wsj.com",
-      "zh": "亞洲地區遭遇石油危機，該危機可能預示歐洲經濟將面臨艱難局面。",
-      "impact": "全球能源供應危機，影響亞歐兩地經濟。",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://www.wsj.com/finance/commodities-futures/oil-crisis-asia-europe-africa-iran-war-ea883ba2",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
-      "title": "Bed Bath & Beyond’s Container Store acquisition echoes past retail mergers that failed to deliver",
-      "zh": "分析Bed Bath & Beyond收購Container Store交易，參照歷史上類似零售併購未能實現預期目標的案例。",
-      "impact": "零售業併購歷史分析，評估交易前景。",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://fortune.com/2026/04/08/bed-bath-beyond-container-store-acquisition-strategy/",
-      "source": "Fortune | FORTUNE",
-      "tickers": []
-    },
-    {
-      "title": "Asian stocks rally after Trump’s Iran ceasefire and ‘immediate’ Hormuz opening—even as it remains unclear how open the strait actually is",
-      "zh": "亞洲股市因川普政府宣佈伊朗停火和荷姆茲海峽即將開放而上漲，但海峽實際通航狀況仍有疑問。",
-      "impact": "地緣政治緩和刺激亞股上漲，油價預期改善。",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://fortune.com/2026/04/08/asian-markets-rally-us-iran-ceasefire-strait-of-hormuz-oil-uncertainty/",
-      "source": "Fortune | FORTUNE",
-      "tickers": []
-    },
-    {
-      "title": "China’s Teapot Refiners Rush to Secure Iranian Crude as Oil Prices Slide",
-      "zh": "中國獨立煉油廠加緊採購伊",
-      "impact": "",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Teapot-Refiners-Rush-to-Secure-Iranian-Crude-as-Oil-Prices-Slide.html",
-      "source": "Oilprice.com",
       "tickers": []
     }
   ]
