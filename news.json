@@ -1,50 +1,70 @@
 {
-  "updated": "2026/04/08 12:01",
+  "updated": "2026/04/08 13:50",
   "news": [
     {
-      "title": "Oil prices rise as Trump reaffirms Tuesday deadline for bombarding Iran's power plants, bridges - CNBC",
-      "zh": "隨著川普重申週二對伊朗發電廠和橋樑進行轟炸的期限，油價上漲",
-      "impact": "地緣政治風險升溫，能源價格波動加劇",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/07/crude-oil-prices-today-iran-war-strait-hormuz-tuesday-deadline.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "Broadcom to Supply AI Chips to Google, Computing Capacity to Anthropic in Expanded Collaboration - WSJ",
-      "zh": "博通將向谷歌供應AI芯片，向Anthropic提供計算容量，擴大合作範圍",
-      "impact": "AI產業供應鏈整合，芯片需求持續增長",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.wsj.com/tech/ai/broadcom-to-supply-ai-chips-to-google-computing-capacity-to-anthropic-in-expanded-collaboration-c838e1b8",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
-      "title": "Trump administration finalizes better-than-feared Medicare Advantage payment rate in boost to health insurers - CNBC",
-      "zh": "川普政府敲定醫療保險優勢支付率優於預期，利好健康保險公司",
-      "impact": "健保公司盈利前景改善，政策支持明確",
+      "title": "UnitedHealth, Humana, Health Insurers Jump On Higher Medicare Advantage Payments - Investor's Business Daily",
+      "zh": "聯合健康、Humana等健保公司因聯邦醫療保險優惠計劃(Medicare Advantage)支付增加而上漲",
+      "impact": "Medicare Advantage支付提高利好健保公司財務表現和股價",
       "sector": "health",
       "priority": "medium",
-      "link": "https://www.cnbc.com/2026/04/06/trump-medicare-advantage.html",
-      "source": "CNBC",
+      "link": "https://www.investors.com/news/unitedhealth-humana-health-insurers-medicare-advantage-payments/",
+      "source": "Investor's Business Daily",
       "tickers": []
     },
     {
-      "title": "SpaceX’s IPO Pitch Centers on Elon Musk’s Ability to ‘Sell the Dream’ - Bloomberg.com",
-      "zh": "SpaceX的IPO宣傳重點是馬斯克「推銷夢想」的能力",
-      "impact": "獨角獸IPO預期，太空產業融資進展",
+      "title": "Anthropic in chips deals with Google and Broadcom worth hundreds of billions - Financial Times",
+      "zh": "Anthropic與Google和博通達成價值數百億美元的晶片交易",
+      "impact": "AI新創獲得穩定晶片供應支持模型開發和部署",
       "sector": "tech",
       "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-06/spacex-s-ipo-pitch-centers-on-elon-musk-s-ability-to-sell-the-dream",
+      "link": "https://www.ft.com/content/28757ce7-0d9f-4ffb-bb91-16dc83f2cf6a?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "Goldman Says It’s Ready to Pounce as Retail Flees Private Credit - Bloomberg.com",
+      "zh": "高盛表示準備乘機吸納散戶撤出的私募信貸資金",
+      "impact": "金融機構在散戶撤離私募信貸市場時增加配置",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-06/goldman-says-it-s-ready-to-pounce-as-retail-flees-private-credit",
       "source": "Bloomberg",
       "tickers": []
     },
     {
+      "title": "OpenAI, Anthropic, Google Unite to Combat Model Copying in China - Bloomberg.com",
+      "zh": "OpenAI、Anthropic和Google聯合打擊中國AI模型侵權行為",
+      "impact": "AI領導企業協力保護知識產權應對模式複製",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Analysts Cut Tesla Price Targets As Regulators Shutter Investigation - Investor's Business Daily",
+      "zh": "分析師在監管機構終止調查後調降特斯拉目標股價",
+      "impact": "監管調查終結但市場對特斯拉前景仍存疑慮",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.investors.com/news/tesla-elon-musk-electric-vehicles-cars-autos-robotaxi/",
+      "source": "Investor's Business Daily",
+      "tickers": []
+    },
+    {
+      "title": "Paramount Secures Agreements For Gulf State Funds To Back WBD Acquisition - Deadline",
+      "zh": "派拉蒙獲得海灣國家基金支持其收購華納兄弟探索公司",
+      "impact": "海灣主權基金參與支持派拉蒙收購大型傳媒集團",
+      "sector": "consumer",
+      "priority": "high",
+      "link": "http://deadline.com/2026/04/paramount-wbd-merger-foreign-backing-gulf-funds-deal-1236780058/",
+      "source": "Deadline",
+      "tickers": []
+    },
+    {
       "title": "AI is cutting 16,000 U.S. jobs a month — and Gen Z is taking the brunt, Goldman Sachs says - Fortune",
-      "zh": "高盛稱AI每月削減16,000個美國工作，Z世代受衝擊最大",
-      "impact": "就業市場面臨AI衝擊，結構性失業風險顯現",
+      "zh": "高盛報告指人工智慧每月裁減16,000美國工作Z世代受影響最大",
+      "impact": "AI加速產業自動化導致大規模失業Z世代就業風險突出",
       "sector": "general",
       "priority": "medium",
       "link": "https://fortune.com/2026/04/06/ai-tech-displacement-effect-gen-z-16000-jobs-per-month/",
@@ -52,19 +72,9 @@
       "tickers": []
     },
     {
-      "title": "'The end of the road': Market heavyweights Michael Burry and Jeff Gundlach eye trouble ahead for private credit - Business Insider",
-      "zh": "市場重量級人物邁克爾·伯里和傑夫·岡德拉赫預測私募信貸市場前景堪憂",
-      "impact": "私募信貸風險預警，金融市場穩定性受質疑",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.businessinsider.com/michael-burry-jeff-gundlach-private-credit-markets-investing-jpmorgan-2026",
-      "source": "Business Insider",
-      "tickers": []
-    },
-    {
       "title": "Neurocrine, eying ‘blockbuster in the making,’ strikes its largest-ever M&A deal with $2.9B Soleno buyout - Fierce Pharma",
-      "zh": "神經製藥公司宣佈迄今最大併購交易，斥資29億美元收購Soleno，看好「暢銷藥在即」",
-      "impact": "制藥併購案超29億美元，新藥開發戰略升級",
+      "zh": "神經生物科學製藥公司斥資29億美元收購Soleno創造其最大併購交易",
+      "impact": "神經製藥企業大手筆併購擴展潛在暢銷藥物組合",
       "sector": "health",
       "priority": "high",
       "link": "https://www.fiercepharma.com/pharma/neurocrine-strikes-29b-soleno-buyout-its-largest-ma-ever-eyeing-blockbuster-rare-disease",
@@ -73,8 +83,8 @@
     },
     {
       "title": "The Federal Reserve's March and April Inflation Forecast Is In -- and Things Just Keep Getting Uglier for Wall Street - The Motley Fool",
-      "zh": "美國聯邦準備委員會3月和4月通膨預測出爐——華爾街形勢日趨惡化",
-      "impact": "央行通膨預測惡化，市場政策預期調整",
+      "zh": "美聯儲三月和四月通脹預測發布顯示形勢對華爾街日益惡化",
+      "impact": "聯儲通脹預測惡化增加降息推遲風險衝擊市場",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.fool.com/investing/2026/04/06/fed-march-april-inflation-forecast-ugly-wall-st/",
@@ -83,8 +93,8 @@
     },
     {
       "title": "Jamie Dimon warns private credit losses will be larger than feared - Financial Times",
-      "zh": "傑米·戴蒙警告私募信貸虧損將超預期",
-      "impact": "金融系統風險預警，信貸市場堪憂",
+      "zh": "摩根大通首席執行官傑米·戴蒙警告私募信貸損失將超預期",
+      "impact": "金融巨頭警示私募信貸風險超預期引發系統性擔憂",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.ft.com/content/58df968f-de4d-4a00-87b6-0b790057f9d3?syn-25a6b1a6\\\\u003d1",
@@ -93,8 +103,8 @@
     },
     {
       "title": "Oil Crisis Hitting Asia Foreshadows Tough Times for Europe - wsj.com",
-      "zh": "石油危機衝擊亞洲，預示歐洲將面臨艱難時期",
-      "impact": "全球能源供應危機，地緣政治衝擊擴散",
+      "zh": "油價危機衝擊亞洲，預示歐洲將面臨艱難時期",
+      "impact": "油價上漲威脅全球經濟，亞洲能源成本上升",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.wsj.com/finance/commodities-futures/oil-crisis-asia-europe-africa-iran-war-ea883ba2",
@@ -102,39 +112,29 @@
       "tickers": []
     },
     {
-      "title": "An Inside Look at OpenAI and Anthropic’s Finances Ahead of Their IPOs - WSJ",
-      "zh": "《華爾街日報》深入分析OpenAI和Anthropic在IPO前的財務狀況",
-      "impact": "兩大AI獨角獸IPO前夜，市場關注融資規模與估值",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.wsj.com/tech/ai/openai-anthropic-ipo-finances-04b3cfb9",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
       "title": "Airlines are starting to cancel flights as they face jet fuel shortages and rising prices brought on by the Iran war - Business Insider",
-      "zh": "由於伊朗戰爭導致噴氣燃料短缺和價格上漲，航空公司開始取消航班",
-      "impact": "航空業成本上升，恐引發票價上漲和營收下滑",
+      "zh": "航空公司因伊朗戰爭導致的噴氣燃料短缺和價格上漲開始取消航班",
+      "impact": "航空燃料短缺導致航班取消，營運成本增加",
       "sector": "energy",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.businessinsider.com/airlines-cancel-flights-rising-jet-fuel-prices-shortage-iran-2026-4",
       "source": "Business Insider",
       "tickers": []
     },
     {
       "title": "JPMorgan has a stark message on the next Fed rate cut",
-      "zh": "摩根大通對下一次美聯儲降息給出明確信號",
-      "impact": "美聯儲政策方向影響市場預期和資產配置",
+      "zh": "摩根大通對下一次美聯儲降息發出警告",
+      "impact": "美聯儲政策預期改變，影響利率走勢判斷",
       "sector": "finance",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-stark-message-next-fed-180300978.html",
       "source": "Yahoo Finance",
       "tickers": []
     },
     {
       "title": "Stock futures surge, oil prices slide as Trump announces two-week cease-fire with Iran",
-      "zh": "股指期貨飆升，油價下滑，特朗普宣布與伊朗兩週停火",
-      "impact": "地緣政治風險緩解，風險資產上漲，能源價格回落",
+      "zh": "特朗普宣佈與伊朗兩週停火，股指期貨飆升，油價下滑",
+      "impact": "地緣政治緩解推動股市上漲，油價下跌",
       "sector": "general",
       "priority": "high",
       "link": "https://www.marketwatch.com/story/stock-futures-surge-oil-prices-slides-as-trump-announces-2-week-cease-fire-with-iran-5609c7e9?mod=mw_rss_topstories",
@@ -142,19 +142,9 @@
       "tickers": []
     },
     {
-      "title": "Levi’s boosts its sales outlook, defying concerns about the impact of the Iran conflict",
-      "zh": "李維斯提高銷售前景，無視伊朗衝突影響的擔憂",
-      "impact": "消費品牌表現強勁，對經濟韌性信心支撐",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.marketwatch.com/story/levis-boosts-its-sales-outlook-defying-concerns-about-the-impact-of-the-iran-conflict-8f71cb20?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
       "title": "Oil Prices Plunge Below $100 as Trump Announces Iran Ceasefire",
-      "zh": "隨著特朗普宣布伊朗停火，油價暴跌至100美元以下",
-      "impact": "能源價格大幅下跌，通脹壓力緩解，企業成本下降",
+      "zh": "特朗普宣佈伊朗停火，油價跌破100美元",
+      "impact": "地緣政治緊張緩解，能源成本大幅下降",
       "sector": "energy",
       "priority": "high",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-100-as-Trump-Announces-Iran-Ceasefire.html",
@@ -163,8 +153,8 @@
     },
     {
       "title": "JPMorgan Flags Oil Shock as New Inflation Driver",
-      "zh": "摩根大通警示油價衝擊成為新的通脹驅動因素",
-      "impact": "油價波動加劇通脹不確定性，央行政策面臨挑戰",
+      "zh": "摩根大通將油價衝擊列為新的通膨驅動因素",
+      "impact": "油價波動成通膨風險，影響央行政策決策",
       "sector": "finance",
       "priority": "high",
       "link": "https://oilprice.com/Energy/Crude-Oil/JPMorgan-Flags-Oil-Shock-as-New-Inflation-Driver.html",
