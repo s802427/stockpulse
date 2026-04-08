@@ -1,30 +1,30 @@
 {
-  "updated": "2026/04/08 18:01",
+  "updated": "2026/04/08 19:04",
   "news": [
     {
-      "title": "Universal Music set for takeover by Bill Ackman's Pershing Square - CNBC",
-      "zh": "環球音樂集團即將被比爾·艾克曼旗下的Pershing Square收購",
-      "impact": "娛樂產業併購，影響音樂版權與流媒體生態",
-      "sector": "consumer",
+      "title": "Medicare Finalizes 2.48% Rate Hike for Insurers in 2027 - bloomberg.com",
+      "zh": "醫療保險公司2027年獲得最終批准加費2.48%",
+      "impact": "醫療保險成本上升，影響相關上市公司盈利與保費",
+      "sector": "health",
       "priority": "medium",
-      "link": "https://www.cnbc.com/2026/04/07/umg-pershing-square-merger-bil-ackman-universal-music.html",
-      "source": "CNBC",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-06/medicare-finalizes-2-48-rate-hike-for-private-insurers-in-2027",
+      "source": "Bloomberg",
       "tickers": []
     },
     {
-      "title": "S&P 500 futures tumble as Trump’s deadline to reopen Strait of Hormuz nears: Live updates - CNBC",
-      "zh": "標普500期貨暴跌，特朗普重開荷莫茲海峽截止日期臨近：實時更新",
-      "impact": "地緣政治風險升溫，油價與股市承壓",
-      "sector": "general",
+      "title": "Goldman Warns on Copper as Iran War Threatens Global Economy - bloomberg.com",
+      "zh": "高盛警告銅價下跌風險，伊朗戰爭威脅全球經濟",
+      "impact": "大宗商品價格波動，全球經濟衰退風險上升",
+      "sector": "energy",
       "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/06/stock-market-today-live-updates.html",
-      "source": "CNBC",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-07/goldman-warns-on-copper-as-iran-war-threatens-global-economy",
+      "source": "Bloomberg",
       "tickers": []
     },
     {
       "title": "Samsung shares rise after profit seen jumping 8-fold on AI chip boom - CNBC",
-      "zh": "三星股價上漲，AI晶片熱潮推動利潤預計增長8倍",
-      "impact": "AI晶片需求旺盛，三星獲利大幅成長",
+      "zh": "三星股價上漲，受利潤預計因AI晶片熱潮增長八倍推動",
+      "impact": "AI晶片需求強勁，三星及整個科技板塊受益",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
@@ -32,19 +32,9 @@
       "tickers": []
     },
     {
-      "title": "UnitedHealth, Humana, Health Insurers Jump On Higher Medicare Advantage Payments - Investor's Business Daily",
-      "zh": "聯合健康、Humana等健保公司因醫療保險優勢計劃給付提高而上升",
-      "impact": "Medicare政策利好，健保公司獲利增加",
-      "sector": "health",
-      "priority": "medium",
-      "link": "https://www.investors.com/news/unitedhealth-humana-health-insurers-medicare-advantage-payments/",
-      "source": "Investor's Business Daily",
-      "tickers": []
-    },
-    {
       "title": "Anthropic in chips deals with Google and Broadcom worth hundreds of billions - Financial Times",
-      "zh": "Anthropic與Google及博通簽訂價值數百億美元的晶片交易",
-      "impact": "AI企業砸百億美元採購晶片，產業版圖重塑",
+      "zh": "Anthropic與Google和Broadcom簽署價值數百億美元的晶片交易",
+      "impact": "AI晶片需求巨大，科技巨頭加速AI基礎設施投資",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.ft.com/content/28757ce7-0d9f-4ffb-bb91-16dc83f2cf6a?syn-25a6b1a6\\\\u003d1",
@@ -52,19 +42,19 @@
       "tickers": []
     },
     {
-      "title": "Phillips 66 forecasts up to $1B in derivatives losses as oil prices rise (PSX:NYSE) - Seeking Alpha",
-      "zh": "菲利普斯66預計衍生品損失最高達10億美元，油價上漲所致",
-      "impact": "油價上升導致鉅額衍生品虧損",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://seekingalpha.com/news/4572832-phillips-66-forecasts-up-to-1b-in-derivatives-losses-as-oil-prices-rise",
-      "source": "Seeking Alpha",
+      "title": "Key Fed official sees possible rate hike amid higher gas prices, inflation concerns - apnews.com",
+      "zh": "美聯儲官員認為氣價上升和通膨疑慮可能引發升息",
+      "impact": "可能升息預期增加，債券和股票市場面臨下行壓力",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://apnews.com/article/inflation-federal-reserve-interest-rates-de214f6eb7853bef424967f6d1caf11d",
+      "source": "Associated Press",
       "tickers": []
     },
     {
       "title": "SEC crypto safe harbor heads to White House review, proposal due 'shortly' says Atkins - The Block",
-      "zh": "美證交會加密貨幣安全港提案提交白宮審查，Atkins表示提案即將推出",
-      "impact": "加密貨幣監管框架推進，市場規範化",
+      "zh": "SEC加密貨幣安全港提案送白宮審查，提案將「即將公佈」",
+      "impact": "加密貨幣監管框架逐步明確，利好合規幣圈發展",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.theblock.co/post/396472/sec-crypto-safe-harbor-white-house-review-proposal-due-shortly-atkins",
@@ -73,32 +63,52 @@
     },
     {
       "title": "Analysts Cut Tesla Price Targets As Regulators Shutter Investigation - Investor's Business Daily",
-      "zh": "分析師因監管機構終止調查而下調特斯拉目標價",
-      "impact": "監管調查結束，特斯拉股價面臨調整",
-      "sector": "tech",
+      "zh": "分析師在監管機構終止調查後下調特斯拉目標股價",
+      "impact": "監管風險解除但增長預期調整，特斯拉股價面臨壓力",
+      "sector": "consumer",
       "priority": "medium",
       "link": "https://www.investors.com/news/tesla-elon-musk-electric-vehicles-cars-autos-robotaxi/",
       "source": "Investor's Business Daily",
       "tickers": []
     },
     {
-      "title": "Fed’s Goolsbee, Hammack: Inflation is flashing ‘orange,’ or worse - Honolulu Star-Advertiser",
-      "zh": "美聯儲理事Goolsbee、Hammack：通膨警訊轉為「橙色」或更嚴重",
-      "impact": "聯儲官員示警通膨升溫，政策收緊預期增強",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.staradvertiser.com/2026/04/06/breaking-news/feds-goolsbee-hammack-inflation-is-flashing-orange-or-worse/",
-      "source": "Honolulu Star-Advertiser",
-      "tickers": []
-    },
-    {
       "title": "SpaceX’s IPO Pitch Centers on Elon Musk’s Ability to ‘Sell the Dream’ - Bloomberg.com",
-      "zh": "SpaceX IPO推介主打馬斯克「銷售夢想」的能力",
-      "impact": "火箭公司上市籌備，估值數百億美元",
+      "zh": "SpaceX上市投資方案重點強調馬斯克「販售夢想」的能力",
+      "impact": "太空商業化領導者即將上市，具有重大市場影響力",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-06/spacex-s-ipo-pitch-centers-on-elon-musk-s-ability-to-sell-the-dream",
       "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Neurocrine, eying ‘blockbuster in the making,’ strikes its largest-ever M&A deal with $2.9B Soleno buyout - Fierce Pharma",
+      "zh": "Neurocrine完成歷史最大併購案，以29億美元收購Soleno",
+      "impact": "生技製藥整合加速，潛在暢銷藥物開發管線擴大",
+      "sector": "health",
+      "priority": "medium",
+      "link": "https://www.fiercepharma.com/pharma/neurocrine-strikes-29b-soleno-buyout-its-largest-ma-ever-eyeing-blockbuster-rare-disease",
+      "source": "FiercePharma",
+      "tickers": []
+    },
+    {
+      "title": "The Federal Reserve's March and April Inflation Forecast Is In -- and Things Just Keep Getting Uglier for Wall Street - The Motley Fool",
+      "zh": "美聯儲三月和四月通膨預測公佈，華爾街形勢日益惡化",
+      "impact": "通膨居高不下，央行政策與股債市場前景更加悲觀",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.fool.com/investing/2026/04/06/fed-march-april-inflation-forecast-ugly-wall-st/",
+      "source": "Motley Fool",
+      "tickers": []
+    },
+    {
+      "title": "Bill Ackman channels Warren Buffett with his $64 billion bid for Universal Music Group",
+      "zh": "比爾·艾克曼效仿沃倫·巴菲特，以64億美元出價競購環球音樂集團",
+      "impact": "大型媒體娛樂併購案，涉及全球最大音樂公司控制權爭奪",
+      "sector": "consumer",
+      "priority": "high",
+      "link": "https://fortune.com/2026/04/08/bill-ackman-channels-warren-buffett-64-billion-bid-universal-music-group/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     }
   ]
