@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/08 19:04",
+  "updated": "2026/04/08 20:01",
   "news": [
     {
       "title": "Medicare Finalizes 2.48% Rate Hike for Insurers in 2027 - bloomberg.com",
-      "zh": "醫療保險公司2027年獲得最終批准加費2.48%",
-      "impact": "醫療保險成本上升，影響相關上市公司盈利與保費",
+      "zh": "醫療保險公司2027年費率上漲確定為2.48%",
+      "impact": "醫療保險業者成本增加，可能推高保費",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-06/medicare-finalizes-2-48-rate-hike-for-private-insurers-in-2027",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Goldman Warns on Copper as Iran War Threatens Global Economy - bloomberg.com",
-      "zh": "高盛警告銅價下跌風險，伊朗戰爭威脅全球經濟",
-      "impact": "大宗商品價格波動，全球經濟衰退風險上升",
+      "zh": "高盛警告銅價面臨風險，伊朗戰爭威脅全球經濟",
+      "impact": "地緣政治風險升溫，大宗商品價格波動加劇",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-07/goldman-warns-on-copper-as-iran-war-threatens-global-economy",
@@ -23,8 +23,8 @@
     },
     {
       "title": "Samsung shares rise after profit seen jumping 8-fold on AI chip boom - CNBC",
-      "zh": "三星股價上漲，受利潤預計因AI晶片熱潮增長八倍推動",
-      "impact": "AI晶片需求強勁，三星及整個科技板塊受益",
+      "zh": "三星股價上漲，獲利預期因AI晶片需求暴增八倍",
+      "impact": "AI晶片需求強勁推動科技股上漲",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.cnbc.com/2026/04/07/samsung-shares-rise-nearly-5percent-on-record-breaking-earnings-forecast-buoyed-by-ai-chip-demand.html",
@@ -33,8 +33,8 @@
     },
     {
       "title": "Anthropic in chips deals with Google and Broadcom worth hundreds of billions - Financial Times",
-      "zh": "Anthropic與Google和Broadcom簽署價值數百億美元的晶片交易",
-      "impact": "AI晶片需求巨大，科技巨頭加速AI基礎設施投資",
+      "zh": "Anthropic與Google和Broadcom達成數百億美元晶片交易",
+      "impact": "AI領域巨資投入，加速晶片產業競爭",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.ft.com/content/28757ce7-0d9f-4ffb-bb91-16dc83f2cf6a?syn-25a6b1a6\\\\u003d1",
@@ -43,8 +43,8 @@
     },
     {
       "title": "Key Fed official sees possible rate hike amid higher gas prices, inflation concerns - apnews.com",
-      "zh": "美聯儲官員認為氣價上升和通膨疑慮可能引發升息",
-      "impact": "可能升息預期增加，債券和股票市場面臨下行壓力",
+      "zh": "聯邦準備委員會關鍵官員表示汽油價格上升，通膨隱憂可能促加息",
+      "impact": "央行官員暗示政策轉向，市場面臨加息預期",
       "sector": "finance",
       "priority": "high",
       "link": "https://apnews.com/article/inflation-federal-reserve-interest-rates-de214f6eb7853bef424967f6d1caf11d",
@@ -53,8 +53,8 @@
     },
     {
       "title": "SEC crypto safe harbor heads to White House review, proposal due 'shortly' says Atkins - The Block",
-      "zh": "SEC加密貨幣安全港提案送白宮審查，提案將「即將公佈」",
-      "impact": "加密貨幣監管框架逐步明確，利好合規幣圈發展",
+      "zh": "美國證交會加密貨幣安全港提案送白宮審查，建議即將公布",
+      "impact": "加密貨幣監管框架有望明確，市場或現機會",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.theblock.co/post/396472/sec-crypto-safe-harbor-white-house-review-proposal-due-shortly-atkins",
@@ -63,8 +63,8 @@
     },
     {
       "title": "Analysts Cut Tesla Price Targets As Regulators Shutter Investigation - Investor's Business Daily",
-      "zh": "分析師在監管機構終止調查後下調特斯拉目標股價",
-      "impact": "監管風險解除但增長預期調整，特斯拉股價面臨壓力",
+      "zh": "分析師在監管機構停止調查後調低特斯拉目標價",
+      "impact": "監管風險解除短期提振股價，但分析師仍看淡",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.investors.com/news/tesla-elon-musk-electric-vehicles-cars-autos-robotaxi/",
@@ -73,8 +73,8 @@
     },
     {
       "title": "SpaceX’s IPO Pitch Centers on Elon Musk’s Ability to ‘Sell the Dream’ - Bloomberg.com",
-      "zh": "SpaceX上市投資方案重點強調馬斯克「販售夢想」的能力",
-      "impact": "太空商業化領導者即將上市，具有重大市場影響力",
+      "zh": "SpaceX上市計劃強調馬斯克夢想推銷能力",
+      "impact": "太空產業獨角獸即將IPO，科技投資亮點",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-06/spacex-s-ipo-pitch-centers-on-elon-musk-s-ability-to-sell-the-dream",
@@ -83,8 +83,8 @@
     },
     {
       "title": "Neurocrine, eying ‘blockbuster in the making,’ strikes its largest-ever M&A deal with $2.9B Soleno buyout - Fierce Pharma",
-      "zh": "Neurocrine完成歷史最大併購案，以29億美元收購Soleno",
-      "impact": "生技製藥整合加速，潛在暢銷藥物開發管線擴大",
+      "zh": "Neurocrine以29億美元收購Soleno，創公司併購新高，鎖定潛力暢銷藥",
+      "impact": "生技公司併購加速，藥物開發進展受矚目",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.fiercepharma.com/pharma/neurocrine-strikes-29b-soleno-buyout-its-largest-ma-ever-eyeing-blockbuster-rare-disease",
@@ -93,8 +93,8 @@
     },
     {
       "title": "The Federal Reserve's March and April Inflation Forecast Is In -- and Things Just Keep Getting Uglier for Wall Street - The Motley Fool",
-      "zh": "美聯儲三月和四月通膨預測公佈，華爾街形勢日益惡化",
-      "impact": "通膨居高不下，央行政策與股債市場前景更加悲觀",
+      "zh": "聯邦準備委員會三月及四月通膨預測公布，華爾街前景日益悲觀",
+      "impact": "通膨數據惡化加重降息遙遙無期預期",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.fool.com/investing/2026/04/06/fed-march-april-inflation-forecast-ugly-wall-st/",
@@ -102,12 +102,64 @@
       "tickers": []
     },
     {
-      "title": "Bill Ackman channels Warren Buffett with his $64 billion bid for Universal Music Group",
-      "zh": "比爾·艾克曼效仿沃倫·巴菲特，以64億美元出價競購環球音樂集團",
-      "impact": "大型媒體娛樂併購案，涉及全球最大音樂公司控制權爭奪",
+      "title": "Jamie Dimon warns of a 'skunk at the party' for markets if inflation builds - Business Insider",
+      "zh": "傑米·戴蒙警告若通脹加劇，市場將面臨「聚會上的臭鼬」",
+      "impact": "美國銀行業領袖警示通膨風險，可能引發市場調整",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.businessinsider.com/jamie-dimon-jpmorgan-inflation-warning-economy-shareholder-letter-2026-4",
+      "source": "Business Insider",
+      "tickers": []
+    },
+    {
+      "title": "California drayage carrier enters bankruptcy amid mounting debts",
+      "zh": "加州駁運公司因債務堆積而申請破產",
+      "impact": "運輸業公司破產反映行業困境，供應鏈可能受影響",
       "sector": "consumer",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/economy/policy/articles/california-drayage-carrier-enters-bankruptcy-114500160.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Delta Stock Rallies On Results, Jet Fuel Cost Strategies. Airlines Spike.",
+      "zh": "達美航空股票因營收和燃油成本策略上漲，航空股全面上揚",
+      "impact": "達美航空業績向好，航空業整體獲得提振",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.investors.com/news/delta-stock-delta-air-lines-earnings-dal-stock-airlines-jet-fuel-prices/?src=A00220&yptr=yahoo",
+      "source": "Yahoo Finance",
+      "tickers": [
+        "$COST（好市多）"
+      ]
+    },
+    {
+      "title": "Delta’s stock soars after a well-timed earnings report showed higher fuel costs weren’t an issue",
+      "zh": "達美航空發布財報顯示燃油成本非問題，股價大幅上漲",
+      "impact": "達美航空成功應對成本挑戰，財報超預期利好股價",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/deltas-stock-soars-after-a-well-timed-earnings-report-showed-higher-fuel-costs-werent-an-issue-1acacd56?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "Exxon and Shell reveal production hit from Iran war",
+      "zh": "埃克森和殼牌披露伊朗戰爭對產量的打擊",
+      "impact": "地緣政治風險導致能源生產受阻，油價可能上升",
+      "sector": "energy",
       "priority": "high",
-      "link": "https://fortune.com/2026/04/08/bill-ackman-channels-warren-buffett-64-billion-bid-universal-music-group/",
+      "link": "https://www.marketwatch.com/story/exxon-and-shell-reveal-production-hit-from-iranian-war-394848aa?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "U.S. had a national debt ‘home run’ in its grasp, says Jamie Dimon—but the government did nothing, and now its best option is crisis management",
+      "zh": "傑米·戴蒙稱美國本有解決國債的機會，但政府未行動，現已陷入危機管理",
+      "impact": "美國債務危機風險提高，系統性經濟風險警示",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://fortune.com/2026/04/08/jamie-dimon-national-debt-solution-crisis-management/",
       "source": "Fortune | FORTUNE",
       "tickers": []
     }
