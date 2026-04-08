@@ -1,10 +1,20 @@
 {
-  "updated": "2026/04/09 02:01",
+  "updated": "2026/04/09 03:26",
   "news": [
+    {
+      "title": "New Medicare Payment Rate Released. Why UnitedHealth Stock Is Popping. - barrons.com",
+      "zh": "新醫保支付費率發佈。為何聯合健康股票飆升。",
+      "impact": "聯合健康因醫保費率提高而股價上漲，利好保險行業",
+      "sector": "health",
+      "priority": "medium",
+      "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
+      "source": "Barron's",
+      "tickers": []
+    },
     {
       "title": "Jet fuel supply concerns grow as war on Iran drags on, airlines cut flights - CNBC",
       "zh": "隨著伊朗戰爭持續，噴氣燃料供應擔憂加劇，航空公司削減航班",
-      "impact": "航空燃料短缺推高成本，航空股面臨盈利壓力",
+      "impact": "伊朗戰爭導致燃油供應緊張，航空業面臨成本上升壓力",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/07/iran-war-jet-fuel-airlines.html",
@@ -12,59 +22,29 @@
       "tickers": []
     },
     {
-      "title": "Humana, UnitedHealth Soar as US Raises Medicare Advantage Rates - Bloomberg.com",
-      "zh": "美國提高醫療保險優勢計劃費率，Humana與聯合健康集團飆升",
-      "impact": "提高保險費率利好保險商營收和獲利",
-      "sector": "health",
+      "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
+      "zh": "FinCEN提議規則根本改革金融機構打擊非法融資的計劃",
+      "impact": "金融機構合規成本增加，監管環境趨嚴",
+      "sector": "finance",
       "priority": "medium",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-06/medicare-finalizes-2-48-rate-hike-for-private-insurers-in-2027",
-      "source": "Bloomberg",
+      "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
+      "source": "Fincen.gov",
       "tickers": []
     },
     {
-      "title": "Intel to join Musk's Terafab mega AI chip project - Yahoo Finance",
-      "zh": "英特爾加入馬斯克的Terafab超級人工智慧晶片項目",
-      "impact": "英特爾進軍AI晶片領域，強化市場競爭力",
-      "sector": "tech",
+      "title": "CNN hosts left visibly stunned after US labor market bounces back with 178K jobs added in March. How to capitalize - Yahoo Finance",
+      "zh": "CNN主持人在美國勞動力市場反彈（3月新增178萬就業機會）後震驚不已。如何利用",
+      "impact": "就業數據強勁超預期，經濟韌性強，積極信號",
+      "sector": "general",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/sectors/technology/articles/intel-join-musks-terafab-mega-132918591.html",
+      "link": "https://finance.yahoo.com/economy/articles/cnn-hosts-left-visibly-stunned-101000859.html",
       "source": "Yahoo Entertainment",
       "tickers": []
     },
     {
-      "title": "Delta raises checked bag fees $10 amid jet fuel price surge, joining other carriers - CNBC",
-      "zh": "德爾塔航空因噴氣燃料價格飆升提高託運行李費10美元，跟進其他航空公司",
-      "impact": "燃料成本上升推高客運成本，轉嫁消費者負擔",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.cnbc.com/2026/04/07/delta-checked-bag-fees.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "The Iran war shock is about half the size of Covid-19 - Financial Times",
-      "zh": "伊朗戰爭衝擊規模約為新冠疫情的一半",
-      "impact": "伊朗戰爭經濟影響重大但小於疫情",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.ft.com/content/b5f95d26-338e-4779-a0a4-28aa99796f45?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "Doritos at $7 a Bag Ended Up Costing PepsiCo Billions - Bloomberg.com",
-      "zh": "多力多滋一包7美元的定價最終讓百事公司虧損數十億美元",
-      "impact": "漲價策略失利導致銷售下滑和巨大虧損",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.bloomberg.com/news/features/2026-04-07/pepsico-cuts-chip-prices-after-7-doritos-hurt-frito-lay-sales",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
       "title": "‘All roads lead to higher prices and slower growth,' warns IMF chief as Iran war hits global economy - CNBC",
-      "zh": "國際貨幣基金組織總裁警告：「所有道路都導向更高物價和更低增長」，伊朗戰爭衝擊全球經濟",
-      "impact": "伊朗戰爭引發全球滯脹風險，威脅經濟增長",
+      "zh": "國際貨幣基金組織主席警告：「所有道路都通往更高物價和更低增長」，伊朗戰爭衝擊全球經濟",
+      "impact": "伊朗戰爭引發全球經濟滯脹風險，系統性威脅",
       "sector": "general",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/07/higher-prices-slower-growth-warns-imf-.html",
@@ -73,8 +53,8 @@
     },
     {
       "title": "Goldman Warns on Copper as Iran War Threatens Global Economy - bloomberg.com",
-      "zh": "高盛警告銅價風險，伊朗戰爭威脅全球經濟",
-      "impact": "大宗商品價格承壓，通膨與經濟衰退風險上升",
+      "zh": "高盛警告銅價下行，伊朗戰爭威脅全球經濟",
+      "impact": "伊朗戰爭推高大宗商品波動，經濟前景不確定",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-07/goldman-warns-on-copper-as-iran-war-threatens-global-economy",
@@ -82,9 +62,19 @@
       "tickers": []
     },
     {
+      "title": "Key Fed official sees possible rate hike amid higher gas prices, inflation concerns - AP News",
+      "zh": "關鍵聯邦儲委官員認為可能升息，鑑於油價上升和通脹擔憂",
+      "impact": "美聯儲升息預期增加，債券和股票面臨壓力",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://apnews.com/article/inflation-federal-reserve-interest-rates-de214f6eb7853bef424967f6d1caf11d",
+      "source": "Associated Press",
+      "tickers": []
+    },
+    {
       "title": "SEC crypto safe harbor heads to White House review, proposal due 'shortly' says Atkins - The Block",
-      "zh": "美國證券交易委員會加密資產安全港提案送白宮審查，Atkins稱提案「即將推出」",
-      "impact": "加密資產監管框架明確化，利好數位資產產業",
+      "zh": "SEC加密貨幣安全港方案送往白宮審查，阿特金斯表示提案「即將推出」",
+      "impact": "加密貨幣監管框架進展，利好合規項目",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.theblock.co/post/396472/sec-crypto-safe-harbor-white-house-review-proposal-due-shortly-atkins",
@@ -92,29 +82,19 @@
       "tickers": []
     },
     {
-      "title": "Exclusive | Amazon and U.S. Postal Service Reach Delivery Deal - WSJ",
-      "zh": "獨家報導｜亞馬遜與美國郵政服務達成配送協議",
-      "impact": "亞馬遜物流網絡完善，配送成本與效率優化",
-      "sector": "consumer",
+      "title": "Jamie Dimon’s Letter To Shareholders: The Most Important Fintech Memo Of 2026 - Forbes",
+      "zh": "傑米·戴蒙致股東信：2026年最重要的金融科技備忘錄",
+      "impact": "摩根大通高管闡述金融科技戰略，行業風向指標",
+      "sector": "finance",
       "priority": "medium",
-      "link": "https://www.wsj.com/business/logistics/amazon-and-u-s-postal-service-reach-delivery-deal-66b34c63",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
-      "title": "JPMorgan CEO Dimon: Iran war could reignite inflation and keep Fed rates higher for longer - ABC News",
-      "zh": "摩根大通執行長戴蒙：伊朗戰爭可能重燃通膨並使聯準會利率維持高位更久",
-      "impact": "伊朗衝突風險升高，可能推升通膨並延長高利率環境",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://abcnews.com/Business/wireStory/jpmorgan-ceo-dimon-iran-war-reignite-inflation-fed-131770990",
-      "source": "Abcnews.com",
+      "link": "https://www.forbes.com/sites/ronshevlin/2026/04/06/jamie-dimons-letter-to-shareholders-the-most-important-fintech-memo-of-2026/",
+      "source": "Forbes",
       "tickers": []
     },
     {
       "title": "Neurocrine, eying ‘blockbuster in the making,’ strikes its largest-ever M&A deal with $2.9B Soleno buyout - Fierce Pharma",
-      "zh": "神經靈公司瞄準「正在成形的暢銷藥」，以29億美元收購Soleno達成最大規模併購交易",
-      "impact": "藥業併購案，神經靈公司擴展產品線以追求暢銷藥物",
+      "zh": "神經元素公司瞄準「潛力巨大的新藥」，以29億美元收購索萊諾，創公司最大併購紀錄",
+      "impact": "製藥企業29億美元併購，專注神經系統藥物開發",
       "sector": "health",
       "priority": "high",
       "link": "https://www.fiercepharma.com/pharma/neurocrine-strikes-29b-soleno-buyout-its-largest-ma-ever-eyeing-blockbuster-rare-disease",
@@ -122,32 +102,32 @@
       "tickers": []
     },
     {
-      "title": "Paramount Skydance Secures $24 Billion From Saudi Arabia, Qatar and Abu Dhabi Funds for Warner Bros. Deal - Variety",
-      "zh": "派拉蒙天空舞者獲沙烏地阿拉伯、卡達及阿布達比基金為華納兄弟交易提供240億美元資金",
-      "impact": "240億美元娛樂併購交易，獲中東資金支持，產業整併加速",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://variety.com/2026/tv/news/paramount-skydance-funding-saudi-arabia-qatar-abu-dhabi-funds-warner-bros-deal-1236709251/",
-      "source": "Variety",
-      "tickers": []
-    },
-    {
-      "title": "The Federal Reserve's March and April Inflation Forecast Is In -- and Things Just Keep Getting Uglier for Wall Street - The Motley Fool",
-      "zh": "聯準會3月和4月通膨預測出爐——華爾街情況持續惡化",
-      "impact": "聯準會通膨預測上修，市場面臨更大經濟困境壓力",
+      "title": "Stock Index Futures Slip as Trump’s Hormuz Deadline Looms",
+      "zh": "特朗普荷莫茲海峽期限逼近，股指期貨下滑",
+      "impact": "地緣政治不確定性升高，市場風險情緒惡化",
       "sector": "general",
       "priority": "high",
-      "link": "https://www.fool.com/investing/2026/04/06/fed-march-april-inflation-forecast-ugly-wall-st/",
-      "source": "Motley Fool",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-index-futures-slip-trump-103451654.html",
+      "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Exxon Mobil Signals $2.9B Q1 Earnings Bump On Higher Oil Prices",
-      "zh": "埃克森美孚信號第一季淨利增加29億美元，源於油價上漲",
-      "impact": "油價上漲提升能源公司獲利，第一季盈利強勁成長",
-      "sector": "energy",
+      "title": "Micron and other memory stocks soar as Iran cease-fire refocuses attention on the AI boom",
+      "zh": "伊朗停火協議轉移焦點，美光等記憶體股票飆升，AI熱潮重獲關注",
+      "impact": "科技股受惠，AI概念股及記憶體晶片需求前景樂觀",
+      "sector": "tech",
       "priority": "medium",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Exxon-Mobil-Signals-29B-Q1-Earnings-Bump-On-Higher-Oil-Prices.html",
+      "link": "https://www.marketwatch.com/story/micron-and-other-memory-stocks-soar-as-iran-cease-fire-refocuses-attention-on-the-ai-boom-3989c0d4?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "Iran Attacks Saudi Arabia's East-West Oil Pipeline",
+      "zh": "伊朗攻擊沙特阿拉伯東西輸油管道",
+      "impact": "中東油供應受威脅，能源價格波動風險上升",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Attacks-Saudi-Arabias-East-West-Oil-Pipeline.html",
       "source": "Oilprice.com",
       "tickers": []
     }
