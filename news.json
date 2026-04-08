@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/09 04:01",
+  "updated": "2026/04/09 04:53",
   "news": [
     {
       "title": "New Medicare Payment Rate Released. Why UnitedHealth Stock Is Popping. - barrons.com",
-      "zh": "新醫療保險支付率公布。聯合健康股票為何飆升。",
-      "impact": "聯合健康股價上升，醫療保險支付率調整影響行業",
+      "zh": "新醫療保險支付率公布。聯合健康股票為何上漲。",
+      "impact": "聯合健康股價上升，醫療保險支付政策調整",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Jet fuel supply concerns grow as war on Iran drags on, airlines cut flights - CNBC",
-      "zh": "隨著伊朗戰爭持續，噴氣燃料供應擔憂加劇，航空公司削減航班",
-      "impact": "能源供應緊張推高油價，航空業成本上升，航班數量減少",
+      "zh": "伊朗戰爭持續，燃油供應問題加劇，航空公司削減班次",
+      "impact": "航空燃油成本上升，航空業運營成本增加",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/07/iran-war-jet-fuel-airlines.html",
@@ -23,8 +23,8 @@
     },
     {
       "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "金融犯罪執法網提議規則根本改革金融機構設計的反非法融資計畫",
-      "impact": "金融機構合規成本增加，監管框架重大調整",
+      "zh": "金融犯罪執法網絡提案根本改革金融機構反非法融資計劃",
+      "impact": "金融機構合規成本上升，監管規則變更",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
@@ -32,9 +32,19 @@
       "tickers": []
     },
     {
+      "title": "The Iran war shock is about half the size of Covid-19 - Financial Times",
+      "zh": "伊朗戰爭衝擊規模約為新冠疫情的一半",
+      "impact": "經濟衝擊評估，全球經濟風險分析",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.ft.com/content/b5f95d26-338e-4779-a0a4-28aa99796f45?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
       "title": "CNN hosts left visibly stunned after US labor market bounces back with 178K jobs added in March. How to capitalize - Yahoo Finance",
-      "zh": "CNN主持人在美國勞動市場反彈、3月新增17.8萬就業後明顯震驚。如何利用這一機會",
-      "impact": "就業數據強勁超預期，經濟軟著陸預期增強",
+      "zh": "美國勞動力市場反彈，3月新增就業17.8萬人，CNN主持人驚訝",
+      "impact": "就業數據強勁，經濟成長信號，市場情緒提升",
       "sector": "general",
       "priority": "medium",
       "link": "https://finance.yahoo.com/economy/articles/cnn-hosts-left-visibly-stunned-101000859.html",
@@ -43,8 +53,8 @@
     },
     {
       "title": "‘All roads lead to higher prices and slower growth,' warns IMF chief as Iran war hits global economy - CNBC",
-      "zh": "IMF首席警告「所有道路都通向更高物價和增長放緩」，伊朗戰爭衝擊全球經濟",
-      "impact": "全球經濟增長放緩風險提升，通膨持續上升威脅",
+      "zh": "國際貨幣基金組織主席警告：伊朗戰爭衝擊全球經濟，導致高物價和低增速",
+      "impact": "全球經濟增速放緩，通脹壓力上升，系統性風險",
       "sector": "general",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/07/higher-prices-slower-growth-warns-imf-.html",
@@ -53,8 +63,8 @@
     },
     {
       "title": "Goldman Warns on Copper as Iran War Threatens Global Economy - bloomberg.com",
-      "zh": "高盛警告銅價下跌風險，伊朗戰爭威脅全球經濟",
-      "impact": "大宗商品價格波動加劇，全球經濟前景不確定性增加",
+      "zh": "高盛警告銅價風險，伊朗戰爭威脅全球經濟",
+      "impact": "大宗商品價格波動，商品相關產業成本上升",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-07/goldman-warns-on-copper-as-iran-war-threatens-global-economy",
@@ -63,8 +73,8 @@
     },
     {
       "title": "Key Fed official sees possible rate hike amid higher gas prices, inflation concerns - AP News",
-      "zh": "關鍵聯邦儲備委員會官員在汽油價格更高和通膨擔憂之際看到可能的升息",
-      "impact": "聯準會可能升息，市場利率上升預期加強",
+      "zh": "美聯儲關鍵官員表示可能升息，應對汽油價格和通脹上升",
+      "impact": "央行政策轉向升息，市場利率上升預期",
       "sector": "finance",
       "priority": "high",
       "link": "https://apnews.com/article/inflation-federal-reserve-interest-rates-de214f6eb7853bef424967f6d1caf11d",
@@ -73,9 +83,9 @@
     },
     {
       "title": "SEC crypto safe harbor heads to White House review, proposal due 'shortly' says Atkins - The Block",
-      "zh": "SEC加密貨幣安全港法案提交白宮審查，Atkins稱提案「近期」將出爐",
-      "impact": "加密貨幣監管政策重大進展，行業規範化推進",
-      "sector": "tech",
+      "zh": "美國證券交易委員會加密資產安全港規則送交白宮審查，提案將很快公布",
+      "impact": "加密資產監管框架推進，行業合規方向明確",
+      "sector": "finance",
       "priority": "medium",
       "link": "https://www.theblock.co/post/396472/sec-crypto-safe-harbor-white-house-review-proposal-due-shortly-atkins",
       "source": "Theblock.co",
@@ -84,7 +94,7 @@
     {
       "title": "Jamie Dimon’s Letter To Shareholders: The Most Important Fintech Memo Of 2026 - Forbes",
       "zh": "傑米·戴蒙致股東信：2026年最重要的金融科技備忘錄",
-      "impact": "摩根大通首席執行官對金融科技前景的戰略洞見",
+      "impact": "摩根大通領導層戰略方向，金融科技發展趨勢",
       "sector": "finance",
       "priority": "low",
       "link": "https://www.forbes.com/sites/ronshevlin/2026/04/06/jamie-dimons-letter-to-shareholders-the-most-important-fintech-memo-of-2026/",
@@ -93,8 +103,8 @@
     },
     {
       "title": "Neurocrine, eying ‘blockbuster in the making,’ strikes its largest-ever M&A deal with $2.9B Soleno buyout - Fierce Pharma",
-      "zh": "神經元製藥公司瞄準「正在成形的暢銷藥」，以29億美元收購Soleno，創最大併購交易",
-      "impact": "生物製藥併購交易規模超29億美元，產業整合加速",
+      "zh": "神經元製藥公司看好「潛力大作」，以29億美元收購索萊諾公司，創下其歷史最大併購交易",
+      "impact": "神經元製藥完成重大併購，擴展藥物管線，強化市場地位",
       "sector": "health",
       "priority": "high",
       "link": "https://www.fiercepharma.com/pharma/neurocrine-strikes-29b-soleno-buyout-its-largest-ma-ever-eyeing-blockbuster-rare-disease",
@@ -102,55 +112,23 @@
       "tickers": []
     },
     {
-      "title": "Stock Index Futures Slip as Trump’s Hormuz Deadline Looms",
-      "zh": "股指期貨下滑，川普霍爾木茲海峽期限迫近",
-      "impact": "地緣政治風險升溫，股市承壓",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-index-futures-slip-trump-103451654.html",
+      "title": "What You Need to Know Ahead of Moody's Earnings Release",
+      "zh": "穆迪信用評級公司財報發佈前需了解的信息",
+      "impact": "評級機構財報發佈，關係信用市場走向",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/know-ahead-moodys-earnings-release-122127446.html",
       "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Stock market celebrates the Iran cease-fire, but bond market shows we’re not out of the woods yet",
-      "zh": "股市慶祝伊朗停火，但債市顯示我們尚未脫險",
-      "impact": "停火緩解地緣風險，但經濟前景仍存疑慮",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.marketwatch.com/story/stock-market-celebrates-the-iran-cease-fire-but-bond-market-shows-were-not-out-of-the-woods-yet-dddbcb55?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
-      "title": "Supermicro launches internal probe after cofounder’s arrest on charges of $2.5 billion in chip smuggling",
-      "zh": "超微電腦公司聯合創始人因涉及25億美元晶片走私被捕後，公司啟動內部調查",
-      "impact": "供應鏈風險浮現，晶片產業受關注",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://fortune.com/2026/04/07/supermicro-launches-probe-arrest-nvidia-chip/",
-      "source": "Fortune | FORTUNE",
-      "tickers": []
-    },
-    {
-      "title": "Meta unveils Muse Spark, its first AI model since hiring Alexandr Wang and a bellwether for CEO Mark Zuckerberg’s multibillion-dollar AI push",
-      "zh": "Meta發佈Muse Spark，為聘請亞歷山大·王後首個AI模型，預示CEO馬克·祖克伯格數十億美元AI投資的未來",
-      "impact": "AI競爭加劇，科技巨頭投資重點明確",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://fortune.com/2026/04/08/meta-unveils-muse-spark-mark-zuckerberg-ai-push/",
-      "source": "Fortune | FORTUNE",
-      "tickers": [
-        "$META（Meta）"
-      ]
-    },
-    {
-      "title": "Iran Attacks Saudi Arabia's East-West Oil Pipeline",
-      "zh": "伊朗攻擊沙烏地阿拉伯東西油管",
-      "impact": "中東局勢升溫，油價波動加大",
+      "title": "What to Expect From EQT’s Q1 2026 Earnings Report",
+      "zh": "EQT公司2026年第一季度財報預期要點",
+      "impact": "能源基礎設施公司季度財報，反映業績表現",
       "sector": "energy",
-      "priority": "high",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Attacks-Saudi-Arabias-East-West-Oil-Pipeline.html",
-      "source": "Oilprice.com",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/sectors/energy/articles/expect-eqt-q1-2026-earnings-121645079.html",
+      "source": "Yahoo Finance",
       "tickers": []
     }
   ]
