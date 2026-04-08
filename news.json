@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/09 06:01",
+  "updated": "2026/04/09 06:50",
   "news": [
     {
       "title": "New Medicare Payment Rate Released. Why UnitedHealth Stock Is Popping. - barrons.com",
-      "zh": "美國醫療保險新支付費率公佈。聯合健康集團股票為何上漲。",
-      "impact": "醫保費率調整推高聯合健康股價",
+      "zh": "新醫療保險支付費率公布。為何聯合健康股票上漲。",
+      "impact": "聯合健康利好，醫保支付增加，股價上升",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
@@ -13,18 +13,18 @@
     },
     {
       "title": "Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand - TechCrunch",
-      "zh": "人工智能公司Anthropic與Google和博通擴大算力交易，應對需求激增",
-      "impact": "AI算力需求持續飆升，推動芯片和雲計算投資",
+      "zh": "Anthropic與谷歌和博通擴大算力協議，應對需求激增",
+      "impact": "AI算力需求持續增長，科技巨頭加大投資",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/",
       "source": "TechCrunch",
       "tickers": []
     },
     {
       "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "美國金融犯罪執法網絡提議改革金融機構反洗錢計劃",
-      "impact": "金融監管規則改革，影響銀行合規成本",
+      "zh": "金融犯罪執法網絡提議改革金融機構反洗錢計畫規則",
+      "impact": "金融監管加強，機構合規成本可能上升",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
@@ -32,19 +32,9 @@
       "tickers": []
     },
     {
-      "title": "Ackman’s Pershing Square makes $64B bid for Taylor Swift label Universal Music Group - AP News",
-      "zh": "阿克曼旗下Pershing Square以640億美元投標收購泰勒絲唱片公司環球唱片",
-      "impact": "創紀錄規模娛樂併購案，涉及640億美元",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://apnews.com/article/ackman-pershing-universal-music-taylor-swift-a30d0beed0902e215893e7b3121dfa43",
-      "source": "Associated Press",
-      "tickers": []
-    },
-    {
       "title": "CNN hosts left visibly stunned after US labor market bounces back with 178K jobs added in March. How to capitalize - Yahoo Finance",
-      "zh": "美國勞動力市場反彈，3月新增就業178,000人，CNN主持人大感驚訝",
-      "impact": "就業數據超預期，可能影響美聯儲政策決策",
+      "zh": "美國勞動力市場反彈，3月增加17.8萬個工作機會，CNN主持人表示震驚",
+      "impact": "就業數據強於預期，經濟韌性提升，通膨壓力存在",
       "sector": "general",
       "priority": "medium",
       "link": "https://finance.yahoo.com/economy/articles/cnn-hosts-left-visibly-stunned-101000859.html",
@@ -53,8 +43,8 @@
     },
     {
       "title": "‘All roads lead to higher prices and slower growth,' warns IMF chief as Iran war hits global economy - CNBC",
-      "zh": "國際貨幣基金總裁警告：所有跡象指向更高物價和更慢增長，伊朗戰爭衝擊全球經濟",
-      "impact": "地緣政治風險推高通膨，威脅全球經濟增長",
+      "zh": "IMF主席警告：伊朗戰爭衝擊全球經濟，導致物價上升和增長放緩",
+      "impact": "地緣政治風險升高，全球經濟增長前景堪憂",
       "sector": "general",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/07/higher-prices-slower-growth-warns-imf-.html",
@@ -63,8 +53,8 @@
     },
     {
       "title": "Key Fed official sees possible rate hike amid higher gas prices, inflation concerns - AP News",
-      "zh": "美聯儲關鍵官員預見可能升息，受油價和通膨擔憂驅動",
-      "impact": "聯儲升息可能性增加，衝擊股市債市",
+      "zh": "聯準會關鍵官員因油價上漲和通膨擔憂，認為可能升息",
+      "impact": "聯準會轉向鷹派，升息預期增加，債市承壓",
       "sector": "finance",
       "priority": "high",
       "link": "https://apnews.com/article/inflation-federal-reserve-interest-rates-de214f6eb7853bef424967f6d1caf11d",
@@ -72,19 +62,9 @@
       "tickers": []
     },
     {
-      "title": "Exclusive | BNY, Robinhood Win Contract for Running Trump Accounts - WSJ",
-      "zh": "獨家消息：紐約銀行與Robinhood贏得特朗普賬戶運營合約",
-      "impact": "特朗普政府金融合約落定，涉及政治影響力",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.wsj.com/personal-finance/treasury-taps-bny-robinhood-to-help-run-trump-accounts-for-children-1e9caf92",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
       "title": "Neurocrine, eying ‘blockbuster in the making,’ strikes its largest-ever M&A deal with $2.9B Soleno buyout - Fierce Pharma",
-      "zh": "神經製藥公司Neurocrine以29億美元收購Soleno，創造公司最大併購交易，瞄準潛在暢銷藥",
-      "impact": "29億美元製藥併購案，拓展神經科學藥物管線",
+      "zh": "神經遞質制藥公司進行最大規模併購，以29億美元收購Soleno，瞄準暢銷藥",
+      "impact": "生醫併購交易，Soleno藥物潛力大，神經制藥擴張",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.fiercepharma.com/pharma/neurocrine-strikes-29b-soleno-buyout-its-largest-ma-ever-eyeing-blockbuster-rare-disease",
@@ -93,8 +73,8 @@
     },
     {
       "title": "Jamie Dimon warns rising oil prices could trigger a recession and a bear market in 2026 - MarketWatch",
-      "zh": "摩根大通CEO傑米·戴蒙警告：油價上升可能在2026年觸發經濟衰退和股市熊市",
-      "impact": "頂級銀行家警告經濟衰退風險，油價成關鍵變數",
+      "zh": "摩根大通CEO傑米·戴蒙警告：油價上漲恐引發衰退和2026年熊市",
+      "impact": "金融巨頭領導人看空前景，油價壓力加大",
       "sector": "general",
       "priority": "high",
       "link": "https://www.marketwatch.com/story/jamie-dimon-isnt-too-worried-about-private-credit-but-he-sees-another-problem-for-markets-8ba4aa1a",
@@ -102,24 +82,16 @@
       "tickers": []
     },
     {
-      "title": "UnitedHealth Price Target Raised to $337 by BofA After Medicare Advantage Rate Finalization",
-      "zh": "美銀將聯合健康目標股價上調至337美元，原因是醫療保險優勢計劃費率最終確定",
-      "impact": "聯合健康股價上調，醫保優勢計劃費率確定利好企業盈利",
-      "sector": "health",
+      "title": "Netflix (NFLX) Slid as Results Fell Short of Expectations",
+      "zh": "Netflix股價下滑，財務表現低於市場預期",
+      "impact": "Netflix業績不佳，股價下跌，成長放緩",
+      "sector": "consumer",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/sectors/healthcare/articles/unitedhealth-price-target-raised-337-134352413.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-nflx-slid-results-fell-144956375.html",
       "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "How China Positioned Itself to Win the Global Energy Crisis",
-      "zh": "中國如何定位自己以贏得全球能源危機",
-      "impact": "中國能源戰略調整，影響全球能源格局和地緣政治",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/How-China-Positioned-Itself-to-Win-the-Global-Energy-Crisis.html",
-      "source": "Oilprice.com",
-      "tickers": []
+      "tickers": [
+        "$NFLX（Netflix）"
+      ]
     }
   ]
 }
