@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/09 03:26",
+  "updated": "2026/04/09 04:01",
   "news": [
     {
       "title": "New Medicare Payment Rate Released. Why UnitedHealth Stock Is Popping. - barrons.com",
-      "zh": "新醫保支付費率發佈。為何聯合健康股票飆升。",
-      "impact": "聯合健康因醫保費率提高而股價上漲，利好保險行業",
+      "zh": "新醫療保險支付率公布。聯合健康股票為何飆升。",
+      "impact": "聯合健康股價上升，醫療保險支付率調整影響行業",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
@@ -14,7 +14,7 @@
     {
       "title": "Jet fuel supply concerns grow as war on Iran drags on, airlines cut flights - CNBC",
       "zh": "隨著伊朗戰爭持續，噴氣燃料供應擔憂加劇，航空公司削減航班",
-      "impact": "伊朗戰爭導致燃油供應緊張，航空業面臨成本上升壓力",
+      "impact": "能源供應緊張推高油價，航空業成本上升，航班數量減少",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/07/iran-war-jet-fuel-airlines.html",
@@ -23,8 +23,8 @@
     },
     {
       "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "FinCEN提議規則根本改革金融機構打擊非法融資的計劃",
-      "impact": "金融機構合規成本增加，監管環境趨嚴",
+      "zh": "金融犯罪執法網提議規則根本改革金融機構設計的反非法融資計畫",
+      "impact": "金融機構合規成本增加，監管框架重大調整",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
@@ -33,8 +33,8 @@
     },
     {
       "title": "CNN hosts left visibly stunned after US labor market bounces back with 178K jobs added in March. How to capitalize - Yahoo Finance",
-      "zh": "CNN主持人在美國勞動力市場反彈（3月新增178萬就業機會）後震驚不已。如何利用",
-      "impact": "就業數據強勁超預期，經濟韌性強，積極信號",
+      "zh": "CNN主持人在美國勞動市場反彈、3月新增17.8萬就業後明顯震驚。如何利用這一機會",
+      "impact": "就業數據強勁超預期，經濟軟著陸預期增強",
       "sector": "general",
       "priority": "medium",
       "link": "https://finance.yahoo.com/economy/articles/cnn-hosts-left-visibly-stunned-101000859.html",
@@ -43,8 +43,8 @@
     },
     {
       "title": "‘All roads lead to higher prices and slower growth,' warns IMF chief as Iran war hits global economy - CNBC",
-      "zh": "國際貨幣基金組織主席警告：「所有道路都通往更高物價和更低增長」，伊朗戰爭衝擊全球經濟",
-      "impact": "伊朗戰爭引發全球經濟滯脹風險，系統性威脅",
+      "zh": "IMF首席警告「所有道路都通向更高物價和增長放緩」，伊朗戰爭衝擊全球經濟",
+      "impact": "全球經濟增長放緩風險提升，通膨持續上升威脅",
       "sector": "general",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/07/higher-prices-slower-growth-warns-imf-.html",
@@ -53,8 +53,8 @@
     },
     {
       "title": "Goldman Warns on Copper as Iran War Threatens Global Economy - bloomberg.com",
-      "zh": "高盛警告銅價下行，伊朗戰爭威脅全球經濟",
-      "impact": "伊朗戰爭推高大宗商品波動，經濟前景不確定",
+      "zh": "高盛警告銅價下跌風險，伊朗戰爭威脅全球經濟",
+      "impact": "大宗商品價格波動加劇，全球經濟前景不確定性增加",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-07/goldman-warns-on-copper-as-iran-war-threatens-global-economy",
@@ -63,8 +63,8 @@
     },
     {
       "title": "Key Fed official sees possible rate hike amid higher gas prices, inflation concerns - AP News",
-      "zh": "關鍵聯邦儲委官員認為可能升息，鑑於油價上升和通脹擔憂",
-      "impact": "美聯儲升息預期增加，債券和股票面臨壓力",
+      "zh": "關鍵聯邦儲備委員會官員在汽油價格更高和通膨擔憂之際看到可能的升息",
+      "impact": "聯準會可能升息，市場利率上升預期加強",
       "sector": "finance",
       "priority": "high",
       "link": "https://apnews.com/article/inflation-federal-reserve-interest-rates-de214f6eb7853bef424967f6d1caf11d",
@@ -73,9 +73,9 @@
     },
     {
       "title": "SEC crypto safe harbor heads to White House review, proposal due 'shortly' says Atkins - The Block",
-      "zh": "SEC加密貨幣安全港方案送往白宮審查，阿特金斯表示提案「即將推出」",
-      "impact": "加密貨幣監管框架進展，利好合規項目",
-      "sector": "finance",
+      "zh": "SEC加密貨幣安全港法案提交白宮審查，Atkins稱提案「近期」將出爐",
+      "impact": "加密貨幣監管政策重大進展，行業規範化推進",
+      "sector": "tech",
       "priority": "medium",
       "link": "https://www.theblock.co/post/396472/sec-crypto-safe-harbor-white-house-review-proposal-due-shortly-atkins",
       "source": "Theblock.co",
@@ -84,17 +84,17 @@
     {
       "title": "Jamie Dimon’s Letter To Shareholders: The Most Important Fintech Memo Of 2026 - Forbes",
       "zh": "傑米·戴蒙致股東信：2026年最重要的金融科技備忘錄",
-      "impact": "摩根大通高管闡述金融科技戰略，行業風向指標",
+      "impact": "摩根大通首席執行官對金融科技前景的戰略洞見",
       "sector": "finance",
-      "priority": "medium",
+      "priority": "low",
       "link": "https://www.forbes.com/sites/ronshevlin/2026/04/06/jamie-dimons-letter-to-shareholders-the-most-important-fintech-memo-of-2026/",
       "source": "Forbes",
       "tickers": []
     },
     {
       "title": "Neurocrine, eying ‘blockbuster in the making,’ strikes its largest-ever M&A deal with $2.9B Soleno buyout - Fierce Pharma",
-      "zh": "神經元素公司瞄準「潛力巨大的新藥」，以29億美元收購索萊諾，創公司最大併購紀錄",
-      "impact": "製藥企業29億美元併購，專注神經系統藥物開發",
+      "zh": "神經元製藥公司瞄準「正在成形的暢銷藥」，以29億美元收購Soleno，創最大併購交易",
+      "impact": "生物製藥併購交易規模超29億美元，產業整合加速",
       "sector": "health",
       "priority": "high",
       "link": "https://www.fiercepharma.com/pharma/neurocrine-strikes-29b-soleno-buyout-its-largest-ma-ever-eyeing-blockbuster-rare-disease",
@@ -103,8 +103,8 @@
     },
     {
       "title": "Stock Index Futures Slip as Trump’s Hormuz Deadline Looms",
-      "zh": "特朗普荷莫茲海峽期限逼近，股指期貨下滑",
-      "impact": "地緣政治不確定性升高，市場風險情緒惡化",
+      "zh": "股指期貨下滑，川普霍爾木茲海峽期限迫近",
+      "impact": "地緣政治風險升溫，股市承壓",
       "sector": "general",
       "priority": "high",
       "link": "https://finance.yahoo.com/markets/stocks/articles/stock-index-futures-slip-trump-103451654.html",
@@ -112,19 +112,41 @@
       "tickers": []
     },
     {
-      "title": "Micron and other memory stocks soar as Iran cease-fire refocuses attention on the AI boom",
-      "zh": "伊朗停火協議轉移焦點，美光等記憶體股票飆升，AI熱潮重獲關注",
-      "impact": "科技股受惠，AI概念股及記憶體晶片需求前景樂觀",
-      "sector": "tech",
+      "title": "Stock market celebrates the Iran cease-fire, but bond market shows we’re not out of the woods yet",
+      "zh": "股市慶祝伊朗停火，但債市顯示我們尚未脫險",
+      "impact": "停火緩解地緣風險，但經濟前景仍存疑慮",
+      "sector": "general",
       "priority": "medium",
-      "link": "https://www.marketwatch.com/story/micron-and-other-memory-stocks-soar-as-iran-cease-fire-refocuses-attention-on-the-ai-boom-3989c0d4?mod=mw_rss_topstories",
+      "link": "https://www.marketwatch.com/story/stock-market-celebrates-the-iran-cease-fire-but-bond-market-shows-were-not-out-of-the-woods-yet-dddbcb55?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories",
       "tickers": []
     },
     {
+      "title": "Supermicro launches internal probe after cofounder’s arrest on charges of $2.5 billion in chip smuggling",
+      "zh": "超微電腦公司聯合創始人因涉及25億美元晶片走私被捕後，公司啟動內部調查",
+      "impact": "供應鏈風險浮現，晶片產業受關注",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://fortune.com/2026/04/07/supermicro-launches-probe-arrest-nvidia-chip/",
+      "source": "Fortune | FORTUNE",
+      "tickers": []
+    },
+    {
+      "title": "Meta unveils Muse Spark, its first AI model since hiring Alexandr Wang and a bellwether for CEO Mark Zuckerberg’s multibillion-dollar AI push",
+      "zh": "Meta發佈Muse Spark，為聘請亞歷山大·王後首個AI模型，預示CEO馬克·祖克伯格數十億美元AI投資的未來",
+      "impact": "AI競爭加劇，科技巨頭投資重點明確",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://fortune.com/2026/04/08/meta-unveils-muse-spark-mark-zuckerberg-ai-push/",
+      "source": "Fortune | FORTUNE",
+      "tickers": [
+        "$META（Meta）"
+      ]
+    },
+    {
       "title": "Iran Attacks Saudi Arabia's East-West Oil Pipeline",
-      "zh": "伊朗攻擊沙特阿拉伯東西輸油管道",
-      "impact": "中東油供應受威脅，能源價格波動風險上升",
+      "zh": "伊朗攻擊沙烏地阿拉伯東西油管",
+      "impact": "中東局勢升溫，油價波動加大",
       "sector": "energy",
       "priority": "high",
       "link": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Attacks-Saudi-Arabias-East-West-Oil-Pipeline.html",
