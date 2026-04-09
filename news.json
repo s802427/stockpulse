@@ -1,44 +1,104 @@
 {
-  "updated": "2026/04/10 02:01",
+  "updated": "2026/04/10 03:17",
   "news": [
     {
-      "title": "Here Comes SpaceX’s IPO. Should You Board on Day One? - 247wallst.com",
-      "zh": "SpaceX即將進行首次公開募股。投資者應該在首日買入嗎？",
-      "impact": "獨角獸SpaceX上市，市場關注度高，潛在大幅波動",
-      "sector": "tech",
+      "title": "Minutes of the Federal Open Market Committee, March 17–18, 2026 - Federal Reserve Board (.gov)",
+      "zh": "聯邦公開市場委員會會議紀要（2026年3月17-18日）",
+      "impact": "美聯儲政策立場信號，影響市場利率預期和投資策略",
+      "sector": "finance",
       "priority": "high",
-      "link": "https://247wallst.com/investing/2026/04/07/here-comes-spacexs-ipo-should-you-board-on-day-one/",
-      "source": "24/7 Wall St.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm",
+      "source": "Federalreserve.gov",
       "tickers": []
     },
     {
-      "title": "CNN hosts left visibly stunned after US labor market bounces back with 178K jobs added in March. How to capitalize - Yahoo Finance",
-      "zh": "美國勞動力市場反彈，3月份新增17.8萬個職位。美國有線電視新聞網主持人震驚。如何利用此機會",
-      "impact": "就業數據超預期，影響聯準會政策預期與股市走向",
-      "sector": "general",
+      "title": "John Deere to Pay $99 Million in Monumental Right-to-Repair Settlement - thedrive.com",
+      "zh": "約翰迪爾公司支付9,900萬美元達成歷史性維修權和解",
+      "impact": "科技產業維修權案例重大突破，設立業界先例",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "http://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement",
+      "source": "The Drive",
+      "tickers": []
+    },
+    {
+      "title": "Dow surges 1,200 points as U.S.-Iran ceasefire sends oil tumbling: Live updates - CNBC",
+      "zh": "美伊停火協議推動油價下跌，道瓊斯指數飆升1,200點",
+      "impact": "地緣政治緩和帶動能源價格回落，利好股市上漲",
+      "sector": "energy",
       "priority": "high",
-      "link": "https://finance.yahoo.com/economy/articles/cnn-hosts-left-visibly-stunned-101000859.html",
-      "source": "Yahoo Entertainment",
+      "link": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "Iran war's economic aftershocks will be felt for some time - Axios",
+      "zh": "伊朗戰爭的經濟後續衝擊將持續一段時間",
+      "impact": "地緣政治不確定性對全球經濟造成長期影響風險",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.axios.com/2026/04/08/iran-ceasefire-economy-oil-energy",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
+      "title": "Jamie Dimon: The U.S. had a ‘home run’ on national debt; the next best option is crisis management - Fortune",
+      "zh": "傑米·戴蒙：美國國債問題創造\"本壘打\"；次優方案是危機管理",
+      "impact": "摩根大通CEO警示國債風險，市場關注金融風險信號",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://fortune.com/2026/04/08/jamie-dimon-national-debt-solution-crisis-management/",
+      "source": "Fortune",
+      "tickers": []
+    },
+    {
+      "title": "Trump Administration Forecasts Long-Term High Gas Prices From Strait of Hormuz Closure - NOTUS",
+      "zh": "川普政府預測荷莫茲海峽關閉導致長期高油價",
+      "impact": "霍莫茲海峽風險升高導致能源價格上升預期",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.notus.org/energy/trump-administration-gas-prices-strait-of-hormuz",
+      "source": "Notus.org",
+      "tickers": []
+    },
+    {
+      "title": "New Medicare Payment Rate Released. Why UnitedHealth, Humana Are Popping. - Barron's",
+      "zh": "新醫療保險支付費率發布，聯合健康與Humana股價上漲",
+      "impact": "醫療保險費率調整利好保險公司股價表現",
+      "sector": "health",
+      "priority": "medium",
+      "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
+      "source": "Barron's",
+      "tickers": []
+    },
+    {
+      "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
+      "zh": "聯邦存款保險公司核准GENIUS法案要求和標準的實施提案",
+      "impact": "銀行業監管框架更新，影響金融機構合規成本",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
+      "source": "Fdic.gov",
+      "tickers": []
+    },
+    {
+      "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
+      "zh": "財政犯罪執法網絡提議改革金融機構反洗錢程序規則",
+      "impact": "金融機構反洗錢合規新規提出，增加監管要求",
+      "sector": "finance",
+      "priority": "low",
+      "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
+      "source": "Fincen.gov",
       "tickers": []
     },
     {
       "title": "Major alcohol distributor shuts down operations, lays off over 500 workers",
-      "zh": "主要酒精飲料經銷商關閉營運，裁員超過500人",
-      "impact": "消費品行業併發裁員風險，經濟衰退信號",
+      "zh": "主要酒類批發商關閉營運，裁員超過500人",
+      "impact": "消費品流通領域大規模裁員，反映行業困境",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://finance.yahoo.com/economy/policy/articles/major-alcohol-distributor-shuts-down-161700316.html",
       "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Mexico’s Sheinbaum Weighs Fracking Return to Cut U.S. Gas Dependence",
-      "zh": "墨西哥總統希恩鮑姆考慮恢復水力壓裂以降低對美國天然氣的依賴",
-      "impact": "北美能源格局調整，美國油氣出口前景受影響",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Energy/Natural-Gas/Mexicos-Sheinbaum-Weighs-Fracking-Return-to-Cut-US-Gas-Dependence.html",
-      "source": "Oilprice.com",
       "tickers": []
     }
   ]
