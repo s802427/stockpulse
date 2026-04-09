@@ -1,50 +1,20 @@
 {
-  "updated": "2026/04/09 10:49",
+  "updated": "2026/04/09 12:01",
   "news": [
     {
-      "title": "Dow futures jump 900 points, oil tumbles after Trump suspends Iran attacks for two weeks: Live updates - CNBC",
-      "zh": "道瓊期貨跳漲900點，川普暫停伊朗攻擊兩週後油價下跌",
-      "impact": "地緣政治緩和推動股市上漲，油價下跌利好經濟",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "UnitedHealth, Humana Among Stocks Getting a Boost From Medicare Decision - WSJ",
-      "zh": "聯合健康、聯邦醫療保險等公司因醫療保險決策獲得提振",
-      "impact": "醫療保險政策利好，保險公司股價上升",
-      "sector": "health",
+      "title": "Oil prices plunge following U.S.-Iran ceasefire - Axios",
+      "zh": "美伊停火協議後油價暴跌",
+      "impact": "能源股下跌，通膨預期下降，經濟前景改善",
+      "sector": "energy",
       "priority": "medium",
-      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-04-06-2026/card/unitedhealth-humana-among-stocks-getting-a-boost-from-medicare-decision-RDIhbhDEkwC5J0BKID3t",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
-      "title": "Broadcom Stock Rises On Google AI Chip Deal - Investor's Business Daily",
-      "zh": "博通股票因Google AI晶片交易上升",
-      "impact": "Google AI晶片投資促進博通業績增長",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.investors.com/news/technology/broadcom-stock-rises-on-google-ai-chip-deal/",
-      "source": "Investor's Business Daily",
-      "tickers": []
-    },
-    {
-      "title": "Japanese \"megabank\" SMBC to open global hub with 2,000 jobs in Uptown Charlotte - Axios",
-      "zh": "日本「超級銀行」三菱日聯金融集團在美國夏洛特開設全球樞紐，創造2000個就業機會",
-      "impact": "日本銀行在美擴張，創造大量就業機會",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.axios.com/local/charlotte/2026/04/07/smbc-north-carolina-investment-jobs-uptown",
+      "link": "https://www.axios.com/2026/04/07/oil-prices-plunge-us-iran-war-ceasefire-trump",
       "source": "Axios",
       "tickers": []
     },
     {
       "title": "Super Micro Launches Internal Probe of Server Sales to China - Bloomberg.com",
-      "zh": "超微電腦對向中國伺服器銷售啟動內部調查",
-      "impact": "出口管制風險可能影響超微電腦營收和聲譽",
+      "zh": "超微電腦啟動內部調查涉及向中國銷售伺服器事項",
+      "impact": "供應鏈風險浮現，地緣政治緊張升溫，股價承壓",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-07/super-micro-launches-internal-probe-of-server-sales-to-china",
@@ -52,19 +22,19 @@
       "tickers": []
     },
     {
-      "title": "Intel signs on to Elon Musk’s Terafab chips project - TechCrunch",
-      "zh": "英特爾簽約參與馬斯克Terafab晶片項目",
-      "impact": "英特爾與馬斯克合作開發晶片，提升技術競爭力",
-      "sector": "tech",
+      "title": "New Medicare Payment Rate Released. Why UnitedHealth, Humana Stocks Are Popping. - Barron's",
+      "zh": "新聯邦醫療保險給付率公布，聯合健康與人類保險股價上漲",
+      "impact": "醫保企業獲利前景改善，股價受惠上升",
+      "sector": "health",
       "priority": "medium",
-      "link": "https://techcrunch.com/2026/04/07/intel-signs-on-to-elon-musks-terafab-chips-project/",
-      "source": "TechCrunch",
+      "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
+      "source": "Barron's",
       "tickers": []
     },
     {
       "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
-      "zh": "聯邦存款保險公司批准實施天才法案要求與標準",
-      "impact": "新銀行監管規定實施，加強金融監管",
+      "zh": "聯邦存款保險公司批准執行天才法案要求與標準",
+      "impact": "銀行監管標準提升，機構合規成本增加",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
@@ -72,9 +42,19 @@
       "tickers": []
     },
     {
+      "title": "Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand - TechCrunch",
+      "zh": "Anthropic與谷歌及博通擴大運算協議以應對飆升需求",
+      "impact": "人工智能芯片需求旺盛，科技巨頭加速投資",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/",
+      "source": "TechCrunch",
+      "tickers": []
+    },
+    {
       "title": "Deere & Co agrees to pay $99 million to settle ‘right to repair’ lawsuit - AP News",
-      "zh": "迪爾公司同意支付9900萬美元解決「維修權」訴訟",
-      "impact": "企業讓步維修權訴訟，影響產業維修政策",
+      "zh": "迪爾公司同意支付9,900萬美元和解維修權訴訟",
+      "impact": "企業維修權政策調整，消費者權益獲得保護",
       "sector": "consumer",
       "priority": "low",
       "link": "https://apnews.com/article/john-deere-repair-lawsuit-settlement-595d4b089689cd94418991326275b68d",
@@ -82,29 +62,19 @@
       "tickers": []
     },
     {
-      "title": "Merck got a peek at Terns' leukemia data during its deal talks — and decided to lower its bid by $1B - Endpoints News",
-      "zh": "默克在交易談判中窺見特恩斯白血病數據後，將出價降低10億美元",
-      "impact": "臨床數據不如預期導致併購價格下降10億美元",
+      "title": "Gilead pays $3.1B for Tubulis to bolster oncology ADC pipeline - Fierce Biotech",
+      "zh": "吉利德以31億美元收購圖布利斯強化腫瘤ADC管線",
+      "impact": "藥企併購活動活躍，腫瘤藥物開發加速",
       "sector": "health",
       "priority": "medium",
-      "link": "https://endpoints.news/terns-sold-to-merck-for-13-lower-than-pharmas-initial-offer-because-of-clinical-data/",
-      "source": "Endpoints.news",
-      "tickers": []
-    },
-    {
-      "title": "Jet fuel supply concerns grow as war with Iran drags on, airlines cut flights - CNBC",
-      "zh": "隨著伊朗戰爭持續，噴氣燃料供應風險增加，航空公司削減航班",
-      "impact": "地緣政治風險推高燃油成本，航空業面臨困境",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/07/iran-war-jet-fuel-airlines.html",
-      "source": "CNBC",
+      "link": "https://www.fiercebiotech.com/biotech/gilead-inks-5b-tubulis-buyout-bolster-oncology-adc-pipeline",
+      "source": "FierceBiotech",
       "tickers": []
     },
     {
       "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "金融犯罪執法網絡提議規則以根本改革金融機構打擊非法金融的計劃",
-      "impact": "金融機構合規成本增加，反洗錢監管加強",
+      "zh": "金融犯罪執法網絡提案改革打擊非法金融機構計畫",
+      "impact": "金融機構反洗錢合規負擔增加，監管強化",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
@@ -112,43 +82,43 @@
       "tickers": []
     },
     {
-      "title": "SpaceX IPO Boosts Tiny Space ETF With Record Surge in Inflows - Bloomberg.com",
-      "zh": "SpaceX上市提振小型太空ETF創紀錄淨流入激增",
-      "impact": "太空產業關注度提升，相關ETF吸引投資者資金湧入",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-07/spacex-ipo-boosts-tiny-space-etf-with-record-surge-in-inflows",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "Key Fed official sees possible rate hike amid higher gas prices, inflation concerns - AP News",
-      "zh": "聯邦準備委員會關鍵官員認為汽油價格上漲和通膨擔憂可能導致升息",
-      "impact": "美聯儲政策轉向，可能影響市場流動性和股債估值",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://apnews.com/article/inflation-federal-reserve-interest-rates-de214f6eb7853bef424967f6d1caf11d",
-      "source": "Associated Press",
-      "tickers": []
-    },
-    {
-      "title": "Exclusive | BNY, Robinhood Win Contract for Running Trump Accounts - WSJ",
-      "zh": "獨家新聞：紐約梅隆銀行和羅賓漢獲得運營特朗普帳戶合約",
-      "impact": "金融機構進入政治人物資產管理領域，特殊帳戶管理商機",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.wsj.com/personal-finance/treasury-taps-bny-robinhood-to-help-run-trump-accounts-for-children-1e9caf92",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
       "title": "Jamie Dimon warns rising oil prices could trigger a recession and a bear market in 2026 - MarketWatch",
-      "zh": "傑米·戴蒙警告油價上漲可能在2026年引發經濟衰退和熊市",
-      "impact": "摩根大通主席預警經濟風險，能源價格風險成市場焦點",
+      "zh": "摩根大通首席執行官杰米·戴蒙警告油價上升可能在2026年引發衰退與熊市",
+      "impact": "經濟衰退風險預警，投資者信心受衝擊",
       "sector": "general",
       "priority": "high",
       "link": "https://www.marketwatch.com/story/jamie-dimon-isnt-too-worried-about-private-credit-but-he-sees-another-problem-for-markets-8ba4aa1a",
       "source": "MarketWatch",
+      "tickers": []
+    },
+    {
+      "title": "Warner Bros. CEO David Zaslav’s ‘extraordinary’ $887 million golden parachute gets ripped by proxy advisory firm ISS",
+      "zh": "華納兄弟執行長扎斯拉夫8.87億美元的「非凡」遣散費遭代理顧問公司ISS批評",
+      "impact": "企業治理爭議，股東關係緊張，聲譽受損",
+      "sector": "general",
+      "priority": "low",
+      "link": "https://fortune.com/2026/04/08/warner-bros-discovery-david-zaslav-887-million-golden-parachute-iss/",
+      "source": "Fortune | FORTUNE",
+      "tickers": []
+    },
+    {
+      "title": "Tehran Takes the Strait — and the Premium",
+      "zh": "德黑蘭控制海峽——獲取溢價",
+      "impact": "伊朗控制霍爾木茲海峽，油價面臨上漲壓力，能源股受益",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Tehran-Takes-the-Strait-and-the-Premium.html",
+      "source": "Oilprice.com",
+      "tickers": []
+    },
+    {
+      "title": "Petrostates Without Oil Export Routes Take the Hardest Hit",
+      "zh": "無油出口路線的石油國家受創最重",
+      "impact": "缺乏出口通道的產油國經濟前景惡化，相關資產承壓",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Petrostates-Without-Oil-Export-Routes-Take-the-Hardest-Hit.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
