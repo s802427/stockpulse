@@ -1,20 +1,20 @@
 {
-  "updated": "2026/04/09 19:05",
+  "updated": "2026/04/09 20:01",
   "news": [
     {
       "title": "Dow futures soar 1,300 points as traders rush to buy stocks after U.S. and Iran reach two-week ceasefire: Live updates - CNBC",
-      "zh": "道瓊期貨飆升1,300點，交易員在美國與伊朗達成為期兩週停火協議後爭相買進股票：即時更新",
-      "impact": "地緣政治緊張緩解，提振股市風險情緒，利好全球金融市場",
+      "zh": "道瓊期貨飆升1,300點，交易員在美國與伊朗達成兩週停火後爭相買進股票：即時更新",
+      "impact": "地緣政治緩和帶動股市反彈，風險資產需求增加",
       "sector": "general",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html",
       "source": "CNBC",
       "tickers": []
     },
     {
       "title": "Oil Plunges as Iran Reopens Hormuz Under Two-Week Truce - kyivpost.com",
-      "zh": "油價暴跌，伊朗在兩週休戰協議下重開荷姆茲海峽",
-      "impact": "原油供應增加壓低油價，能源板塊承壓，通膨預期下降",
+      "zh": "伊朗在兩週休戰協議下重新開放荷姆茲海峽，油價暴跌",
+      "impact": "油價下跌緩解全球通膨壓力，利好消費類股",
       "sector": "energy",
       "priority": "medium",
       "link": "https://www.kyivpost.com/post/73453",
@@ -23,8 +23,8 @@
     },
     {
       "title": "U.S. stocks end mixed after late-day rebound as Trump’s Iran deadline looms - MarketWatch",
-      "zh": "美股收盤漲跌互現，在特朗普伊朗最後期限臨近之際出現盤中反彈",
-      "impact": "市場對地緣政治不確定性反應，投資者情緒波動，交易量增加",
+      "zh": "美股收盤漲跌互見，在川普伊朗最後期限臨近下實現盤中反彈",
+      "impact": "市場對地緣政治不確定性反應謹慎，觀望態度濃厚",
       "sector": "general",
       "priority": "medium",
       "link": "https://www.marketwatch.com/story/stocks-fall-as-trumps-tuesday-night-deadline-for-iran-looms-the-market-is-certainly-on-edge-35d15659",
@@ -33,8 +33,8 @@
     },
     {
       "title": "Gilead to Acquire Tubulis Adding Potentially Best in Class Antibody Drug Conjugate and Next Generation Platform to Further Strengthen Oncology Pipeline - Gilead Sciences",
-      "zh": "吉利德製藥收購Tubulis，納入潛在同類最佳抗體藥物偶聯物及下一代平台，進一步強化腫瘤管線",
-      "impact": "生物製藥併購，吉利德強化抗癌藥物競爭力，推動創新管線發展",
+      "zh": "吉利德將收購Tubulis，進一步強化腫瘤管線的潛在同類最佳抗體藥物偶聯物和下一代平台",
+      "impact": "吉利德強化腫瘤管線競爭力，抗癌藥物研發進度加速",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.gilead.com/news/news-details/2026/gilead-to-acquire-tubulis-adding-potentially-best-in-class-antibody-drug-conjugate-and-next-generation-platform-to-further-strengthen-oncology-pipeline",
@@ -43,8 +43,8 @@
     },
     {
       "title": "Super Micro Launches Internal Probe of Server Sales to China - Bloomberg.com",
-      "zh": "超微電腦啟動內部調查，涉及對中國伺服器銷售事宜",
-      "impact": "供應鏈合規風險，影響公司聲譽及監管關係，股價可能面臨壓力",
+      "zh": "超微電腦啟動對中國伺服器銷售的內部調查",
+      "impact": "監管風險暴露，企業聲譽受損，股價面臨下行壓力",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-07/super-micro-launches-internal-probe-of-server-sales-to-china",
@@ -53,8 +53,8 @@
     },
     {
       "title": "2 years ago, Saudi Arabia quietly canceled the ‘petrodollar’ deal with America that wired the world economy for 50 years. Then war broke out in Iran - Yahoo Finance",
-      "zh": "兩年前，沙烏地阿拉伯悄悄取消與美國長達50年的「石油美元」協議，該協議曾將全球經濟連接在一起。隨後伊朗爆發戰爭",
-      "impact": "美元儲備地位動搖，全球金融體系重構，長期地緣經濟格局改變",
+      "zh": "兩年前沙烏地阿拉伯悄悄取消了與美國持續50年的「石油美元」協議，世界經濟隨之運行。隨後伊朗爆發戰爭",
+      "impact": "美元霸權削弱，全球貨幣體系面臨重組，長期經濟格局變化",
       "sector": "finance",
       "priority": "high",
       "link": "https://finance.yahoo.com/economy/policy/articles/2-years-ago-saudi-arabia-202826559.html",
@@ -63,9 +63,9 @@
     },
     {
       "title": "Bill Ackman confident he’ll win over UMG shareholders to $64 billion bid, says Bolloré response was ‘music to my ears’ - Music Business Worldwide",
-      "zh": "比爾·阿克曼對贏得UMG股東支持其64億美元併購案充滿信心，稱Bolloré的回應是「如音樂般悅耳」",
-      "impact": "娛樂產業控制權爭奪，大額併購推進，股東博弈激烈",
-      "sector": "consumer",
+      "zh": "比爾·艾克曼有信心贏得UMG股東支持其64億美元出價，稱博洛雷回應是「音樂般的聲音」",
+      "impact": "大規模併購談判進展，音樂產業整合加速，市場關注度提升",
+      "sector": "general",
       "priority": "medium",
       "link": "https://www.musicbusinessworldwide.com/bill-ackman-confident-hell-win-over-umg-shareholders-to-64-billion-bid-says-bollore-response-was-music-to-my-ears/",
       "source": "Music Business Worldwide",
@@ -73,28 +73,28 @@
     },
     {
       "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
-      "zh": "聯邦存款保險公司批准實施GENIUS法案要求和標準的提案",
-      "impact": "銀行監管標準更新，金融機構合規成本增加，系統穩定性提升",
+      "zh": "聯邦存款保險公司批准實施《天才法案》要求和標準的提案",
+      "impact": "銀行監管框架完善，金融系統安全性提升",
       "sector": "finance",
-      "priority": "medium",
+      "priority": "low",
       "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
       "source": "Fdic.gov",
       "tickers": []
     },
     {
       "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "美國金融犯罪執法網絡提議規則，根本改革金融機構打擊非法金融的計畫",
-      "impact": "金融機構反洗錢合規要求強化，運營成本增加，風控標準提升",
+      "zh": "金融犯罪執法網絡提議改革金融機構打擊非法金融的相關計畫標準",
+      "impact": "反洗錢監管趨嚴，金融機構合規成本上升",
       "sector": "finance",
-      "priority": "medium",
+      "priority": "low",
       "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
       "source": "Fincen.gov",
       "tickers": []
     },
     {
       "title": "‘All roads lead to higher prices and slower growth,' warns IMF chief as Iran war hits global economy - CNBC",
-      "zh": "國際貨幣基金組織總裁警告：「所有跡象都指向更高物價和更慢增長」，伊朗戰爭衝擊全球經濟",
-      "impact": "全球經濟前景惡化，滯脹風險上升，各資產類別面臨下行壓力",
+      "zh": "國際貨幣基金組織首席警告「所有道路都通往更高的物價和更慢的成長」，伊朗戰爭衝擊全球經濟",
+      "impact": "全球經濟前景惡化，滯脹風險上升，股債雙殺預期增強",
       "sector": "general",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/07/higher-prices-slower-growth-warns-imf-.html",
@@ -103,12 +103,52 @@
     },
     {
       "title": "Treasury yields slide as oil prices ease at end of day on Iran ceasefire hope - CNBC",
-      "zh": "隨著伊朗停火希望緩解油價，美國公債殖利率在交易日末下滑 - CNBC",
-      "impact": "油價下跌推低債券殖利率，可能緩解通脹壓力與降息預期",
+      "zh": "美債殖利率下滑，油價因伊朗停火希望而緩解",
+      "impact": "油價回落推低債券殖利率，市場風險情緒改善",
       "sector": "general",
       "priority": "medium",
       "link": "https://www.cnbc.com/2026/04/07/treasury-yields-rise-as-trump-reiterates-iran-infrastructure-threat.html",
       "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "Major alcohol distributor shuts down operations, lays off over 500 workers",
+      "zh": "主要酒類經銷商關閉營運，裁員超過500人",
+      "impact": "酒類流通業裁員五百人以上，就業市場承壓",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/economy/policy/articles/major-alcohol-distributor-shuts-down-161700316.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "U.S. government is spending $88 billion a month in interest on national debt—equal to spending on defense and education combined",
+      "zh": "美國政府每月花費880億美元用於國債利息，與國防和教育開支相當",
+      "impact": "利息開支激增威脅財政可持續性，政策困境加深",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://fortune.com/2026/04/09/us-goverment-speding-interest-defense-education-total/",
+      "source": "Fortune | FORTUNE",
+      "tickers": []
+    },
+    {
+      "title": "Goldman: Another Month of Hormuz Closure Means Over $100 Brent Throughout 2026",
+      "zh": "高盛：霍爾木茲海峽再關閉一個月意味著2026年布倫特油價將超過100美元",
+      "impact": "地緣政治風險推升油價預期，能源成本上升風險",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Another-Month-of-Hormuz-Closure-Means-Over-100-Brent-Throughout-2026.html",
+      "source": "Oilprice.com",
+      "tickers": []
+    },
+    {
+      "title": "Japan Weighs Releasing More Oil Reserves as Hormuz Risks Persist",
+      "zh": "日本考慮釋放更多石油儲備以應對霍爾木茲風險",
+      "impact": "日本戰略儲備釋放應對供應風險，油市供給增加",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Weighs-Releasing-More-Oil-Reserves-as-Hormuz-Risks-Persist.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
