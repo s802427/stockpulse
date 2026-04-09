@@ -1,11 +1,11 @@
 {
-  "updated": "2026/04/09 23:44",
+  "updated": "2026/04/10 00:01",
   "news": [
     {
       "title": "Bets on Fed rate cut by year-end grow after Iran truce - Investing.com",
-      "zh": "伊朗停火後，年底前美聯儲降息押注增加",
-      "impact": "降息預期升溫，刺激風險資產上漲",
-      "sector": "general",
+      "zh": "伊朗停火後，投資者對美聯儲年底前降息的押注增加",
+      "impact": "降息預期上升，可能提振股市和債市",
+      "sector": "finance",
       "priority": "medium",
       "link": "https://www.investing.com/news/economy-news/bets-rise-on-fed-rate-cut-by-yearend-after-iran-truce-deal-4602653",
       "source": "Investing.com",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Delta Air Lines Announces March Quarter 2026 Financial Results - Delta",
-      "zh": "達美航空公司公佈2026年3月季度財務結果",
-      "impact": "航空業財報發佈，反映營運狀況",
+      "zh": "德爾塔航空公司公布2026年3月季度財務成績",
+      "impact": "航空業財報，反映客運需求和營運狀況",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-March-Quarter-2026-Financial-Results/default.aspx",
@@ -23,8 +23,8 @@
     },
     {
       "title": "Broadcom Stock Rises On Google AI Chip Deal - Investor's Business Daily",
-      "zh": "博通股票因谷歌AI晶片交易而上漲",
-      "impact": "獲得大型科技客戶訂單，長期成長動力強",
+      "zh": "博通股票因谷歌AI芯片交易協議而上漲",
+      "impact": "獲得大客戶AI芯片訂單，營收增長動力強",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.investors.com/news/technology/broadcom-stock-rises-on-google-ai-chip-deal/",
@@ -33,8 +33,8 @@
     },
     {
       "title": "Super Micro Launches Internal Probe of Server Sales to China - Bloomberg.com",
-      "zh": "超微電腦啟動對華伺服器銷售內部調查",
-      "impact": "合規風險隱憂，股價面臨下行壓力",
+      "zh": "超微計算機公司對服務器對華銷售啟動內部調查",
+      "impact": "涉及地緣政治風險和監管問題，股價面臨壓力",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-07/super-micro-launches-internal-probe-of-server-sales-to-china",
@@ -43,9 +43,9 @@
     },
     {
       "title": "2 years ago, Saudi Arabia quietly canceled the ‘petrodollar’ deal with America that wired the world economy for 50 years. Then war broke out in Iran - Yahoo Finance",
-      "zh": "兩年前沙烏地阿拉伯悄悄取消與美國50年期石油美元協議，隨後伊朗爆發戰爭",
-      "impact": "美元霸權動搖，全球金融格局面臨重構",
-      "sector": "energy",
+      "zh": "沙烏地阿拉伯兩年前悄悄終止「石油美元」協議，該協議曾支撐全球經濟50年，隨後中東爆發戰爭",
+      "impact": "美元地位動搖，全球經濟格局重塑，系統性風險",
+      "sector": "finance",
       "priority": "high",
       "link": "https://finance.yahoo.com/economy/policy/articles/2-years-ago-saudi-arabia-202826559.html",
       "source": "Yahoo Entertainment",
@@ -53,8 +53,8 @@
     },
     {
       "title": "New Medicare Payment Rate Released. Why UnitedHealth, Humana Are Popping. - Barron's",
-      "zh": "新醫療保險給付率發佈，聯合健康與美門保險股價上漲",
-      "impact": "醫保政策利好，保險業者獲利空間擴大",
+      "zh": "新醫療保險支付費率公佈，聯合健康和Humana公司股價上漲",
+      "impact": "醫保支付費率調整，利好保險公司盈利",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
@@ -63,8 +63,8 @@
     },
     {
       "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
-      "zh": "美國聯邦存款保險公司核准GENIUS法案要求與標準的實施方案",
-      "impact": "銀行業監管標準確定，合規成本增加",
+      "zh": "聯邦存款保險公司(FDIC)批准實施《天才法案》要求的提案與標準",
+      "impact": "銀行監管框架更新，影響金融機構合規成本",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
@@ -73,18 +73,18 @@
     },
     {
       "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "美國金融犯罪執法網路提議改革金融機構打擊非法金融計畫",
-      "impact": "反洗錢監管加強，金融機構合規負擔增加",
+      "zh": "FinCEN提議根本改革金融機構反非法融資計劃",
+      "impact": "金融監管加強，機構合規成本上升",
       "sector": "finance",
-      "priority": "medium",
+      "priority": "low",
       "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
       "source": "Fincen.gov",
       "tickers": []
     },
     {
       "title": "Major alcohol distributor shuts down operations, lays off over 500 workers",
-      "zh": "主要酒類經銷商停止營運，裁員逾500人",
-      "impact": "酒類消費需求放緩，行業面臨結構調整",
+      "zh": "主要酒類分銷商關閉營運，裁員超過500人",
+      "impact": "消費品行業裁員，經濟放緩信號",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://finance.yahoo.com/economy/policy/articles/major-alcohol-distributor-shuts-down-161700316.html",
@@ -92,13 +92,33 @@
       "tickers": []
     },
     {
-      "title": "Trump’s 2027 budget gambles on rosy assumptions—and if they don’t pan out, America edges closer to a fiscal crisis driven by runaway interest costs",
-      "zh": "川普2027年預算基於樂觀假設，若不達預期，美國面臨利息失控型財政危機",
-      "impact": "財政赤字擴大風險，長期利率可能上升",
+      "title": "The economy slowed sharply even before the Iran war. Where does it go from here?",
+      "zh": "經濟在伊朗戰爭前已大幅放緩，未來走向何方",
+      "impact": "經濟增長放緩加地緣政治風險，衰退憂",
       "sector": "general",
-      "priority": "high",
-      "link": "https://fortune.com/2026/04/09/trump-2027-budget-debt-deficit-interest-crisis/",
-      "source": "Fortune | FORTUNE",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/the-economy-slowed-sharply-even-before-the-iran-war-where-does-it-go-from-here-ed17c87c?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "EU Eases Methane Rules to Keep Oil and Gas Flowing",
+      "zh": "歐盟放寬甲烷規則以維持石油和天然氣供應",
+      "impact": "歐盟能源政策調整，利好油氣企業，可能減緩能源轉型",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/EU-Eases-Methane-Rules-to-Keep-Oil-and-Gas-Flowing.html",
+      "source": "Oilprice.com",
+      "tickers": []
+    },
+    {
+      "title": "U.S. LNG Exports Soar To Record Levels In March Amid Panic Buying",
+      "zh": "美國3月份液化天然氣出口達創紀錄水平，受恐慌性購買驅動",
+      "impact": "美國能源出口強勁增長，推升能源股表現，反映全球能源需求緊張",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Energy/Natural-Gas/US-LNG-Exports-Soar-To-Record-Levels-In-March-Amid-Panic-Buying.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
