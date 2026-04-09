@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/09 18:01",
+  "updated": "2026/04/09 19:05",
   "news": [
     {
-      "title": "Dow futures jump over 1,000 points, oil tumbles after Trump suspends Iran attacks for two weeks: Live updates - CNBC",
-      "zh": "道瓊期貨跳漲超過1000點，伊朗停火協議導致油價暴跌：即時更新",
-      "impact": "伊朗停火推動股市上漲，油價下跌緩解通脹壓力",
+      "title": "Dow futures soar 1,300 points as traders rush to buy stocks after U.S. and Iran reach two-week ceasefire: Live updates - CNBC",
+      "zh": "道瓊期貨飆升1,300點，交易員在美國與伊朗達成為期兩週停火協議後爭相買進股票：即時更新",
+      "impact": "地緣政治緊張緩解，提振股市風險情緒，利好全球金融市場",
       "sector": "general",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html",
@@ -12,29 +12,39 @@
       "tickers": []
     },
     {
-      "title": "Asian benchmarks jump after oil prices sink in response to the Iran ceasefire - AP News",
-      "zh": "亞洲股市在油價下跌後應聲上漲，伊朗停火協議支撐市場",
-      "impact": "地緣政治緩和推動亞洲股市上升",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://apnews.com/article/stock-markets-trump-iran-ceasefire-oil-2fc5ac7823bea71984b3578ec36aacee",
-      "source": "Associated Press",
+      "title": "Oil Plunges as Iran Reopens Hormuz Under Two-Week Truce - kyivpost.com",
+      "zh": "油價暴跌，伊朗在兩週休戰協議下重開荷姆茲海峽",
+      "impact": "原油供應增加壓低油價，能源板塊承壓，通膨預期下降",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://www.kyivpost.com/post/73453",
+      "source": "Kyiv Post",
       "tickers": []
     },
     {
-      "title": "LEVI Earnings: Levi Strauss Issues Strong Financial Results and Lifts Guidance - tipranks.com",
-      "zh": "李維斯財報：李維斯發布強勁財務表現並提升業績指引",
-      "impact": "李維斯提升全年指引，消費品牌表現出色",
-      "sector": "consumer",
+      "title": "U.S. stocks end mixed after late-day rebound as Trump’s Iran deadline looms - MarketWatch",
+      "zh": "美股收盤漲跌互現，在特朗普伊朗最後期限臨近之際出現盤中反彈",
+      "impact": "市場對地緣政治不確定性反應，投資者情緒波動，交易量增加",
+      "sector": "general",
       "priority": "medium",
-      "link": "https://www.tipranks.com/news/levi-earnings-levi-strauss-issues-strong-financial-results-and-lifts-guidance",
-      "source": "Tipranks.com",
+      "link": "https://www.marketwatch.com/story/stocks-fall-as-trumps-tuesday-night-deadline-for-iran-looms-the-market-is-certainly-on-edge-35d15659",
+      "source": "MarketWatch",
+      "tickers": []
+    },
+    {
+      "title": "Gilead to Acquire Tubulis Adding Potentially Best in Class Antibody Drug Conjugate and Next Generation Platform to Further Strengthen Oncology Pipeline - Gilead Sciences",
+      "zh": "吉利德製藥收購Tubulis，納入潛在同類最佳抗體藥物偶聯物及下一代平台，進一步強化腫瘤管線",
+      "impact": "生物製藥併購，吉利德強化抗癌藥物競爭力，推動創新管線發展",
+      "sector": "health",
+      "priority": "medium",
+      "link": "https://www.gilead.com/news/news-details/2026/gilead-to-acquire-tubulis-adding-potentially-best-in-class-antibody-drug-conjugate-and-next-generation-platform-to-further-strengthen-oncology-pipeline",
+      "source": "gilead.com",
       "tickers": []
     },
     {
       "title": "Super Micro Launches Internal Probe of Server Sales to China - Bloomberg.com",
-      "zh": "超微電腦啟動內部調查以調查對華服務器銷售",
-      "impact": "內部調查可能影響供應鏈與中美貿易關係",
+      "zh": "超微電腦啟動內部調查，涉及對中國伺服器銷售事宜",
+      "impact": "供應鏈合規風險，影響公司聲譽及監管關係，股價可能面臨壓力",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-07/super-micro-launches-internal-probe-of-server-sales-to-china",
@@ -42,19 +52,29 @@
       "tickers": []
     },
     {
-      "title": "New Medicare Payment Rate Released. Why UnitedHealth, Humana Stocks Are Popping. - Barron's",
-      "zh": "聯邦醫療保險新支付率發佈，聯合健康與人文保險股票大漲",
-      "impact": "新醫保支付率利好健保公司股價表現",
-      "sector": "health",
+      "title": "2 years ago, Saudi Arabia quietly canceled the ‘petrodollar’ deal with America that wired the world economy for 50 years. Then war broke out in Iran - Yahoo Finance",
+      "zh": "兩年前，沙烏地阿拉伯悄悄取消與美國長達50年的「石油美元」協議，該協議曾將全球經濟連接在一起。隨後伊朗爆發戰爭",
+      "impact": "美元儲備地位動搖，全球金融體系重構，長期地緣經濟格局改變",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/economy/policy/articles/2-years-ago-saudi-arabia-202826559.html",
+      "source": "Yahoo Entertainment",
+      "tickers": []
+    },
+    {
+      "title": "Bill Ackman confident he’ll win over UMG shareholders to $64 billion bid, says Bolloré response was ‘music to my ears’ - Music Business Worldwide",
+      "zh": "比爾·阿克曼對贏得UMG股東支持其64億美元併購案充滿信心，稱Bolloré的回應是「如音樂般悅耳」",
+      "impact": "娛樂產業控制權爭奪，大額併購推進，股東博弈激烈",
+      "sector": "consumer",
       "priority": "medium",
-      "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
-      "source": "Barron's",
+      "link": "https://www.musicbusinessworldwide.com/bill-ackman-confident-hell-win-over-umg-shareholders-to-64-billion-bid-says-bollore-response-was-music-to-my-ears/",
+      "source": "Music Business Worldwide",
       "tickers": []
     },
     {
       "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
-      "zh": "聯邦存款保險公司批准實施天才法案要求和標準的提案",
-      "impact": "金融監管加強銀行合規要求標準",
+      "zh": "聯邦存款保險公司批准實施GENIUS法案要求和標準的提案",
+      "impact": "銀行監管標準更新，金融機構合規成本增加，系統穩定性提升",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
@@ -62,29 +82,9 @@
       "tickers": []
     },
     {
-      "title": "Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand - TechCrunch",
-      "zh": "Anthropic與Google和博通擴大運算合作協議，應對飆升的需求",
-      "impact": "AI運算需求攀升，大型科技公司擴大投資",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/",
-      "source": "TechCrunch",
-      "tickers": []
-    },
-    {
-      "title": "Deere & Co agrees to pay $99 million to settle ‘right to repair’ lawsuit - AP News",
-      "zh": "迪爾公司同意支付9900萬美元以和解「維修權」訴訟",
-      "impact": "維修權訴訟和解，影響農業設備維修產業",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://apnews.com/article/john-deere-repair-lawsuit-settlement-595d4b089689cd94418991326275b68d",
-      "source": "Associated Press",
-      "tickers": []
-    },
-    {
       "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "金融犯罪執法網絡提議規則，根本性改革金融機構反洗錢項目",
-      "impact": "金融監管強化反洗錢措施要求",
+      "zh": "美國金融犯罪執法網絡提議規則，根本改革金融機構打擊非法金融的計畫",
+      "impact": "金融機構反洗錢合規要求強化，運營成本增加，風控標準提升",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
@@ -92,43 +92,23 @@
       "tickers": []
     },
     {
-      "title": "CNN hosts left visibly stunned after US labor market bounces back with 178K jobs added in March. How to capitalize - Yahoo Finance",
-      "zh": "CNN主持人在美國勞動力市場3月新增178千個工作後感到震驚，如何把握機會",
-      "impact": "就業數據超預期，經濟韌性強勁",
+      "title": "‘All roads lead to higher prices and slower growth,' warns IMF chief as Iran war hits global economy - CNBC",
+      "zh": "國際貨幣基金組織總裁警告：「所有跡象都指向更高物價和更慢增長」，伊朗戰爭衝擊全球經濟",
+      "impact": "全球經濟前景惡化，滯脹風險上升，各資產類別面臨下行壓力",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/07/higher-prices-slower-growth-warns-imf-.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "Treasury yields slide as oil prices ease at end of day on Iran ceasefire hope - CNBC",
+      "zh": "隨著伊朗停火希望緩解油價，美國公債殖利率在交易日末下滑 - CNBC",
+      "impact": "油價下跌推低債券殖利率，可能緩解通脹壓力與降息預期",
       "sector": "general",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/economy/articles/cnn-hosts-left-visibly-stunned-101000859.html",
-      "source": "Yahoo Entertainment",
-      "tickers": []
-    },
-    {
-      "title": "Major alcohol distributor shuts down operations, lays off over 500 workers",
-      "zh": "主要酒類經銷商關閉營運，裁員超過500人",
-      "impact": "酒類產業供應鏈受擾，消費品板塊承壓",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/economy/policy/articles/major-alcohol-distributor-shuts-down-161700316.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Why a proposed merger to create Malaysia’s largest construction conglomerate fell apart",
-      "zh": "擬創建馬來西亞最大建築集團的併購案為何告吹",
-      "impact": "區域併購案失敗，建築產業整合受阻",
-      "sector": "general",
-      "priority": "low",
-      "link": "https://fortune.com/2026/04/09/sunway-ijm-takeover-collapse-malaysia-construction-bid-fails/",
-      "source": "Fortune | FORTUNE",
-      "tickers": []
-    },
-    {
-      "title": "Goldman Cuts Oil Price Forecasts After Ceasefire Announcement",
-      "zh": "高盛在停火聲明後下調油價預測",
-      "impact": "石油價格前景下調，能源板塊及通膨預期承壓",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Cuts-Oil-Price-Forecasts-After-Ceasefire-Announcement.html",
-      "source": "Oilprice.com",
+      "link": "https://www.cnbc.com/2026/04/07/treasury-yields-rise-as-trump-reiterates-iran-infrastructure-threat.html",
+      "source": "CNBC",
       "tickers": []
     }
   ]
