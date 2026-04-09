@@ -1,90 +1,30 @@
 {
-  "updated": "2026/04/10 00:01",
+  "updated": "2026/04/10 01:14",
   "news": [
     {
-      "title": "Bets on Fed rate cut by year-end grow after Iran truce - Investing.com",
-      "zh": "伊朗停火後，投資者對美聯儲年底前降息的押注增加",
-      "impact": "降息預期上升，可能提振股市和債市",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.investing.com/news/economy-news/bets-rise-on-fed-rate-cut-by-yearend-after-iran-truce-deal-4602653",
-      "source": "Investing.com",
-      "tickers": []
-    },
-    {
-      "title": "Delta Air Lines Announces March Quarter 2026 Financial Results - Delta",
-      "zh": "德爾塔航空公司公布2026年3月季度財務成績",
-      "impact": "航空業財報，反映客運需求和營運狀況",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-March-Quarter-2026-Financial-Results/default.aspx",
-      "source": "Delta.com",
-      "tickers": []
-    },
-    {
-      "title": "Broadcom Stock Rises On Google AI Chip Deal - Investor's Business Daily",
-      "zh": "博通股票因谷歌AI芯片交易協議而上漲",
-      "impact": "獲得大客戶AI芯片訂單，營收增長動力強",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.investors.com/news/technology/broadcom-stock-rises-on-google-ai-chip-deal/",
-      "source": "Investor's Business Daily",
-      "tickers": []
-    },
-    {
-      "title": "Super Micro Launches Internal Probe of Server Sales to China - Bloomberg.com",
-      "zh": "超微計算機公司對服務器對華銷售啟動內部調查",
-      "impact": "涉及地緣政治風險和監管問題，股價面臨壓力",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-07/super-micro-launches-internal-probe-of-server-sales-to-china",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "2 years ago, Saudi Arabia quietly canceled the ‘petrodollar’ deal with America that wired the world economy for 50 years. Then war broke out in Iran - Yahoo Finance",
-      "zh": "沙烏地阿拉伯兩年前悄悄終止「石油美元」協議，該協議曾支撐全球經濟50年，隨後中東爆發戰爭",
-      "impact": "美元地位動搖，全球經濟格局重塑，系統性風險",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/economy/policy/articles/2-years-ago-saudi-arabia-202826559.html",
-      "source": "Yahoo Entertainment",
-      "tickers": []
-    },
-    {
-      "title": "New Medicare Payment Rate Released. Why UnitedHealth, Humana Are Popping. - Barron's",
-      "zh": "新醫療保險支付費率公佈，聯合健康和Humana公司股價上漲",
-      "impact": "醫保支付費率調整，利好保險公司盈利",
-      "sector": "health",
-      "priority": "medium",
-      "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
-      "source": "Barron's",
-      "tickers": []
-    },
-    {
-      "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
-      "zh": "聯邦存款保險公司(FDIC)批准實施《天才法案》要求的提案與標準",
-      "impact": "銀行監管框架更新，影響金融機構合規成本",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
-      "source": "Fdic.gov",
-      "tickers": []
-    },
-    {
       "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "FinCEN提議根本改革金融機構反非法融資計劃",
-      "impact": "金融監管加強，機構合規成本上升",
+      "zh": "美國金融犯罪執法網絡（FinCEN）提議一項規則，根本改革金融機構設計用於打擊非法融資的計劃。",
+      "impact": "金融機構反洗錢合規成本增加，監管環境趨嚴",
       "sector": "finance",
-      "priority": "low",
+      "priority": "medium",
       "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
       "source": "Fincen.gov",
       "tickers": []
     },
     {
+      "title": "CNN hosts left visibly stunned after US labor market bounces back with 178K jobs added in March. How to capitalize - Yahoo Finance",
+      "zh": "美國勞動力市場在3月份出現反彈，新增17.8萬個工作崗位，超出預期，引發市場樂觀情緒。",
+      "impact": "經濟強勁復甦信號，支撐股市上行，升息預期可能調整",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/economy/articles/cnn-hosts-left-visibly-stunned-101000859.html",
+      "source": "Yahoo Entertainment",
+      "tickers": []
+    },
+    {
       "title": "Major alcohol distributor shuts down operations, lays off over 500 workers",
-      "zh": "主要酒類分銷商關閉營運，裁員超過500人",
-      "impact": "消費品行業裁員，經濟放緩信號",
+      "zh": "一家主要酒類經銷商宣布關閉營運，導致超過500名員工失業。",
+      "impact": "消費品行業景氣下滑，供應鏈調整，就業數據負面",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://finance.yahoo.com/economy/policy/articles/major-alcohol-distributor-shuts-down-161700316.html",
@@ -92,32 +32,32 @@
       "tickers": []
     },
     {
-      "title": "The economy slowed sharply even before the Iran war. Where does it go from here?",
-      "zh": "經濟在伊朗戰爭前已大幅放緩，未來走向何方",
-      "impact": "經濟增長放緩加地緣政治風險，衰退憂",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.marketwatch.com/story/the-economy-slowed-sharply-even-before-the-iran-war-where-does-it-go-from-here-ed17c87c?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
+      "title": "Neogen Corporation Q3 2026 Earnings Call Summary",
+      "zh": "Neogen公司發佈2026年第三季度財報電話會議摘要。",
+      "impact": "公司具體業績表現需關注，但無具體數據難以評估",
+      "sector": "health",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/neogen-corporation-q3-2026-earnings-164753639.html",
+      "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "EU Eases Methane Rules to Keep Oil and Gas Flowing",
-      "zh": "歐盟放寬甲烷規則以維持石油和天然氣供應",
-      "impact": "歐盟能源政策調整，利好油氣企業，可能減緩能源轉型",
+      "title": "Mexico’s Sheinbaum Weighs Fracking Return to Cut U.S. Gas Dependence",
+      "zh": "墨西哥總統Sheinbaum正在考慮重啟水力壓裂技術，以降低對美國天然氣的依賴。",
+      "impact": "北美能源格局調整，美國能源出口機會受影響",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/EU-Eases-Methane-Rules-to-Keep-Oil-and-Gas-Flowing.html",
+      "link": "https://oilprice.com/Energy/Natural-Gas/Mexicos-Sheinbaum-Weighs-Fracking-Return-to-Cut-US-Gas-Dependence.html",
       "source": "Oilprice.com",
       "tickers": []
     },
     {
-      "title": "U.S. LNG Exports Soar To Record Levels In March Amid Panic Buying",
-      "zh": "美國3月份液化天然氣出口達創紀錄水平，受恐慌性購買驅動",
-      "impact": "美國能源出口強勁增長，推升能源股表現，反映全球能源需求緊張",
+      "title": "Israel Restarts Second Offshore Gas Field After U.S.-Iran Ceasefire",
+      "zh": "以色列在美伊達成停火協議後，重新啟動第二個近海天然氣田的運營。",
+      "impact": "中東地緣政治風險緩解，全球能源供應穩定性提升",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://oilprice.com/Energy/Natural-Gas/US-LNG-Exports-Soar-To-Record-Levels-In-March-Amid-Panic-Buying.html",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Israel-Restarts-Second-Offshore-Gas-Field-After-US-Iran-Ceasefire.html",
       "source": "Oilprice.com",
       "tickers": []
     }
