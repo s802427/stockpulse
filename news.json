@@ -1,20 +1,30 @@
 {
-  "updated": "2026/04/09 12:01",
+  "updated": "2026/04/09 13:52",
   "news": [
     {
       "title": "Oil prices plunge following U.S.-Iran ceasefire - Axios",
-      "zh": "美伊停火協議後油價暴跌",
-      "impact": "能源股下跌，通膨預期下降，經濟前景改善",
+      "zh": "美國伊朗停火協議後，油價暴跌",
+      "impact": "能源股下跌，全球油價下行，通膨壓力減輕",
       "sector": "energy",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.axios.com/2026/04/07/oil-prices-plunge-us-iran-war-ceasefire-trump",
       "source": "Axios",
       "tickers": []
     },
     {
+      "title": "South Korea stocks lead gains in Asia as oil prices plunge after U.S.-Iran ceasefire deal - CNBC",
+      "zh": "伊朗美國停火協議後油價暴跌，韓國股市領漲亞洲",
+      "impact": "亞洲股市上揚，油價下跌利好經濟成長前景",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.cnbc.com/2026/04/08/asia-markets-today-trump-iran-war-kospi-nikkei-225-oil-hang-seng-index.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
       "title": "Super Micro Launches Internal Probe of Server Sales to China - Bloomberg.com",
-      "zh": "超微電腦啟動內部調查涉及向中國銷售伺服器事項",
-      "impact": "供應鏈風險浮現，地緣政治緊張升溫，股價承壓",
+      "zh": "超微電腦啟動內部調查，涉及對華伺服器銷售",
+      "impact": "公司信譽受損，面臨監管審查和法律風險",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-07/super-micro-launches-internal-probe-of-server-sales-to-china",
@@ -23,8 +33,8 @@
     },
     {
       "title": "New Medicare Payment Rate Released. Why UnitedHealth, Humana Stocks Are Popping. - Barron's",
-      "zh": "新聯邦醫療保險給付率公布，聯合健康與人類保險股價上漲",
-      "impact": "醫保企業獲利前景改善，股價受惠上升",
+      "zh": "新醫療保險支付費率公佈，聯合健康與慧民保險股價上漲",
+      "impact": "保險公司受惠於醫保費率調整，盈利前景改善",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
@@ -33,8 +43,8 @@
     },
     {
       "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
-      "zh": "聯邦存款保險公司批准執行天才法案要求與標準",
-      "impact": "銀行監管標準提升，機構合規成本增加",
+      "zh": "聯邦存款保險公司批准GENIUS法案要求和標準實施提案",
+      "impact": "銀行業監管規則更新，合規成本可能增加",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
@@ -42,29 +52,19 @@
       "tickers": []
     },
     {
-      "title": "Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand - TechCrunch",
-      "zh": "Anthropic與谷歌及博通擴大運算協議以應對飆升需求",
-      "impact": "人工智能芯片需求旺盛，科技巨頭加速投資",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/",
-      "source": "TechCrunch",
-      "tickers": []
-    },
-    {
       "title": "Deere & Co agrees to pay $99 million to settle ‘right to repair’ lawsuit - AP News",
-      "zh": "迪爾公司同意支付9,900萬美元和解維修權訴訟",
-      "impact": "企業維修權政策調整，消費者權益獲得保護",
+      "zh": "迪爾公司同意支付9,900萬美元以解決「維修權」訴訟",
+      "impact": "農業機械製造商敗訴，維修權案例具有示範效應",
       "sector": "consumer",
-      "priority": "low",
+      "priority": "medium",
       "link": "https://apnews.com/article/john-deere-repair-lawsuit-settlement-595d4b089689cd94418991326275b68d",
       "source": "Associated Press",
       "tickers": []
     },
     {
       "title": "Gilead pays $3.1B for Tubulis to bolster oncology ADC pipeline - Fierce Biotech",
-      "zh": "吉利德以31億美元收購圖布利斯強化腫瘤ADC管線",
-      "impact": "藥企併購活動活躍，腫瘤藥物開發加速",
+      "zh": "吉利德以31億美元收購圖布利斯以加強腫瘤偶聯藥物管線",
+      "impact": "生物製藥公司併購，oncology領域整合加速",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.fiercebiotech.com/biotech/gilead-inks-5b-tubulis-buyout-bolster-oncology-adc-pipeline",
@@ -73,8 +73,8 @@
     },
     {
       "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "金融犯罪執法網絡提案改革打擊非法金融機構計畫",
-      "impact": "金融機構反洗錢合規負擔增加，監管強化",
+      "zh": "金融犯罪執法網絡提議規則改革金融機構反洗錢計畫",
+      "impact": "金融業面臨更嚴格反洗錢合規要求，成本提高",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
@@ -82,9 +82,19 @@
       "tickers": []
     },
     {
+      "title": "‘All roads lead to higher prices and slower growth,' warns IMF chief as Iran war hits global economy - CNBC",
+      "zh": "國際貨幣基金組織總裁警告伊朗戰爭衝擊全球經濟，油價上升導致通膨和增長放緩",
+      "impact": "全球經濟面臨滯脹風險，股債齊跌可能性上升",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/07/higher-prices-slower-growth-warns-imf-.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
       "title": "Jamie Dimon warns rising oil prices could trigger a recession and a bear market in 2026 - MarketWatch",
-      "zh": "摩根大通首席執行官杰米·戴蒙警告油價上升可能在2026年引發衰退與熊市",
-      "impact": "經濟衰退風險預警，投資者信心受衝擊",
+      "zh": "摩根大通執行長傑米·戴蒙警告油價上升可能觸發2026年經濟衰退和熊市",
+      "impact": "市場信心受挫，投資者風險偏好下降，股市承壓",
       "sector": "general",
       "priority": "high",
       "link": "https://www.marketwatch.com/story/jamie-dimon-isnt-too-worried-about-private-credit-but-he-sees-another-problem-for-markets-8ba4aa1a",
@@ -92,31 +102,31 @@
       "tickers": []
     },
     {
-      "title": "Warner Bros. CEO David Zaslav’s ‘extraordinary’ $887 million golden parachute gets ripped by proxy advisory firm ISS",
-      "zh": "華納兄弟執行長扎斯拉夫8.87億美元的「非凡」遣散費遭代理顧問公司ISS批評",
-      "impact": "企業治理爭議，股東關係緊張，聲譽受損",
-      "sector": "general",
-      "priority": "low",
-      "link": "https://fortune.com/2026/04/08/warner-bros-discovery-david-zaslav-887-million-golden-parachute-iss/",
-      "source": "Fortune | FORTUNE",
+      "title": "Major alcohol distributor shuts down operations, lays off over 500 workers",
+      "zh": "主要酒類經銷商關閉營運，裁員超過500人",
+      "impact": "酒類供應鏈受擾，經銷商就業市場承壓",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/economy/policy/articles/major-alcohol-distributor-shuts-down-161700316.html",
+      "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Tehran Takes the Strait — and the Premium",
-      "zh": "德黑蘭控制海峽——獲取溢價",
-      "impact": "伊朗控制霍爾木茲海峽，油價面臨上漲壓力，能源股受益",
+      "title": "Oil Prices Rise as Iran Signals Hormuz Closure",
+      "zh": "伊朗示意關閉荷莫茲海峽，油價上漲",
+      "impact": "全球能源價格上升，地緣政治風險升溫",
       "sector": "energy",
       "priority": "high",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Tehran-Takes-the-Strait-and-the-Premium.html",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-as-Iran-Signals-Hormuz-Closure.html",
       "source": "Oilprice.com",
       "tickers": []
     },
     {
       "title": "Petrostates Without Oil Export Routes Take the Hardest Hit",
-      "zh": "無油出口路線的石油國家受創最重",
-      "impact": "缺乏出口通道的產油國經濟前景惡化，相關資產承壓",
+      "zh": "無石油出口路線的石油國家受創最重",
+      "impact": "石油國家經濟衰退，全球貿易格局受衝擊",
       "sector": "energy",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://oilprice.com/Energy/Crude-Oil/Petrostates-Without-Oil-Export-Routes-Take-the-Hardest-Hit.html",
       "source": "Oilprice.com",
       "tickers": []
