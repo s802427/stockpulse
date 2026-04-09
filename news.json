@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/09 22:01",
+  "updated": "2026/04/09 23:44",
   "news": [
     {
       "title": "Bets on Fed rate cut by year-end grow after Iran truce - Investing.com",
-      "zh": "伊朗休戰後，年底前美聯儲降息押注增加",
-      "impact": "降息預期上升，美股科技股可能受惠",
+      "zh": "伊朗停火後，年底前美聯儲降息押注增加",
+      "impact": "降息預期升溫，刺激風險資產上漲",
       "sector": "general",
       "priority": "medium",
       "link": "https://www.investing.com/news/economy-news/bets-rise-on-fed-rate-cut-by-yearend-after-iran-truce-deal-4602653",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Delta Air Lines Announces March Quarter 2026 Financial Results - Delta",
-      "zh": "達美航空公佈2026年第一季度財務成績",
-      "impact": "航空業景氣指標，影響運輸及消費信心",
+      "zh": "達美航空公司公佈2026年3月季度財務結果",
+      "impact": "航空業財報發佈，反映營運狀況",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-March-Quarter-2026-Financial-Results/default.aspx",
@@ -23,8 +23,8 @@
     },
     {
       "title": "Broadcom Stock Rises On Google AI Chip Deal - Investor's Business Daily",
-      "zh": "博通因谷歌AI晶片交易股價上漲",
-      "impact": "AI晶片需求強勁，帶動半導體板塊上升",
+      "zh": "博通股票因谷歌AI晶片交易而上漲",
+      "impact": "獲得大型科技客戶訂單，長期成長動力強",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.investors.com/news/technology/broadcom-stock-rises-on-google-ai-chip-deal/",
@@ -33,8 +33,8 @@
     },
     {
       "title": "Super Micro Launches Internal Probe of Server Sales to China - Bloomberg.com",
-      "zh": "超微電腦針對對華伺服器銷售啟動內部調查",
-      "impact": "地緣政治風險、合規問題，影響股價及信譽",
+      "zh": "超微電腦啟動對華伺服器銷售內部調查",
+      "impact": "合規風險隱憂，股價面臨下行壓力",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-07/super-micro-launches-internal-probe-of-server-sales-to-china",
@@ -43,9 +43,9 @@
     },
     {
       "title": "2 years ago, Saudi Arabia quietly canceled the ‘petrodollar’ deal with America that wired the world economy for 50 years. Then war broke out in Iran - Yahoo Finance",
-      "zh": "兩年前沙烏地阿拉伯悄悄取消與美國的「石油美元」協議，隨後伊朗爆發戰爭",
-      "impact": "美元儲備地位動搖，全球金融體系面臨重構",
-      "sector": "finance",
+      "zh": "兩年前沙烏地阿拉伯悄悄取消與美國50年期石油美元協議，隨後伊朗爆發戰爭",
+      "impact": "美元霸權動搖，全球金融格局面臨重構",
+      "sector": "energy",
       "priority": "high",
       "link": "https://finance.yahoo.com/economy/policy/articles/2-years-ago-saudi-arabia-202826559.html",
       "source": "Yahoo Entertainment",
@@ -53,8 +53,8 @@
     },
     {
       "title": "New Medicare Payment Rate Released. Why UnitedHealth, Humana Are Popping. - Barron's",
-      "zh": "新醫療保險支付費率公佈，聯合健康、人文保險公司股價上漲",
-      "impact": "醫保政策利好，健保公司獲利空間擴大",
+      "zh": "新醫療保險給付率發佈，聯合健康與美門保險股價上漲",
+      "impact": "醫保政策利好，保險業者獲利空間擴大",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
@@ -63,8 +63,8 @@
     },
     {
       "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
-      "zh": "美國聯邦存款保險公司批准實施GENIUS法案要求及標準",
-      "impact": "銀行監管標準更新，影響金融機構營運成本",
+      "zh": "美國聯邦存款保險公司核准GENIUS法案要求與標準的實施方案",
+      "impact": "銀行業監管標準確定，合規成本增加",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
@@ -73,8 +73,8 @@
     },
     {
       "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "金融犯罪執法網絡提議規則，根本改革金融機構反洗錢計畫",
-      "impact": "銀行合規成本增加，反洗錢標準提高",
+      "zh": "美國金融犯罪執法網路提議改革金融機構打擊非法金融計畫",
+      "impact": "反洗錢監管加強，金融機構合規負擔增加",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
@@ -83,8 +83,8 @@
     },
     {
       "title": "Major alcohol distributor shuts down operations, lays off over 500 workers",
-      "zh": "主要酒精飲料經銷商關閉營運，裁員超過500人",
-      "impact": "消費疲軟信號，供應鏈調整，就業壓力",
+      "zh": "主要酒類經銷商停止營運，裁員逾500人",
+      "impact": "酒類消費需求放緩，行業面臨結構調整",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://finance.yahoo.com/economy/policy/articles/major-alcohol-distributor-shuts-down-161700316.html",
@@ -92,43 +92,13 @@
       "tickers": []
     },
     {
-      "title": "Constellation Leads S&P 500 As Sliding Earnings Beat Expectations",
-      "zh": "康斯坦蒙能源公司領漲標普500，儘管盈利下滑但超預期",
-      "impact": "能源股表現亮眼，市場對低預期易超越樂觀",
-      "sector": "energy",
-      "priority": "low",
-      "link": "https://www.investors.com/news/constellation-brands-earnings-beer-drinking/?src=A00220&yptr=yahoo",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "An earnings boom is around the corner, and it could blindside the stock-market bears",
-      "zh": "盈利增長即將到來，可能會讓看空股市的投資者措手不及",
-      "impact": "企業獲利上升可能推高股市，改變市場悲觀預期",
+      "title": "Trump’s 2027 budget gambles on rosy assumptions—and if they don’t pan out, America edges closer to a fiscal crisis driven by runaway interest costs",
+      "zh": "川普2027年預算基於樂觀假設，若不達預期，美國面臨利息失控型財政危機",
+      "impact": "財政赤字擴大風險，長期利率可能上升",
       "sector": "general",
-      "priority": "medium",
-      "link": "https://www.marketwatch.com/story/an-earnings-boom-is-around-the-corner-and-it-could-blindside-the-stock-market-bears-827fe243?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
-      "title": "Consumer spending partly recovers after winter freeze, but not enough to signal an improved economy",
-      "zh": "消費支出在冬季凍結後部分恢復，但不足以表明經濟改善",
-      "impact": "消費復蘇有限，經濟前景仍存疑慮",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.marketwatch.com/story/consumer-spending-partly-recovers-after-winter-freeze-but-not-enough-to-signal-improved-economy-4552ac4e?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
-      "title": "China Weighs Bailout for Airlines Struggling with Fuel Shock",
-      "zh": "中國考慮為受燃料衝擊影響的航空公司提供救助",
-      "impact": "中國政府支援航空業，降低系統性風險但增加政策干預",
-      "sector": "energy",
       "priority": "high",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/China-Weighs-Bailout-for-Airlines-Struggling-with-Fuel-Shock.html",
-      "source": "Oilprice.com",
+      "link": "https://fortune.com/2026/04/09/trump-2027-budget-debt-deficit-interest-crisis/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     }
   ]
