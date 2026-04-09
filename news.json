@@ -1,30 +1,60 @@
 {
-  "updated": "2026/04/09 06:50",
+  "updated": "2026/04/09 08:01",
   "news": [
     {
-      "title": "New Medicare Payment Rate Released. Why UnitedHealth Stock Is Popping. - barrons.com",
-      "zh": "新醫療保險支付費率公布。為何聯合健康股票上漲。",
-      "impact": "聯合健康利好，醫保支付增加，股價上升",
-      "sector": "health",
-      "priority": "medium",
-      "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
-      "source": "Barron's",
+      "title": "Dow futures jump 900 points, oil tumbles after Trump suspends Iran attacks for two weeks: Live updates - CNBC",
+      "zh": "道瓊期貨飆升900點，伊朗攻擊暫停兩週後油價下跌：實時更新",
+      "impact": "地緣政治緩和推高股市，油價回落緩解通膨壓力",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html",
+      "source": "CNBC",
       "tickers": []
     },
     {
-      "title": "Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand - TechCrunch",
-      "zh": "Anthropic與谷歌和博通擴大算力協議，應對需求激增",
-      "impact": "AI算力需求持續增長，科技巨頭加大投資",
-      "sector": "tech",
+      "title": "Gas prices could soon breach $5 a gallon if Strait of Hormuz remains shut, J.P. Morgan analysts say - cbsnews.com",
+      "zh": "如果霍爾木茲海峽保持關閉，油氣價格可能很快突破每加侖5美元，摩根大通分析師表示",
+      "impact": "供應鏈風險加劇，汽油價格面臨上漲壓力，影響消費者成本",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.cbsnews.com/news/gas-prices-today-iran-war-strait-of-hormuz/",
+      "source": "CBS News",
+      "tickers": []
+    },
+    {
+      "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
+      "zh": "美國聯邦存款保險公司批准實施天才法案要求和標準的提案",
+      "impact": "銀行業監管框架更新，加強金融系統風險管理",
+      "sector": "finance",
       "priority": "medium",
-      "link": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/",
-      "source": "TechCrunch",
+      "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
+      "source": "Fdic.gov",
+      "tickers": []
+    },
+    {
+      "title": "How the Iran war affects Americans' inflation expectations - Axios",
+      "zh": "伊朗戰爭如何影響美國人的通膨預期",
+      "impact": "地緣政治衝突升級引發通膨預期上升，市場心理波動",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.axios.com/2026/04/07/us-consumers-inflation-iran-war",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
+      "title": "Jet fuel supply concerns grow as war with Iran drags on, airlines cut flights - CNBC",
+      "zh": "伊朗戰爭持續拖累，噴氣燃料供應隱憂加劇，航空公司削減航班",
+      "impact": "航空業營運成本上升，旅遊需求受衝擊，供應鏈風險",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/07/iran-war-jet-fuel-airlines.html",
+      "source": "CNBC",
       "tickers": []
     },
     {
       "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "金融犯罪執法網絡提議改革金融機構反洗錢計畫規則",
-      "impact": "金融監管加強，機構合規成本可能上升",
+      "zh": "金融犯罪執法網絡提議改革金融機構反非法融資計畫的規則",
+      "impact": "金融監管加強，金融機構合規成本增加",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
@@ -32,29 +62,9 @@
       "tickers": []
     },
     {
-      "title": "CNN hosts left visibly stunned after US labor market bounces back with 178K jobs added in March. How to capitalize - Yahoo Finance",
-      "zh": "美國勞動力市場反彈，3月增加17.8萬個工作機會，CNN主持人表示震驚",
-      "impact": "就業數據強於預期，經濟韌性提升，通膨壓力存在",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/economy/articles/cnn-hosts-left-visibly-stunned-101000859.html",
-      "source": "Yahoo Entertainment",
-      "tickers": []
-    },
-    {
-      "title": "‘All roads lead to higher prices and slower growth,' warns IMF chief as Iran war hits global economy - CNBC",
-      "zh": "IMF主席警告：伊朗戰爭衝擊全球經濟，導致物價上升和增長放緩",
-      "impact": "地緣政治風險升高，全球經濟增長前景堪憂",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/07/higher-prices-slower-growth-warns-imf-.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
       "title": "Key Fed official sees possible rate hike amid higher gas prices, inflation concerns - AP News",
-      "zh": "聯準會關鍵官員因油價上漲和通膨擔憂，認為可能升息",
-      "impact": "聯準會轉向鷹派，升息預期增加，債市承壓",
+      "zh": "聯準會關鍵官員預見可能升息，考量油價上漲和通膨擔憂",
+      "impact": "央行政策立場轉鷹，市場預期利率上升，債券股票承壓",
       "sector": "finance",
       "priority": "high",
       "link": "https://apnews.com/article/inflation-federal-reserve-interest-rates-de214f6eb7853bef424967f6d1caf11d",
@@ -62,36 +72,34 @@
       "tickers": []
     },
     {
+      "title": "Exclusive | BNY, Robinhood Win Contract for Running Trump Accounts - WSJ",
+      "zh": "獨家｜紐約銀行、羅賓漢贏得運營川普賬戶合約",
+      "impact": "政治人物資金管理業務，金融機構爭取新商機",
+      "sector": "finance",
+      "priority": "low",
+      "link": "https://www.wsj.com/personal-finance/treasury-taps-bny-robinhood-to-help-run-trump-accounts-for-children-1e9caf92",
+      "source": "The Wall Street Journal",
+      "tickers": []
+    },
+    {
       "title": "Neurocrine, eying ‘blockbuster in the making,’ strikes its largest-ever M&A deal with $2.9B Soleno buyout - Fierce Pharma",
-      "zh": "神經遞質制藥公司進行最大規模併購，以29億美元收購Soleno，瞄準暢銷藥",
-      "impact": "生醫併購交易，Soleno藥物潛力大，神經制藥擴張",
+      "zh": "神經科學公司Neurocrine瞄準「超級重磅藥物」，以29億美元收購Soleno創造歷史最大併購",
+      "impact": "生技製藥大型併購，超過10億美元，強化藥物研發管線",
       "sector": "health",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.fiercepharma.com/pharma/neurocrine-strikes-29b-soleno-buyout-its-largest-ma-ever-eyeing-blockbuster-rare-disease",
       "source": "FiercePharma",
       "tickers": []
     },
     {
       "title": "Jamie Dimon warns rising oil prices could trigger a recession and a bear market in 2026 - MarketWatch",
-      "zh": "摩根大通CEO傑米·戴蒙警告：油價上漲恐引發衰退和2026年熊市",
-      "impact": "金融巨頭領導人看空前景，油價壓力加大",
+      "zh": "摩根大通CEO傑米戴蒙警告油價上漲可能在2026年引發經濟衰退和熊市",
+      "impact": "業界領袖預警經濟風險，市場情緒面臨衝擊，系統性風險提升",
       "sector": "general",
       "priority": "high",
       "link": "https://www.marketwatch.com/story/jamie-dimon-isnt-too-worried-about-private-credit-but-he-sees-another-problem-for-markets-8ba4aa1a",
       "source": "MarketWatch",
       "tickers": []
-    },
-    {
-      "title": "Netflix (NFLX) Slid as Results Fell Short of Expectations",
-      "zh": "Netflix股價下滑，財務表現低於市場預期",
-      "impact": "Netflix業績不佳，股價下跌，成長放緩",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-nflx-slid-results-fell-144956375.html",
-      "source": "Yahoo Finance",
-      "tickers": [
-        "$NFLX（Netflix）"
-      ]
     }
   ]
 }
