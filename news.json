@@ -1,10 +1,20 @@
 {
-  "updated": "2026/04/10 04:01",
+  "updated": "2026/04/10 04:58",
   "news": [
     {
+      "title": "Dow closes up more than 1,300 points after US-Iran ceasefire - ABC News",
+      "zh": "美股道瓊指數在美伊停火後上漲超過1,300點",
+      "impact": "地緣政治緩和帶動股市大幅上漲，風險資產走強",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://abcnews.com/Business/stocks-soar-oil-prices-plunge-after-us-iran/story?id\\\\u003d131832170",
+      "source": "Abcnews.com",
+      "tickers": []
+    },
+    {
       "title": "Minutes of the Federal Open Market Committee, March 17–18, 2026 - Federal Reserve Board (.gov)",
-      "zh": "聯邦公開市場委員會會議紀要，2026年3月17-18日",
-      "impact": "聯儲政策方向明確，影響市場利率預期與股債走勢",
+      "zh": "聯邦公開市場委員會會議紀錄，2026年3月17-18日",
+      "impact": "央行政策立場披露，影響市場對利率走向預期",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm",
@@ -13,8 +23,8 @@
     },
     {
       "title": "John Deere to Pay $99 Million in Monumental Right-to-Repair Settlement - thedrive.com",
-      "zh": "約翰迪爾公司支付9,900萬美元達成重大維修權和解",
-      "impact": "農機巨頭讓步維修權，消費者與獨立維修商受惠",
+      "zh": "約翰迪爾公司支付9,900萬美元和解維修權訴訟",
+      "impact": "農業設備龍頭就維修權爭議達成和解，監管風險緩解",
       "sector": "consumer",
       "priority": "medium",
       "link": "http://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement",
@@ -23,28 +33,18 @@
     },
     {
       "title": "Dow surges 1,200 points as U.S.-Iran ceasefire sends oil tumbling: Live updates - CNBC",
-      "zh": "道瓊工業平均指數飆升1,200點，美伊停火協議致油價大幅下跌",
-      "impact": "地緣政治緩和推動股市上漲，能源股承壓",
-      "sector": "general",
-      "priority": "high",
+      "zh": "美伊停火導致油價下跌，道瓊指數飆升1,200點",
+      "impact": "地緣政治局勢緩和，能源價格回落刺激股市反彈",
+      "sector": "energy",
+      "priority": "medium",
       "link": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html",
       "source": "CNBC",
       "tickers": []
     },
     {
-      "title": "Iran war's economic aftershocks will be felt for some time - Axios",
-      "zh": "伊朗戰爭的經濟後遺症將持續一段時間",
-      "impact": "地緣政治風險對全球經濟增長構成中期威脅",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.axios.com/2026/04/08/iran-ceasefire-economy-oil-energy",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
       "title": "Jamie Dimon: The U.S. had a ‘home run’ on national debt; the next best option is crisis management - Fortune",
-      "zh": "傑米戴蒙：美國在國債上打出「全壘打」，下一個最佳選項是危機管理",
-      "impact": "摩根大通CEO警示美國債務危機風險與管理挑戰",
+      "zh": "傑米·戴蒙：美國在國債上得分「滿分」，次佳選項是危機管理",
+      "impact": "摩根大通CEO評述美國債務政策，反映金融市場對經濟風險認知",
       "sector": "finance",
       "priority": "medium",
       "link": "https://fortune.com/2026/04/08/jamie-dimon-national-debt-solution-crisis-management/",
@@ -53,8 +53,8 @@
     },
     {
       "title": "Trump Administration Forecasts Long-Term High Gas Prices From Strait of Hormuz Closure - NOTUS",
-      "zh": "川普政府預測荷姆茲海峽關閉將導致長期高油價",
-      "impact": "地緣政治風險推升能源成本，影響通膨與企業成本",
+      "zh": "川普政府預測霍爾木茲海峽關閉將導致長期高油價",
+      "impact": "地緣政治風險警示，能源價格及通膨前景面臨上行壓力",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.notus.org/energy/trump-administration-gas-prices-strait-of-hormuz",
@@ -63,8 +63,8 @@
     },
     {
       "title": "New Medicare Payment Rate Released. Why UnitedHealth, Humana Are Popping. - Barron's",
-      "zh": "新醫療保險支付費率公布，聯合健康與Humana股價上漲",
-      "impact": "保險公司因新支付率利好而股價上升",
+      "zh": "新醫療保險給付率公布，聯合健康與Humana股價上漲",
+      "impact": "醫療保險公司受惠於新給付政策，相關股票上揚",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
@@ -73,8 +73,8 @@
     },
     {
       "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
-      "zh": "聯邦存款保險公司批准實施天才法案要求與標準",
-      "impact": "銀行監管框架更新，強化金融系統穩定性",
+      "zh": "聯邦存款保險公司批准GENIUS法案要求與標準的實施方案",
+      "impact": "銀行監管框架更新，金融機構合規要求調整",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
@@ -83,8 +83,8 @@
     },
     {
       "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "金融犯罪執法網絡提議改革金融機構打擊非法融資計畫",
-      "impact": "金融機構面臨更嚴格反洗錢與反恐融資規定",
+      "zh": "金融犯罪執法網絡提議改革金融機構反洗錢項目規則",
+      "impact": "金融機構反洗錢合規成本與要求可能增加",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
@@ -93,12 +93,42 @@
     },
     {
       "title": "Major alcohol distributor shuts down operations, lays off over 500 workers",
-      "zh": "主要酒類經銷商停止營運，裁員超過500人",
-      "impact": "酒類供應鏈中斷，逾500員工失業",
-      "sector": "consumer",
+      "zh": "大型酒精飲料經銷商關閉營運，裁員500",
+      "impact": "",
+      "sector": "general",
       "priority": "medium",
       "link": "https://finance.yahoo.com/economy/policy/articles/major-alcohol-distributor-shuts-down-161700316.html",
       "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Kura Sushi USA, Inc. Q2 2026 Earnings Call Summary",
+      "zh": "庫拉壽司美國公司2026年第二季度財報電話會議摘要",
+      "impact": "日式連鎖壽司餐廳公佈季度業績，反映消費餐飲市場狀況",
+      "sector": "consumer",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/kura-sushi-usa-inc-q2-123000579.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "The Greenbrier Companies, Inc. Q2 2026 Earnings Call Summary",
+      "zh": "綠蕨公司2026年第二季度財報電話會議摘要",
+      "impact": "鐵路運輸設備製造商公佈季度業績，反映運輸行業景氣",
+      "sector": "general",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/greenbrier-companies-inc-q2-2026-123000581.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Brown-Forman’s stock is the S&P 500’s top gainer Thursday as merger drama heats up",
+      "zh": "布朗-福曼公司股票周四成為標普500指數漲幅最大個股，併購風波升溫",
+      "impact": "烈酒製造商併購傳聞推升股價，存在重大併購預期",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/brown-formans-stock-is-the-s-p-500s-top-gainer-thursday-as-merger-drama-heats-up-2f5f769c?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
       "tickers": []
     }
   ]
