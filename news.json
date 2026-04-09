@@ -1,20 +1,20 @@
 {
-  "updated": "2026/04/10 01:14",
+  "updated": "2026/04/10 02:01",
   "news": [
     {
-      "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "美國金融犯罪執法網絡（FinCEN）提議一項規則，根本改革金融機構設計用於打擊非法融資的計劃。",
-      "impact": "金融機構反洗錢合規成本增加，監管環境趨嚴",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
-      "source": "Fincen.gov",
+      "title": "Here Comes SpaceX’s IPO. Should You Board on Day One? - 247wallst.com",
+      "zh": "SpaceX即將進行首次公開募股。投資者應該在首日買入嗎？",
+      "impact": "獨角獸SpaceX上市，市場關注度高，潛在大幅波動",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://247wallst.com/investing/2026/04/07/here-comes-spacexs-ipo-should-you-board-on-day-one/",
+      "source": "24/7 Wall St.",
       "tickers": []
     },
     {
       "title": "CNN hosts left visibly stunned after US labor market bounces back with 178K jobs added in March. How to capitalize - Yahoo Finance",
-      "zh": "美國勞動力市場在3月份出現反彈，新增17.8萬個工作崗位，超出預期，引發市場樂觀情緒。",
-      "impact": "經濟強勁復甦信號，支撐股市上行，升息預期可能調整",
+      "zh": "美國勞動力市場反彈，3月份新增17.8萬個職位。美國有線電視新聞網主持人震驚。如何利用此機會",
+      "impact": "就業數據超預期，影響聯準會政策預期與股市走向",
       "sector": "general",
       "priority": "high",
       "link": "https://finance.yahoo.com/economy/articles/cnn-hosts-left-visibly-stunned-101000859.html",
@@ -23,8 +23,8 @@
     },
     {
       "title": "Major alcohol distributor shuts down operations, lays off over 500 workers",
-      "zh": "一家主要酒類經銷商宣布關閉營運，導致超過500名員工失業。",
-      "impact": "消費品行業景氣下滑，供應鏈調整，就業數據負面",
+      "zh": "主要酒精飲料經銷商關閉營運，裁員超過500人",
+      "impact": "消費品行業併發裁員風險，經濟衰退信號",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://finance.yahoo.com/economy/policy/articles/major-alcohol-distributor-shuts-down-161700316.html",
@@ -32,32 +32,12 @@
       "tickers": []
     },
     {
-      "title": "Neogen Corporation Q3 2026 Earnings Call Summary",
-      "zh": "Neogen公司發佈2026年第三季度財報電話會議摘要。",
-      "impact": "公司具體業績表現需關注，但無具體數據難以評估",
-      "sector": "health",
-      "priority": "low",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/neogen-corporation-q3-2026-earnings-164753639.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
       "title": "Mexico’s Sheinbaum Weighs Fracking Return to Cut U.S. Gas Dependence",
-      "zh": "墨西哥總統Sheinbaum正在考慮重啟水力壓裂技術，以降低對美國天然氣的依賴。",
-      "impact": "北美能源格局調整，美國能源出口機會受影響",
+      "zh": "墨西哥總統希恩鮑姆考慮恢復水力壓裂以降低對美國天然氣的依賴",
+      "impact": "北美能源格局調整，美國油氣出口前景受影響",
       "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Natural-Gas/Mexicos-Sheinbaum-Weighs-Fracking-Return-to-Cut-US-Gas-Dependence.html",
-      "source": "Oilprice.com",
-      "tickers": []
-    },
-    {
-      "title": "Israel Restarts Second Offshore Gas Field After U.S.-Iran Ceasefire",
-      "zh": "以色列在美伊達成停火協議後，重新啟動第二個近海天然氣田的運營。",
-      "impact": "中東地緣政治風險緩解，全球能源供應穩定性提升",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Israel-Restarts-Second-Offshore-Gas-Field-After-US-Iran-Ceasefire.html",
       "source": "Oilprice.com",
       "tickers": []
     }
