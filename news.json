@@ -1,30 +1,40 @@
 {
-  "updated": "2026/04/09 14:01",
+  "updated": "2026/04/09 15:46",
   "news": [
     {
-      "title": "Oil prices plunge following U.S.-Iran ceasefire - Axios",
-      "zh": "美伊停火協議後油價暴跌",
-      "impact": "能源股下跌，通脹預期下降，利好消費及科技股",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.axios.com/2026/04/07/oil-prices-plunge-us-iran-war-ceasefire-trump",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
-      "title": "South Korea stocks lead gains in Asia as oil prices plunge after U.S.-Iran ceasefire deal - CNBC",
-      "zh": "美伊停火協議後油價暴跌，南韓股市領漲亞洲",
-      "impact": "油價下跌推升亞股上漲，新興市場受惠於能源成本下降",
+      "title": "Dow futures jump over 1,000 points, oil tumbles after Trump suspends Iran attacks for two weeks: Live updates - CNBC",
+      "zh": "道瓊期貨大漲超過1000點，川普暫停對伊朗攻擊兩週後油價下跌",
+      "impact": "地緣政治緩和推動股市上漲，油價下降利好通膨預期",
       "sector": "general",
-      "priority": "medium",
-      "link": "https://www.cnbc.com/2026/04/08/asia-markets-today-trump-iran-war-kospi-nikkei-225-oil-hang-seng-index.html",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html",
       "source": "CNBC",
       "tickers": []
     },
     {
+      "title": "Asian benchmarks jump after oil prices sink in response to the Iran ceasefire - AP News",
+      "zh": "亞洲基準指數在油價下跌後上漲，對伊朗停火作出回應",
+      "impact": "全球風險資產受惠於地緣政治緊張局勢緩解",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://apnews.com/article/stock-markets-trump-iran-ceasefire-oil-2fc5ac7823bea71984b3578ec36aacee",
+      "source": "Associated Press",
+      "tickers": []
+    },
+    {
+      "title": "LEVI Earnings: Levi Strauss Issues Strong Financial Results and Lifts Guidance - tipranks.com",
+      "zh": "李維斯牛仔褲公司財報：李維斯發布強勁財務成績並上調指引",
+      "impact": "零售商業績超預期，消費類股獲得正面信號",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.tipranks.com/news/levi-earnings-levi-strauss-issues-strong-financial-results-and-lifts-guidance",
+      "source": "Tipranks.com",
+      "tickers": []
+    },
+    {
       "title": "Super Micro Launches Internal Probe of Server Sales to China - Bloomberg.com",
-      "zh": "超微計算機對中國伺服器銷售啟動內部調查",
-      "impact": "面臨監管風險，可能影響中國業務營收和股價走勢",
+      "zh": "超微電腦對伺服器對中國銷售進行內部調查",
+      "impact": "監管風險加劇，企業面臨潛在合規問題",
       "sector": "tech",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-07/super-micro-launches-internal-probe-of-server-sales-to-china",
@@ -33,8 +43,8 @@
     },
     {
       "title": "New Medicare Payment Rate Released. Why UnitedHealth, Humana Stocks Are Popping. - Barron's",
-      "zh": "新醫療保險支付費率公佈，聯合健康和Humana股價上漲",
-      "impact": "醫保支付率提高利好保險商，聯合健康和Humana股價受惠",
+      "zh": "新醫療保險支付費率公布。聯合健康、Humana股票上漲原因",
+      "impact": "醫療保險公司受惠於支付費率政策，股價受推動",
       "sector": "health",
       "priority": "medium",
       "link": "https://www.barrons.com/articles/medicare-payment-rate-insurance-healthcare-unitedhealth-stock-humana-7fb6d92c",
@@ -43,8 +53,8 @@
     },
     {
       "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
-      "zh": "聯邦存款保險公司批准實施《天才法案》要求和標準",
-      "impact": "銀行監管標準更新，強化金融機構風險管理能力",
+      "zh": "聯邦存款保險公司批准實施GENIUS法案要求和標準的提案",
+      "impact": "銀行業監管框架更新，合規成本或增加",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
@@ -52,59 +62,39 @@
       "tickers": []
     },
     {
+      "title": "Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand - TechCrunch",
+      "zh": "Anthropic提升與Google和Broadcom的運算合作協議，應對需求激增",
+      "impact": "人工智能計算需求帶動晶片和雲端基礎設施投資",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/",
+      "source": "TechCrunch",
+      "tickers": []
+    },
+    {
       "title": "Deere & Co agrees to pay $99 million to settle ‘right to repair’ lawsuit - AP News",
-      "zh": "迪爾公司同意支付9,900萬美元和解「維修權」訴訟",
-      "impact": "農機企業面臨維修權規範，可能影響售後服務業務模式",
-      "sector": "consumer",
+      "zh": "迪爾公司同意支付9900萬美元以解決「維修權」訴訟",
+      "impact": "農業設備製造商面臨維修權監管風險",
+      "sector": "general",
       "priority": "medium",
       "link": "https://apnews.com/article/john-deere-repair-lawsuit-settlement-595d4b089689cd94418991326275b68d",
       "source": "Associated Press",
       "tickers": []
     },
     {
-      "title": "Gilead pays $3.1B for Tubulis to bolster oncology ADC pipeline - Fierce Biotech",
-      "zh": "吉利德以31億美元收購Tubulis強化腫瘤ADC管線",
-      "impact": "併購強化抗癌藥物研發能力，利好生物製藥版塊",
-      "sector": "health",
-      "priority": "medium",
-      "link": "https://www.fiercebiotech.com/biotech/gilead-inks-5b-tubulis-buyout-bolster-oncology-adc-pipeline",
-      "source": "FierceBiotech",
-      "tickers": []
-    },
-    {
       "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "金融犯罪執法網絡提議改革打擊非法融資的機構計劃",
-      "impact": "金融機構反洗錢規則更新，合規成本上升",
+      "zh": "FinCEN提議改革金融機構打擊非法金融活動的計畫規則",
+      "impact": "金融機構合規要求提高，監管負擔增加",
       "sector": "finance",
-      "priority": "low",
+      "priority": "medium",
       "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
       "source": "Fincen.gov",
       "tickers": []
     },
     {
-      "title": "‘All roads lead to higher prices and slower growth,' warns IMF chief as Iran war hits global economy - CNBC",
-      "zh": "國際貨幣基金組織警告伊朗戰爭衝擊全球經濟導致高物價和低增長",
-      "impact": "地緣政治風險升高，全球經濟面臨滯脹壓力",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/07/higher-prices-slower-growth-warns-imf-.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "Jamie Dimon warns rising oil prices could trigger a recession and a bear market in 2026 - MarketWatch",
-      "zh": "摩根大通執行長傑米·戴蒙警告油價上升可能觸發2026年衰退和熊市",
-      "impact": "大型銀行高管對經濟前景悲觀，預示市場風險上升",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.marketwatch.com/story/jamie-dimon-isnt-too-worried-about-private-credit-but-he-sees-another-problem-for-markets-8ba4aa1a",
-      "source": "MarketWatch",
-      "tickers": []
-    },
-    {
       "title": "Major alcohol distributor shuts down operations, lays off over 500 workers",
-      "zh": "主要酒類經銷商關閉營運，裁員逾500人",
-      "impact": "酒類供應鏈受擾，消費者相關產業可能出現短缺",
+      "zh": "主要酒類經銷商停止營運，裁員超過500名員工",
+      "impact": "消費類產業面臨困境，就業受到衝擊",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://finance.yahoo.com/economy/policy/articles/major-alcohol-distributor-shuts-down-161700316.html",
@@ -112,22 +102,22 @@
       "tickers": []
     },
     {
-      "title": "Oil Prices Rise as Iran Signals Hormuz Closure",
-      "zh": "伊朗示意關閉荷莫茲海峽，油價上升",
-      "impact": "全球能源供應風險上升，油價波動加劇，影響運輸成本",
-      "sector": "energy",
+      "title": "Why Trump’s 2027 budget could be the document that triggers a debt crisis",
+      "zh": "特朗普2027年預算為何可能引發債務危機",
+      "impact": "聯邦赤字擴大，引發長期債務風險，市場波動加大",
+      "sector": "general",
       "priority": "high",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-as-Iran-Signals-Hormuz-Closure.html",
-      "source": "Oilprice.com",
+      "link": "https://fortune.com/2026/04/09/trump-2027-budget-debt-deficit-interest-crisis/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     },
     {
-      "title": "Petrostates Without Oil Export Routes Take the Hardest Hit",
-      "zh": "無油出口路線的石油國遭受最大衝擊",
-      "impact": "石油出口受阻國家經濟困頓，全球能源格局重組",
+      "title": "Goldman Cuts Oil Price Forecasts After Ceasefire Announcement",
+      "zh": "高盛在停火宣布後下調油價預測",
+      "impact": "原油價格下行壓力，能源股承壓，通膨預期下調",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Petrostates-Without-Oil-Export-Routes-Take-the-Hardest-Hit.html",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Cuts-Oil-Price-Forecasts-After-Ceasefire-Announcement.html",
       "source": "Oilprice.com",
       "tickers": []
     }
