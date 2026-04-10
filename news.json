@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/10 16:01",
+  "updated": "2026/04/10 18:01",
   "news": [
     {
       "title": "Fed minutes show willingness to consider interest rate increases - Axios",
       "zh": "聯準會會議紀錄顯示願意考慮升息",
-      "impact": "聯準會可能升息，市場風險資產面臨壓力",
+      "impact": "聯準會可能升息，影響股債市場走勢與企業融資成本",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.axios.com/2026/04/08/fed-interest-rates-fomc-march",
@@ -13,18 +13,18 @@
     },
     {
       "title": "OpenAI will reserve portion of IPO shares for retail investors, CFO tells CNBC - Yahoo Finance",
-      "zh": "OpenAI首次公開募股將預留部分股份給散戶投資者，財務長告訴CNBC",
-      "impact": "獨角獸OpenAI IPO計畫推進，科技股關注焦點",
+      "zh": "OpenAI將為散戶投資者預留IPO股份，首席財務官告訴CNBC",
+      "impact": "OpenAI IPO進展，散戶參與機制明確，市場關注度提升",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://finance.yahoo.com/markets/stocks/articles/openai-portion-ipo-shares-retail-220622414.html",
       "source": "Yahoo Entertainment",
       "tickers": []
     },
     {
       "title": "Constellation Brands, U.S. maker of Modelo and Corona, withdraws 2028 guidance due to uncertainty - CNBC",
-      "zh": "Modelo和Corona美國製造商康樂堡品牌公司因不確定性撤回2028年業績指引",
-      "impact": "消費品公司前景不明，消費需求預期下調",
+      "zh": "Constellation Brands撤回2028年業績指引，原因為不確定性因素",
+      "impact": "Modelo及Corona製造商下調預期，消費者信心與銷售面臨挑戰",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.cnbc.com/2026/04/08/constellation-brands-stz-q4-2026-earnings.html",
@@ -32,29 +32,9 @@
       "tickers": []
     },
     {
-      "title": "Dwindling Bay Area-based camera company cuts nearly a quarter of its workforce - SFGATE",
-      "zh": "灣區日漸衰落的相機公司裁員近四分之一員工",
-      "impact": "科技業就業市場惡化，千人級裁員信號",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.sfgate.com/bayarea/article/go-pro-layoffs-22196146.php",
-      "source": "SFGate",
-      "tickers": []
-    },
-    {
-      "title": "The new Trump trades: how investors are navigating Iran shocks By Reuters - Investing.com",
-      "zh": "新的川普交易：投資者如何應對伊朗衝擊",
-      "impact": "地緣政治風險升高，能源與安全資產波動",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.investing.com/news/economy-news/the-new-trump-trades-how-investors-are-navigating-iran-shocks-4603152",
-      "source": "Investing.com",
-      "tickers": []
-    },
-    {
       "title": "Nexstar asks states, including Colorado, for $150M bond to cover damages from order slowing merger with Tegna - The Colorado Sun",
-      "zh": "Nexstar向包括科羅拉多州在內的各州申請1.5億美元債券以支付延遲與Tegna合併的損害賠償",
-      "impact": "併購延遲產生鉅額賠償，媒體業併購受阻",
+      "zh": "Nexstar向包括科羅拉多州在內的州政府申請1.5億美元債券，以彌補Tegna併購交易延遲造成的損害",
+      "impact": "併購受阻需融資賠償，廣播電視業整合面臨法律障礙",
       "sector": "general",
       "priority": "medium",
       "link": "http://coloradosun.com/2026/04/08/nexstar-tegna-merger-antitrust-hearing-150m-bond/",
@@ -63,28 +43,18 @@
     },
     {
       "title": "The SpaceX IPO Is Elon Musk’s Most Audacious Product Launch Yet - Bloomberg.com",
-      "zh": "SpaceX IPO是馬斯克最大膽的產品發佈計畫",
-      "impact": "SpaceX上市進展，太空產業商業化加速",
+      "zh": "SpaceX IPO是馬斯克最大膽的產品發佈",
+      "impact": "SpaceX IPO預期，太空經濟商業化加速，科技產業關注焦點",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-08/elon-musk-spacex-ipo-2-trillion-valuation-push-explained",
       "source": "Bloomberg",
       "tickers": []
     },
     {
-      "title": "Oil Plunges as Iran Reopens Hormuz Under Two-Week Truce - Kyiv Post",
-      "zh": "油價下跌因伊朗在兩週休戰期間重開荷姆茲海峽",
-      "impact": "原油供應增加，能源價格下行緩解通膨",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://www.kyivpost.com/post/73453",
-      "source": "Kyiv Post",
-      "tickers": []
-    },
-    {
       "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
-      "zh": "聯邦存款保險公司核准實施天才法案要求和標準的提案",
-      "impact": "銀行監管框架更新，金融機構須符合新標準",
+      "zh": "聯邦存款保險公司核准實施天才法案要求與標準",
+      "impact": "銀行監管標準更新，金融機構合規成本與風險管理規範提升",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
@@ -92,19 +62,9 @@
       "tickers": []
     },
     {
-      "title": "Delta, Southwest raise checked bag fees $10 amid jet fuel price surge, joining other carriers - CNBC",
-      "zh": "達美航空與西南航空因噴氣燃料價格飆升調漲行李費10美元，加入其他航空公司",
-      "impact": "航空業成本上升轉嫁消費者，旅遊成本增加",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://www.cnbc.com/2026/04/07/delta-checked-bag-fees.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
       "title": "Goldman Sachs private credit fund narrowly misses a redemption crisis",
       "zh": "高盛私募信貸基金險些陷入贖回危機",
-      "impact": "私募信貸市場流動性風險浮現，可能影響金融市場穩定性",
+      "impact": "高盛信貸基金流動性緊張，影子銀行風險暴露，系統性風險預警",
       "sector": "finance",
       "priority": "high",
       "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-private-credit-fund-011036832.html",
@@ -112,23 +72,13 @@
       "tickers": []
     },
     {
-      "title": "Japan to Release More Oil Amid Supply Crunch",
-      "zh": "日本在供應短缺之際釋放更多石油儲備",
-      "impact": "全球石油供應增加，可能緩解油價上漲壓力",
-      "sector": "energy",
+      "title": "What Anthropic’s too-dangerous-to-release AI model means for its upcoming IPO",
+      "zh": "Anthropic過於危險而無法發佈的AI模型對其即將進行的IPO意味著什麼",
+      "impact": "Anthropic IPO前AI安全爭議，監管不確定性影響估值與上市進展",
+      "sector": "tech",
       "priority": "medium",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Japan-to-Release-More-Oil-Amid-Supply-Crunch.html",
-      "source": "Oilprice.com",
-      "tickers": []
-    },
-    {
-      "title": "Chinese Refiners Buy Iranian Crude at Premium",
-      "zh": "中國煉油廠溢價購買伊朗原油",
-      "impact": "伊朗石油出口增加，全球能源地緣政治格局調整",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Chinese-Refiners-Buy-Iranian-Crude-at-Premium.html",
-      "source": "Oilprice.com",
+      "link": "https://fortune.com/2026/04/10/anthropic-too-dangerous-to-release-ai-model-means-for-its-upcoming-ipo/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     }
   ]
