@@ -1,84 +1,14 @@
 {
-  "updated": "2026/04/10 18:01",
+  "updated": "2026/04/10 19:01",
   "news": [
     {
-      "title": "Fed minutes show willingness to consider interest rate increases - Axios",
-      "zh": "聯準會會議紀錄顯示願意考慮升息",
-      "impact": "聯準會可能升息，影響股債市場走勢與企業融資成本",
-      "sector": "finance",
+      "title": "Europe’s Russian LNG Reliance Surges Ahead of 2027 Ban",
+      "zh": "歐洲俄羅斯液化天然氣依賴在2027年禁令前激增",
+      "impact": "歐洲能源供應面臨地緣政治風險，LNG價格可能波動",
+      "sector": "energy",
       "priority": "high",
-      "link": "https://www.axios.com/2026/04/08/fed-interest-rates-fomc-march",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
-      "title": "OpenAI will reserve portion of IPO shares for retail investors, CFO tells CNBC - Yahoo Finance",
-      "zh": "OpenAI將為散戶投資者預留IPO股份，首席財務官告訴CNBC",
-      "impact": "OpenAI IPO進展，散戶參與機制明確，市場關注度提升",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/openai-portion-ipo-shares-retail-220622414.html",
-      "source": "Yahoo Entertainment",
-      "tickers": []
-    },
-    {
-      "title": "Constellation Brands, U.S. maker of Modelo and Corona, withdraws 2028 guidance due to uncertainty - CNBC",
-      "zh": "Constellation Brands撤回2028年業績指引，原因為不確定性因素",
-      "impact": "Modelo及Corona製造商下調預期，消費者信心與銷售面臨挑戰",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.cnbc.com/2026/04/08/constellation-brands-stz-q4-2026-earnings.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "Nexstar asks states, including Colorado, for $150M bond to cover damages from order slowing merger with Tegna - The Colorado Sun",
-      "zh": "Nexstar向包括科羅拉多州在內的州政府申請1.5億美元債券，以彌補Tegna併購交易延遲造成的損害",
-      "impact": "併購受阻需融資賠償，廣播電視業整合面臨法律障礙",
-      "sector": "general",
-      "priority": "medium",
-      "link": "http://coloradosun.com/2026/04/08/nexstar-tegna-merger-antitrust-hearing-150m-bond/",
-      "source": "The Colorado Sun",
-      "tickers": []
-    },
-    {
-      "title": "The SpaceX IPO Is Elon Musk’s Most Audacious Product Launch Yet - Bloomberg.com",
-      "zh": "SpaceX IPO是馬斯克最大膽的產品發佈",
-      "impact": "SpaceX IPO預期，太空經濟商業化加速，科技產業關注焦點",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-08/elon-musk-spacex-ipo-2-trillion-valuation-push-explained",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
-      "zh": "聯邦存款保險公司核准實施天才法案要求與標準",
-      "impact": "銀行監管標準更新，金融機構合規成本與風險管理規範提升",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
-      "source": "Fdic.gov",
-      "tickers": []
-    },
-    {
-      "title": "Goldman Sachs private credit fund narrowly misses a redemption crisis",
-      "zh": "高盛私募信貸基金險些陷入贖回危機",
-      "impact": "高盛信貸基金流動性緊張，影子銀行風險暴露，系統性風險預警",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-private-credit-fund-011036832.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "What Anthropic’s too-dangerous-to-release AI model means for its upcoming IPO",
-      "zh": "Anthropic過於危險而無法發佈的AI模型對其即將進行的IPO意味著什麼",
-      "impact": "Anthropic IPO前AI安全爭議，監管不確定性影響估值與上市進展",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://fortune.com/2026/04/10/anthropic-too-dangerous-to-release-ai-model-means-for-its-upcoming-ipo/",
-      "source": "Fortune | FORTUNE",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Russian-LNG-Reliance-Surges-Ahead-of-2027-Ban.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
