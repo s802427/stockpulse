@@ -1,132 +1,20 @@
 {
-  "updated": "2026/04/10 22:01",
+  "updated": "2026/04/10 22:54",
   "news": [
     {
-      "title": "Core inflation was 3% in February, as expected, key Fed gauge shows - CNBC",
-      "zh": "2月核心通膨率達3%，符合預期，美聯儲關鍵指標顯示",
-      "impact": "通膨穩定在目標水準，暗示Fed可能維持政策立場",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/09/core-inflation-was-3percent-in-february-as-expected-key-fed-gauge-shows.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 4th Quarter and Year 2025 - U.S. Bureau of Economic Analysis (BEA) (.gov)",
-      "zh": "2025年第四季度及全年GDP（第三估值）、產業、企業利潤、州GDP和州個人收入",
-      "impact": "關鍵經濟數據發布，反映2025年全年經濟表現",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-4th",
-      "source": "Bea.gov",
-      "tickers": []
-    },
-    {
-      "title": "CoreWeave Stock (CRWV) Soars on a Massive $21B AI Deal with Meta - TipRanks",
-      "zh": "CoreWeave股票（CRWV）因與Meta達成210億美元大型AI交易而飆升",
-      "impact": "AI芯片需求強勁，CoreWeave獲得大額合約，股價大漲",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.tipranks.com/news/coreweave-stock-crwv-soars-on-a-massive-21b-ai-deal-with-meta",
-      "source": "Tipranks.com",
-      "tickers": [
-        "$META（Meta）"
-      ]
-    },
-    {
-      "title": "OpenAI halts UK stargate project amid regulatory and energy price concerns - CNBC",
-      "zh": "OpenAI因監管和能源價格擔憂暫停英國Stargate項目",
-      "impact": "監管障礙和成本壓力影響AI基礎設施擴張計劃",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.cnbc.com/2026/04/09/openai-halts-uk-stargate-project.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "CEO Andy Jassy’s 2025 Letter to Shareholders - About Amazon",
-      "zh": "Andy Jassy CEO 2025年股東信",
-      "impact": "Amazon策略方向和未來展望，市場關注公司發展重點",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2025-letter-to-shareholders",
-      "source": "Aboutamazon.com",
-      "tickers": []
-    },
-    {
-      "title": "Fed minutes show willingness to consider interest rate increases - Axios",
-      "zh": "聯儲會議紀錄顯示願意考慮升息",
-      "impact": "Fed態度轉向鷹派，暗示未來可能啟動升息週期",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.axios.com/2026/04/08/fed-interest-rates-fomc-march",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
-      "title": "Did The NYT Identify Bitcoin's Creator? Morgan Stanley Launches ETF, Cryptos Rally. - Investor's Business Daily",
-      "zh": "紐約時報識別比特幣創建者？摩根士丹利推出ETF，加密貨幣上漲",
-      "impact": "加密貨幣市場獲機構投資者支持，整體表現向好",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.investors.com/news/bitcoin-price-satoshi-nakamoto-identity-nyt-investigation-adam-back-morgan-stanley-bitcoin-etf/",
-      "source": "Investor's Business Daily",
-      "tickers": []
-    },
-    {
-      "title": "John Deere to Pay $99 Million in Monumental Right-to-Repair Settlement - thedrive.com",
-      "zh": "John Deere支付9900萬美元達成重大維修權和解",
-      "impact": "維修權案例和解，農業設備行業監管壓力增加",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "http://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement",
-      "source": "The Drive",
-      "tickers": []
-    },
-    {
-      "title": "Treasury Proposes Rule to Implement the GENIUS Act’s Requirements to Counter Illicit Finance - U.S. Department of the Treasury (.gov)",
-      "zh": "財政部提議規則實施GENIUS法案要求以打擊非法融資",
-      "impact": "新監管措施加強金融合規要求，影響金融機構營運",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://home.treasury.gov/news/press-releases/sb0435",
-      "source": "Treasury.gov",
-      "tickers": []
-    },
-    {
-      "title": "Nexstar asks states, including Colorado, for $150M bond to cover damages from order slowing merger with Tegna - The Colorado Sun",
-      "zh": "Nexstar向包括科羅拉多州在內的州政府申請1.5億美元債券以支付Tegna合併訴訟賠償",
-      "impact": "併購交易面臨法律障礙和巨額賠償，交易完成存疑",
-      "sector": "general",
-      "priority": "medium",
-      "link": "http://coloradosun.com/2026/04/08/nexstar-tegna-merger-antitrust-hearing-150m-bond/",
-      "source": "The Colorado Sun",
-      "tickers": []
-    },
-    {
-      "title": "CoreWeave’s stock pops as new Anthropic deal highlights intense scramble for AI compute",
-      "zh": "CoreWeave股價飆升，新的Anthropic交易凸顯AI運算資源的激烈爭奪",
-      "impact": "AI晶片需求旺盛，CoreWeave訂單增加，雲端運算商機擴大",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-anthropic-deal-highlights-intense-scramble-for-ai-compute-77867de3?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
-      "title": "Current price of oil as of April 9, 2026",
-      "zh": "截至2026年4月9日的油價",
-      "impact": "資訊性新聞，提供當日油價參考數據",
+      "title": "JP Morgan Warns Oil Could Hit $120 if Hormuz Stalemate Drags Into July",
+      "zh": "摩根大通警告若荷莫茲海峽僵局拖延至7月，油價可能飆升至120美元",
+      "impact": "地緣政治風險升溫，能源價格面臨上行壓力，影響全球通膨",
       "sector": "energy",
-      "priority": "low",
-      "link": "https://fortune.com/article/price-of-oil-04-09-2026/",
-      "source": "Fortune | FORTUNE",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/JP-Morgan-Warns-Oil-Could-Hit-120-if-Hormuz-Stalemate-Drags-Into-July.html",
+      "source": "Oilprice.com",
       "tickers": []
     },
     {
       "title": "Oil Prices Tumble as Traders Unwind Geopolitical Bets",
-      "zh": "油價下跌，交易者平倉地緣政治押注",
-      "impact": "地緣政治風險緩解，能源價格回落，通膨壓力減輕",
+      "zh": "交易員平倉地緣政治賭注，油價應聲下跌",
+      "impact": "地緣政治溢價消退，能源價格回調，短期風險緩解",
       "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Tumble-as-Traders-Unwind-Geopolitical-Bets.html",
