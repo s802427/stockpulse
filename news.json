@@ -1,14 +1,74 @@
 {
-  "updated": "2026/04/10 19:01",
+  "updated": "2026/04/10 20:00",
   "news": [
     {
-      "title": "Europe’s Russian LNG Reliance Surges Ahead of 2027 Ban",
-      "zh": "歐洲俄羅斯液化天然氣依賴在2027年禁令前激增",
-      "impact": "歐洲能源供應面臨地緣政治風險，LNG價格可能波動",
-      "sector": "energy",
+      "title": "XAI Reorganizes Its Engineering Team Ahead of SpaceX IPO - Business Insider",
+      "zh": "XAI在SpaceX首次公開募股前重組其工程團隊",
+      "impact": "SpaceX IPO籌備推進，可能帶動太空產業關注",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.businessinsider.com/elon-musk-reorganizes-xai-ahead-of-spacex-ipo-2026-4",
+      "source": "Business Insider",
+      "tickers": []
+    },
+    {
+      "title": "Did The NYT Identify Bitcoin's Creator? Morgan Stanley Launches ETF, Cryptos Rally. - Investor's Business Daily",
+      "zh": "紐約時報是否識別比特幣創造者？摩根士丹利推出ETF，加密貨幣價格上漲",
+      "impact": "摩根士丹利進入加密貨幣市場，加密資產獲機構認可",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.investors.com/news/bitcoin-price-satoshi-nakamoto-identity-nyt-investigation-adam-back-morgan-stanley-bitcoin-etf/",
+      "source": "Investor's Business Daily",
+      "tickers": []
+    },
+    {
+      "title": "Dwindling Bay Area-based camera company cuts nearly a quarter of its workforce - SFGATE",
+      "zh": "灣區攝像機公司裁減近四分之一的員工",
+      "impact": "科技公司大規模裁員，影響就業市場",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.sfgate.com/bayarea/article/go-pro-layoffs-22196146.php",
+      "source": "SFGate",
+      "tickers": []
+    },
+    {
+      "title": "Treasury Proposes Rule to Implement the GENIUS Act’s Requirements to Counter Illicit Finance - U.S. Department of the Treasury (.gov)",
+      "zh": "美國財政部提議規則以實施《天才法案》要求來對抗非法融資",
+      "impact": "政策監管加強，影響金融機構合規成本",
+      "sector": "finance",
+      "priority": "low",
+      "link": "https://home.treasury.gov/news/press-releases/sb0435",
+      "source": "Treasury.gov",
+      "tickers": []
+    },
+    {
+      "title": "Nexstar asks states, including Colorado, for $150M bond to cover damages from order slowing merger with Tegna - The Colorado Sun",
+      "zh": "Nexstar要求包括科羅拉多州在內的各州提供1.5億美元債券以賠償延遲與Tegna合併的損失",
+      "impact": "大型併購受阻，涉及1.5億美元債券爭議",
+      "sector": "general",
+      "priority": "medium",
+      "link": "http://coloradosun.com/2026/04/08/nexstar-tegna-merger-antitrust-hearing-150m-bond/",
+      "source": "The Colorado Sun",
+      "tickers": []
+    },
+    {
+      "title": "The SpaceX IPO Is Elon Musk’s Most Audacious Product Launch Yet - Bloomberg.com",
+      "zh": "SpaceX首次公開募股是埃隆·馬斯克最大膽的產品發布",
+      "impact": "千億級SpaceX IPO預期，將是年度重大上市事件",
+      "sector": "general",
       "priority": "high",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Russian-LNG-Reliance-Surges-Ahead-of-2027-Ban.html",
-      "source": "Oilprice.com",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-08/elon-musk-spacex-ipo-2-trillion-valuation-push-explained",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Goldman Sachs private credit fund narrowly misses a redemption crisis",
+      "zh": "高盛私募信貸基金險些陷入贖回危機",
+      "impact": "金融機構風險暴露，可能影響私募信貸市場穩定性",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-private-credit-fund-011036832.html",
+      "source": "Yahoo Finance",
       "tickers": []
     }
   ]
