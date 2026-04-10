@@ -1,20 +1,30 @@
 {
-  "updated": "2026/04/10 12:01",
+  "updated": "2026/04/10 14:01",
   "news": [
     {
-      "title": "Exclusive | Disney Planning Layoffs Under New CEO Josh D’Amaro - WSJ",
-      "zh": "迪士尼在新任首席執行官Josh D'Amaro的領導下計劃進行裁員",
-      "impact": "迪士尼大規模裁員，影響公司營運效率與員工就業",
-      "sector": "consumer",
+      "title": "XAI Reorganizes Its Engineering Team Ahead of SpaceX IPO - Business Insider",
+      "zh": "XAI在SpaceX首次公開募股前重組其工程團隊",
+      "impact": "SpaceX IPO進展，人力資源調整為上市準備",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.businessinsider.com/elon-musk-reorganizes-xai-ahead-of-spacex-ipo-2026-4",
+      "source": "Business Insider",
+      "tickers": []
+    },
+    {
+      "title": "OpenAI will reserve portion of IPO shares for retail investors, CFO tells CNBC - Yahoo Finance",
+      "zh": "OpenAI首席財務官告訴CNBC將在IPO中為散戶投資者預留股份",
+      "impact": "OpenAI IPO進展，散戶參與機制確定",
+      "sector": "tech",
       "priority": "high",
-      "link": "https://www.wsj.com/business/media/disney-planning-layoffs-under-new-ceo-damaro-f1fe10a3",
-      "source": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/openai-portion-ipo-shares-retail-220622414.html",
+      "source": "Yahoo Entertainment",
       "tickers": []
     },
     {
       "title": "Constellation Brands, U.S. maker of Modelo and Corona, withdraws 2028 guidance due to uncertainty - CNBC",
-      "zh": "美國Modelo和Corona啤酒製造商Constellation Brands因不確定性撤回2028年業績指引",
-      "impact": "消費品公司前景不明，市場信心受挫",
+      "zh": "美國Modelo和Corona啤酒製造商康樂寶集團因不確定性撤回2028年營運指引",
+      "impact": "撤回全年指引，反映消費端需求疲軟",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.cnbc.com/2026/04/08/constellation-brands-stz-q4-2026-earnings.html",
@@ -22,39 +32,49 @@
       "tickers": []
     },
     {
-      "title": "More Interest Rate Cuts Could Happen If Iran War Drags On, Fed Says - Forbes",
-      "zh": "美聯儲表示若伊朗戰爭持續，可能進一步降低利率",
-      "impact": "地緣政治風險影響美聯儲政策，具系統性市場影響",
-      "sector": "general",
+      "title": "Fed minutes show growing openness to rate hikes at March meeting - Reuters",
+      "zh": "聯邦公開市場委員會會議紀錄顯示對3月會議加息的態度日趨開放",
+      "impact": "聯邦準備委員會可能加息，影響整體金融市場",
+      "sector": "finance",
       "priority": "high",
-      "link": "https://www.forbes.com/sites/tylerroush/2026/04/08/more-interest-rate-cuts-could-happen-if-iran-war-drags-on-fed-says/",
-      "source": "Forbes",
-      "tickers": []
-    },
-    {
-      "title": "Delta beats on Q1 earnings, maintains guidance despite fuel spike, TSA headwinds - AOL.com",
-      "zh": "Delta航空第一季財報超出預期，儘管燃油成本上漲和運輸安全局客流困難仍維持業績指引",
-      "impact": "航空業表現穩健，成本壓力管理良好",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/article/delta-beats-on-q1-earnings-maintains-guidance-despite-fuel-spike-tsa-headwinds-103200470.html",
-      "source": "Yahoo Entertainment",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVGtGaEhfZ2hEbzVRZXdLOXpObW5GWWF6d0xVSk5fVmNkQUg5WThtU3dWcEd3c2pTVXk0eF9Da1pTWU9LZkNXUlhUMW1RSUZya2NVYW1sRkh3N3o0WWN6VjhqZHQzY1lmbzZaQWwtZmtScXg3VVdvUk1pTjlPcy1tUkRPb3JmZDlNekExSmVBUVh4OFFXTTROaWx6WU1oMDhObmh1Q2pfYUE?oc=5",
+      "source": "Google News",
       "tickers": []
     },
     {
       "title": "Nexstar asks states, including Colorado, for $150M bond to cover damages from order slowing merger with Tegna - The Colorado Sun",
-      "zh": "Nexstar要求各州（包括科羅拉多州）提供1.5億美元債券以賠償Tegna併購延遲造成的損害",
-      "impact": "重大併購受阻，涉及1.5億美元賠償責任",
-      "sector": "tech",
-      "priority": "high",
+      "zh": "Nexstar向包括科羅拉多州在內的各州申請1.5億美元債券以支付與Tegna併購延期相關的損害賠償",
+      "impact": "併購受阻，Nexstar需支付巨額損賠",
+      "sector": "general",
+      "priority": "medium",
       "link": "http://coloradosun.com/2026/04/08/nexstar-tegna-merger-antitrust-hearing-150m-bond/",
       "source": "The Colorado Sun",
       "tickers": []
     },
     {
+      "title": "The SpaceX IPO Is Elon Musk’s Most Audacious Product Launch Yet - Bloomberg.com",
+      "zh": "SpaceX IPO是埃隆·馬斯克迄今為止最膽大包天的產品發布",
+      "impact": "SpaceX重大IPO進展，市場關注度極高",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-08/elon-musk-spacex-ipo-2-trillion-valuation-push-explained",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Effects of Stablecoin Yield Prohibition on Bank Lending - The White House (.gov)",
+      "zh": "穩定幣收益禁令對銀行貸款的影響",
+      "impact": "政府研究穩定幣政策對金融體系的影響",
+      "sector": "finance",
+      "priority": "low",
+      "link": "http://www.whitehouse.gov/research/2026/04/effects-of-stablecoin-yield-prohibition-on-bank-lending/",
+      "source": "Whitehouse.gov",
+      "tickers": []
+    },
+    {
       "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
-      "zh": "美國聯邦存款保險公司批准實施GENIUS法案要求和標準",
-      "impact": "銀行業監管標準更新，影響金融體系穩定性",
+      "zh": "聯邦存款保險公司批准實施天才法案要求和標準的提案",
+      "impact": "銀行監管框架更新，合規標準確立",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
@@ -62,13 +82,43 @@
       "tickers": []
     },
     {
-      "title": "Major alcohol distributor shuts down operations, lays off over 500 workers",
-      "zh": "主要酒類經銷商停止營業，解僱超過500名員工",
-      "impact": "消費品行業經銷商關閉，影響供應鏈",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/economy/policy/articles/major-alcohol-distributor-shuts-down-161700316.html",
+      "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
+      "zh": "金融犯罪執法網絡提議規則根本改革金融機構打擊非法金融活動的計畫",
+      "impact": "金融監管升級，反洗錢合規要求提高",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
+      "source": "Fincen.gov",
+      "tickers": []
+    },
+    {
+      "title": "Goldman Sachs private credit fund narrowly misses a redemption crisis",
+      "zh": "高盛私募信貸基金勉強避免贖回危機",
+      "impact": "高盛私募基金流動性風險，金融體系穩定受關注",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-private-credit-fund-011036832.html",
       "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "The U.S. government is spending $88 billion a month in interest on national debt—equal to spending on defense and education combined",
+      "zh": "美國政府每月需支付880億美元的國債利息，相當於國防和教育支出的總和",
+      "impact": "債務危機加劇，影響長期財政政策和市場利率走向",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://fortune.com/2026/04/09/us-goverment-speding-interest-defense-education-total/",
+      "source": "Fortune | FORTUNE",
+      "tickers": []
+    },
+    {
+      "title": "Oil Prices Climb Toward $100 as Iran Ceasefire Doubts Deepen",
+      "zh": "伊朗停火疑慮加深，油價攀升逼近每桶100美元",
+      "impact": "地緣政治風險上升，推高能源成本和通脹預期",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Toward-100-as-Iran-Ceasefire-Doubts-Deepen.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
