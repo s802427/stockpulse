@@ -1,50 +1,40 @@
 {
-  "updated": "2026/04/10 08:01",
+  "updated": "2026/04/10 11:21",
   "news": [
     {
-      "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan - BBC",
-      "zh": "油價暴跌，美伊停火計劃推動股市上漲",
-      "impact": "能源股下跌，但整體市場因地緣政治緩和而反彈",
-      "sector": "energy",
+      "title": "Exclusive | Disney Planning Layoffs Under New CEO Josh D’Amaro - WSJ",
+      "zh": "獨家｜迪士尼在新任CEO喬什·德阿馬羅領導下計劃進行裁員",
+      "impact": "迪士尼大規模裁員，將衝擊員工及營運成本",
+      "sector": "consumer",
       "priority": "high",
-      "link": "https://www.bbc.com/news/articles/c8r40y3rv75o",
-      "source": "BBC News",
+      "link": "https://www.wsj.com/business/media/disney-planning-layoffs-under-new-ceo-damaro-f1fe10a3",
+      "source": "The Wall Street Journal",
       "tickers": []
     },
     {
-      "title": "Top drug lobbyist to depart PhRMA at year end - Politico",
-      "zh": "製藥遊說團體PhRMA頂級遊說者年底離職",
-      "impact": "製藥業遊說策略可能調整，監管環境變動風險",
-      "sector": "health",
-      "priority": "medium",
-      "link": "https://www.politico.com/news/2026/04/08/top-drug-lobbyist-to-depart-phrma-at-year-end-00863907",
-      "source": "Politico",
-      "tickers": []
-    },
-    {
-      "title": "John Deere to Pay $99 Million in Monumental Right-to-Repair Settlement - thedrive.com",
-      "zh": "約翰迪爾公司支付9,900萬美元和解維修權訴訟",
-      "impact": "設備製造業維修權判例確立，企業商業模式受衝擊",
+      "title": "Constellation Brands, U.S. maker of Modelo and Corona, withdraws 2028 guidance due to uncertainty - CNBC",
+      "zh": "美國Modelo和Corona啤酒製造商星座品牌公司撤回2028年業績指引，原因是市場不確定性",
+      "impact": "公司撤回指引反映市場前景不明，打擊投資者信心",
       "sector": "consumer",
       "priority": "medium",
-      "link": "http://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement",
-      "source": "The Drive",
+      "link": "https://www.cnbc.com/2026/04/08/constellation-brands-stz-q4-2026-earnings.html",
+      "source": "CNBC",
       "tickers": []
     },
     {
-      "title": "Delta Air Lines Announces March Quarter 2026 Financial Results - Delta",
-      "zh": "達美航空宣佈2026年3月季度財務業績",
-      "impact": "航空業營運表現數據公佈，市場評估行業復甦狀況",
-      "sector": "consumer",
+      "title": "Delta beats on Q1 earnings, maintains guidance despite fuel spike, TSA headwinds - AOL.com",
+      "zh": "達美航空第一季度業績超預期，儘管燃油成本上升及運輸安全局困境仍維持指引",
+      "impact": "達美航空表現強勁，抵銷燃油成本上升的負面影響",
+      "sector": "general",
       "priority": "medium",
-      "link": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-March-Quarter-2026-Financial-Results/default.aspx",
-      "source": "Delta.com",
+      "link": "https://finance.yahoo.com/markets/stocks/article/delta-beats-on-q1-earnings-maintains-guidance-despite-fuel-spike-tsa-headwinds-103200470.html",
+      "source": "Yahoo Entertainment",
       "tickers": []
     },
     {
       "title": "FDIC Approves Proposal to Implement GENIUS Act Requirements and Standards - Federal Deposit Insurance Corporation (FDIC) (.gov)",
-      "zh": "美國聯邦存款保險公司批准實施天才法案要求與標準",
-      "impact": "銀行監管新標準實施，金融機構合規成本增加",
+      "zh": "聯邦存款保險公司批准實施天才法案要求和標準的提案",
+      "impact": "銀行監管框架更新，影響金融機構合規成本",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
@@ -52,53 +42,23 @@
       "tickers": []
     },
     {
-      "title": "FinCEN Proposes Rule to Fundamentally Reform Financial Institution Programs Designed to Fight Illicit Finance - FinCEN.gov",
-      "zh": "美國金融犯罪執法網絡提議規則改革金融機構反洗錢計劃",
-      "impact": "金融機構反洗錢合規要求升級，運營成本上升",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.fincen.gov/news/news-releases/fincen-proposes-rule-fundamentally-reform-financial-institution-programs",
-      "source": "Fincen.gov",
-      "tickers": []
-    },
-    {
       "title": "Major alcohol distributor shuts down operations, lays off over 500 workers",
       "zh": "主要酒類經銷商關閉營運，裁員超過500人",
-      "impact": "消費品供應鏈調整，500人失業，酒類流通受影響",
+      "impact": "酒類流通業重大調整，500人以上裁員造成就業衝擊",
       "sector": "consumer",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://finance.yahoo.com/economy/policy/articles/major-alcohol-distributor-shuts-down-161700316.html",
       "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Goldman Sachs private credit fund narrowly misses a redemption crisis",
-      "zh": "高盛私募信貸基金險些面臨贖回危機",
-      "impact": "私募信貸市場流動性風險浮現，金融穩定性受關注",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-private-credit-fund-011036832.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Netflix, big banks face a moment of truth as the Iran cease-fire rally meets earnings season",
-      "zh": "Netflix與大銀行在伊朗停火反彈遇上財報季時面臨關鍵時刻",
-      "impact": "科技與金融股在地緣政治與業績雙重因素下波動加劇",
-      "sector": "general",
+      "title": "Semiconductor industry revenue to hit $1.3 trillion in 2026 as memory crunch hits consumers",
+      "zh": "半導體產業收入預計在2026年達到1.3兆美元，記憶體短缺衝擊消費者",
+      "impact": "半導體市場高速成長，但記憶體短缺可能推升消費品價格",
+      "sector": "tech",
       "priority": "medium",
-      "link": "https://www.marketwatch.com/story/netflix-big-banks-face-a-moment-of-truth-as-the-iran-cease-fire-rally-meets-earnings-season-35324a21?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
-      "title": "The U.S. government is spending $88 billion a month in interest on national debt—equal to spending on defense and education combined",
-      "zh": "美國政府月度債務利息支出880億美元，相當於國防與教育支出總和",
-      "impact": "國債負擔創新高，財政可持續性堪憂，長期經濟風險",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://fortune.com/2026/04/09/us-goverment-speding-interest-defense-education-total/",
-      "source": "Fortune | FORTUNE",
+      "link": "https://finance.yahoo.com/sectors/technology/article/semiconductor-industry-revenue-to-hit-13-trillion-in-2026-as-memory-crunch-hits-consumers-151202545.html",
+      "source": "Yahoo Finance",
       "tickers": []
     }
   ]
