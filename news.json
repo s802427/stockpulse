@@ -1,40 +1,72 @@
 {
-  "updated": "2026/04/10 20:00",
+  "updated": "2026/04/10 21:24",
   "news": [
     {
-      "title": "XAI Reorganizes Its Engineering Team Ahead of SpaceX IPO - Business Insider",
-      "zh": "XAI在SpaceX首次公開募股前重組其工程團隊",
-      "impact": "SpaceX IPO籌備推進，可能帶動太空產業關注",
+      "title": "Core inflation was 3% in February, as expected, key Fed gauge shows - CNBC",
+      "zh": "2月核心通膨率達3%，符合預期，聯準會關鍵指標顯示",
+      "impact": "核心通膨符合預期，暗示聯準會政策方向穩定",
       "sector": "general",
-      "priority": "medium",
-      "link": "https://www.businessinsider.com/elon-musk-reorganizes-xai-ahead-of-spacex-ipo-2026-4",
-      "source": "Business Insider",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/09/core-inflation-was-3percent-in-february-as-expected-key-fed-gauge-shows.html",
+      "source": "CNBC",
       "tickers": []
     },
     {
-      "title": "Did The NYT Identify Bitcoin's Creator? Morgan Stanley Launches ETF, Cryptos Rally. - Investor's Business Daily",
-      "zh": "紐約時報是否識別比特幣創造者？摩根士丹利推出ETF，加密貨幣價格上漲",
-      "impact": "摩根士丹利進入加密貨幣市場，加密資產獲機構認可",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.investors.com/news/bitcoin-price-satoshi-nakamoto-identity-nyt-investigation-adam-back-morgan-stanley-bitcoin-etf/",
-      "source": "Investor's Business Daily",
+      "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 4th Quarter and Year 2025 - U.S. Bureau of Economic Analysis (BEA) (.gov)",
+      "zh": "美國經濟分析局發布2025年第四季度及全年GDP、產業、企業利潤、州GDP及州個人收入數據",
+      "impact": "公布全年經濟數據，影響市場對經濟走勢預期",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-4th",
+      "source": "Bea.gov",
       "tickers": []
     },
     {
-      "title": "Dwindling Bay Area-based camera company cuts nearly a quarter of its workforce - SFGATE",
-      "zh": "灣區攝像機公司裁減近四分之一的員工",
-      "impact": "科技公司大規模裁員，影響就業市場",
+      "title": "CoreWeave Stock (CRWV) Soars on a Massive $21B AI Deal with Meta - TipRanks",
+      "zh": "CoreWeave股票因與Meta達成210億美元龐大AI交易而飆升",
+      "impact": "AI運算需求爆發，CoreWeave獲得Meta鉅額訂單驅動股價",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.tipranks.com/news/coreweave-stock-crwv-soars-on-a-massive-21b-ai-deal-with-meta",
+      "source": "Tipranks.com",
+      "tickers": [
+        "$META（Meta）"
+      ]
+    },
+    {
+      "title": "OpenAI halts UK stargate project amid regulatory and energy price concerns - CNBC",
+      "zh": "OpenAI因監管和能源價格擔憂暫停英國星際門項目",
+      "impact": "AI基礎設施項目受監管政策和能源成本制約",
       "sector": "tech",
       "priority": "medium",
-      "link": "https://www.sfgate.com/bayarea/article/go-pro-layoffs-22196146.php",
-      "source": "SFGate",
+      "link": "https://www.cnbc.com/2026/04/09/openai-halts-uk-stargate-project.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "CEO Andy Jassy’s 2025 Letter to Shareholders - About Amazon",
+      "zh": "CEO安迪·賈西2025年股東信",
+      "impact": "亞馬遜管理層闡述年度戰略方向和業務重點",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2025-letter-to-shareholders",
+      "source": "Aboutamazon.com",
+      "tickers": []
+    },
+    {
+      "title": "Fed minutes show willingness to consider interest rate increases - Axios",
+      "zh": "聯準會會議紀錄顯示願意考慮升息",
+      "impact": "聯準會可能改變寬鬆政策立場，預示升息可能性",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.axios.com/2026/04/08/fed-interest-rates-fomc-march",
+      "source": "Axios",
       "tickers": []
     },
     {
       "title": "Treasury Proposes Rule to Implement the GENIUS Act’s Requirements to Counter Illicit Finance - U.S. Department of the Treasury (.gov)",
-      "zh": "美國財政部提議規則以實施《天才法案》要求來對抗非法融資",
-      "impact": "政策監管加強，影響金融機構合規成本",
+      "zh": "財政部提案規則實施天才法反洗錢條款",
+      "impact": "政府強化金融合規監管，涉及反洗錢法規執行",
       "sector": "finance",
       "priority": "low",
       "link": "https://home.treasury.gov/news/press-releases/sb0435",
@@ -43,32 +75,22 @@
     },
     {
       "title": "Nexstar asks states, including Colorado, for $150M bond to cover damages from order slowing merger with Tegna - The Colorado Sun",
-      "zh": "Nexstar要求包括科羅拉多州在內的各州提供1.5億美元債券以賠償延遲與Tegna合併的損失",
-      "impact": "大型併購受阻，涉及1.5億美元債券爭議",
-      "sector": "general",
+      "zh": "Nexstar要求科羅拉多州等州發行1.5億美元債券以覆蓋延遲與Tegna合併命令造成的損害",
+      "impact": "廣播公司合併遭監管延遲，涉及重大賠償責任",
+      "sector": "consumer",
       "priority": "medium",
       "link": "http://coloradosun.com/2026/04/08/nexstar-tegna-merger-antitrust-hearing-150m-bond/",
       "source": "The Colorado Sun",
       "tickers": []
     },
     {
-      "title": "The SpaceX IPO Is Elon Musk’s Most Audacious Product Launch Yet - Bloomberg.com",
-      "zh": "SpaceX首次公開募股是埃隆·馬斯克最大膽的產品發布",
-      "impact": "千億級SpaceX IPO預期，將是年度重大上市事件",
-      "sector": "general",
+      "title": "CoreWeave’s stock pops as new Anthropic deal highlights intense scramble for AI compute",
+      "zh": "CoreWeave股票因新Anthropic交易而上漲，凸顯AI運算資源爭奪激烈",
+      "impact": "AI運算需求持續火熱，CoreWeave再獲Anthropic重大訂單",
+      "sector": "tech",
       "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-08/elon-musk-spacex-ipo-2-trillion-valuation-push-explained",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "Goldman Sachs private credit fund narrowly misses a redemption crisis",
-      "zh": "高盛私募信貸基金險些陷入贖回危機",
-      "impact": "金融機構風險暴露，可能影響私募信貸市場穩定性",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-private-credit-fund-011036832.html",
-      "source": "Yahoo Finance",
+      "link": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-anthropic-deal-highlights-intense-scramble-for-ai-compute-77867de3?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
       "tickers": []
     }
   ]
