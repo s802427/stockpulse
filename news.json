@@ -1,23 +1,145 @@
 {
-  "updated": "2026/04/10 22:54",
+  "updated": "2026/04/11 00:01",
   "news": [
     {
-      "title": "JP Morgan Warns Oil Could Hit $120 if Hormuz Stalemate Drags Into July",
-      "zh": "摩根大通警告若荷莫茲海峽僵局拖延至7月，油價可能飆升至120美元",
-      "impact": "地緣政治風險升溫，能源價格面臨上行壓力，影響全球通膨",
-      "sector": "energy",
+      "title": "Stock Market Today: Dow Slides; Oil Rebounds After Iran Cease-Fire Gets Off to Shaky Start — Live Updates - WSJ",
+      "zh": "股市今日：道瓊指數下滑；伊朗停火協議開局不穩後油價反彈——實時更新",
+      "impact": "地緣政治風險推高油價，股市承壓",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-04-09-2026",
+      "source": "The Wall Street Journal",
+      "tickers": []
+    },
+    {
+      "title": "Core inflation was 3% in February, as expected, key Fed gauge shows - CNBC",
+      "zh": "2月核心通膨率達3%，符合預期，美聯儲關鍵指標顯示",
+      "impact": "通膨維持在預期水平，為美聯儲政策提供參考",
+      "sector": "finance",
       "priority": "high",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/JP-Morgan-Warns-Oil-Could-Hit-120-if-Hormuz-Stalemate-Drags-Into-July.html",
+      "link": "https://www.cnbc.com/2026/04/09/core-inflation-was-3percent-in-february-as-expected-key-fed-gauge-shows.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 4th Quarter and Year 2025 - U.S. Bureau of Economic Analysis (BEA) (.gov)",
+      "zh": "國內生產總值（第三次估值）、各行業、企業利潤、州GDP及州個人收入，2025年第四季度及全年——美國經濟分析局",
+      "impact": "2025年經濟增長數據發布，反映美國經濟基本面",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-4th",
+      "source": "Bea.gov",
+      "tickers": []
+    },
+    {
+      "title": "CoreWeave Stock (CRWV) Soars on a Massive $21B AI Deal with Meta - TipRanks",
+      "zh": "CoreWeave股票（CRWV）因與Meta達成210億美元AI交易大幅上漲",
+      "impact": "AI基礎設施需求強勁，CoreWeave獲得大額訂單",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.tipranks.com/news/coreweave-stock-crwv-soars-on-a-massive-21b-ai-deal-with-meta",
+      "source": "Tipranks.com",
+      "tickers": [
+        "$META（Meta）"
+      ]
+    },
+    {
+      "title": "OpenAI halts UK stargate project amid regulatory and energy price concerns - CNBC",
+      "zh": "OpenAI暫停英國Stargate項目，因監管及能源價格問題",
+      "impact": "監管障礙與能源成本影響AI基礎設施投資部署",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.cnbc.com/2026/04/09/openai-halts-uk-stargate-project.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "CEO Andy Jassy’s 2025 Letter to Shareholders - About Amazon",
+      "zh": "Amazon首席執行官Andy Jassy 2025年股東信",
+      "impact": "亞馬遜管理層對公司策略及前景的闡述",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2025-letter-to-shareholders",
+      "source": "Aboutamazon.com",
+      "tickers": []
+    },
+    {
+      "title": "Fed minutes show willingness to consider interest rate increases - Axios",
+      "zh": "美聯儲會議紀要顯示考慮加息的意願",
+      "impact": "美聯儲政策立場轉向鷹派，市場預期利率可能上升",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.axios.com/2026/04/08/fed-interest-rates-fomc-march",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
+      "title": "XAI Reorganizes Its Engineering Team Ahead of SpaceX IPO - Business Insider",
+      "zh": "X AI在SpaceX IPO前重組工程團隊",
+      "impact": "SpaceX為上市做準備，加強AI業務組織架構",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.businessinsider.com/elon-musk-reorganizes-xai-ahead-of-spacex-ipo-2026-4",
+      "source": "Business Insider",
+      "tickers": []
+    },
+    {
+      "title": "Nexstar asks states, including Colorado, for $150M bond to cover damages from order slowing merger with Tegna - The Colorado Sun",
+      "zh": "Nexstar要求包括科羅拉多州在內的各州提供1.5億美元債券，以支付延緩與Tegna合併協議的損害賠償",
+      "impact": "監管阻止併購，Nexstar面臨重大財務責任",
+      "sector": "general",
+      "priority": "medium",
+      "link": "http://coloradosun.com/2026/04/08/nexstar-tegna-merger-antitrust-hearing-150m-bond/",
+      "source": "The Colorado Sun",
+      "tickers": []
+    },
+    {
+      "title": "TSMC Q1 revenue rockets 35% on strong AI demand",
+      "zh": "台積電第一季營收因AI需求強勁成長35%",
+      "impact": "AI晶片需求爆增，台積電業績大幅增長",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/sectors/technology/article/tsmc-q1-revenue-rockets-35-on-strong-ai-demand-154926235.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Tech stocks today: CoreWeave climbs 13% on Anthropic deal, TSMC Q1 revenue soars 35%",
+      "zh": "科技股今日表現：CoreWeave因Anthropic交易上漲13%，台積電Q1營收飆漲35%",
+      "impact": "台積電營收大幅成長，AI晶片需求強勁，科技股受益",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/sectors/technology/article/tech-stocks-today-coreweave-climbs-13-on-anthropic-deal-tsmc-q1-revenue-soars-35-144220040.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Palo Alto Networks’ stock leads another dramatic software selloff. Here’s what investors need to know.",
+      "zh": "Palo Alto Networks股票領跌軟體股大幅下滑。投資者需要了解的事項",
+      "impact": "軟體股面臨拋售壓力，市場情緒轉弱，防守性買盤下降",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-leads-another-dramatic-software-selloff-heres-what-investors-need-to-know-b6abe756?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "IMF Warns Iran War Will Leave Lasting Scars on Global Economy",
+      "zh": "國際貨幣基金組織警告伊朗戰爭將對全球經濟造成持久傷害",
+      "impact": "地緣政治風險升溫，全球經濟增長前景承壓，避險情緒上升",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://oilprice.com/Energy/Energy-General/IMF-Warns-Iran-War-Will-Leave-Lasting-Scars-on-Global-Economy.html",
       "source": "Oilprice.com",
       "tickers": []
     },
     {
-      "title": "Oil Prices Tumble as Traders Unwind Geopolitical Bets",
-      "zh": "交易員平倉地緣政治賭注，油價應聲下跌",
-      "impact": "地緣政治溢價消退，能源價格回調，短期風險緩解",
+      "title": "Oil Price Shock Drives 140% Surge in China's EV Exports to Record High",
+      "zh": "油價衝擊推動中國電動車出口激增140%至歷史高位",
+      "impact": "油價高漲推升電動車競爭力，中國綠能產業出口動能強勁",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Tumble-as-Traders-Unwind-Geopolitical-Bets.html",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Price-Shock-Drives-140-Surge-in-Chinas-EV-Exports-to-Record-High.html",
       "source": "Oilprice.com",
       "tickers": []
     }
