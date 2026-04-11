@@ -1,10 +1,20 @@
 {
-  "updated": "2026/04/11 16:53",
+  "updated": "2026/04/11 18:01",
   "news": [
+    {
+      "title": "US Postal Service to suspend employer pay to workers’ pensions, citing cash crunch - NewsNation",
+      "zh": "美國郵政署因現金短缺暫停向員工養老金支付款項",
+      "impact": "郵政署資金困難，可能影響員工退休保障",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.newsnationnow.com/business/your-money/ap-us-postal-service-to-suspend-employer-payments-to-workers-pensions-citing-cash-crunch/",
+      "source": "Newsnationnow.com",
+      "tickers": []
+    },
     {
       "title": "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed - CNBC",
       "zh": "凱文·沃什聯準會主席確認計畫受阻，提名聽證會延期",
-      "impact": "聯準會領導層變動延遲，貨幣政策方向存在不確定性",
+      "impact": "聯準會領導層人事變動延遲，可能影響未來貨幣政策",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
@@ -12,19 +22,9 @@
       "tickers": []
     },
     {
-      "title": "Scott Bessent called in US bank CEOs to discuss Anthropic model’s cyber risks - Financial Times",
-      "zh": "財政部長斯科特·貝森特召集美國銀行CEO討論Anthropic模型的網路安全風險",
-      "impact": "AI安全風險引發政府與金融機構關注，可能影響AI發展監管",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.ft.com/content/397bf755-54cf-4018-a01d-8f714d8667c5?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
       "title": "David Zaslav Paramount Deal 'Windfall' Payout: ISS Says Warner Bros Shareholders Should Vote Against Measure - Variety",
-      "zh": "大衛·扎斯拉夫派拉蒙交易「意外收穫」賠付：ISS建議華納兄弟股東投票反對該措施",
-      "impact": "派拉蒙與華納兄弟合併交易面臨股東反對，交易前景不確定",
+      "zh": "大衛·扎斯拉夫派拉蒙交易「意外之財」派息：ISS建議華納兄弟股東投票反對",
+      "impact": "派拉蒙與華納兄弟合併交易引發股東爭議與反對聲浪",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://variety.com/2026/film/news/david-zaslav-golden-parachute-windfall-payout-paramount-deal-iss-shareholders-1236712564/",
@@ -32,49 +32,19 @@
       "tickers": []
     },
     {
-      "title": "Exclusive / SpaceX bankers game plan to blunt post-IPO selling tsunami - Semafor",
-      "zh": "獨家／SpaceX銀行家遊說計畫以抵禦IPO後出售海嘯",
-      "impact": "SpaceX IPO籌備進行中，企圖控制上市後股價波動風險",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.semafor.com/article/04/09/2026/spacex-bankers-game-plan-to-blunt-post-ipo-selling-tsunami",
-      "source": "Semafor.com",
-      "tickers": []
-    },
-    {
       "title": "Paramount Seals, Refines Debt Financing As It Moves Towards WBD Deal - Deadline",
-      "zh": "派拉蒙確保並調整債務融資，推進與WBD合併交易",
-      "impact": "派拉蒙融資到位，加速與華納兄弟發現公司合併進程",
-      "sector": "consumer",
+      "zh": "派拉蒙確保並優化債務融資，推進與WBD交易",
+      "impact": "派拉蒙合併交易融資進展順利，債務融資機制確立",
+      "sector": "finance",
       "priority": "medium",
       "link": "http://deadline.com/2026/04/paramount-debt-financing-warner-bros-discovery-merger-1236785653/",
       "source": "Deadline",
       "tickers": []
     },
     {
-      "title": "Disney plans layoffs of as many as 1,000 employees - CNBC",
-      "zh": "迪士尼計畫裁員多達1000人",
-      "impact": "迪士尼大規模裁員計畫，涉及千人以上員工",
-      "sector": "consumer",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/09/disney-layoffs-ceo-josh-damaro.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "Paramount Details Separation Agreement With Jeff Shell - Deadline",
-      "zh": "派拉蒙詳述與傑夫·謝爾的分離協議",
-      "impact": "派拉蒙領導層變動，合併交易進一步推進",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "http://deadline.com/2026/04/paramount-jeff-shell-separation-agreement-1236785688/",
-      "source": "Deadline",
-      "tickers": []
-    },
-    {
       "title": "US economy grew a sluggish 0.5% in fourth quarter, government says, downgrading previous estimate - AP News",
-      "zh": "美國經濟在第四季度增長緩慢0.5%，政府下調先前預估",
-      "impact": "GDP增速遠低於預期，經濟成長動能明顯減弱",
+      "zh": "美國經濟第四季度增長疲弱0.5%，政府下調先前預估",
+      "impact": "經濟成長大幅下修，市場對經濟前景預期轉向悲觀",
       "sector": "general",
       "priority": "high",
       "link": "https://apnews.com/article/economy-gdp-jobs-iran-dcb9dbdea745ddf15bea9b8f79ee308c",
@@ -83,8 +53,8 @@
     },
     {
       "title": "Exclusive | Carlyle Private-Credit Fund Hit With Redemption Requests Totaling 15.7% - WSJ",
-      "zh": "獨家／卡萊爾私募信貸基金面臨總額15.7%的贖回請求",
-      "impact": "私募信貸基金大規模贖回壓力，金融穩定性面臨考驗",
+      "zh": "專題報導｜卡萊爾私募信用基金面臨15.7%贖回請求",
+      "impact": "私募信用市場出現贖回壓力，可能反映市場風險偏好下降",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.wsj.com/pro/private-equity/carlyle-private-credit-fund-hit-with-15-7-in-redemption-requests-9b5e5ca4",
@@ -92,19 +62,19 @@
       "tickers": []
     },
     {
-      "title": "Personal Income and Outlays, February 2026 - U.S. Bureau of Economic Analysis (BEA) (.gov)",
-      "zh": "2026年2月個人收入和支出統計",
-      "impact": "經濟數據更新，反映消費者財務狀況",
-      "sector": "general",
-      "priority": "low",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-february-2026",
-      "source": "Bea.gov",
+      "title": "Space Force taps 14 firms for $1.8 billion GEO surveillance program - SpaceNews",
+      "zh": "美國太空軍選定14家公司參與18億美元地球同步軌道監視計畫",
+      "impact": "政府國防合約金額達18億美元，利好航太國防產業",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaVpreXpOaGR4Qm5NYzVMMVdKUnhHb0Q3NTJ1c2hfR0NmZVotWnlzcXgzZ1djUXFQT1ZOWmNhLV9lTVFpMnN2ekhnaHEzR05yR09mRXVRRldSdlJzeVJxdXo5Q041UGMzcEk2cXR5U2lEOUhpZDFqdVQwWXBzcElNSGloUTBKMHl1Vm1pcGtpVVc4eU0?oc=5",
+      "source": "Google News",
       "tickers": []
     },
     {
       "title": "CoreWeave and Meta Expand $21B AI Cloud Deal - CoreWeave",
-      "zh": "CoreWeave與Meta擴大210億美元AI雲端交易",
-      "impact": "Meta加強AI基礎設施投資，推動AI晶片與雲端需求增長",
+      "zh": "核心韋夫與Meta擴大210億美元AI雲端交易",
+      "impact": "Meta與供應商簽署大規模AI基礎設施合約，加速AI佈局",
       "sector": "tech",
       "priority": "high",
       "link": "https://coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement",
@@ -114,21 +84,31 @@
       ]
     },
     {
-      "title": "Strait of Hormuz Constraints Keep Oil Prices Elevated",
-      "zh": "荷莫茲海峽限制措施使油價保持高位",
-      "impact": "地緣政治風險推高油價，影響全球能源成本和通膨預期",
-      "sector": "energy",
+      "title": "China EV Exports Jump to Record as Iran Oil Shock Entices Buyers - Bloomberg.com",
+      "zh": "中國電動車出口創新高，伊朗石油衝擊刺激買家",
+      "impact": "中國電動車出口激增，可能加劇全球汽車產業競爭格局",
+      "sector": "consumer",
       "priority": "medium",
-      "link": "https://oilprice.com/Energy/Oil-Prices/Strait-of-Hormuz-Constraints-Keep-Oil-Prices-Elevated.html",
-      "source": "Oilprice.com",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-09/china-ev-exports-jump-to-record-as-iran-oil-shock-entices-buyers",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Raiffeisen Takeover Target Addiko Gets Higher Offer From Slovenia’s NLB",
+      "zh": "萊弗森收購目標Addiko獲得斯洛維尼亞NLB更高報價",
+      "impact": "銀行併購交易出現競價，Addiko獲得更優惠報價",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.wsj.com/finance/banking/raiffeisen-takeover-target-addiko-gets-higher-offer-from-slovenias-nlb-c4cca391?siteid=yhoof2&yptr=yahoo",
+      "source": "Yahoo Finance",
       "tickers": []
     },
     {
       "title": "OpenAI Freezes UK AI Data Center Plans Over Power Prices, Red Tape",
-      "zh": "OpenAI因電價與行政繁瑣凍結英國AI數據中心計劃",
-      "impact": "AI基礎設施擴張受阻，英國科技競爭力受影響，電力成本問題浮現",
+      "zh": "OpenAI因電力價格和官僚程序繁瑣，凍結英國AI數據中心計劃",
+      "impact": "延緩AI基礎設施投資，影響英國科技競爭力和就業機會",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/OpenAI-Freezes-UK-AI-Data-Center-Plans-Over-Power-Prices-Red-Tape.html",
       "source": "Oilprice.com",
       "tickers": []
