@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/11 21:11",
+  "updated": "2026/04/11 22:01",
   "news": [
     {
       "title": "CPI Report Today: Dow Futures Waver as Investors Await Inflation Data — Live Updates - WSJ",
-      "zh": "CPI報告今日公佈：道指期貨波動不定，投資者靜待通膨數據——實時更新",
-      "impact": "央行決策參考數據，市場波動性可能加大",
+      "zh": "CPI報告今日公布：道瓊期貨波動，投資者等待通膨數據——實時更新",
+      "impact": "通膨數據影響市場走勢與央行政策方向",
       "sector": "general",
       "priority": "high",
       "link": "https://www.wsj.com/livecoverage/cpi-inflation-data-stock-market-04-10-2026",
@@ -13,8 +13,8 @@
     },
     {
       "title": "EV bloodbath: US sales plunge as Tesla tightens its grip - Business Insider",
-      "zh": "電動車血洗：美國銷售暴跌，特斯拉控制力加強",
-      "impact": "電動車產業競爭激化，新進者面臨壓力",
+      "zh": "電動車血洗：美國銷售暴跌，特斯拉加強市場控制",
+      "impact": "電動車市場競爭加劇，非特斯拉廠商面臨銷售壓力",
       "sector": "energy",
       "priority": "medium",
       "link": "https://www.businessinsider.com/ev-shakeout-us-market-tesla-toyota-2026-4",
@@ -23,8 +23,8 @@
     },
     {
       "title": "US Postal Service to suspend employer pay to workers’ pensions, citing cash crunch - NewsNation",
-      "zh": "美國郵政服務因現金短缺暫停向員工養老金的雇主供款",
-      "impact": "政府機構財務困難，潛在系統性風險警示",
+      "zh": "美國郵政局以現金短缺為由暫停向員工養老金支付",
+      "impact": "政府機構資金困難加重，員工退休福利面臨風險",
       "sector": "general",
       "priority": "medium",
       "link": "https://www.newsnationnow.com/business/your-money/ap-us-postal-service-to-suspend-employer-payments-to-workers-pensions-citing-cash-crunch/",
@@ -33,8 +33,8 @@
     },
     {
       "title": "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed - CNBC",
-      "zh": "凱文·沃什聯準會主席確認計畫受阻，提名聽證會延期",
-      "impact": "央行領導層變動，市場政策預期可能改變",
+      "zh": "凱文·沃什聯準會主席提名聽證會延期遇冷",
+      "impact": "聯準會領導層人事不確定，市場關注政策方向",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
@@ -43,8 +43,8 @@
     },
     {
       "title": "Apple Will Close Its First Unionized Retail Location in the US - Bloomberg",
-      "zh": "蘋果將關閉其在美國首個工會化零售門店",
-      "impact": "科技業工會運動挫折，勞資關係趨緊",
+      "zh": "蘋果將關閉美國首家工會零售店",
+      "impact": "科技業零售工會運動受挫，勞資關係趨緊張",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-09/apple-will-close-its-first-unionized-retail-location-in-the-us",
@@ -53,8 +53,8 @@
     },
     {
       "title": "Volkswagen Shuts Down Tennessee Plant’s EV Production at the Worst Possible Time - Gizmodo",
-      "zh": "福斯汽車在最不適當時機關閉田納西州廠房電動車生產",
-      "impact": "傳統車廠電動車轉型受挫，產業競爭加劇",
+      "zh": "大眾汽車在最糟糕時刻關閉田納西州電動車生產",
+      "impact": "電動車生產戰略調整，供應鏈與就業受衝擊",
       "sector": "energy",
       "priority": "medium",
       "link": "https://gizmodo.com/volkswagen-shuts-down-tennessee-plants-ev-production-at-the-worst-possible-time-2000744723",
@@ -63,8 +63,8 @@
     },
     {
       "title": "John Deere will pay farmers $99 million over right-to-repair lawsuit - The Verge",
-      "zh": "約翰迪爾公司因維修權訴訟將向農民支付9,900萬美元",
-      "impact": "維修權監管勝利，科技公司商業模式面臨壓力",
+      "zh": "迪爾公司因維修權訴訟向農民支付9,900萬美元",
+      "impact": "維修權案例判例，科技公司商業模式面臨挑戰",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.theverge.com/policy/909524/john-deere-class-action-settlement-farmers",
@@ -72,9 +72,19 @@
       "tickers": []
     },
     {
+      "title": "xAI sues Colorado over first state AI anti-discrimination law - Financial Times",
+      "zh": "xAI起訴科羅拉多州首部人工智慧反歧視法",
+      "impact": "AI監管合規成本上升，科技業與政府對立加劇",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.ft.com/content/55e8cba9-d09c-4f94-b710-4ab447b987f9?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
       "title": "Amazon Stock (AMZN) Pops on $25B Data Center Buildout in Mississippi - TipRanks",
-      "zh": "亞馬遜股票因在密西西比州投入250億美元建設數據中心而上漲",
-      "impact": "亞馬遜AI基礎建設擴張，市場看好前景",
+      "zh": "亞馬遜股價上漲：宣布在密西西比州建造250億美元數據中心",
+      "impact": "大規模基礎設施投資推動股價，雲服務競爭加強",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.tipranks.com/news/amazon-stock-amzn-pops-on-25b-data-center-buildout-in-mississippi",
@@ -85,84 +95,12 @@
     },
     {
       "title": "Exclusive | Sazerac Eyes Deal With Jack Daniel’s Maker Brown-Forman - WSJ",
-      "zh": "獨家：薩澤拉公司覬覦與傑克丹尼爾威士忌製造商布朗-福爾曼的交易",
-      "impact": "酒業並購傳言，十億美級潛在交易",
-      "sector": "consumer",
+      "zh": "獨家｜薩澤拉眼看與傑克丹尼爾製造商布朗-福曼達成交易",
+      "impact": "",
+      "sector": "general",
       "priority": "medium",
       "link": "https://www.wsj.com/business/sazerac-eyes-deal-with-jack-daniels-maker-brown-forman-26458c8b",
       "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
-      "title": "StubHub Refunding $10 Million in Fees to Consumers After Deceptive Ticket Pricing - Federal Trade Commission (.gov)",
-      "zh": "StubHub因欺騙性票務定價向消費者退款1000萬美元 - 聯邦貿易委員會",
-      "impact": "StubHub面臨監管處罰，消費者保護執法加強",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/stubhub-refunding-10-million-fees-consumers-after-deceptive-ticket-pricing",
-      "source": "Ftc.gov",
-      "tickers": []
-    },
-    {
-      "title": "Paramount Details Separation Agreement With Jeff Shell - Deadline",
-      "zh": "Paramount詳細披露與Jeff Shell的分離協議 - Deadline",
-      "impact": "Paramount領導層變動，影響公司戰略方向",
-      "sector": "general",
-      "priority": "medium",
-      "link": "http://deadline.com/2026/04/paramount-jeff-shell-separation-agreement-1236785688/",
-      "source": "Deadline",
-      "tickers": []
-    },
-    {
-      "title": "US economy grew a sluggish 0.5% in fourth quarter, government says, downgrading previous estimate - AP News",
-      "zh": "美國經濟第四季度增長放緩至0.5%，政府調降先前預估 - 美聯社",
-      "impact": "經濟成長疲弱，可能影響聯準會政策決策",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://apnews.com/article/economy-gdp-jobs-iran-dcb9dbdea745ddf15bea9b8f79ee308c",
-      "source": "Associated Press",
-      "tickers": []
-    },
-    {
-      "title": "CoreWeave and Meta Expand $21B AI Cloud Deal - CoreWeave",
-      "zh": "CoreWeave和Meta擴大210億美元AI雲端交易 - CoreWeave",
-      "impact": "Meta AI基礎設施投資大幅增加，行業競爭加劇",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement",
-      "source": "Coreweave.com",
-      "tickers": [
-        "$META（Meta）"
-      ]
-    },
-    {
-      "title": "China EV Exports Jump to Record as Iran Oil Shock Entices Buyers - Bloomberg.com",
-      "zh": "中國電動車出口創紀錄，伊朗油價衝擊吸引買家 - Bloomberg",
-      "impact": "中國EV廠商國際競爭力提升，全球市場格局變化",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-09/china-ev-exports-jump-to-record-as-iran-oil-shock-entices-buyers",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "Vertex Pharmaceuticals price target raised to $612 from $596 at Morgan Stanley",
-      "zh": "Vertex製藥摩根士丹利目標價從596美元上調至612美元",
-      "impact": "分析師看好Vertex前景，股價目標上調",
-      "sector": "health",
-      "priority": "low",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/vertex-pharmaceuticals-price-target-raised-125847886.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "OpenAI Freezes UK AI Data Center Plans Over Power Prices, Red Tape",
-      "zh": "OpenAI因電力價格和監管障礙凍結英國AI數據中心計畫",
-      "impact": "OpenAI暫停英國擴張，能源成本和監管成為發展瓶頸",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/OpenAI-Freezes-UK-AI-Data-Center-Plans-Over-Power-Prices-Red-Tape.html",
-      "source": "Oilprice.com",
       "tickers": []
     }
   ]
