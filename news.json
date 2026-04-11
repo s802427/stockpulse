@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/11 15:08",
+  "updated": "2026/04/11 16:01",
   "news": [
     {
       "title": "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed - CNBC",
       "zh": "凱文·沃什聯準會主席確認計畫受阻，提名聽證會延期",
-      "impact": "聯準會主席任命延遲，貨幣政策方向存在不確定性",
+      "impact": "聯準會領導層交接延遲，可能影響貨幣政策方向",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
@@ -12,19 +12,19 @@
       "tickers": []
     },
     {
-      "title": "Scott Bessent called in US bank CEOs to discuss Anthropic model’s cyber risks - Financial Times",
-      "zh": "財政部長貝森特召集美國銀行執行長討論Anthropic模型的網路安全風險",
-      "impact": "生成式AI安全風險引起政府高度關注，銀行業面臨監管壓力",
-      "sector": "tech",
+      "title": "USPS to suspend pension contributions, seeks 4-cent stamp price hike - Politico",
+      "zh": "美國郵政署暫停養老金繳款，尋求郵票漲價4美分",
+      "impact": "郵政服務成本上升，消費者成本增加",
+      "sector": "general",
       "priority": "medium",
-      "link": "https://www.ft.com/content/397bf755-54cf-4018-a01d-8f714d8667c5?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
+      "link": "https://www.politico.com/news/2026/04/09/usps-to-suspend-pension-contributions-seeks-4-cent-stamp-price-hike-00866388",
+      "source": "Politico",
       "tickers": []
     },
     {
       "title": "David Zaslav Paramount Deal 'Windfall' Payout: ISS Says Warner Bros Shareholders Should Vote Against Measure - Variety",
-      "zh": "大衛·扎斯拉夫派拉蒙交易「意外收穫」支付：ISS建議華納兄弟股東投票反對該措施",
-      "impact": "派拉蒙與華納兄弟合併交易存在股東反對聲浪",
+      "zh": "大衛·札斯拉夫派拉蒙協議「意外之財」支付：ISS建議華納兄弟股東投票反對",
+      "impact": "派拉蒙與華納兄弟合併交易存在股東反對聲音",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://variety.com/2026/film/news/david-zaslav-golden-parachute-windfall-payout-paramount-deal-iss-shareholders-1236712564/",
@@ -33,8 +33,8 @@
     },
     {
       "title": "Exclusive / SpaceX bankers game plan to blunt post-IPO selling tsunami - Semafor",
-      "zh": "獨家新聞／SpaceX銀行家制定計畫以抑制IPO後拋售潮",
-      "impact": "SpaceX IPO融資策略應對市場風險，預示IPO可能臨近",
+      "zh": "獨家／SpaceX銀行家計畫阻止首次公開募股後拋售潮",
+      "impact": "SpaceX上市後股價穩定策略，市場流動性管理",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.semafor.com/article/04/09/2026/spacex-bankers-game-plan-to-blunt-post-ipo-selling-tsunami",
@@ -43,8 +43,8 @@
     },
     {
       "title": "Paramount Seals, Refines Debt Financing As It Moves Towards WBD Deal - Deadline",
-      "zh": "派拉蒙確定並優化債務融資，推進與華納兄弟發現公司交易",
-      "impact": "派拉蒙加速推進與WBD合併交易融資進展",
+      "zh": "派拉蒙確保並優化債務融資，推進與華納兄弟探索合併交易",
+      "impact": "派拉蒙融資進展推進媒體業整合談判",
       "sector": "consumer",
       "priority": "medium",
       "link": "http://deadline.com/2026/04/paramount-debt-financing-warner-bros-discovery-merger-1236785653/",
@@ -53,8 +53,8 @@
     },
     {
       "title": "Disney plans layoffs of as many as 1,000 employees - CNBC",
-      "zh": "迪士尼計畫裁員最多1,000名員工",
-      "impact": "迪士尼大規模裁員，反映娛樂業成本壓力",
+      "zh": "迪士尼計畫裁員多達1,000名員工",
+      "impact": "迪士尼大規模裁員，內容製作部門成本控制",
       "sector": "consumer",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/09/disney-layoffs-ceo-josh-damaro.html",
@@ -62,9 +62,19 @@
       "tickers": []
     },
     {
+      "title": "Paramount Details Separation Agreement With Jeff Shell - Deadline",
+      "zh": "派拉蒙詳述與傑夫·謝爾的分離協議",
+      "impact": "派拉蒙高層變動，經營方向調整信號",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "http://deadline.com/2026/04/paramount-jeff-shell-separation-agreement-1236785688/",
+      "source": "Deadline",
+      "tickers": []
+    },
+    {
       "title": "US economy grew a sluggish 0.5% in fourth quarter, government says, downgrading previous estimate - AP News",
-      "zh": "美國經濟第四季度增長緩慢0.5%，政府下調前期預估",
-      "impact": "GDP增長大幅下修，經濟放緩信號加強",
+      "zh": "美國經濟第四季度增速疲弱0.5%，政府下調之前估計",
+      "impact": "經濟成長放緩，下調預期影響市場前景",
       "sector": "general",
       "priority": "high",
       "link": "https://apnews.com/article/economy-gdp-jobs-iran-dcb9dbdea745ddf15bea9b8f79ee308c",
@@ -73,18 +83,18 @@
     },
     {
       "title": "Exclusive | Carlyle Private-Credit Fund Hit With Redemption Requests Totaling 15.7% - WSJ",
-      "zh": "獨家新聞／卡萊爾私募信貸基金面臨占比15.7%的贖回請求",
-      "impact": "私募信貸基金贖回壓力加大，流動性風險浮現",
+      "zh": "卡萊爾私募信貸基金面臨總計15.7%的贖回請求",
+      "impact": "私募信貸市場流動性壓力，投資者信心下滑",
       "sector": "finance",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.wsj.com/pro/private-equity/carlyle-private-credit-fund-hit-with-15-7-in-redemption-requests-9b5e5ca4",
       "source": "The Wall Street Journal",
       "tickers": []
     },
     {
       "title": "Personal Income and Outlays, February 2026 - U.S. Bureau of Economic Analysis (BEA) (.gov)",
-      "zh": "個人收入和支出報告，2026年2月",
-      "impact": "消費者收入與支出數據提供經濟走勢參考",
+      "zh": "個人收入與支出，2026年2月－美國經濟分析局",
+      "impact": "經濟數據發佈，消費支出與收入狀況參考",
       "sector": "general",
       "priority": "low",
       "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-february-2026",
@@ -93,10 +103,10 @@
     },
     {
       "title": "CoreWeave and Meta Expand $21B AI Cloud Deal - CoreWeave",
-      "zh": "CoreWeave與Meta擴大210億美元AI雲端交易合作",
-      "impact": "Meta加大AI基礎設施投資，推動生成式AI發展",
+      "zh": "CoreWeave與Meta擴大210億美元AI雲端交易",
+      "impact": "Meta強化AI基礎設施投資，推動AI雲端市場競爭加劇",
       "sector": "tech",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement",
       "source": "Coreweave.com",
       "tickers": [
@@ -105,20 +115,20 @@
     },
     {
       "title": "Fed seeks details on U.S. banks’ exposure to private credit firms",
-      "zh": "美國聯準會要求詳細了解美國銀行對私募信貸公司的敞口風險",
-      "impact": "聯準會加強監管私募信貸風險敞口，可能影響銀行資產配置",
+      "zh": "美聯儲要求銀行披露對私募信貸公司的風險敞口",
+      "impact": "監管機構防範金融風險，檢視銀行與私募信貸市場的關聯度",
       "sector": "finance",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://fortune.com/2026/04/10/federal-reserve-us-banks-exposure-private-credit-firms-insurers-treasury-department/",
       "source": "Fortune | FORTUNE",
       "tickers": []
     },
     {
       "title": "OpenAI Freezes UK AI Data Center Plans Over Power Prices, Red Tape",
-      "zh": "OpenAI因電力價格與監管障礙暫停英國AI數據中心計畫",
-      "impact": "全球AI基礎設施建設受阻，英國吸引科技投資能力下降",
+      "zh": "OpenAI因電價與行政障礙暫停英國AI數據中心計畫",
+      "impact": "能源成本與政策不確定性影響AI基礎設施部署，延緩英國AI發展",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/OpenAI-Freezes-UK-AI-Data-Center-Plans-Over-Power-Prices-Red-Tape.html",
       "source": "Oilprice.com",
       "tickers": []
