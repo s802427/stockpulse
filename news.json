@@ -1,32 +1,132 @@
 {
-  "updated": "2026/04/11 18:41",
+  "updated": "2026/04/11 20:01",
   "news": [
     {
-      "title": "Amazon CEO Jassy says company could sell AI chips, raising stakes for Nvidia, AMD",
-      "zh": "亞馬遜CEO傑西表示公司可能銷售AI晶片，提高對英偉達、AMD的競爭威脅",
-      "impact": "亞馬遜進入AI晶片市場，衝擊英偉達、AMD市場地位",
+      "title": "US Postal Service to suspend employer pay to workers’ pensions, citing cash crunch - NewsNation",
+      "zh": "美國郵政服務因現金短缺暫停向員工養老金支付",
+      "impact": "郵政資金困難加劇，員工福利面臨風險",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.newsnationnow.com/business/your-money/ap-us-postal-service-to-suspend-employer-payments-to-workers-pensions-citing-cash-crunch/",
+      "source": "Newsnationnow.com",
+      "tickers": []
+    },
+    {
+      "title": "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed - CNBC",
+      "zh": "凱文·沃什美聯儲主席確認計畫受阻，提名聽證會延期",
+      "impact": "美聯儲領導層不確定性增加，市場關注政策方向",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "Goldman Sachs resets its oil price forecasts for the rest of 2026 - thestreet.com",
+      "zh": "高盛重新調整2026年剩餘時期油價預測",
+      "impact": "能源價格預期調整，影響相關投資策略",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://www.thestreet.com/investing/goldman-sachs-resets-its-oil-price-forecasts-for-the-rest-of-2026",
+      "source": "TheStreet",
+      "tickers": []
+    },
+    {
+      "title": "David Zaslav Paramount Deal 'Windfall' Payout: ISS Says Warner Bros Shareholders Should Vote Against Measure - Variety",
+      "zh": "大衛·扎斯拉夫派拉蒙交易「意外之財」支付：ISS建議華納兄弟股東投票反對",
+      "impact": "媒體併購爭議加劇，股東治理風險增加",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://variety.com/2026/film/news/david-zaslav-golden-parachute-windfall-payout-paramount-deal-iss-shareholders-1236712564/",
+      "source": "Variety",
+      "tickers": []
+    },
+    {
+      "title": "Paramount Seals, Refines Debt Financing As It Moves Towards WBD Deal - Deadline",
+      "zh": "派拉蒙完成並優化債務融資，推進與WBD交易",
+      "impact": "媒體併購融資確保，交易進展推進",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "http://deadline.com/2026/04/paramount-debt-financing-warner-bros-discovery-merger-1236785653/",
+      "source": "Deadline",
+      "tickers": []
+    },
+    {
+      "title": "Treasury Launches Cybersecurity Information Sharing Initiative for the Digital Asset Industry - U.S. Department of the Treasury (.gov)",
+      "zh": "財政部為數位資產行業啟動網路安全資訊共享倡議",
+      "impact": "加強加密資產監管框架，提升業界安全標準",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://home.treasury.gov/news/press-releases/sb0437",
+      "source": "Treasury.gov",
+      "tickers": []
+    },
+    {
+      "title": "US economy grew a sluggish 0.5% in fourth quarter, government says, downgrading previous estimate - AP News",
+      "zh": "美國經濟第四季度增速放緩至0.5%，政府下調先前預估",
+      "impact": "經濟成長動能減弱，衰退風險信號明確",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://apnews.com/article/economy-gdp-jobs-iran-dcb9dbdea745ddf15bea9b8f79ee308c",
+      "source": "Associated Press",
+      "tickers": []
+    },
+    {
+      "title": "Exclusive | Carlyle Private-Credit Fund Hit With Redemption Requests Totaling 15.7% - WSJ",
+      "zh": "獨家｜Carlyle私募信貸基金面臨15.7%贖回要求",
+      "impact": "私募信貸市場流動性風險浮現，資金壓力增加",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.wsj.com/pro/private-equity/carlyle-private-credit-fund-hit-with-15-7-in-redemption-requests-9b5e5ca4",
+      "source": "The Wall Street Journal",
+      "tickers": []
+    },
+    {
+      "title": "Space Force taps 14 firms for $1.8 billion GEO surveillance program - SpaceNews",
+      "zh": "太空軍為18億美元地球同步軌道監視計畫徵選14家廠商",
+      "impact": "國防太空預算投資，相關廠商獲利機會",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaVpreXpOaGR4Qm5NYzVMMVdKUnhHb0Q3NTJ1c2hfR0NmZVotWnlzcXgzZ1djUXFQT1ZOWmNhLV9lTVFpMnN2ekhnaHEzR05yR09mRXVRRldSdlJzeVJxdXo5Q041UGMzcEk2cXR5U2lEOUhpZDFqdVQwWXBzcElNSGloUTBKMHl1Vm1pcGtpVVc4eU0?oc=5",
+      "source": "Google News",
+      "tickers": []
+    },
+    {
+      "title": "CoreWeave and Meta Expand $21B AI Cloud Deal - CoreWeave",
+      "zh": "CoreWeave與Meta擴展210億美元AI雲端交易",
+      "impact": "AI基礎設施投資加速，科技巨頭資本支出增加",
       "sector": "tech",
       "priority": "high",
-      "link": "https://finance.yahoo.com/news/amazon-ceo-jassy-says-company-could-sell-ai-chips-raising-stakes-for-nvidia-amd-142835117.html",
-      "source": "Yahoo Finance",
+      "link": "https://coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement",
+      "source": "Coreweave.com",
       "tickers": [
-        "$AMD（AMD）"
+        "$META（Meta）"
       ]
     },
     {
-      "title": "Bessent, Powell warned bank CEOs about Anthropic model risks, sources say",
-      "zh": "財政部長貝森特和聯準會主席鮑威爾警告銀行CEO關於Anthropic模式風險",
-      "impact": "聯準會和財政部關注AI風險，可能引發監管政策變化",
+      "title": "China EV Exports Jump to Record as Iran Oil Shock Entices Buyers - Bloomberg.com",
+      "zh": "中國電動車出口躍升至創紀錄高位，伊朗油價衝擊吸引買家",
+      "impact": "中國電動車全球競爭力提升，能源需求結構改變",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-09/china-ev-exports-jump-to-record-as-iran-oil-shock-entices-buyers",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Analysis-Crypto giant Kraken's Fed payment account sparks concerns about risks",
+      "zh": "分析-加密貨幣巨頭Kraken的美聯儲支付賬戶引發風險擔憂",
+      "impact": "加密貨幣監管風險上升，金融系統穩定性面臨挑戰",
       "sector": "finance",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/sectors/technology/articles/bessent-powell-warn-bank-ceos-010258554.html",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/analysis-crypto-giant-krakens-fed-100319142.html",
       "source": "Yahoo Finance",
       "tickers": []
     },
     {
       "title": "Strait of Hormuz Constraints Keep Oil Prices Elevated",
-      "zh": "荷美茲海峽限制措施保持油價高位",
-      "impact": "地緣政治風險支撐油價，能源成本維持高位",
+      "zh": "荷莫茲海峽限制保持油價居高不下",
+      "impact": "地緣政治風險推高能源成本，全球通膨壓力續存",
       "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Oil-Prices/Strait-of-Hormuz-Constraints-Keep-Oil-Prices-Elevated.html",
@@ -35,8 +135,8 @@
     },
     {
       "title": "OpenAI Freezes UK AI Data Center Plans Over Power Prices, Red Tape",
-      "zh": "OpenAI因電價和官僚程序暫停英國AI數據中心計畫",
-      "impact": "OpenAI擱置英國擴張，英國AI產業發展受阻",
+      "zh": "OpenAI因電價和繁瑣政策凍結英國人工智能數據中心計劃",
+      "impact": "科技巨頭投資受阻，英國能源政策競爭力下降",
       "sector": "tech",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/OpenAI-Freezes-UK-AI-Data-Center-Plans-Over-Power-Prices-Red-Tape.html",
