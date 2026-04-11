@@ -1,12 +1,122 @@
 {
-  "updated": "2026/04/12 02:00",
+  "updated": "2026/04/12 02:55",
   "news": [
     {
-      "title": "Amazon Stock (AMZN) Pops on $25B Data Center Buildout in Mississippi - TipRanks",
-      "zh": "亞馬遜股價因密西西比州250億美元數據中心擴建計劃而上漲",
-      "impact": "亞馬遜大規模基礎設施投資，利好雲計算業務發展前景",
+      "title": "Anthropic Will Rent CoreWeave AI Capacity to Power Claude - Bloomberg.com",
+      "zh": "Anthropic 將租賃 CoreWeave AI 運算能力為 Claude 提供支持",
+      "impact": "強化Claude運算能力，推動生成式AI商業化進展",
       "sector": "tech",
       "priority": "medium",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-10/anthropic-agrees-to-rent-coreweave-ai-capacity-to-power-claude",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "TSMC Tops Q1 Sales Target On Strong AI Chip Demand - Investor's Business Daily",
+      "zh": "台積電第一季銷售超目標，受AI晶片強勁需求推動",
+      "impact": "AI晶片需求持續旺盛，台積電業績向好",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.investors.com/news/technology/tsm-stock-chip-foundry-tsmc-tops-q1-sales-views/",
+      "source": "Investor's Business Daily",
+      "tickers": []
+    },
+    {
+      "title": "Consumer sentiment plummets to record low as Iran war jacks up inflation - CNN",
+      "zh": "伊朗戰爭推高通膨，消費者信心跌至創紀錄低點",
+      "impact": "消費信心低迷加重經濟衰退風險，影響整體經濟前景",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.cnn.com/2026/04/10/economy/us-consumer-sentiment-record-low-april",
+      "source": "CNN",
+      "tickers": []
+    },
+    {
+      "title": "The biggest IPO in history has a hole in its safety net - Financial Times",
+      "zh": "歷史最大IPO存在安全保障漏洞",
+      "impact": "大型IPO存在風險缺口，投資者保護不足",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.ft.com/content/92128bde-0646-4dc8-88db-7f4846330faa",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "European airports face jet fuel shortages within three weeks - Financial Times",
+      "zh": "歐洲機場三週內將面臨噴氣燃油短缺",
+      "impact": "能源供應短缺威脅歐洲航空運輸，經濟受衝擊",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.ft.com/content/801e46c7-cfb7-43c3-99bd-6a5ca971ceff?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "EV bloodbath: US sales plunge as Tesla tightens its grip - Business Insider",
+      "zh": "電動車血洗：美國銷售暴跌，特斯拉加緊掌控市場",
+      "impact": "電動車市場銷售下滑，特斯拉市場地位穩固",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.businessinsider.com/ev-shakeout-us-market-tesla-toyota-2026-4",
+      "source": "Business Insider",
+      "tickers": []
+    },
+    {
+      "title": "US Postal Service to suspend employer pay to workers’ pensions, citing cash crunch - NewsNation",
+      "zh": "美國郵政署因現金短缺，暫停向職員養老金繳款",
+      "impact": "郵政署財務危機加深，職員退休保障受威脅",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.newsnationnow.com/business/your-money/ap-us-postal-service-to-suspend-employer-payments-to-workers-pensions-citing-cash-crunch/",
+      "source": "Newsnationnow.com",
+      "tickers": []
+    },
+    {
+      "title": "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed - CNBC",
+      "zh": "Kevin Warsh 聯準會主席確認計畫受阻，提名聽證會延期",
+      "impact": "美國央行領導層人事任命延遲，政策不確定性增加",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "Goldman Sachs resets its oil price forecasts for the rest of 2026 - thestreet.com",
+      "zh": "高盛重新調整2026年全年油價預測",
+      "impact": "油價預期調整影響能源投資策略與通膨預期",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://www.thestreet.com/investing/goldman-sachs-resets-its-oil-price-forecasts-for-the-rest-of-2026",
+      "source": "TheStreet",
+      "tickers": []
+    },
+    {
+      "title": "Volkswagen drops all-electric ID.4 in the US in pivot back to gas SUVs - TechCrunch",
+      "zh": "福斯在美國停售全電動ID.4，轉向汽油SUV",
+      "impact": "主要車廠電動化戰略調整，反映市場需求疲軟",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://techcrunch.com/2026/04/09/volkswagen-drops-all-electric-id-4-in-the-us-in-pivot-back-to-gas-suvs/",
+      "source": "TechCrunch",
+      "tickers": []
+    },
+    {
+      "title": "xAI sues Colorado over first state AI anti-discrimination law - Financial Times",
+      "zh": "xAI公司控告科羅拉多州其首個州級AI反歧視法違憲。",
+      "impact": "xAI挑戰AI監管框架，或影響未來州級AI法規制定。",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.ft.com/content/55e8cba9-d09c-4f94-b710-4ab447b987f9?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "Amazon Stock (AMZN) Pops on $25B Data Center Buildout in Mississippi - TipRanks",
+      "zh": "亞馬遜宣布在密西西比州投資250億美元建設數據中心，推動股價上升。",
+      "impact": "亞馬遜大規模基礎設施投資，強化雲服務與AI能力部署。",
+      "sector": "tech",
+      "priority": "high",
       "link": "https://www.tipranks.com/news/amazon-stock-amzn-pops-on-25b-data-center-buildout-in-mississippi",
       "source": "Tipranks.com",
       "tickers": [
@@ -15,8 +125,8 @@
     },
     {
       "title": "Exclusive | Sazerac Eyes Deal With Jack Daniel’s Maker Brown-Forman - WSJ",
-      "zh": "獨家報導｜薩澤拉克公司計劃與傑克丹尼爾威士忌製造商布朗-福曼達成交易",
-      "impact": "酒精飲料行業整併，可能改變市場競爭格局",
+      "zh": "薩澤拉克公司與傑克丹尼爾所有者布朗-福曼公司洽談併購交易。",
+      "impact": "烈酒業併購案，涉及知名品牌整合與市場競爭格局變化。",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYlBydVlCSE91RkdYYTlNOW11NjlnQlVPdWx4ZktDaG43VjZvSVJIYnBzenRwdXhwaE1SSWNiU09BWTlWajVBVlh3VGpIWU9XcDNHbEl0bTgwYjY2aXNWOTVvY25jVmFUdmJhX2JPZV9kUm1JSHUzY3pNNWV1RTlrUTZEdnVCeFRPd1AtRFVfajkzblJqYlRF?oc=5",
@@ -24,33 +134,53 @@
       "tickers": []
     },
     {
-      "title": "Why Starlink is so important to SpaceX's IPO",
-      "zh": "星鏈對SpaceX首次公開募股為何至關重要",
-      "impact": "星鏈收入前景對SpaceX估值和IPO成功關鍵影響",
+      "title": "Paramount Details Separation Agreement With Jeff Shell - Deadline",
+      "zh": "派拉蒙公司詳細公布與執行長傑夫·謝爾的分家協議內容。",
+      "impact": "派拉蒙領導層變動，影響公司策略與業務重組進展。",
+      "sector": "general",
+      "priority": "medium",
+      "link": "http://deadline.com/2026/04/paramount-jeff-shell-separation-agreement-1236785688/",
+      "source": "Deadline",
+      "tickers": []
+    },
+    {
+      "title": "Oracle's new CFO got $26M in stock after layoffs. Employee says an 'algorithm' targeted workers with stock options first",
+      "zh": "甲骨文新任首席財務長在大規模裁員後獲得2,600萬美元股票，引發員工質疑演算法是否針對持股員工進行裁員。",
+      "impact": "甲骨文高管薪酬與裁員公平性爭議，影響公司聲譽與員工關係。",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/oracles-cfo-got-26m-stock-184500098.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "UBS quietly resets outlook on AI software giant",
+      "zh": "瑞銀集團悄悄調整其對AI軟體巨頭公司的投資展望。",
+      "impact": "投行調整AI板塊評級，反映對AI軟體前景的謹慎態度。",
+      "sector": "tech",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-quietly-resets-outlook-ai-184248123.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Why Starlink is so important to SpaceX's IPO",
+      "zh": "分析星鏈衛星網路業務對SpaceX首次公開募股計劃的重要性。",
+      "impact": "星鏈業務為SpaceX上市核心資產，影響融資與估值前景。",
+      "sector": "tech",
+      "priority": "medium",
       "link": "https://finance.yahoo.com/sectors/technology/article/why-starlink-is-so-important-to-spacexs-ipo-174446711.html",
       "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Interest rates are headed lower — real yields suggest a half-point Fed cut is coming",
-      "zh": "利率走低——實際收益率預示美聯儲可能降息半碼",
-      "impact": "美聯儲降息預期，影響整體市場資金成本和資產配置",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.marketwatch.com/story/interest-rates-are-headed-lower-real-yields-suggest-a-half-point-fed-cut-is-coming-b5fd1e22?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
-      "title": "Strait of Hormuz Constraints Keep Oil Prices Elevated",
-      "zh": "荷莫茲海峽限制措施持續推高油價",
-      "impact": "地緣政治風險維持油價高位，影響能源和運輸成本",
-      "sector": "energy",
+      "title": "Average price of new cars nears $50,000 as automakers focus on big pickups and SUVs while cheaper sedans get phased out",
+      "zh": "汽車製造商聚焦大型皮卡與休閒運動車，新車平均價格接近5萬美元，廉價轎車遭停產。",
+      "impact": "新車價格上升，消費者購車成本增加，影響汽車市場結構。",
+      "sector": "consumer",
       "priority": "medium",
-      "link": "https://oilprice.com/Energy/Oil-Prices/Strait-of-Hormuz-Constraints-Keep-Oil-Prices-Elevated.html",
-      "source": "Oilprice.com",
+      "link": "https://fortune.com/2026/04/11/average-price-new-cars-50000-automakers-pickups-suv-cheaper-sedans/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     }
   ]
