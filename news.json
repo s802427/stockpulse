@@ -1,120 +1,52 @@
 {
-  "updated": "2026/04/12 00:45",
+  "updated": "2026/04/12 02:00",
   "news": [
     {
-      "title": "Consumer sentiment hits record low, inflation fears rise amid Iran war - CNBC",
-      "zh": "消費者信心跌至歷史新低，伊朗戰爭引發通膨擔憂加劇",
-      "impact": "消費信心崩潰恐拖累經濟成長，影響整體消費支出",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/10/consumer-sentiment-inflation-fears-iran-war.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "Consumer prices rose 3.3% in March, as energy prices spiked due to Iran conflict - CNBC",
-      "zh": "3月消費者物價指數上漲3.3%，伊朗衝突致能源價格大幅攀升",
-      "impact": "通膨壓力持續，或影響聯準會貨幣政策決策",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/10/cpi-inflation-report-march-2026.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "EV bloodbath: US sales plunge as Tesla tightens its grip - Business Insider",
-      "zh": "電動車市場遭冷遇，美國銷售額大幅下滑，特斯拉主宰地位加強",
-      "impact": "新能源產業增長放緩，競爭對手面臨生存壓力",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.businessinsider.com/ev-shakeout-us-market-tesla-toyota-2026-4",
-      "source": "Business Insider",
-      "tickers": []
-    },
-    {
-      "title": "US Postal Service to suspend employer pay to workers’ pensions, citing cash crunch - NewsNation",
-      "zh": "美國郵政局因資金困難，暫停雇主向員工退休基金撥款",
-      "impact": "公共機構財務惡化，員工退休保障風險上升",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.newsnationnow.com/business/your-money/ap-us-postal-service-to-suspend-employer-payments-to-workers-pensions-citing-cash-crunch/",
-      "source": "Newsnationnow.com",
-      "tickers": []
-    },
-    {
-      "title": "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed - CNBC",
-      "zh": "凱文·沃什聯準會主席提名遭延期，提名聽證會暫緩舉行",
-      "impact": "央行決策人事懸而未決，影響貨幣政策預期",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "Apple Will Close Its First Unionized Retail Location in the US - Bloomberg",
-      "zh": "蘋果公司將關閉其在美國首家已工會組織的零售店",
-      "impact": "零售工會運動受挫，勞資衝突面臨新轉折",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-09/apple-will-close-its-first-unionized-retail-location-in-the-us",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "Goldman Sachs resets its oil price forecasts for the rest of 2026 - thestreet.com",
-      "zh": "高盛重新評估並調整2026年全年石油價格預測",
-      "impact": "油價走勢預期變化，影響能源及通膨前景",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://www.thestreet.com/investing/goldman-sachs-resets-its-oil-price-forecasts-for-the-rest-of-2026",
-      "source": "TheStreet",
-      "tickers": []
-    },
-    {
-      "title": "xAI sues Colorado over first state AI anti-discrimination law - Financial Times",
-      "zh": "xAI公司就科羅拉多州首部AI反歧視法對該州提起訴訟",
-      "impact": "AI監管規範引發法律爭議，科技業面臨合規挑戰",
+      "title": "Amazon Stock (AMZN) Pops on $25B Data Center Buildout in Mississippi - TipRanks",
+      "zh": "亞馬遜股價因密西西比州250億美元數據中心擴建計劃而上漲",
+      "impact": "亞馬遜大規模基礎設施投資，利好雲計算業務發展前景",
       "sector": "tech",
       "priority": "medium",
-      "link": "https://www.ft.com/content/55e8cba9-d09c-4f94-b710-4ab447b987f9?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
+      "link": "https://www.tipranks.com/news/amazon-stock-amzn-pops-on-25b-data-center-buildout-in-mississippi",
+      "source": "Tipranks.com",
+      "tickers": [
+        "$AMZN（亞馬遜）"
+      ]
     },
     {
-      "title": "North Sea oil prices hit record high as Iran keeps hold over Strait of Hormuz - Financial Times",
-      "zh": "北海石油價格攀升至歷史高位，伊朗掌控霍爾木茲海峽局勢",
-      "impact": "全球能源供應不確定性增加，油價上漲壓力持續",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.ft.com/content/f04ad855-81e3-49c5-827e-d3c4acb901c9?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "StubHub Refunding $10 Million in Fees to Consumers After Deceptive Ticket Pricing - Federal Trade Commission (.gov)",
-      "zh": "StubHub因欺騙性票價定價向消費者退款1000萬美元 - 美國聯邦貿易委員會",
-      "impact": "StubHub面臨監管處罰，消費者保護執法加強",
+      "title": "Exclusive | Sazerac Eyes Deal With Jack Daniel’s Maker Brown-Forman - WSJ",
+      "zh": "獨家報導｜薩澤拉克公司計劃與傑克丹尼爾威士忌製造商布朗-福曼達成交易",
+      "impact": "酒精飲料行業整併，可能改變市場競爭格局",
       "sector": "consumer",
       "priority": "medium",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/04/stubhub-refunding-10-million-fees-consumers-after-deceptive-ticket-pricing",
-      "source": "Ftc.gov",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYlBydVlCSE91RkdYYTlNOW11NjlnQlVPdWx4ZktDaG43VjZvSVJIYnBzenRwdXhwaE1SSWNiU09BWTlWajVBVlh3VGpIWU9XcDNHbEl0bTgwYjY2aXNWOTVvY25jVmFUdmJhX2JPZV9kUm1JSHUzY3pNNWV1RTlrUTZEdnVCeFRPd1AtRFVfajkzblJqYlRF?oc=5",
+      "source": "Google News",
       "tickers": []
     },
     {
-      "title": "‘Tip of the inflation iceberg’: Social Security’s COLA forecast rises to 3.2%",
-      "zh": "「通膨冰山一角」：社會保障COLA預測上升至3.2%",
-      "impact": "社會安全福利成本上升，反映通膨壓力持續",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.marketwatch.com/story/tip-of-the-inflation-iceberg-social-securitys-cola-forecast-rises-to-3-2-b2b4062b?mod=mw_rss_topstories",
+      "title": "Why Starlink is so important to SpaceX's IPO",
+      "zh": "星鏈對SpaceX首次公開募股為何至關重要",
+      "impact": "星鏈收入前景對SpaceX估值和IPO成功關鍵影響",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/sectors/technology/article/why-starlink-is-so-important-to-spacexs-ipo-174446711.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Interest rates are headed lower — real yields suggest a half-point Fed cut is coming",
+      "zh": "利率走低——實際收益率預示美聯儲可能降息半碼",
+      "impact": "美聯儲降息預期，影響整體市場資金成本和資產配置",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.marketwatch.com/story/interest-rates-are-headed-lower-real-yields-suggest-a-half-point-fed-cut-is-coming-b5fd1e22?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories",
       "tickers": []
     },
     {
       "title": "Strait of Hormuz Constraints Keep Oil Prices Elevated",
-      "zh": "荷莫茲海峽限制措施使油價保持高位",
-      "impact": "地緣政治風險推升能源價格，影響全球經濟成本",
+      "zh": "荷莫茲海峽限制措施持續推高油價",
+      "impact": "地緣政治風險維持油價高位，影響能源和運輸成本",
       "sector": "energy",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Oil-Prices/Strait-of-Hormuz-Constraints-Keep-Oil-Prices-Elevated.html",
