@@ -1,104 +1,20 @@
 {
-  "updated": "2026/04/11 08:01",
+  "updated": "2026/04/11 10:00",
   "news": [
     {
-      "title": "Futures: Trump Issues Hormuz Threat; Amazon Fuels AI Trade - Investor's Business Daily",
-      "zh": "期貨市場：川普發出荷莫茲海峽威脅；亞馬遜推動AI交易",
-      "impact": "地緣政治風險升溫，科技股因AI投資需求受關注",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-war-talks-cpi-inflation-nvidia-chipmaker-taiwan-semiconductor/",
-      "source": "Investor's Business Daily",
-      "tickers": []
-    },
-    {
-      "title": "The USPS is suspending contributions to employee pensions as it warns of a 'pending liquidity crisis' - Business Insider",
-      "zh": "美國郵政署暫停員工養老金繳款，警告面臨「待決流動性危機」",
-      "impact": "政府財政壓力凸顯，公共部門危機升級",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.businessinsider.com/usps-suspends-payments-to-employee-pension-plan-free-up-cash-2026-4",
-      "source": "Business Insider",
-      "tickers": []
-    },
-    {
-      "title": "Amazon Stock (AMZN) Pops on $25B Data Center Buildout in Mississippi - TipRanks",
-      "zh": "亞馬遜股價上漲，因宣佈在密西西比州投資250億美元數據中心",
-      "impact": "亞馬遜AI基礎設施投資加碼，長期競爭力強化",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.tipranks.com/news/amazon-stock-amzn-pops-on-25b-data-center-buildout-in-mississippi",
-      "source": "Tipranks.com",
-      "tickers": [
-        "$AMZN（亞馬遜）"
-      ]
-    },
-    {
-      "title": "David Zaslav Paramount Deal 'Windfall' Payout: ISS Says Warner Bros Shareholders Should Vote Against Measure - Variety",
-      "zh": "代理顧問公司ISS建議華納兄弟股東投票反對派拉蒙交易中David Zaslav的「意外所得」賠償",
-      "impact": "派拉蒙併購交易面臨股東阻力，交易前景存疑",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://variety.com/2026/film/news/david-zaslav-golden-parachute-windfall-payout-paramount-deal-iss-shareholders-1236712564/",
-      "source": "Variety",
-      "tickers": []
-    },
-    {
-      "title": "Exclusive / SpaceX bankers game plan to blunt post-IPO selling tsunami - Semafor",
-      "zh": "獨家：SpaceX銀行家籌劃策略以抑制IPO後售股浪潮",
-      "impact": "SpaceX上市籌備加速，預期融資規模龐大",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://www.semafor.com/article/04/09/2026/spacex-bankers-game-plan-to-blunt-post-ipo-selling-tsunami",
-      "source": "Semafor.com",
-      "tickers": []
-    },
-    {
-      "title": "Fed minutes show willingness to consider interest rate increases - Axios",
-      "zh": "聯準會會議紀要顯示願意考慮升息",
-      "impact": "聯準會政策預期轉向偏鷹派，債券股票雙殺",
+      "title": "Analyst Upgrades This Bank As Banking Stocks Eye Next Week's Earnings",
+      "zh": "分析師上調評級銀行股票 銀行類股關注下週財報",
+      "impact": "銀行股獲看好，可能帶動金融板塊上漲",
       "sector": "finance",
-      "priority": "high",
-      "link": "https://www.axios.com/2026/04/08/fed-interest-rates-fomc-march",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
-      "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 4th Quarter and Year 2025 - U.S. Bureau of Economic Analysis (BEA) (.gov)",
-      "zh": "GDP第三估計值、產業數據、企業利潤、州GDP及州個人所得（2025年第四季及全年）",
-      "impact": "2025年經濟成長終值確認，市場基本面參考",
-      "sector": "general",
       "priority": "medium",
-      "link": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-4th",
-      "source": "Bea.gov",
+      "link": "https://www.investors.com/news/morgan-stanley-ms-stock-q1-bank-earnings/?src=A00220&yptr=yahoo",
+      "source": "Yahoo Finance",
       "tickers": []
-    },
-    {
-      "title": "Personal Income and Outlays, February 2026 - U.S. Bureau of Economic Analysis (BEA) (.gov)",
-      "zh": "2026年2月個人收入與支出數據",
-      "impact": "消費趨勢與薪資動向更新，通脹預期參考",
-      "sector": "general",
-      "priority": "low",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-february-2026",
-      "source": "Bea.gov",
-      "tickers": []
-    },
-    {
-      "title": "CoreWeave and Meta Expand $21B AI Cloud Deal - CoreWeave",
-      "zh": "CoreWeave與Meta擴大210億美元AI雲端交易",
-      "impact": "Meta強化AI運算基礎設施投資，科技軍備競賽升級",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement",
-      "source": "Coreweave.com",
-      "tickers": [
-        "$META（Meta）"
-      ]
     },
     {
       "title": "Fed seeks details on U.S. banks’ exposure to private credit firms",
-      "zh": "聯準會尋求美國銀行與私募信用機構敞口細節",
-      "impact": "監管部門關注金融系統風險，私募融資面臨審查",
+      "zh": "美聯儲尋求瞭解美國銀行對私募信貸公司的風險敞口",
+      "impact": "央行監管關注私募信貸風險，防範系統性風險",
       "sector": "finance",
       "priority": "high",
       "link": "https://fortune.com/2026/04/10/federal-reserve-us-banks-exposure-private-credit-firms-insurers-treasury-department/",
@@ -106,9 +22,19 @@
       "tickers": []
     },
     {
+      "title": "Strait of Hormuz Constraints Keep Oil Prices Elevated",
+      "zh": "荷莫茲海峽供應受限 油價維持高位",
+      "impact": "地緣政治風險推升油價，影響全球能源市場",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Energy/Oil-Prices/Strait-of-Hormuz-Constraints-Keep-Oil-Prices-Elevated.html",
+      "source": "Oilprice.com",
+      "tickers": []
+    },
+    {
       "title": "OpenAI Freezes UK AI Data Center Plans Over Power Prices, Red Tape",
-      "zh": "OpenAI因電力價格和官僚程序暫停英國AI數據中心計劃",
-      "impact": "影響AI基礎設施投資，延緩英國AI產業發展",
+      "zh": "OpenAI因電力價格和行政障礙暫停英國AI數據中心計畫",
+      "impact": "OpenAI英國擴張受挫，AI基礎設施投資面臨挑戰",
       "sector": "tech",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/OpenAI-Freezes-UK-AI-Data-Center-Plans-Over-Power-Prices-Red-Tape.html",
