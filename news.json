@@ -1,112 +1,42 @@
 {
-  "updated": "2026/04/11 18:01",
+  "updated": "2026/04/11 18:41",
   "news": [
     {
-      "title": "US Postal Service to suspend employer pay to workers’ pensions, citing cash crunch - NewsNation",
-      "zh": "美國郵政署因現金短缺暫停向員工養老金支付款項",
-      "impact": "郵政署資金困難，可能影響員工退休保障",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.newsnationnow.com/business/your-money/ap-us-postal-service-to-suspend-employer-payments-to-workers-pensions-citing-cash-crunch/",
-      "source": "Newsnationnow.com",
-      "tickers": []
-    },
-    {
-      "title": "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed - CNBC",
-      "zh": "凱文·沃什聯準會主席確認計畫受阻，提名聽證會延期",
-      "impact": "聯準會領導層人事變動延遲，可能影響未來貨幣政策",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
-      "source": "CNBC",
-      "tickers": []
-    },
-    {
-      "title": "David Zaslav Paramount Deal 'Windfall' Payout: ISS Says Warner Bros Shareholders Should Vote Against Measure - Variety",
-      "zh": "大衛·扎斯拉夫派拉蒙交易「意外之財」派息：ISS建議華納兄弟股東投票反對",
-      "impact": "派拉蒙與華納兄弟合併交易引發股東爭議與反對聲浪",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://variety.com/2026/film/news/david-zaslav-golden-parachute-windfall-payout-paramount-deal-iss-shareholders-1236712564/",
-      "source": "Variety",
-      "tickers": []
-    },
-    {
-      "title": "Paramount Seals, Refines Debt Financing As It Moves Towards WBD Deal - Deadline",
-      "zh": "派拉蒙確保並優化債務融資，推進與WBD交易",
-      "impact": "派拉蒙合併交易融資進展順利，債務融資機制確立",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "http://deadline.com/2026/04/paramount-debt-financing-warner-bros-discovery-merger-1236785653/",
-      "source": "Deadline",
-      "tickers": []
-    },
-    {
-      "title": "US economy grew a sluggish 0.5% in fourth quarter, government says, downgrading previous estimate - AP News",
-      "zh": "美國經濟第四季度增長疲弱0.5%，政府下調先前預估",
-      "impact": "經濟成長大幅下修，市場對經濟前景預期轉向悲觀",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://apnews.com/article/economy-gdp-jobs-iran-dcb9dbdea745ddf15bea9b8f79ee308c",
-      "source": "Associated Press",
-      "tickers": []
-    },
-    {
-      "title": "Exclusive | Carlyle Private-Credit Fund Hit With Redemption Requests Totaling 15.7% - WSJ",
-      "zh": "專題報導｜卡萊爾私募信用基金面臨15.7%贖回請求",
-      "impact": "私募信用市場出現贖回壓力，可能反映市場風險偏好下降",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.wsj.com/pro/private-equity/carlyle-private-credit-fund-hit-with-15-7-in-redemption-requests-9b5e5ca4",
-      "source": "The Wall Street Journal",
-      "tickers": []
-    },
-    {
-      "title": "Space Force taps 14 firms for $1.8 billion GEO surveillance program - SpaceNews",
-      "zh": "美國太空軍選定14家公司參與18億美元地球同步軌道監視計畫",
-      "impact": "政府國防合約金額達18億美元，利好航太國防產業",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaVpreXpOaGR4Qm5NYzVMMVdKUnhHb0Q3NTJ1c2hfR0NmZVotWnlzcXgzZ1djUXFQT1ZOWmNhLV9lTVFpMnN2ekhnaHEzR05yR09mRXVRRldSdlJzeVJxdXo5Q041UGMzcEk2cXR5U2lEOUhpZDFqdVQwWXBzcElNSGloUTBKMHl1Vm1pcGtpVVc4eU0?oc=5",
-      "source": "Google News",
-      "tickers": []
-    },
-    {
-      "title": "CoreWeave and Meta Expand $21B AI Cloud Deal - CoreWeave",
-      "zh": "核心韋夫與Meta擴大210億美元AI雲端交易",
-      "impact": "Meta與供應商簽署大規模AI基礎設施合約，加速AI佈局",
+      "title": "Amazon CEO Jassy says company could sell AI chips, raising stakes for Nvidia, AMD",
+      "zh": "亞馬遜CEO傑西表示公司可能銷售AI晶片，提高對英偉達、AMD的競爭威脅",
+      "impact": "亞馬遜進入AI晶片市場，衝擊英偉達、AMD市場地位",
       "sector": "tech",
       "priority": "high",
-      "link": "https://coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement",
-      "source": "Coreweave.com",
+      "link": "https://finance.yahoo.com/news/amazon-ceo-jassy-says-company-could-sell-ai-chips-raising-stakes-for-nvidia-amd-142835117.html",
+      "source": "Yahoo Finance",
       "tickers": [
-        "$META（Meta）"
+        "$AMD（AMD）"
       ]
     },
     {
-      "title": "China EV Exports Jump to Record as Iran Oil Shock Entices Buyers - Bloomberg.com",
-      "zh": "中國電動車出口創新高，伊朗石油衝擊刺激買家",
-      "impact": "中國電動車出口激增，可能加劇全球汽車產業競爭格局",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-09/china-ev-exports-jump-to-record-as-iran-oil-shock-entices-buyers",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "Raiffeisen Takeover Target Addiko Gets Higher Offer From Slovenia’s NLB",
-      "zh": "萊弗森收購目標Addiko獲得斯洛維尼亞NLB更高報價",
-      "impact": "銀行併購交易出現競價，Addiko獲得更優惠報價",
+      "title": "Bessent, Powell warned bank CEOs about Anthropic model risks, sources say",
+      "zh": "財政部長貝森特和聯準會主席鮑威爾警告銀行CEO關於Anthropic模式風險",
+      "impact": "聯準會和財政部關注AI風險，可能引發監管政策變化",
       "sector": "finance",
       "priority": "medium",
-      "link": "https://www.wsj.com/finance/banking/raiffeisen-takeover-target-addiko-gets-higher-offer-from-slovenias-nlb-c4cca391?siteid=yhoof2&yptr=yahoo",
+      "link": "https://finance.yahoo.com/sectors/technology/articles/bessent-powell-warn-bank-ceos-010258554.html",
       "source": "Yahoo Finance",
       "tickers": []
     },
     {
+      "title": "Strait of Hormuz Constraints Keep Oil Prices Elevated",
+      "zh": "荷美茲海峽限制措施保持油價高位",
+      "impact": "地緣政治風險支撐油價，能源成本維持高位",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Energy/Oil-Prices/Strait-of-Hormuz-Constraints-Keep-Oil-Prices-Elevated.html",
+      "source": "Oilprice.com",
+      "tickers": []
+    },
+    {
       "title": "OpenAI Freezes UK AI Data Center Plans Over Power Prices, Red Tape",
-      "zh": "OpenAI因電力價格和官僚程序繁瑣，凍結英國AI數據中心計劃",
-      "impact": "延緩AI基礎設施投資，影響英國科技競爭力和就業機會",
+      "zh": "OpenAI因電價和官僚程序暫停英國AI數據中心計畫",
+      "impact": "OpenAI擱置英國擴張，英國AI產業發展受阻",
       "sector": "tech",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/OpenAI-Freezes-UK-AI-Data-Center-Plans-Over-Power-Prices-Red-Tape.html",
