@@ -1,10 +1,110 @@
 {
-  "updated": "2026/04/12 06:00",
+  "updated": "2026/04/12 06:39",
   "news": [
     {
+      "title": "S&P 500 slips Friday, but index posts best week since November after fragile Iran ceasefire deal: Live updates - CNBC",
+      "zh": "標普500指數週五小幅下跌，但在脆弱的伊朗停火協議後該指數創下11月以來最佳周表現",
+      "impact": "伊朗停火緩解地緣政治風險，美股短期獲支撐",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.cnbc.com/2026/04/09/stock-market-today-live-updates.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "Trump faces surging inflation report, fueled by Iran conflict - The Washington Post",
+      "zh": "川普面臨飆升的通膨報告，由伊朗衝突推動",
+      "impact": "伊朗衝突加劇通膨壓力，衝擊政府經濟政策",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.washingtonpost.com/business/2026/04/10/inflation-march-iran-war/",
+      "source": "The Washington Post",
+      "tickers": []
+    },
+    {
+      "title": "Europe's Jet Fuel Shortage Arriving in Weeks - Crude Oil Prices Today | OilPrice.com",
+      "zh": "歐洲噴氣燃料短缺將在數週內出現",
+      "impact": "能源供應受限，航空業成本上升壓力增加",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Jet-Fuel-Shortage-Arriving-in-Weeks.html",
+      "source": "OilPrice.com",
+      "tickers": []
+    },
+    {
+      "title": "Construction Business Taking a Hit From Iran Conflict - WSJ",
+      "zh": "建築業因伊朗衝突受到打擊",
+      "impact": "地緣政治不確定性衝擊建築業需求與成本",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.wsj.com/economy/construction-business-taking-a-hit-from-iran-conflict-914cbca4",
+      "source": "The Wall Street Journal",
+      "tickers": []
+    },
+    {
+      "title": "Kentucky bourbon giants may merge - Axios",
+      "zh": "肯塔基威士忌巨頭可能合併",
+      "impact": "消費品行業整合動向，市場集中度提升",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.axios.com/2026/04/10/kentucky-bourbon-jack-daniels-fireball",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
+      "title": "Pentagon Awards $4.76 Billion Missile Contract As Iran War Dents Supplies - Investor's Business Daily",
+      "zh": "五角大廈獲頒47.6億美元飛彈合約，伊朗戰爭衝擊補給",
+      "impact": "防務支出增加，地緣政治衝突推動軍工需求",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.investors.com/news/lockheed-martin-stock-pac-3-missiles-department-of-defense-contract-4-76-billion-iran-war-missile-munitions/",
+      "source": "Investor's Business Daily",
+      "tickers": []
+    },
+    {
+      "title": "Consumer sentiment plummets to record low as Iran war jacks up inflation - CNN",
+      "zh": "伊朗戰爭推高通膨，消費者信心跌至紀錄低點",
+      "impact": "消費信心崩潰，經濟衰退風險升高",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.cnn.com/2026/04/10/economy/us-consumer-sentiment-record-low-april",
+      "source": "CNN",
+      "tickers": []
+    },
+    {
+      "title": "Dolce & Gabbana Co-Founder Steps Down, Mulls Stake Options - Bloomberg",
+      "zh": "Dolce & Gabbana共同創辦人下台，考慮股權選項",
+      "impact": "奢侈品公司領導層變動，股權結構調整",
+      "sector": "consumer",
+      "priority": "low",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-09/dolce-gabbana-co-founder-resigns-as-chair-mulls-stake-options",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "US Postal Service to suspend employer pay to workers’ pensions, citing cash crunch - NewsNation",
+      "zh": "美國郵政署因現金短缺暫停向員工養老金繳款",
+      "impact": "政府機構財務困窘，員工退休金風險提升",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.newsnationnow.com/business/your-money/ap-us-postal-service-to-suspend-employer-payments-to-workers-pensions-citing-cash-crunch/",
+      "source": "Newsnationnow.com",
+      "tickers": []
+    },
+    {
+      "title": "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed - CNBC",
+      "zh": "凱文·沃什聯邦準備委員會主席確認計畫遭遇挫折，提名聽證會延期",
+      "impact": "央行領導層人事延遲，貨幣政策前景不確定",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
       "title": "Goldman Sachs resets its oil price forecasts for the rest of 2026 - thestreet.com",
-      "zh": "高盛重新調整2026年剩餘時間的油價預測",
-      "impact": "石油價格預測調整影響能源股走勢和通膨預期",
+      "zh": "高盛重新調整2026年剩餘時間的石油價格預測",
+      "impact": "油價預測調整影響能源股及通膨預期",
       "sector": "energy",
       "priority": "medium",
       "link": "https://www.thestreet.com/investing/goldman-sachs-resets-its-oil-price-forecasts-for-the-rest-of-2026",
@@ -13,8 +113,8 @@
     },
     {
       "title": "David Zaslav Paramount Deal 'Windfall' Payout: ISS Says Warner Bros Shareholders Should Vote Against Measure - variety.com",
-      "zh": "大衛·扎斯拉夫派拉蒙交易「意外之財」支付：ISS建議華納兄弟股東投票反對此舉措",
-      "impact": "派拉蒙併購案引發股東治理爭議，影響華納兄弟股價",
+      "zh": "大衛·扎斯拉夫派拉蒙交易「意外之財」賠付：ISS建議華納兄弟股東投票反對該措施",
+      "impact": "派拉蒙與華納合併交易面臨股東反對風險",
       "sector": "general",
       "priority": "high",
       "link": "https://variety.com/2026/film/news/david-zaslav-golden-parachute-windfall-payout-paramount-deal-iss-shareholders-1236712564/",
@@ -22,9 +122,19 @@
       "tickers": []
     },
     {
+      "title": "Frontier Group Holdings, Inc. (ULCC) Defers Airplane Delivery and Terminates Leases amid Restructuring",
+      "zh": "邊疆集團控股公司（ULCC）推遲飛機交付並終止租約以應對重組",
+      "impact": "邊疆航空重組影響航空業營運及成本結構",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/frontier-group-holdings-inc-ulcc-220823137.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
       "title": "Average price of new cars nears $50,000 as automakers focus on big pickups and SUVs while cheaper sedans get phased out",
-      "zh": "新車平均價格接近5萬美元，汽車製造商專注於大型皮卡和SUV，廉價轎車逐漸被淘汰",
-      "impact": "汽車市場結構調整影響消費者購買力和車企盈利能力",
+      "zh": "新車平均價格接近5萬美元，汽車製造商專注大型皮卡和SUV，廉價轎車逐步淘汰",
+      "impact": "新車價格上升反映市場結構調整及消費端壓力",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://fortune.com/2026/04/11/average-price-new-cars-50000-automakers-pickups-suv-cheaper-sedans/",
