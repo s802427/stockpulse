@@ -1,20 +1,124 @@
 {
-  "updated": "2026/04/11 10:00",
+  "updated": "2026/04/11 10:46",
   "news": [
     {
-      "title": "Analyst Upgrades This Bank As Banking Stocks Eye Next Week's Earnings",
-      "zh": "分析師上調評級銀行股票 銀行類股關注下週財報",
-      "impact": "銀行股獲看好，可能帶動金融板塊上漲",
-      "sector": "finance",
+      "title": "USPS to suspend pension contributions, seeks 4-cent stamp price hike - Politico",
+      "zh": "美國郵政服務暫停退休金繳款，尋求郵票漲價四美分",
+      "impact": "郵政服務成本上升，影響消費者郵寄成本",
+      "sector": "general",
       "priority": "medium",
-      "link": "https://www.investors.com/news/morgan-stanley-ms-stock-q1-bank-earnings/?src=A00220&yptr=yahoo",
-      "source": "Yahoo Finance",
+      "link": "https://www.politico.com/news/2026/04/09/usps-to-suspend-pension-contributions-seeks-4-cent-stamp-price-hike-00866388",
+      "source": "Politico",
+      "tickers": []
+    },
+    {
+      "title": "North Sea oil prices hit record high as Iran keeps hold over Strait of Hormuz - Financial Times",
+      "zh": "北海油價創紀錄新高，伊朗持續控制荷姆茲海峽",
+      "impact": "地緣政治緊張推高油價，影響全球能源成本",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.ft.com/content/f04ad855-81e3-49c5-827e-d3c4acb901c9?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "U.S. Postal Service seeks hike in price of first-class mail stamps to 82 cents in July - CNBC",
+      "zh": "美國郵政服務尋求七月將一級郵票價格提高至82美分",
+      "impact": "郵票價格上漲，影響消費者和企業郵寄成本",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.cnbc.com/2026/04/09/us-postal-service-mail-stamps-price.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "Amazon Stock (AMZN) Pops on $25B Data Center Buildout in Mississippi - TipRanks",
+      "zh": "亞馬遜股票因密西西比州250億美元數據中心建設計畫而上漲",
+      "impact": "大規模資本支出推動股價上升，強化雲端基礎設施",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.tipranks.com/news/amazon-stock-amzn-pops-on-25b-data-center-buildout-in-mississippi",
+      "source": "Tipranks.com",
+      "tickers": [
+        "$AMZN（亞馬遜）"
+      ]
+    },
+    {
+      "title": "David Zaslav Paramount Deal 'Windfall' Payout: ISS Says Warner Bros Shareholders Should Vote Against Measure - Variety",
+      "zh": "ISS稱大衛·扎斯拉夫派拉蒙交易為「意外之財」支付，華納兄弟股東應投反對票",
+      "impact": "媒體併購治理爭議，影響交易推進和股東利益",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://variety.com/2026/film/news/david-zaslav-golden-parachute-windfall-payout-paramount-deal-iss-shareholders-1236712564/",
+      "source": "Variety",
+      "tickers": []
+    },
+    {
+      "title": "Exclusive / SpaceX bankers game plan to blunt post-IPO selling tsunami - Semafor",
+      "zh": "SpaceX銀行家制定計畫以應對IPO後出現的大規模拋售",
+      "impact": "IPO準備工作進行中，市場對流動性管理的擔憂",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.semafor.com/article/04/09/2026/spacex-bankers-game-plan-to-blunt-post-ipo-selling-tsunami",
+      "source": "Semafor.com",
+      "tickers": []
+    },
+    {
+      "title": "Fed minutes show willingness to consider interest rate increases - Axios",
+      "zh": "聯邦儲備委員會會議記錄顯示願意考慮升息",
+      "impact": "央行政策轉向鷹派，市場對升息預期上升",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.axios.com/2026/04/08/fed-interest-rates-fomc-march",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
+      "title": "US economy grew a sluggish 0.5% in fourth quarter, government says, downgrading previous estimate - AP News",
+      "zh": "美國經濟第四季度增長率僅0.5%，政府下調前期預估",
+      "impact": "經濟成長放緩，市場對衰退風險的擔憂加劇",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://apnews.com/article/economy-gdp-jobs-iran-dcb9dbdea745ddf15bea9b8f79ee308c",
+      "source": "Associated Press",
+      "tickers": []
+    },
+    {
+      "title": "Personal Income and Outlays, February 2026 - U.S. Bureau of Economic Analysis (BEA) (.gov)",
+      "zh": "個人收入和支出統計數據，2026年二月",
+      "impact": "經濟數據發布，用於評估消費者支出趨勢",
+      "sector": "general",
+      "priority": "low",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-february-2026",
+      "source": "Bea.gov",
+      "tickers": []
+    },
+    {
+      "title": "CoreWeave and Meta Expand $21B AI Cloud Deal - CoreWeave",
+      "zh": "CoreWeave與Meta擴大210億美元AI雲端交易",
+      "impact": "大規模AI基礎設施投資，推動科技巨頭競爭加劇",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement",
+      "source": "Coreweave.com",
+      "tickers": [
+        "$META（Meta）"
+      ]
+    },
+    {
+      "title": "States are struggling to meet their clean energy goals. Data centers are to blame - AP News",
+      "zh": "美國各州難以達成清潔能源目標。數據中心成為主要原因 - 美聯社",
+      "impact": "數據中心電力需求激增，威脅能源轉型進度",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://apnews.com/article/ai-data-centers-nevada-clean-energy-47d1b6633ed720962848f4b5b91e7d6b",
+      "source": "Associated Press",
       "tickers": []
     },
     {
       "title": "Fed seeks details on U.S. banks’ exposure to private credit firms",
-      "zh": "美聯儲尋求瞭解美國銀行對私募信貸公司的風險敞口",
-      "impact": "央行監管關注私募信貸風險，防範系統性風險",
+      "zh": "聯準會要求美國銀行披露對私人信貸公司的風險敞口",
+      "impact": "監管加強，防範金融系統風險，銀行業承壓",
       "sector": "finance",
       "priority": "high",
       "link": "https://fortune.com/2026/04/10/federal-reserve-us-banks-exposure-private-credit-firms-insurers-treasury-department/",
@@ -22,19 +126,9 @@
       "tickers": []
     },
     {
-      "title": "Strait of Hormuz Constraints Keep Oil Prices Elevated",
-      "zh": "荷莫茲海峽供應受限 油價維持高位",
-      "impact": "地緣政治風險推升油價，影響全球能源市場",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Energy/Oil-Prices/Strait-of-Hormuz-Constraints-Keep-Oil-Prices-Elevated.html",
-      "source": "Oilprice.com",
-      "tickers": []
-    },
-    {
       "title": "OpenAI Freezes UK AI Data Center Plans Over Power Prices, Red Tape",
-      "zh": "OpenAI因電力價格和行政障礙暫停英國AI數據中心計畫",
-      "impact": "OpenAI英國擴張受挫，AI基礎設施投資面臨挑戰",
+      "zh": "OpenAI凍結英國AI數據中心計畫，原因為電價與監管障礙",
+      "impact": "能源成本與監管影響AI基礎設施投資決策",
       "sector": "tech",
       "priority": "medium",
       "link": "https://oilprice.com/Energy/Energy-General/OpenAI-Freezes-UK-AI-Data-Center-Plans-Over-Power-Prices-Red-Tape.html",
