@@ -1,20 +1,10 @@
 {
-  "updated": "2026/04/12 04:00",
+  "updated": "2026/04/12 04:41",
   "news": [
     {
-      "title": "Paramount Details Separation Agreement With Jeff Shell - Deadline",
-      "zh": "派拉蒙詳細說明與傑夫·謝爾的分離協議",
-      "impact": "派拉蒙媒體集團領導層變動，可能影響公司策略方向",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "http://deadline.com/2026/04/paramount-jeff-shell-separation-agreement-1236785688/",
-      "source": "Deadline",
-      "tickers": []
-    },
-    {
       "title": "Oracle's new CFO got $26M in stock after layoffs. Employee says an 'algorithm' targeted workers with stock options first",
-      "zh": "甲骨文新任首席財務官在裁員後獲得2,600萬美元股票，員工稱「演算法」優先針對持股員工",
-      "impact": "高管補償與員工裁員的爭議，引發公司治理與公平性質疑",
+      "zh": "甲骨文新任首席財務官在裁員後獲得2,600萬美元股票。員工聲稱「演算法」優先針對持有股票期權的員工。",
+      "impact": "裁員策略引發道德爭議，可能影響員工士氣和公司聲譽。",
       "sector": "tech",
       "priority": "medium",
       "link": "https://finance.yahoo.com/markets/stocks/articles/oracles-cfo-got-26m-stock-184500098.html",
