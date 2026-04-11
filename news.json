@@ -1,14 +1,34 @@
 {
-  "updated": "2026/04/12 04:41",
+  "updated": "2026/04/12 06:00",
   "news": [
     {
-      "title": "Oracle's new CFO got $26M in stock after layoffs. Employee says an 'algorithm' targeted workers with stock options first",
-      "zh": "甲骨文新任首席財務官在裁員後獲得2,600萬美元股票。員工聲稱「演算法」優先針對持有股票期權的員工。",
-      "impact": "裁員策略引發道德爭議，可能影響員工士氣和公司聲譽。",
-      "sector": "tech",
+      "title": "Goldman Sachs resets its oil price forecasts for the rest of 2026 - thestreet.com",
+      "zh": "高盛重新調整2026年剩餘時間的油價預測",
+      "impact": "石油價格預測調整影響能源股走勢和通膨預期",
+      "sector": "energy",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/oracles-cfo-got-26m-stock-184500098.html",
-      "source": "Yahoo Finance",
+      "link": "https://www.thestreet.com/investing/goldman-sachs-resets-its-oil-price-forecasts-for-the-rest-of-2026",
+      "source": "TheStreet",
+      "tickers": []
+    },
+    {
+      "title": "David Zaslav Paramount Deal 'Windfall' Payout: ISS Says Warner Bros Shareholders Should Vote Against Measure - variety.com",
+      "zh": "大衛·扎斯拉夫派拉蒙交易「意外之財」支付：ISS建議華納兄弟股東投票反對此舉措",
+      "impact": "派拉蒙併購案引發股東治理爭議，影響華納兄弟股價",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://variety.com/2026/film/news/david-zaslav-golden-parachute-windfall-payout-paramount-deal-iss-shareholders-1236712564/",
+      "source": "Variety",
+      "tickers": []
+    },
+    {
+      "title": "Average price of new cars nears $50,000 as automakers focus on big pickups and SUVs while cheaper sedans get phased out",
+      "zh": "新車平均價格接近5萬美元，汽車製造商專注於大型皮卡和SUV，廉價轎車逐漸被淘汰",
+      "impact": "汽車市場結構調整影響消費者購買力和車企盈利能力",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://fortune.com/2026/04/11/average-price-new-cars-50000-automakers-pickups-suv-cheaper-sedans/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     }
   ]
