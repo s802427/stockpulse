@@ -1,20 +1,32 @@
 {
-  "updated": "2026/04/12 16:00",
+  "updated": "2026/04/12 18:00",
   "news": [
     {
       "title": "Record gas price surge fuels sharp rise in U.S. inflation - Honolulu Star-Advertiser",
-      "zh": "創紀錄汽油價格飆升推動美國通膨急劇上升",
-      "impact": "油價上漲推高通膨，影響消費者和央行政策方向",
+      "zh": "創紀錄油氣價格飆升推動美國通膨急劇上升",
+      "impact": "能源價格上漲加劇通膨壓力，影響美聯儲政策方向",
       "sector": "energy",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.staradvertiser.com/2026/04/10/breaking-news/record-gas-price-surge-fuels-sharp-rise-in-u-s-inflation/",
       "source": "Honolulu Star-Advertiser",
       "tickers": []
     },
     {
+      "title": "IBM to pay $17 million in anti-DEI settlement - CNN",
+      "zh": "IBM以1,700萬美元和解反多元化訴訟",
+      "impact": "企業DEI政策面臨法律挑戰，引發產業政策調整",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.cnn.com/2026/04/10/business/ibm-settlement-dei-lawsuit",
+      "source": "CNN",
+      "tickers": [
+        "$IBM（IBM）"
+      ]
+    },
+    {
       "title": "Fed Seeks Details on US Banks’ Exposure to Private Credit Firms - Bloomberg.com",
-      "zh": "聯邦準備委員會尋求美國銀行對私募信貸公司敞口的詳細資訊",
-      "impact": "央行監控金融系統風險，防止潛在信貸市場危機",
+      "zh": "美聯儲尋求美國銀行對私人信貸公司敞口詳情",
+      "impact": "監管機構評估金融系統風險，關注影子銀行體系",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-10/fed-seeks-details-on-us-banks-exposure-to-private-credit-firms",
@@ -22,19 +34,29 @@
       "tickers": []
     },
     {
-      "title": "Iran War Hits US Economy With More Inflation, Record-Low Sentiment - Bloomberg.com",
-      "zh": "伊朗戰爭以更多通膨和創紀錄低迷情緒衝擊美國經濟",
-      "impact": "地緣政治局勢惡化加劇通膨，消費者信心跌至低點",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-10/iran-war-hits-us-economy-with-cpi-surge-record-low-consumer-sentiment",
+      "title": "Anthropic Agrees to Rent CoreWeave AI Capacity to Power Claude - Bloomberg.com",
+      "zh": "Anthropic同意租用CoreWeave AI運算能力來支持Claude",
+      "impact": "AI模型商業化加速，推動雲端運算需求上升",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-10/anthropic-agrees-to-rent-coreweave-ai-capacity-to-power-claude",
       "source": "Bloomberg",
       "tickers": []
     },
     {
+      "title": "Consumer Sentiment Hits Lowest Level on Record - WSJ",
+      "zh": "消費者信心創歷史新低",
+      "impact": "經濟前景悲觀信號，預示零售和消費支出可能萎縮",
+      "sector": "consumer",
+      "priority": "high",
+      "link": "https://www.wsj.com/livecoverage/cpi-inflation-data-stock-market-04-10-2026/card/consumer-sentiment-hits-lowest-level-on-record-per-michigan-survey-5VJGLYnCPo7KERNfwiyI",
+      "source": "The Wall Street Journal",
+      "tickers": []
+    },
+    {
       "title": "Kentucky bourbon giants may merge - Axios",
-      "zh": "肯塔基波本威士忌巨頭可能合併",
-      "impact": "酒精飲料行業整合，市場集中度上升",
+      "zh": "肯塔基州波本威士忌巨頭可能合併",
+      "impact": "酒業整合，可能影響市場競爭格局和就業",
       "sector": "consumer",
       "priority": "low",
       "link": "https://www.axios.com/2026/04/10/kentucky-bourbon-jack-daniels-fireball",
@@ -42,19 +64,29 @@
       "tickers": []
     },
     {
-      "title": "Dow Jones Futures: Trump, Iran Issue Threats; Nvidia Chipmaker Beats Views, CPI Inflation Due - Investor's Business Daily",
-      "zh": "道瓊斯期貨：川普和伊朗發出威脅；英偉達晶片製造商超出預期，通膨數據即將公布",
-      "impact": "地緣政治風險和科技股表現影響整體市場走向",
-      "sector": "general",
+      "title": "EV bloodbath: US sales plunge as Tesla tightens its grip - Business Insider",
+      "zh": "電動車大血洗：美國銷售暴跌，特斯拉加強掌控力",
+      "impact": "電動車市場洗牌，傳統車廠面臨生存壓力",
+      "sector": "consumer",
       "priority": "high",
-      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-war-talks-cpi-inflation-nvidia-chipmaker-taiwan-semiconductor/",
-      "source": "Investor's Business Daily",
+      "link": "https://www.businessinsider.com/ev-shakeout-us-market-tesla-toyota-2026-4",
+      "source": "Business Insider",
+      "tickers": []
+    },
+    {
+      "title": "Stock Futures Steady as Traders Weigh Ceasefire and Await Inflation Data - TipRanks",
+      "zh": "股指期貨平穩，交易員權衡停火協議並等待通膨數據",
+      "impact": "市場波動性暫時穩定，通膨數據將引發新變動",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.tipranks.com/news/stock-futures-steady-as-traders-weigh-ceasefire-and-await-inflation-data",
+      "source": "Tipranks.com",
       "tickers": []
     },
     {
       "title": "xAI sues Colorado over first state AI anti-discrimination law - Financial Times",
-      "zh": "xAI對科羅拉多州首項AI反歧視法提起訴訟",
-      "impact": "AI公司挑戰監管框架，監管政策面臨法律考驗",
+      "zh": "xAI控告科羅拉多州首個AI反歧視法",
+      "impact": "AI監管法律面臨挑戰，影響科技業合規成本",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.ft.com/content/55e8cba9-d09c-4f94-b710-4ab447b987f9?syn-25a6b1a6\\\\u003d1",
@@ -62,13 +94,13 @@
       "tickers": []
     },
     {
-      "title": "US judge blocks Arizona criminal case against Kalshi at CFTC's request",
-      "zh": "美國法官應美國商品期貨交易委員會要求封殺亞利桑那州針對Kalshi的刑事案件",
-      "impact": "預測市場監管框架明確化，Kalshi訴訟風險化解",
-      "sector": "finance",
+      "title": "‘People are trying to be creative’: Tariff-battered American companies are so cash-starved they are using refund claims as collateral for loans",
+      "zh": "「企業想方設法」：關稅衝擊美企現金短缺，將退稅申請作為貸款擔保",
+      "impact": "關稅政策導致企業財務困難，融資成本上升",
+      "sector": "general",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/options/articles/us-judge-blocks-arizona-criminal-234901863.html",
-      "source": "Yahoo Finance",
+      "link": "https://fortune.com/2026/04/12/us-importers-tariff-refund-claims-used-loan-collateral/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     }
   ]
