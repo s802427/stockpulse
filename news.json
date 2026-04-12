@@ -1,21 +1,31 @@
 {
-  "updated": "2026/04/13 00:49",
+  "updated": "2026/04/13 02:01",
   "news": [
     {
-      "title": "Anthropic’s latest AI model strikes fear into banks - Morning Brew",
-      "zh": "Anthropic最新AI模型引發銀行業恐慌",
-      "impact": "AI技術進步威脅金融業傳統業務模式",
-      "sector": "tech",
+      "title": "A Panicked Race for Barrels Is Gripping the Global Oil Market - Bloomberg.com",
+      "zh": "全球石油市場陷入恐慌性搶購桶裝油的狂潮",
+      "impact": "油價波動加劇，能源成本上升，通膨壓力增加",
+      "sector": "energy",
       "priority": "medium",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-11/the-oil-market-is-in-the-grip-of-a-panicked-race-for-barrels",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Anthropic’s latest AI model strikes fear into banks - Morning Brew",
+      "zh": "Anthropic最新AI模型令銀行業感到恐懼",
+      "impact": "AI技術進步威脅金融機構現有商業模式和就業",
+      "sector": "tech",
+      "priority": "high",
       "link": "https://www.morningbrew.com/stories/2026/04/11/anthropic-latest-ai-model-strikes-fear-into-banks",
       "source": "Morning Brew",
       "tickers": []
     },
     {
       "title": "The 'affordability economy' has created a housing market nobody predicted: Prices collapsing in the Sun Belt, soaring in the Rust Belt - Fortune",
-      "zh": "「經濟適應性」創造前所未有的房市：陽帶房價暴跌，鐵鏽帶房價飆升",
-      "impact": "房地產市場結構性轉變，區域分化加劇",
-      "sector": "consumer",
+      "zh": "「平價經濟」創造出無人預測的房市：陽光帶房價崩跌，鐵鏽帶房價飆升",
+      "impact": "房地產市場格局重組，區域經濟分化加劇風險",
+      "sector": "general",
       "priority": "medium",
       "link": "https://fortune.com/2026/04/11/housing-prices-by-city-2026/",
       "source": "Fortune",
@@ -24,7 +34,7 @@
     {
       "title": "March inflation soars, confirming Iran war price shock - Axios",
       "zh": "三月通膨飆升，確認伊朗戰爭價格衝擊",
-      "impact": "地緣政治衝突推高物價，影響央行貨幣政策",
+      "impact": "地緣政治風險推高物價，央行政策面臨抉擇壓力",
       "sector": "general",
       "priority": "high",
       "link": "https://www.axios.com/2026/04/10/cpi-march-inflation-iran-trump",
@@ -32,61 +42,29 @@
       "tickers": []
     },
     {
-      "title": "Vineyard Wind Sues Turbine Manufacturer To Stop It From Backing Out Of Wind Farm; $4.5 Billion Project In Jeopardy - Nantucket Current",
-      "zh": "葡萄園風電公司控訴渦輪機製造商退出風電場項目；45億美元項目岌岌可危",
-      "impact": "可再生能源大型項目面臨風險，產業鏈爭議",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://nantucketcurrent.com/news/vineyard-wind-sues-turbine-manufacturer-to-stop-it-from-backing-out-of-wind-farm-4-5-billion-project-in-jeopardy",
-      "source": "Nantucketcurrent.com",
-      "tickers": []
-    },
-    {
-      "title": "IBM to pay $17 million in anti-DEI settlement - CNN",
-      "zh": "IBM支付1,700萬美元多元包容政策和解金",
-      "impact": "企業DEI政策面臨法律挑戰，和解成本增加",
-      "sector": "general",
-      "priority": "low",
-      "link": "https://www.cnn.com/2026/04/10/business/ibm-settlement-dei-lawsuit",
-      "source": "CNN",
-      "tickers": [
-        "$IBM（IBM）"
-      ]
-    },
-    {
-      "title": "Oil-price disconnect obscures unprecedented energy shock - Axios",
-      "zh": "油價脫鉤掩蓋前所未有的能源衝擊",
-      "impact": "能源市場價格信號扭曲，經濟風險隱藏",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://www.axios.com/2026/04/10/oil-price-energy-shock",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
-      "title": "TSMC Tops Q1 Sales Target On Strong AI Chip Demand - Investor's Business Daily",
-      "zh": "台積電第一季銷售超目標，受AI晶片需求強勁帶動",
-      "impact": "AI晶片需求旺盛，台積電營運表現亮眼",
+      "title": "Anthropic closes in on OpenAI as US business use surges - Financial Times",
+      "zh": "Anthropic逼近OpenAI，美國商業應用需求激增",
+      "impact": "AI市場競爭激烈，市場格局重塑，企業需求轉向多元",
       "sector": "tech",
       "priority": "medium",
-      "link": "https://www.investors.com/news/technology/tsm-stock-chip-foundry-tsmc-tops-q1-sales-views/",
-      "source": "Investor's Business Daily",
+      "link": "https://www.ft.com/content/abb93a6f-9060-4095-8045-84b97d394a4c?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
       "tickers": []
     },
     {
-      "title": "CFTC Announces Innovation Task Force Staff - Commodity Futures Trading Commission | CFTC (.gov)",
-      "zh": "商品期貨交易委員會宣布成立創新專案小組",
-      "impact": "監管機構加強期貨市場創新監督",
-      "sector": "finance",
-      "priority": "low",
-      "link": "https://www.cftc.gov/PressRoom/PressReleases/9210-26",
-      "source": "Cftc.gov",
+      "title": "Anthropic Agrees to Rent CoreWeave AI Capacity to Power Claude - Bloomberg.com",
+      "zh": "Anthropic同意向CoreWeave租賃AI計算容量以支持Claude運營",
+      "impact": "AI基礎設施投資增加，計算需求和成本上升",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-10/anthropic-agrees-to-rent-coreweave-ai-capacity-to-power-claude",
+      "source": "Bloomberg",
       "tickers": []
     },
     {
       "title": "Federal judge extends restraining order on $6.2B merger of local TV giants Nexstar and Tegna - AP News",
-      "zh": "聯邦法官延長62億美元電視巨頭Nexstar與Tegna合併禁制令",
-      "impact": "大型併購交易遭法律阻止，市場整合受阻",
+      "zh": "聯邦法官延長了對Nexstar與Tegna62億美元本地電視併購案的禁制令",
+      "impact": "重大併購交易延遲，媒體業整合受阻，監管風險顯現",
       "sector": "general",
       "priority": "high",
       "link": "https://apnews.com/article/nexstar-tenga-tv-merger-settlement-fcc-lawsuit-72bdd9927bef9d7a0a014eda13d32ff1",
@@ -94,13 +72,63 @@
       "tickers": []
     },
     {
-      "title": "Consumer sentiment plummets to record low as Iran war jacks up inflation - CNN",
-      "zh": "消費者信心跌至歷史低點，伊朗戰爭推高通膨",
-      "impact": "消費者信心崩潰，經濟衰退風險上升",
+      "title": "YouTube Premium and YouTube Music Subscription Prices Are Going Up in the U.S. - Variety",
+      "zh": "YouTube Premium和YouTube Music在美國調漲訂閱價格",
+      "impact": "消費者訂閱成本上升，串流媒體競爭加劇",
       "sector": "consumer",
+      "priority": "low",
+      "link": "https://variety.com/2026/digital/news/youtube-premium-pirce-increase-youtube-music-us-1236713223/",
+      "source": "Variety",
+      "tickers": []
+    },
+    {
+      "title": "The biggest IPO in history has a hole in its safety net - Financial Times",
+      "zh": "歷史上最大IPO在安全防護網上有漏洞",
+      "impact": "大型上市案存在結構風險，投資者保護機制不足",
+      "sector": "finance",
       "priority": "high",
-      "link": "https://www.cnn.com/2026/04/10/economy/us-consumer-sentiment-record-low-april",
-      "source": "CNN",
+      "link": "https://www.ft.com/content/92128bde-0646-4dc8-88db-7f4846330faa",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed - CNBC",
+      "zh": "凱文·沃什美聯儲主席提名確認計畫受挫，提名聽證會延期",
+      "impact": "央行領導人事懸而未決，貨幣政策走向存在不確定性",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
+      "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "April’s stock-market rebound is about to face its first major test as earnings season swings into gear",
+      "zh": "四月股市反彈即將面臨首次重大考驗，因為財報季正式開始",
+      "impact": "財報季開啟，市場波動加大，投資者關注企業盈利表現",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/aprils-stock-market-rebound-is-about-to-face-its-first-major-test-as-earnings-season-swings-into-gear-1210b246?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "How Beyond Meat sank from a $14 billion plant-based protein powerhouse to a penny stock",
+      "zh": "Beyond Meat從140億美元的植物蛋白巨頭跌至仙股的衰落歷程",
+      "impact": "曾經獨角獸公司估值大幅縮水，反映消費趨勢和企業經營困境",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/how-beyond-meat-sank-from-a-14-billion-plant-based-protein-powerhouse-to-a-penny-stock-464c9781?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "Intuit was an AI pioneer. Why its stock became a SaaSpocalypse casualty",
+      "zh": "Intuit是AI先驅，但其股票為何成為SaaS災難的受害者",
+      "impact": "AI領頭企業股價下跌，反映SaaS板塊整體調整和市場預期變化",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://fortune.com/2026/04/12/intuit-ai-pioneer-saaspocalypse/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     }
   ]
