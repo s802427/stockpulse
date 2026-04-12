@@ -1,10 +1,20 @@
 {
-  "updated": "2026/04/12 22:01",
+  "updated": "2026/04/13 00:01",
   "news": [
     {
+      "title": "Anthropic’s latest AI model strikes fear into banks - Morning Brew",
+      "zh": "人工智能公司Anthropic最新AI模型令銀行業感到恐懼",
+      "impact": "AI技術進展威脅傳統金融機構業務模式",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.morningbrew.com/stories/2026/04/11/anthropic-latest-ai-model-strikes-fear-into-banks",
+      "source": "Morning Brew",
+      "tickers": []
+    },
+    {
       "title": "The 'affordability economy' has created a housing market nobody predicted: Prices collapsing in the Sun Belt, soaring in the Rust Belt - Fortune",
-      "zh": "「平價經濟」創造了前所未有的房市：陽帶房價暴跌，鐵鏽帶房價飆升",
-      "impact": "房地產市場分化加劇，區域經濟差異擴大，影響消費信心",
+      "zh": "「平價經濟」創造了前所未有的房市現象：陽帶房價崩跌，鐵鏽帶房價飆升",
+      "impact": "房市分化加劇，區域經濟差異擴大，消費格局改變",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://fortune.com/2026/04/11/housing-prices-by-city-2026/",
@@ -12,29 +22,61 @@
       "tickers": []
     },
     {
-      "title": "Record gas price surge fuels sharp rise in U.S. inflation - Honolulu Star-Advertiser",
-      "zh": "創紀錄汽油價格飆升推高美國通膨率",
-      "impact": "能源成本上升驅動通膨，央行政策面臨壓力",
-      "sector": "energy",
+      "title": "March inflation soars, confirming Iran war price shock - Axios",
+      "zh": "3月通膨飆升，證實伊朗戰爭價格衝擊",
+      "impact": "地緣政治風險推高通膨，央行貨幣政策面臨壓力",
+      "sector": "general",
       "priority": "high",
-      "link": "https://www.staradvertiser.com/2026/04/10/breaking-news/record-gas-price-surge-fuels-sharp-rise-in-u-s-inflation/",
-      "source": "Honolulu Star-Advertiser",
+      "link": "https://www.axios.com/2026/04/10/cpi-march-inflation-iran-trump",
+      "source": "Axios",
       "tickers": []
     },
     {
-      "title": "Oil-price disconnect obscures unprecedented energy shock - Axios",
-      "zh": "石油價格脫節掩蓋了前所未有的能源衝擊",
-      "impact": "能源市場失衡加劇，宏觀經濟風險增加",
+      "title": "Vineyard Wind Sues Turbine Manufacturer To Stop It From Backing Out Of Wind Farm; $4.5 Billion Project In Jeopardy - Nantucket Current",
+      "zh": "葡萄園風電項目起訴渦輪製造商阻止違約；45億美元項目岌岌可危",
+      "impact": "清潔能源大型專案受阻，供應鏈風險浮現",
       "sector": "energy",
-      "priority": "high",
+      "priority": "medium",
+      "link": "https://nantucketcurrent.com/news/vineyard-wind-sues-turbine-manufacturer-to-stop-it-from-backing-out-of-wind-farm-4-5-billion-project-in-jeopardy",
+      "source": "Nantucketcurrent.com",
+      "tickers": []
+    },
+    {
+      "title": "IBM to pay $17 million in anti-DEI settlement - CNN",
+      "zh": "IBM與反DEI組織達成1700萬美元和解",
+      "impact": "科技業多元化政策面臨法律挑戰與財務成本",
+      "sector": "tech",
+      "priority": "low",
+      "link": "https://www.cnn.com/2026/04/10/business/ibm-settlement-dei-lawsuit",
+      "source": "CNN",
+      "tickers": [
+        "$IBM（IBM）"
+      ]
+    },
+    {
+      "title": "Oil-price disconnect obscures unprecedented energy shock - Axios",
+      "zh": "油價脫節掩蓋前所未有的能源衝擊",
+      "impact": "能源市場信號混亂，經濟風險評估困難",
+      "sector": "energy",
+      "priority": "medium",
       "link": "https://www.axios.com/2026/04/10/oil-price-energy-shock",
       "source": "Axios",
       "tickers": []
     },
     {
+      "title": "TSMC Tops Q1 Sales Target On Strong AI Chip Demand - Investor's Business Daily",
+      "zh": "台積電第一季銷售超目標，受AI晶片需求強勁帶動",
+      "impact": "AI芯片需求旺盛，台積電營運表現亮眼",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.investors.com/news/technology/tsm-stock-chip-foundry-tsmc-tops-q1-sales-views/",
+      "source": "Investor's Business Daily",
+      "tickers": []
+    },
+    {
       "title": "Anthropic Agrees to Rent CoreWeave AI Capacity to Power Claude - Bloomberg.com",
-      "zh": "Anthropic同意租用CoreWeave AI運算能力來支持Claude運營",
-      "impact": "AI產業鏈整合加深，運算資源競爭加劇",
+      "zh": "Anthropic同意租用CoreWeave AI運算容量支援Claude模型",
+      "impact": "AI廠商加強運算基礎設施投資，產業併購整合加速",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-10/anthropic-agrees-to-rent-coreweave-ai-capacity-to-power-claude",
@@ -43,9 +85,9 @@
     },
     {
       "title": "CFTC Announces Innovation Task Force Staff - Commodity Futures Trading Commission | CFTC (.gov)",
-      "zh": "美國期貨交易委員會宣佈成立創新任務小組",
-      "impact": "監管機構強化AI及新興資產監管框架",
-      "sector": "general",
+      "zh": "美國商品期貨交易委員會宣布成立創新工作小組",
+      "impact": "期貨監管機構強化衍生品市場創新監督",
+      "sector": "finance",
       "priority": "low",
       "link": "https://www.cftc.gov/PressRoom/PressReleases/9210-26",
       "source": "Cftc.gov",
@@ -53,8 +95,8 @@
     },
     {
       "title": "Federal judge extends restraining order on $6.2B merger of local TV giants Nexstar and Tegna - AP News",
-      "zh": "聯邦法官延長Nexstar與Tegna 62億美元併購案的禁制令",
-      "impact": "重大併購受阻，媒體產業整合遇冷，市場併購預期下降",
+      "zh": "聯邦法官延長62億美元電視巨頭Nexstar與Tegna併購禁止令",
+      "impact": "大型媒體併購遭司法阻擋，產業整合面臨延遲",
       "sector": "general",
       "priority": "high",
       "link": "https://apnews.com/article/nexstar-tenga-tv-merger-settlement-fcc-lawsuit-72bdd9927bef9d7a0a014eda13d32ff1",
@@ -63,8 +105,8 @@
     },
     {
       "title": "Consumer sentiment plummets to record low as Iran war jacks up inflation - CNN",
-      "zh": "消費者信心暴跌至歷史低點，伊朗戰爭推高通膨",
-      "impact": "消費信心崩潰，地緣政治風險推升通膨預期",
+      "zh": "伊朗戰爭推高通膨，消費者信心跌至歷史低點 - CNN",
+      "impact": "通膨上升威脅消費支出，經濟增長前景堪憂",
       "sector": "general",
       "priority": "high",
       "link": "https://www.cnn.com/2026/04/10/economy/us-consumer-sentiment-record-low-april",
@@ -73,72 +115,32 @@
     },
     {
       "title": "Volkswagen Shuts Down Tennessee Plant’s EV Production at the Worst Possible Time - Gizmodo",
-      "zh": "福斯汽車在最糟時機關閉田納西州廠EV生產線",
-      "impact": "電動車產業遭冷，車企策略調整，產能縮減風險",
-      "sector": "consumer",
+      "zh": "福斯汽車在最壞時刻關閉田納西州廠房電動車生產 - Gizmodo",
+      "impact": "電動車產能縮減，福斯轉向策略調整面臨挑戰",
+      "sector": "energy",
       "priority": "medium",
       "link": "https://gizmodo.com/volkswagen-shuts-down-tennessee-plants-ev-production-at-the-worst-possible-time-2000744723",
       "source": "Gizmodo.com",
       "tickers": []
     },
     {
-      "title": "xAI sues Colorado over first state AI anti-discrimination law - Financial Times",
-      "zh": "xAI控告科羅拉多州第一部AI反歧視法",
-      "impact": "AI監管法律挑戰浮現，產業合規成本增加",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.ft.com/content/55e8cba9-d09c-4f94-b710-4ab447b987f9?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "Report delivers blunt reality check as US Medicare, Social Security shortfall surges to $130T — how to protect yourself",
-      "zh": "報告揭示美國醫療保險和社會保障短缺激增至130兆美元的嚴峻現實",
-      "impact": "社會保障制度危機示警，長期財政風險凸顯",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/economy/policy/articles/report-delivers-blunt-reality-check-120500536.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
       "title": "'Not as bullish': Big banks are entering Q1 earnings season on less certain footing than in January",
-      "zh": "「沒有那麼樂觀」：大型銀行進入第一季財報季時的立場比一月份更加不確定",
-      "impact": "銀行業對市場前景信心下降，可能影響整體市場走勢",
+      "zh": "大銀行進入第一季財報季時信心較1月份下降 - 「不如之前樂觀」",
+      "impact": "金融機構信心下滑，市場對經濟前景預期轉弱",
       "sector": "finance",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://finance.yahoo.com/markets/stocks/article/not-as-bullish-big-banks-are-entering-q1-earnings-season-on-less-certain-footing-than-in-january-120803928.html",
       "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Trump announces blockade of Strait of Hormuz as Vance leaves Pakistan talks with no deal. How financial markets are reacting.",
-      "zh": "特朗普宣佈封鎖荷莫茲海峽，范斯離開巴基斯坦談判未達成協議。金融市場做出反應",
-      "impact": "地緣政治風險升溫，能源及全球貿易面臨重大不確定性威脅",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.marketwatch.com/story/vance-leaves-pakistan-talks-with-no-deal-how-financial-markets-are-reacting-ef6916b3?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
       "title": "How Beyond Meat sank from a $14 billion plant-based protein powerhouse to a penny stock",
-      "zh": "Beyond Meat如何從140億美元的植物蛋白質巨頭淪為仙股",
-      "impact": "高估值新興食品公司陷入困境，揭示消費者需求與商業模式問題",
+      "zh": "Beyond Meat如何從140億美元植物蛋白巨頭淪為便士股",
+      "impact": "上市公司巨幅貶值，植物蛋白市場增長遠低於預期",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.marketwatch.com/story/how-beyond-meat-sank-from-a-14-billion-plant-based-protein-powerhouse-to-a-penny-stock-464c9781?mod=mw_rss_topstories",
       "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
-      "title": "Three Energy Stories That Actually Matter Right Now",
-      "zh": "三個現在真正重要的能源故事",
-      "impact": "能源行業關鍵發展動向，涉及市場與政策影響",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/Three-Energy-Stories-That-Actually-Matter-Right-Now.html",
-      "source": "Oilprice.com",
       "tickers": []
     }
   ]
