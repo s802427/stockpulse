@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/13 02:59",
+  "updated": "2026/04/13 04:01",
   "news": [
     {
       "title": "A Panicked Race for Barrels Is Gripping the Global Oil Market - Bloomberg.com",
-      "zh": "全球石油市場陷入恐慌性搶購桶裝油的競賽",
-      "impact": "油價波動加劇，全球能源成本上升",
+      "zh": "全球石油市場陷入恐慌搶購桶裝油浪潮 - 彭博社",
+      "impact": "油價波動加劇，能源成本上升，影響全球經濟",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/the-oil-market-is-in-the-grip-of-a-panicked-race-for-barrels",
@@ -12,9 +12,19 @@
       "tickers": []
     },
     {
+      "title": "The 'affordability economy' has created a housing market nobody predicted: Prices collapsing in the Sun Belt, soaring in the Rust Belt - Fortune",
+      "zh": "「平價經濟」創造意想不到的房市：陽光帶房價下跌，鐵鏽帶房價飆升 - 財富雜誌",
+      "impact": "房市區域分化加劇，消費與投資決策受影響",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://fortune.com/2026/04/11/housing-prices-by-city-2026/",
+      "source": "Fortune",
+      "tickers": []
+    },
+    {
       "title": "March inflation soars, confirming Iran war price shock - Axios",
-      "zh": "三月通膨飆升，證實伊朗戰爭價格衝擊",
-      "impact": "通膨預期上升，央行政策面臨壓力",
+      "zh": "三月份通膨飆升，確認伊朗戰爭價格衝擊 - Axios",
+      "impact": "通膨上升，央行政策面臨壓力，影響貨幣政策方向",
       "sector": "general",
       "priority": "high",
       "link": "https://www.axios.com/2026/04/10/cpi-march-inflation-iran-trump",
@@ -22,39 +32,9 @@
       "tickers": []
     },
     {
-      "title": "Anthropic closes in on OpenAI as US business use surges - Financial Times",
-      "zh": "Anthropic逼近OpenAI，美國企業使用量激增",
-      "impact": "AI市場競爭加劇，OpenAI優勢下滑",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.ft.com/content/abb93a6f-9060-4095-8045-84b97d394a4c?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "Vineyard Wind Sues Turbine Manufacturer To Stop It From Backing Out Of Wind Farm; $4.5 Billion Project In Jeopardy - Nantucket Current",
-      "zh": "葡萄園風電廠訴訟渦輪機製造商，45億美元項目陷入危機",
-      "impact": "可再生能源項目延宕，供應鏈風險浮現",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://nantucketcurrent.com/news/vineyard-wind-sues-turbine-manufacturer-to-stop-it-from-backing-out-of-wind-farm-4-5-billion-project-in-jeopardy",
-      "source": "Nantucketcurrent.com",
-      "tickers": []
-    },
-    {
-      "title": "Arizona's criminal case against Kalshi was halted by a federal judge after the Trump administration stepped in - Business Insider",
-      "zh": "聯邦法官叫停亞利桑那州對Kalshi的刑事案件，特朗普政府介入",
-      "impact": "政治介入金融監管，監管環境不確定性增加",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.businessinsider.com/judge-grants-trump-administration-regulator-tro-arizona-kalshi-case-2026-4",
-      "source": "Business Insider",
-      "tickers": []
-    },
-    {
       "title": "Anthropic Agrees to Rent CoreWeave AI Capacity to Power Claude - Bloomberg.com",
-      "zh": "Anthropic同意租用CoreWeave AI運算能力支撐Claude",
-      "impact": "AI基礎設施需求攀升，算力成本上升",
+      "zh": "Anthropic同意向CoreWeave租賃AI運算能力以支持Claude運作 - 彭博社",
+      "impact": "AI基礎設施需求增長，科技企業合作深化",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-10/anthropic-agrees-to-rent-coreweave-ai-capacity-to-power-claude",
@@ -62,43 +42,53 @@
       "tickers": []
     },
     {
+      "title": "CFTC Announces Innovation Task Force Staff - Commodity Futures Trading Commission | CFTC (.gov)",
+      "zh": "商品期貨交易委員會宣布成立創新工作小組 - 商品期貨交易委員會",
+      "impact": "監管框架創新，衍生品市場監管優化",
+      "sector": "finance",
+      "priority": "low",
+      "link": "https://www.cftc.gov/PressRoom/PressReleases/9210-26",
+      "source": "Cftc.gov",
+      "tickers": []
+    },
+    {
       "title": "Federal judge extends restraining order on $6.2B merger of local TV giants Nexstar and Tegna - AP News",
-      "zh": "聯邦法官延長限制令，Nexstar與Tegna 62億美元併購受阻",
-      "impact": "媒體併購受阻，行業整合受挫",
+      "zh": "聯邦法官延長對Nexstar與Tegna地方電視台62億美元合併案的臨時禁制令 - 美聯社",
+      "impact": "併購受阻，媒體行業整合受挫，市場整合放緩",
       "sector": "general",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://apnews.com/article/nexstar-tenga-tv-merger-settlement-fcc-lawsuit-72bdd9927bef9d7a0a014eda13d32ff1",
       "source": "Associated Press",
       "tickers": []
     },
     {
-      "title": "YouTube Premium and YouTube Music Subscription Prices Are Going Up in the U.S. - Variety",
-      "zh": "YouTube Premium和YouTube Music在美國漲價",
-      "impact": "串流訂閱成本上升，消費者負擔增加",
-      "sector": "consumer",
-      "priority": "low",
-      "link": "https://variety.com/2026/digital/news/youtube-premium-pirce-increase-youtube-music-us-1236713223/",
-      "source": "Variety",
-      "tickers": []
-    },
-    {
       "title": "The biggest IPO in history has a hole in its safety net - Financial Times",
-      "zh": "歷史最大IPO存在安全淨值漏洞",
-      "impact": "大型IPO項目風險提高，投資者保護不足",
+      "zh": "歷史最大IPO在安全網中存有漏洞 - 金融時報",
+      "impact": "上市公司風險揭露不足，投資人保護存疑",
       "sector": "finance",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.ft.com/content/92128bde-0646-4dc8-88db-7f4846330faa",
       "source": "Financial Times",
       "tickers": []
     },
     {
       "title": "Kevin Warsh Fed chair confirmation plan hits snag as nomination hearing is delayed - CNBC",
-      "zh": "Kevin Warsh聯準會主席確認計畫受阻，提名聽證延期",
-      "impact": "央行領導層人事不確定，政策方向存疑",
+      "zh": "凱文·沃什聯準會主席確認計畫受阻，提名聽證會延期 - CNBC",
+      "impact": "央行領導權交接延期，政策執行產生不確定性",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.cnbc.com/2026/04/10/warsh-fed-nomination-hearing-delayed.html",
       "source": "CNBC",
+      "tickers": []
+    },
+    {
+      "title": "April’s stock-market rebound is about to face its first major test as earnings season swings into gear",
+      "zh": "四月股市反彈即將面臨首項重大考驗，企業財報季啟動 -",
+      "impact": "企業業績披露將決定後市走向，股市波動性上升",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/aprils-stock-market-rebound-is-about-to-face-its-first-major-test-as-earnings-season-swings-into-gear-1210b246?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
       "tickers": []
     }
   ]
