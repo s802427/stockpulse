@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/12 15:38",
+  "updated": "2026/04/12 16:00",
   "news": [
     {
       "title": "Record gas price surge fuels sharp rise in U.S. inflation - Honolulu Star-Advertiser",
       "zh": "創紀錄汽油價格飆升推動美國通膨急劇上升",
-      "impact": "汽油價格創新高加劇通膨壓力，影響消費成本",
+      "impact": "油價上漲推高通膨，影響消費者和央行政策方向",
       "sector": "energy",
       "priority": "medium",
       "link": "https://www.staradvertiser.com/2026/04/10/breaking-news/record-gas-price-surge-fuels-sharp-rise-in-u-s-inflation/",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Fed Seeks Details on US Banks’ Exposure to Private Credit Firms - Bloomberg.com",
-      "zh": "聯準會尋求美國銀行對私募信貸公司敞口的詳細信息",
-      "impact": "央行監管私募信貸風險，評估金融系統穩定性",
+      "zh": "聯邦準備委員會尋求美國銀行對私募信貸公司敞口的詳細資訊",
+      "impact": "央行監控金融系統風險，防止潛在信貸市場危機",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-10/fed-seeks-details-on-us-banks-exposure-to-private-credit-firms",
@@ -22,20 +22,10 @@
       "tickers": []
     },
     {
-      "title": "Wall Street ignores rising inflation, falling consumer confidence - thestreet.com",
-      "zh": "華爾街忽視不斷上升的通膨和消費者信心下降",
-      "impact": "市場對經濟衰退信號反應遲鈍，潛在風險",
-      "sector": "general",
-      "priority": "medium",
-      "link": "https://www.thestreet.com/markets/the-market-is-not-efficient-it-is-delusional-wall-street-ignores-higher-inflation-tepid-consumer-confidence-data-amid-ceasefire-worries",
-      "source": "TheStreet",
-      "tickers": []
-    },
-    {
       "title": "Iran War Hits US Economy With More Inflation, Record-Low Sentiment - Bloomberg.com",
       "zh": "伊朗戰爭以更多通膨和創紀錄低迷情緒衝擊美國經濟",
-      "impact": "地緣政治衝突加劇通膨並惡化消費者情緒",
-      "sector": "energy",
+      "impact": "地緣政治局勢惡化加劇通膨，消費者信心跌至低點",
+      "sector": "general",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-10/iran-war-hits-us-economy-with-cpi-surge-record-low-consumer-sentiment",
       "source": "Bloomberg",
@@ -44,7 +34,7 @@
     {
       "title": "Kentucky bourbon giants may merge - Axios",
       "zh": "肯塔基波本威士忌巨頭可能合併",
-      "impact": "消費品牌併購，行業整合",
+      "impact": "酒精飲料行業整合，市場集中度上升",
       "sector": "consumer",
       "priority": "low",
       "link": "https://www.axios.com/2026/04/10/kentucky-bourbon-jack-daniels-fireball",
@@ -53,32 +43,32 @@
     },
     {
       "title": "Dow Jones Futures: Trump, Iran Issue Threats; Nvidia Chipmaker Beats Views, CPI Inflation Due - Investor's Business Daily",
-      "zh": "道瓊斯期貨：川普、伊朗發出威脅；輝達晶片製造商超預期；CPI通膨即將發布",
-      "impact": "地緣政治風險、科技業績強勁、通膨數據關鍵",
-      "sector": "tech",
+      "zh": "道瓊斯期貨：川普和伊朗發出威脅；英偉達晶片製造商超出預期，通膨數據即將公布",
+      "impact": "地緣政治風險和科技股表現影響整體市場走向",
+      "sector": "general",
       "priority": "high",
       "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-iran-war-talks-cpi-inflation-nvidia-chipmaker-taiwan-semiconductor/",
       "source": "Investor's Business Daily",
       "tickers": []
     },
     {
-      "title": "NALC statement on USPS’s temporary suspension of FERS contributions - National Association of Letter Carriers",
-      "zh": "美國郵政工會就USPS暫停聯邦僱員退休制度供款發表聲明",
-      "impact": "公共部門退休福利政策變化",
-      "sector": "general",
-      "priority": "low",
-      "link": "https://www.nalc.org/news/nalc-updates/nalc-statement-on-uspss-temporary-suspension-of-fers-contributions",
-      "source": "Nalc.org",
-      "tickers": []
-    },
-    {
       "title": "xAI sues Colorado over first state AI anti-discrimination law - Financial Times",
-      "zh": "xAI控告科羅拉多州違反首個州級AI反歧視法",
-      "impact": "AI公司挑戰州級監管，AI法律框架面臨考驗",
+      "zh": "xAI對科羅拉多州首項AI反歧視法提起訴訟",
+      "impact": "AI公司挑戰監管框架，監管政策面臨法律考驗",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.ft.com/content/55e8cba9-d09c-4f94-b710-4ab447b987f9?syn-25a6b1a6\\\\u003d1",
       "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "US judge blocks Arizona criminal case against Kalshi at CFTC's request",
+      "zh": "美國法官應美國商品期貨交易委員會要求封殺亞利桑那州針對Kalshi的刑事案件",
+      "impact": "預測市場監管框架明確化，Kalshi訴訟風險化解",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/options/articles/us-judge-blocks-arizona-criminal-234901863.html",
+      "source": "Yahoo Finance",
       "tickers": []
     }
   ]
