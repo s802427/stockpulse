@@ -1,44 +1,74 @@
 {
-  "updated": "2026/04/12 10:00",
+  "updated": "2026/04/12 11:24",
   "news": [
     {
-      "title": "Goldman Sachs resets its oil price forecasts for the rest of 2026 - thestreet.com",
-      "zh": "高盛重新調整2026年剩餘期間的石油價格預測",
-      "impact": "油價預測調整影響能源股和通膨預期",
+      "title": "Record gas price surge fuels sharp rise in U.S. inflation - Honolulu Star-Advertiser",
+      "zh": "創紀錄的汽油價格飆升推動美國通脹急劇上升",
+      "impact": "汽油價格創高推升通脹，加大美聯儲降息難度",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.staradvertiser.com/2026/04/10/breaking-news/record-gas-price-surge-fuels-sharp-rise-in-u-s-inflation/",
+      "source": "Honolulu Star-Advertiser",
+      "tickers": []
+    },
+    {
+      "title": "Iran War Hits US Economy With More Inflation, Record-Low Sentiment - Bloomberg.com",
+      "zh": "伊朗戰爭衝擊美國經濟，帶來更多通脹和創紀錄低迷的消費者信心",
+      "impact": "地緣政治衝突加劇通脹壓力，消費者信心跌至新低",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-10/iran-war-hits-us-economy-with-cpi-surge-record-low-consumer-sentiment",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Oil-price disconnect obscures unprecedented energy shock - Axios",
+      "zh": "油價脫節隱藏前所未有的能源衝擊",
+      "impact": "油價與實體經濟脫離，反映結構性能源市場失衡",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://www.thestreet.com/investing/goldman-sachs-resets-its-oil-price-forecasts-for-the-rest-of-2026",
-      "source": "TheStreet",
+      "link": "https://www.axios.com/2026/04/10/oil-price-energy-shock",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
+      "title": "Kentucky bourbon giants may merge - Axios",
+      "zh": "肯塔基波本威士忌巨頭可能合併",
+      "impact": "酒精飲料行業整合，市場集中度提升",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://www.axios.com/2026/04/10/kentucky-bourbon-jack-daniels-fireball",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
+      "title": "US Postal Service to suspend employer pay to workers’ pensions, citing cash crunch - NewsNation",
+      "zh": "美國郵政局因現金短缺暫停向員工養老金繳款",
+      "impact": "政府機構財政困難，員工退休福利面臨風險",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.newsnationnow.com/business/your-money/ap-us-postal-service-to-suspend-employer-payments-to-workers-pensions-citing-cash-crunch/",
+      "source": "Newsnationnow.com",
       "tickers": []
     },
     {
       "title": "xAI sues Colorado over first state AI anti-discrimination law - Financial Times",
-      "zh": "xAI控告科羅拉多州首部人工智能反歧視法",
-      "impact": "AI企業面臨法律挑戰，科技監管環境趨嚴",
+      "zh": "xAI控告科羅拉多州首部人工智慧反歧視法",
+      "impact": "AI企業挑戰監管法規，科技行業與政府對立",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.ft.com/content/55e8cba9-d09c-4f94-b710-4ab447b987f9?syn-25a6b1a6\\\\u003d1",
       "source": "Financial Times",
       "tickers": []
     },
     {
-      "title": "Blue Owl (OBDC) Q1 2025 Earnings Call Transcript",
-      "zh": "Blue Owl (OBDC) 2025年第一季度財報電話會議記錄",
-      "impact": "資產管理公司季度業績披露",
-      "sector": "finance",
+      "title": "David Zaslav Paramount Deal 'Windfall' Payout: ISS Says Warner Bros Shareholders Should Vote Against Measure - Variety",
+      "zh": "David Zaslav派拉蒙交易「意外之財」薪酬：ISS建議華納兄弟股東投票反對該措施",
+      "impact": "好萊塢併購引發薪酬爭議，股東治理引關注",
+      "sector": "consumer",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-obdc-q1-2025-193134712.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Three Energy Stories That Actually Matter Right Now",
-      "zh": "三則當前真正重要的能源新聞",
-      "impact": "能源領域重要動態匯總",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/Three-Energy-Stories-That-Actually-Matter-Right-Now.html",
-      "source": "Oilprice.com",
+      "link": "https://variety.com/2026/film/news/david-zaslav-golden-parachute-windfall-payout-paramount-deal-iss-shareholders-1236712564/",
+      "source": "Variety",
       "tickers": []
     }
   ]
