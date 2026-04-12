@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/12 11:24",
+  "updated": "2026/04/12 12:00",
   "news": [
     {
       "title": "Record gas price surge fuels sharp rise in U.S. inflation - Honolulu Star-Advertiser",
-      "zh": "創紀錄的汽油價格飆升推動美國通脹急劇上升",
-      "impact": "汽油價格創高推升通脹，加大美聯儲降息難度",
+      "zh": "創紀錄的汽油價格飆升推動美國通膨急劇上升",
+      "impact": "油價上漲推高通膨，影響消費者購買力和聯準會政策",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.staradvertiser.com/2026/04/10/breaking-news/record-gas-price-surge-fuels-sharp-rise-in-u-s-inflation/",
@@ -12,9 +12,19 @@
       "tickers": []
     },
     {
+      "title": "Bank of Canada, Major Lenders Meet on Anthropic AI Cyber Risk - Bloomberg.com",
+      "zh": "加拿大央行、主要銀行就Anthropic人工智能網路風險召開會議",
+      "impact": "金融機構關注AI企業網安風險，可能影響科技融資",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-10/bank-of-canada-major-lenders-meet-on-anthropic-ai-cyber-risk",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
       "title": "Iran War Hits US Economy With More Inflation, Record-Low Sentiment - Bloomberg.com",
-      "zh": "伊朗戰爭衝擊美國經濟，帶來更多通脹和創紀錄低迷的消費者信心",
-      "impact": "地緣政治衝突加劇通脹壓力，消費者信心跌至新低",
+      "zh": "伊朗戰爭以更多通膨和創紀錄低迷情緒衝擊美國經濟",
+      "impact": "地緣政治風險推高通膨，消費者信心創新低",
       "sector": "general",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-10/iran-war-hits-us-economy-with-cpi-surge-record-low-consumer-sentiment",
@@ -23,8 +33,8 @@
     },
     {
       "title": "Oil-price disconnect obscures unprecedented energy shock - Axios",
-      "zh": "油價脫節隱藏前所未有的能源衝擊",
-      "impact": "油價與實體經濟脫離，反映結構性能源市場失衡",
+      "zh": "油價脫節掩蓋前所未有的能源衝擊",
+      "impact": "油價波動與經濟影響不同步，顯示能源市場異常",
       "sector": "energy",
       "priority": "medium",
       "link": "https://www.axios.com/2026/04/10/oil-price-energy-shock",
@@ -33,8 +43,8 @@
     },
     {
       "title": "Kentucky bourbon giants may merge - Axios",
-      "zh": "肯塔基波本威士忌巨頭可能合併",
-      "impact": "酒精飲料行業整合，市場集中度提升",
+      "zh": "肯塔基州波本威士忌巨頭可能合併",
+      "impact": "酒精飲料行業整合，可能改變市場競爭格局",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.axios.com/2026/04/10/kentucky-bourbon-jack-daniels-fireball",
@@ -43,32 +53,32 @@
     },
     {
       "title": "US Postal Service to suspend employer pay to workers’ pensions, citing cash crunch - NewsNation",
-      "zh": "美國郵政局因現金短缺暫停向員工養老金繳款",
-      "impact": "政府機構財政困難，員工退休福利面臨風險",
+      "zh": "美國郵政署因現金短缺暫停支付員工養老金",
+      "impact": "公共機構財務危機，影響員工權益和服務品質",
       "sector": "general",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.newsnationnow.com/business/your-money/ap-us-postal-service-to-suspend-employer-payments-to-workers-pensions-citing-cash-crunch/",
       "source": "Newsnationnow.com",
       "tickers": []
     },
     {
-      "title": "xAI sues Colorado over first state AI anti-discrimination law - Financial Times",
-      "zh": "xAI控告科羅拉多州首部人工智慧反歧視法",
-      "impact": "AI企業挑戰監管法規，科技行業與政府對立",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.ft.com/content/55e8cba9-d09c-4f94-b710-4ab447b987f9?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
       "title": "David Zaslav Paramount Deal 'Windfall' Payout: ISS Says Warner Bros Shareholders Should Vote Against Measure - Variety",
-      "zh": "David Zaslav派拉蒙交易「意外之財」薪酬：ISS建議華納兄弟股東投票反對該措施",
-      "impact": "好萊塢併購引發薪酬爭議，股東治理引關注",
+      "zh": "大衛·扎斯拉夫派拉蒙交易「意外之喜」薪酬：ISS建議華納兄弟股東反對該提案",
+      "impact": "公司治理爭議，CEO高額薪酬激發股東反對聲浪",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://variety.com/2026/film/news/david-zaslav-golden-parachute-windfall-payout-paramount-deal-iss-shareholders-1236712564/",
       "source": "Variety",
+      "tickers": []
+    },
+    {
+      "title": "CoreWeave stock climbs 10% on Anthropic deal",
+      "zh": "CoreWeave股票因Anthropic交易上漲10%",
+      "impact": "AI基礎設施供應商股價上升，受惠於AI產業融資熱潮",
+      "sector": "tech",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/sectors/technology/article/coreweave-stock-climbs-10-on-anthropic-deal-141357017.html",
+      "source": "Yahoo Finance",
       "tickers": []
     }
   ]
