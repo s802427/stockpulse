@@ -1,24 +1,44 @@
 {
-  "updated": "2026/04/12 08:00",
+  "updated": "2026/04/12 10:00",
   "news": [
     {
-      "title": "David Zaslav Paramount Deal 'Windfall' Payout: ISS Says Warner Bros Shareholders Should Vote Against Measure - variety.com",
-      "zh": "美國投資者服務公司（ISS）表示華納兄弟股東應投票反對派拉蒙特交易中大衛·扎斯拉夫的「意外之財」補償方案",
-      "impact": "派拉蒙特與華納兄弟合併談判面臨股東反對，交易前景不確定",
-      "sector": "general",
+      "title": "Goldman Sachs resets its oil price forecasts for the rest of 2026 - thestreet.com",
+      "zh": "高盛重新調整2026年剩餘期間的石油價格預測",
+      "impact": "油價預測調整影響能源股和通膨預期",
+      "sector": "energy",
       "priority": "medium",
-      "link": "https://variety.com/2026/film/news/david-zaslav-golden-parachute-windfall-payout-paramount-deal-iss-shareholders-1236712564/",
-      "source": "Variety",
+      "link": "https://www.thestreet.com/investing/goldman-sachs-resets-its-oil-price-forecasts-for-the-rest-of-2026",
+      "source": "TheStreet",
       "tickers": []
     },
     {
-      "title": "Frontier Group Holdings, Inc. (ULCC) Defers Airplane Delivery and Terminates Leases amid Restructuring",
-      "zh": "邊疆航空集團公司推遲飛機交付並終止租賃協議，進行重組",
-      "impact": "邊疆航空面臨財務困難，削減資本支出以渡過難關",
-      "sector": "consumer",
+      "title": "xAI sues Colorado over first state AI anti-discrimination law - Financial Times",
+      "zh": "xAI控告科羅拉多州首部人工智能反歧視法",
+      "impact": "AI企業面臨法律挑戰，科技監管環境趨嚴",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.ft.com/content/55e8cba9-d09c-4f94-b710-4ab447b987f9?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "Blue Owl (OBDC) Q1 2025 Earnings Call Transcript",
+      "zh": "Blue Owl (OBDC) 2025年第一季度財報電話會議記錄",
+      "impact": "資產管理公司季度業績披露",
+      "sector": "finance",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/frontier-group-holdings-inc-ulcc-220823137.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/blue-owl-obdc-q1-2025-193134712.html",
       "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Three Energy Stories That Actually Matter Right Now",
+      "zh": "三則當前真正重要的能源新聞",
+      "impact": "能源領域重要動態匯總",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Energy/Energy-General/Three-Energy-Stories-That-Actually-Matter-Right-Now.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
