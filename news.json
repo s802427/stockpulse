@@ -1,14 +1,54 @@
 {
-  "updated": "2026/04/12 18:45",
+  "updated": "2026/04/12 20:00",
   "news": [
     {
-      "title": "Here's What to Expect From The Williams Companies’ Next Earnings Report",
-      "zh": "威廉斯公司下一份盈利報告應該期待什麼",
-      "impact": "能源基礎設施公司業績預期，影響能源板塊投資者情緒",
+      "title": "Record gas price surge fuels sharp rise in U.S. inflation - Honolulu Star-Advertiser",
+      "zh": "創紀錄汽油價格飆升推動美國通膨急升",
+      "impact": "汽油價格創新高導致通膨加速，威脅消費者購買力",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.staradvertiser.com/2026/04/10/breaking-news/record-gas-price-surge-fuels-sharp-rise-in-u-s-inflation/",
+      "source": "Honolulu Star-Advertiser",
+      "tickers": []
+    },
+    {
+      "title": "Fed Seeks Details on US Banks’ Exposure to Private Credit Firms - Bloomberg.com",
+      "zh": "美聯儲尋求美國銀行對私募信貸公司風險敞口的詳細信息",
+      "impact": "監管機構關注銀行系統風險，潛在金融穩定隱患",
+      "sector": "finance",
+      "priority": "high",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-10/fed-seeks-details-on-us-banks-exposure-to-private-credit-firms",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "Oil-price disconnect obscures unprecedented energy shock - Axios",
+      "zh": "油價脫節掩蓋前所未有的能源衝擊",
+      "impact": "油價與市場預期不符反映能源市場異常波動",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/sectors/energy/articles/heres-expect-williams-companies-next-094654513.html",
-      "source": "Yahoo Finance",
+      "link": "https://www.axios.com/2026/04/10/oil-price-energy-shock",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
+      "title": "Consumer sentiment plummets to record low as Iran war jacks up inflation - CNN",
+      "zh": "消費者信心暴跌至創紀錄低位，伊朗戰爭推高通膨",
+      "impact": "消費者信心惡化加劇經濟衰退風險，通膨壓力持續",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.cnn.com/2026/04/10/economy/us-consumer-sentiment-record-low-april",
+      "source": "CNN",
+      "tickers": []
+    },
+    {
+      "title": "xAI sues Colorado over first state AI anti-discrimination law - Financial Times",
+      "zh": "xAI起訴科羅拉多州違反首個州級人工智能反歧視法",
+      "impact": "AI企業挑戰州級監管，科技監管框架面臨司法考驗",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://www.ft.com/content/55e8cba9-d09c-4f94-b710-4ab447b987f9?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
       "tickers": []
     }
   ]
