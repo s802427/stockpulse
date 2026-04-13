@@ -1,20 +1,10 @@
 {
-  "updated": "2026/04/14 05:01",
+  "updated": "2026/04/14 06:01",
   "news": [
     {
-      "title": "Failure of US-Iran Talks Set to Weigh on Risk Assets Monday - Bloomberg.com",
-      "zh": "美伊談判失敗將在週一對風險資產造成壓力",
-      "impact": "地緣政治風險升溫，全球股市面臨下行壓力",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-12/failure-of-us-iran-talks-set-to-weigh-on-risk-assets-monday",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
       "title": "Global economic outlook darkens as policymakers count cost of Iran war - Financial Times",
-      "zh": "全球經濟展望惡化，政策制定者評估伊朗戰爭成本",
-      "impact": "經濟衰退風險上升，影響全球投資信心",
+      "zh": "全球經濟前景黯淡，政策制定者計算伊朗戰爭成本",
+      "impact": "地緣政治風險升高，全球經濟增長面臨下行壓力",
       "sector": "general",
       "priority": "high",
       "link": "https://www.ft.com/content/3050d862-7e94-47e3-8a17-42896c1a4383?syn-25a6b1a6\\\\u003d1",
@@ -24,9 +14,19 @@
       ]
     },
     {
+      "title": "Oil prices soar above $100 per barrel as hope fades of end to Iran war - Financial Times",
+      "zh": "伊朗戰爭結束希望消退，油價飆升至每桶100美元以上",
+      "impact": "能源成本上升，推升通膨壓力，消費和生產成本增加",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.ft.com/content/4dbf076f-004b-4244-8579-2aca3e60e05c?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
       "title": "Why inflation is the economic problem of the decade - Axios",
-      "zh": "通膨成為十年來的經濟難題",
-      "impact": "央行貨幣政策面臨挑戰，通膨預期管理困難",
+      "zh": "為何通膨是十年來的經濟問題",
+      "impact": "通膨成為長期經濟隱憂，影響貨幣政策和投資決策",
       "sector": "general",
       "priority": "medium",
       "link": "https://www.axios.com/2026/04/12/inflation-economy-decade-iran-oil",
@@ -34,39 +34,29 @@
       "tickers": []
     },
     {
-      "title": "The mystery variable that explains stubbornly low consumer sentiment - Strength In Numbers | G. Elliott Morris",
-      "zh": "神秘變數解釋消費者信心為何持續低迷",
-      "impact": "消費需求疲弱可能拖累經濟增長",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.gelliottmorris.com/p/2026-04-12-sunday-roundup",
-      "source": "Gelliottmorris.com",
-      "tickers": []
-    },
-    {
-      "title": "Bessent and Powell call emergency meeting with bank CEOs after Anthropic's Mythos AI finds thousands of zero-day exploits - moneywise.com",
-      "zh": "貝森特與鮑威爾在Anthropic的Mythos AI發現數千個零日漏洞後召開與銀行首席執行官的緊急會議",
-      "impact": "系統性網路安全風險，金融系統面臨威脅",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://moneywise.com/news/top-stories/bessent-powell-emergency-meeting-bank-ceos-anthropic-mythos-ai",
-      "source": "Moneywise.com",
+      "title": "Lessons learned in '70s have made the US and world economies less vulnerable to oil shocks - AP News",
+      "zh": "從70年代吸取的教訓使美國和世界經濟對油價衝擊的抵抗力更強",
+      "impact": "經濟韌性較強，油價飆升對經濟的負面影響有限",
+      "sector": "energy",
+      "priority": "low",
+      "link": "https://apnews.com/article/oil-shocks-inflation-energy-stagflation-1970s-f12d886ce8af46862ad69be98f75a5d0",
+      "source": "Associated Press",
       "tickers": []
     },
     {
       "title": "Wall Street banks set to report $40bn trading haul as Iran war rekindles volatility - Financial Times",
-      "zh": "華爾街銀行伊朗戰爭重燃波動性期間將報告400億美元交易收入",
-      "impact": "波動性上升提高銀行交易利潤，短期利好金融股",
+      "zh": "華爾街銀行準備報告400億美元交易收入，伊朗戰爭重燃波動性",
+      "impact": "金融機構交易利潤大幅增長，市場波動性提高利好投行",
       "sector": "finance",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.ft.com/content/7dfb2398-f414-4c82-927c-5db4d34cb5da?syn-25a6b1a6\\\\u003d1",
       "source": "Financial Times",
       "tickers": []
     },
     {
       "title": "A Panicked Race for Barrels Is Gripping the Global Oil Market - Bloomberg.com",
-      "zh": "全球油市陷入恐慌性搶購石油",
-      "impact": "油價飆升推升能源通膨，消費成本上升",
+      "zh": "全球石油市場陷入慌張的搶購狂潮",
+      "impact": "石油供應緊張，能源價格進一步上升，市場恐慌加劇",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/the-oil-market-is-in-the-grip-of-a-panicked-race-for-barrels",
@@ -75,8 +65,8 @@
     },
     {
       "title": "Japan Bets $16 Billion to Propel Startup Rapidus Into AI Chips - Bloomberg.com",
-      "zh": "日本斥資160億美元推動新創企業Rapidus進軍AI晶片領域",
-      "impact": "",
+      "zh": "日本投資160億美元推動新創公司Rapidus進入AI晶片領域",
+      "impact": "日本加大AI晶片投資，全球半導體競爭格局變化",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/japan-bets-16-billion-to-propel-startup-rapidus-into-ai-chips",
@@ -84,31 +74,53 @@
       "tickers": []
     },
     {
-      "title": "‘Fortress China’ shows cracks as Iran war strains supply chains - Financial Times",
-      "zh": "「堡壘中國」出現裂縫，伊朗戰爭導致供應鏈承壓",
-      "impact": "全球供應鏈中斷風險上升，製造業成本攀升",
-      "sector": "general",
+      "title": "Fuel Shortages From Iran War Threaten Asia’s Biggest Food Staple - Bloomberg.com",
+      "zh": "伊朗戰爭引發燃料短缺威脅亞洲最大糧食主食",
+      "impact": "能源危機波及糧食生產，亞洲糧食安全面臨風險",
+      "sector": "energy",
       "priority": "high",
-      "link": "https://www.ft.com/content/f201105e-cb6c-49ca-9c40-26eb52b41607?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-11/fuel-shortages-from-iran-war-threaten-asia-s-biggest-food-staple",
+      "source": "Bloomberg",
       "tickers": []
     },
     {
-      "title": "Exclusive: BLS And ISM Fire Back At Top Economist Rosenberg's Criticism Over 'Conflicting' Jobs Data Claims",
-      "zh": "獨家報導：美國勞工統計局與ISM反擊知名經濟學家羅森伯格關於「衝突」就業數據聲稱的批評",
-      "impact": "經濟數據可信度爭議，市場決策參考性降低",
-      "sector": "general",
+      "title": "Why Needham Analysts Slashed Their Price Targets on IBM Stock Ahead of Earnings",
+      "zh": "奈德漢分析師在IBM財報前下調股票目標價格的原因",
+      "impact": "IBM股票目標價格下調，反映投資者對其前景看淡",
+      "sector": "tech",
       "priority": "medium",
-      "link": "https://finance.yahoo.com/economy/articles/exclusive-bls-ism-fire-back-114618795.html",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-needham-analysts-slashed-price-131502174.html",
       "source": "Yahoo Finance",
+      "tickers": [
+        "$IBM（IBM）"
+      ]
+    },
+    {
+      "title": "As the Iran conflict squeezes global energy supplies, U.S. oil is now a vital safety net in the market",
+      "zh": "伊朗衝突擠壓全球能源供應，美國石油成為市場重要安全網",
+      "impact": "美國能源供應地位提升，有利於美國能源企業和經濟",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://www.marketwatch.com/story/as-iran-conflict-squeezes-global-energy-supplies-american-oil-becomes-a-vital-safety-net-15ce3c82?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "Time to Plan for Months of Oil, Gas Shortage",
+      "zh": "應為數月石油、天然氣短缺做準備",
+      "impact": "油氣供應緊張，能源價格上漲壓力增加，衝擊全球經濟",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Energy/Energy-General/Time-to-Plan-for-Months-of-Oil-Gas-Shortage.html",
+      "source": "Oilprice.com",
       "tickers": []
     },
     {
       "title": "World’s Top Oil Trader Hit by Massive Loss on Bets Gone Wrong",
       "zh": "全球頂級石油交易商因押注失誤遭受巨額虧損",
-      "impact": "能源交易市場波動加大，交易商風險管理受關注",
-      "sector": "energy",
-      "priority": "medium",
+      "impact": "全球石油市場波動加劇，交易風險暴露，金融系統穩定性受關注",
+      "sector": "finance",
+      "priority": "high",
       "link": "https://oilprice.com/Energy/Crude-Oil/Worlds-Top-Oil-Trader-Hit-by-Massive-Loss-on-Bets-Gone-Wrong.html",
       "source": "Oilprice.com",
       "tickers": []
