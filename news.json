@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/13 12:01",
+  "updated": "2026/04/13 14:01",
   "news": [
     {
       "title": "Energy Trader Vitol Reorganizes Derivatives Team After Losses - Bloomberg.com",
-      "zh": "能源交易商維多爾在衍生品交易損失後重組衍生品團隊",
-      "impact": "大型能源交易商內部調整，市場風險信號",
+      "zh": "能源交易商維多集團在衍生品交易虧損後重組衍生品團隊",
+      "impact": "大型能源交易商內部調整，市場風險管理能力受關注",
       "sector": "energy",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/energy-trader-vitol-reorganizes-derivatives-team-after-losses",
@@ -13,8 +13,8 @@
     },
     {
       "title": "A Panicked Race for Barrels Is Gripping the Global Oil Market - Bloomberg.com",
-      "zh": "全球石油市場陷入恐慌性搶購桶油潮",
-      "impact": "油價波動加劇，供應鏈緊張升級",
+      "zh": "全球石油市場陷入恐慌搶購桶裝油的競賽",
+      "impact": "石油供應緊張推高油價，影響全球能源市場",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/the-oil-market-is-in-the-grip-of-a-panicked-race-for-barrels",
@@ -22,39 +22,29 @@
       "tickers": []
     },
     {
-      "title": "How the Iran war could create a new global order in oil - Axios",
-      "zh": "伊朗戰爭如何可能創造新的全球石油秩序",
-      "impact": "地緣政治風險升溫，油市長期格局面臨重塑",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.axios.com/2026/04/10/oil-iran-war-trump",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
-      "title": "The 'affordability economy' has created a housing market nobody predicted: Prices collapsing in the Sun Belt, soaring in the Rust Belt - Fortune",
-      "zh": "「平價經濟」創造意外的房市：陽帶房價崩跌，鐵帶房價飆升",
-      "impact": "房市區域分化加劇，消費者購買力重新配置",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://fortune.com/2026/04/11/housing-prices-by-city-2026/",
-      "source": "Fortune",
-      "tickers": []
-    },
-    {
       "title": "Anthropic closes in on OpenAI as US business use surges - Financial Times",
-      "zh": "人工智能初創Anthropic在美國商業應用激增中逼近OpenAI",
-      "impact": "AI競爭格局演變，Anthropic商業化加速",
+      "zh": "人工智能公司Anthropic在美國商業用途激增下逼近OpenAI",
+      "impact": "AI競爭加劇，Anthropic市場份額上升威脅OpenAI地位",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.ft.com/content/abb93a6f-9060-4095-8045-84b97d394a4c?syn-25a6b1a6\\\\u003d1",
       "source": "Financial Times",
       "tickers": []
     },
     {
+      "title": "‘Fortress China’ shows cracks as Iran war strains supply chains - Financial Times",
+      "zh": "伊朗戰爭導致「堡壘中國」政策出現裂縫供應鏈受到影響",
+      "impact": "地緣政治風險升高，中國供應鏈面臨挑戰",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.ft.com/content/f201105e-cb6c-49ca-9c40-26eb52b41607?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
       "title": "Fuel Shortages From Iran War Threaten Asia’s Biggest Food Staple - Bloomberg.com",
-      "zh": "伊朗戰爭引發燃料短缺威脅亞洲最大糧食作物",
-      "impact": "全球糧食安全受威脅，亞洲糧價面臨上升壓力",
+      "zh": "伊朗戰爭導致燃油短缺威脅亞洲最大主食供應",
+      "impact": "燃油短缺威脅亞洲糧食安全，推高農產品價格",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/fuel-shortages-from-iran-war-threaten-asia-s-biggest-food-staple",
@@ -63,8 +53,8 @@
     },
     {
       "title": "Inflation Soared to 3.3% in March, Driven by Higher Gasoline Costs - WSJ",
-      "zh": "三月通膨飆升至3.3%，汽油成本上升為主因",
-      "impact": "通膨反彈信號，央行政策面臨壓力",
+      "zh": "3月份通貨膨脹率飆升至3.3%，汽油成本上升為主要驅動力",
+      "impact": "通脹反彈至3.3%，汽油成本上升增加央行升息壓力",
       "sector": "general",
       "priority": "high",
       "link": "https://www.wsj.com/economy/cpi-inflation-report-march-2026-bb353007",
@@ -72,29 +62,29 @@
       "tickers": []
     },
     {
-      "title": "CFTC Announces Innovation Task Force Staff - Commodity Futures Trading Commission | CFTC (.gov)",
-      "zh": "商品期貨交易委員會宣布設立創新工作小組",
-      "impact": "監管機構加強加密與衍生品監督",
+      "title": "The biggest IPO in history has a hole in its safety net - Financial Times",
+      "zh": "歷史上最大的首次公開募股存在安全網漏洞",
+      "impact": "重大IPO安全機制存在風險，投資者保護不足",
       "sector": "finance",
-      "priority": "low",
-      "link": "https://www.cftc.gov/PressRoom/PressReleases/9210-26",
-      "source": "Cftc.gov",
-      "tickers": []
-    },
-    {
-      "title": "European airports face jet fuel shortages within three weeks - Financial Times",
-      "zh": "歐洲機場三週內面臨噴氣燃油短缺",
-      "impact": "航空業運營成本壓力增加，歐洲經濟活動受限",
-      "sector": "energy",
       "priority": "high",
-      "link": "https://www.ft.com/content/801e46c7-cfb7-43c3-99bd-6a5ca971ceff?syn-25a6b1a6\\\\u003d1",
+      "link": "https://www.ft.com/content/92128bde-0646-4dc8-88db-7f4846330faa",
       "source": "Financial Times",
       "tickers": []
     },
     {
+      "title": "Oracle's new CFO got $26M in stock after layoffs. Employee says an 'algorithm' targeted workers with stock options first",
+      "zh": "甲骨文新任首席財務官在裁員後獲得2600萬美元股票獎勵，員工稱演算法優先針對持股員工",
+      "impact": "高管薪酬與大規模裁員引發不公平質疑，企業治理爭議",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/oracles-cfo-got-26m-stock-184500098.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
       "title": "Stock-market futures drop, oil surges back above $100 after failed talks between U.S. and Iran over the weekend",
-      "zh": "美伊談判破裂週末後股指期貨下跌，油價回升超百美元",
-      "impact": "地緣政治不確定性升溫，市場波動加劇",
+      "zh": "美伊談判週末失敗後股指期貨下跌，油價回升至每桶100美元以上",
+      "impact": "地緣政治談判破裂推高油價，股市承壓",
       "sector": "general",
       "priority": "high",
       "link": "https://www.marketwatch.com/story/stock-market-futures-drop-oil-surges-above-100-after-failed-talks-between-u-s-and-iran-over-the-weekend-7b741637?mod=mw_rss_topstories",
@@ -102,9 +92,29 @@
       "tickers": []
     },
     {
+      "title": "Stock futures sink while oil spikes as the U.S. Navy looks to squeeze Iran’s economy and break its grip on the Strait of Hormuz",
+      "zh": "美國海軍意圖制裁伊朗經濟並控制荷莫茲海峽，股指期貨下跌油價飆升",
+      "impact": "美伊緊張局勢升級威脅全球能源供應，市場波動加劇",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://fortune.com/2026/04/12/stock-futures-oil-prices-navy-blockade-iran-exports-strait-of-hormuz/",
+      "source": "Fortune | FORTUNE",
+      "tickers": []
+    },
+    {
+      "title": "Oil Prices Surge Past $100 as Trump Threatens to Blockade the Strait of Hormuz",
+      "zh": "油價飆升至100美元以上，特朗普威脅封鎖荷莫茲海峽",
+      "impact": "能源價格上漲，推高通膨預期，影響全球經濟",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-Past-100-as-Trump-Threatens-to-Blockade-the-Strait-of-Hormuz.html",
+      "source": "Oilprice.com",
+      "tickers": []
+    },
+    {
       "title": "LNG Shock Hits Supply Chains as War Disrupts Global Flows",
-      "zh": "液化天然氣供應鏈受衝擊，戰爭擾亂全球流動",
-      "impact": "能源價格上升，全球供應鏈成本增加，製造業面臨壓力",
+      "zh": "液化天然氣衝擊供應鏈，戰爭擾亂全球流動",
+      "impact": "能源供應中斷，推升成本，衝擊製造業與運輸業",
       "sector": "energy",
       "priority": "high",
       "link": "https://oilprice.com/Energy/Natural-Gas/LNG-Shock-Hits-Supply-Chains-as-War-Disrupts-Global-Flows.html",
