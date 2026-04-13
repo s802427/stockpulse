@@ -1,21 +1,61 @@
 {
-  "updated": "2026/04/13 20:01",
+  "updated": "2026/04/13 21:54",
   "news": [
     {
-      "title": "U.S. oil exports seen hitting record 5.2M bbl/day as Iran war sparks supply race (USO:NYSEARCA) - Seeking Alpha",
-      "zh": "美國石油出口預計將創紀錄的520萬桶/日，伊朗戰爭引發供應競賽",
-      "impact": "油價上升，能源成本增加，全球通脹壓力加大",
+      "title": "Why inflation is the economic problem of the decade - Axios",
+      "zh": "通膨為本十年的經濟問題",
+      "impact": "通膨成為長期經濟挑戰，影響央行政策方向",
+      "sector": "general",
+      "priority": "medium",
+      "link": "https://www.axios.com/2026/04/12/inflation-economy-decade-iran-oil",
+      "source": "Axios",
+      "tickers": []
+    },
+    {
+      "title": "Bessent and Powell call emergency meeting with bank CEOs after Anthropic's Mythos AI finds thousands of zero-day exploits - moneywise.com",
+      "zh": "Bessent和Powell在Anthropic的Mythos AI發現數千個零日漏洞後召開銀行CEO緊急會議",
+      "impact": "發現大規模安全漏洞，引發金融系統風險警示",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://moneywise.com/news/top-stories/bessent-powell-emergency-meeting-bank-ceos-anthropic-mythos-ai",
+      "source": "Moneywise.com",
+      "tickers": []
+    },
+    {
+      "title": "Failure of US-Iran Talks Set to Weigh on Risk Assets Monday - Bloomberg.com",
+      "zh": "美伊談判失敗預計將對風險資產造成壓力",
+      "impact": "地緣政治風險升溫，市場面臨下行壓力",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-12/failure-of-us-iran-talks-set-to-weigh-on-risk-assets-monday",
+      "source": "Bloomberg",
+      "tickers": []
+    },
+    {
+      "title": "U.S.-Iran Talks End With No Deal; How Will Dow Jones Futures, Oil Prices React? - Investor's Business Daily",
+      "zh": "美伊談判無果而終；道瓊斯期貨和油價將如何反應？",
+      "impact": "地緣政治緊張升高，能源和股市波動加劇",
       "sector": "energy",
       "priority": "high",
-      "link": "https://seekingalpha.com/news/4574171-us-oil-exports-seen-hitting-record-52m-bblday-as-iran-war-sparks-supply-race",
-      "source": "Seeking Alpha",
+      "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-us-iran-talks-no-deal-vp-jd-vance/",
+      "source": "Investor's Business Daily",
+      "tickers": []
+    },
+    {
+      "title": "Wall Street banks set to report $40bn trading haul as Iran war rekindles volatility - Financial Times",
+      "zh": "華爾街銀行預計獲得400億美元交易收入，伊朗戰爭重燃波動性",
+      "impact": "地緣政治衝突帶動金融機構交易利潤大幅增長",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://www.ft.com/content/7dfb2398-f414-4c82-927c-5db4d34cb5da?syn-25a6b1a6\\\\u003d1",
+      "source": "Financial Times",
       "tickers": []
     },
     {
       "title": "Trump name-drops Palantir by ticker symbol, 1st president to hype a stock. It surged $10B in minutes amid a 16% freefall - Yahoo Finance",
-      "zh": "川普以股票代碼點名Palantir，史上首位總統炒作個股。該股在16%跌幅中數分鐘內飆升100億美元市值",
-      "impact": "股價劇烈波動，監管風險，市場信心受挫",
-      "sector": "tech",
+      "zh": "川普首次用股票代碼推薦Palantir，為歷任總統之舉。該股在16%跌幅中短時間內飆升100億美元",
+      "impact": "總統言論導致個股異常波動，引發監管關注",
+      "sector": "general",
       "priority": "high",
       "link": "https://finance.yahoo.com/markets/stocks/articles/trump-name-drops-palantir-ticker-154500129.html",
       "source": "Yahoo Entertainment",
@@ -23,8 +63,8 @@
     },
     {
       "title": "A Panicked Race for Barrels Is Gripping the Global Oil Market - Bloomberg.com",
-      "zh": "全球石油市場陷入恐慌搶購風潮",
-      "impact": "石油供應緊張，能源價格飆升，經濟風險加劇",
+      "zh": "全球石油市場陷入恐慌性搶購浪潮",
+      "impact": "原油供應緊張，油價大幅上漲，通膨壓力增加",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/the-oil-market-is-in-the-grip-of-a-panicked-race-for-barrels",
@@ -32,39 +72,9 @@
       "tickers": []
     },
     {
-      "title": "From coffee to home prices, costs are up everywhere - Yahoo Finance",
-      "zh": "從咖啡到房價，各類成本普遍上漲",
-      "impact": "消費者購買力下降，通脹持續侵蝕生活成本",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/economy/article/from-coffee-to-home-prices-costs-are-up-everywhere-174715881.html",
-      "source": "Yahoo Entertainment",
-      "tickers": []
-    },
-    {
-      "title": "People Who Lose Their Job to AI Are in for a World of Pain, Goldman Sachs Report Finds - Futurism",
-      "zh": "高盛報告發現：因AI失業者面臨極大困境",
-      "impact": "勞動力市場風險，社會問題凸顯，失業率可能上升",
-      "sector": "general",
-      "priority": "medium",
-      "link": "http://futurism.com/artificial-intelligence/ai-job-loss-consequences",
-      "source": "Futurism",
-      "tickers": []
-    },
-    {
-      "title": "Uncomfortably high inflation is a real problem and it’s not going away anytime soon - CNN",
-      "zh": "居高不下的通膨確實是嚴重問題，短期內不會消退",
-      "impact": "央行政策困境，消費和投資信心受打擊",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.cnn.com/2026/04/11/business/high-inflation-rate-problem",
-      "source": "CNN",
-      "tickers": []
-    },
-    {
       "title": "‘Fortress China’ shows cracks as Iran war strains supply chains - Financial Times",
-      "zh": "「堡壘中國」出現裂縫，伊朗戰爭對供應鏈造成壓力",
-      "impact": "中國經濟韌性下降，全球貿易風險增加",
+      "zh": "「堡壘中國」現裂縫，伊朗戰爭對供應鏈造成壓力",
+      "impact": "地緣政治衝突衝擊全球供應鏈，中國經濟承壓",
       "sector": "general",
       "priority": "high",
       "link": "https://www.ft.com/content/f201105e-cb6c-49ca-9c40-26eb52b41607?syn-25a6b1a6\\\\u003d1",
@@ -73,8 +83,8 @@
     },
     {
       "title": "Fuel Shortages From Iran War Threaten Asia’s Biggest Food Staple - Bloomberg.com",
-      "zh": "伊朗戰爭導致燃料短缺，威脅亞洲最大主食生產",
-      "impact": "糧食安全隱患，亞洲糧價上漲，全球食安風險",
+      "zh": "伊朗戰爭導致燃料短缺威脅亞洲最大主食",
+      "impact": "能源危機危及亞洲糧食安全，全球物價上漲風險",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/fuel-shortages-from-iran-war-threaten-asia-s-biggest-food-staple",
@@ -82,93 +92,53 @@
       "tickers": []
     },
     {
-      "title": "Anthropic Agrees to Rent CoreWeave AI Capacity to Power Claude - Bloomberg.com",
-      "zh": "Anthropic同意租賃CoreWeave AI運算容量以驅動Claude",
-      "impact": "AI基礎設施投資加大，雲運算需求增長",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-10/anthropic-agrees-to-rent-coreweave-ai-capacity-to-power-claude",
-      "source": "Bloomberg",
-      "tickers": []
-    },
-    {
-      "title": "Battery recycler Ascend Elements files for bankruptcy - TechCrunch",
-      "zh": "電池回收商Ascend Elements申請破產",
-      "impact": "綠能產業前景堪憂，供應鏈受阻",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://techcrunch.com/2026/04/10/battery-recycler-ascend-elements-files-for-bankruptcy/",
-      "source": "TechCrunch",
-      "tickers": []
-    },
-    {
-      "title": "Private equity has a private credit problem - Axios",
-      "zh": "私募股權基金面臨私人信貸問題",
-      "impact": "私募股權融資面臨信貸市場風險，影響投資回報",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://www.axios.com/2026/04/10/private-equity-private-credit-problem",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
-      "title": "The biggest IPO in history has a hole in its safety net - Financial Times",
-      "zh": "歷史上最大的IPO存在安全網漏洞",
-      "impact": "重大IPO存在監管風險，可能影響市場穩定性",
-      "sector": "finance",
-      "priority": "high",
-      "link": "https://www.ft.com/content/92128bde-0646-4dc8-88db-7f4846330faa",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "Goldman Sachs profits rise on stock trading, M&A surge",
-      "zh": "高盛利潤因股票交易和併購浪潮而上升",
-      "impact": "投資銀行業績提升，股市交易活躍度增加",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/article/goldman-sachs-profits-rise-on-stock-trading-ma-surge-113011227.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Earnings live updates: Q1 earnings season kicks off with bank results as macro pressures mount",
-      "zh": "盈利直播更新：宏觀壓力加大下第一季度財報季正式啟動，銀行業績領先",
-      "impact": "企業財報季開始，經濟前景評估關鍵期",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/markets/article/earnings-live-updates-q1-earnings-season-kicks-off-with-bank-results-as-macro-pressures-mount-104416663.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Julius Baer finance chief to step down",
-      "zh": "瑞銀集團財務長茱麗葉·貝爾辭職",
-      "impact": "瑞銀管理層變動，短期內組織穩定性受影響",
+      "title": "CFTC Announces Innovation Task Force Staff - Commodity Futures Trading Commission | CFTC (.gov)",
+      "zh": "商品期貨交易委員會宣布成立創新特別工作小組",
+      "impact": "監管機構加強金融科技監督，推進行業創新",
       "sector": "finance",
       "priority": "low",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/julius-baer-finance-chief-step-114656972.html",
+      "link": "https://www.cftc.gov/PressRoom/PressReleases/9210-26",
+      "source": "Cftc.gov",
+      "tickers": []
+    },
+    {
+      "title": "Versamet finalises Eskay Creek gold stream acquisition",
+      "zh": "瑞銀確定收購埃斯凱溪金流交易",
+      "impact": "貴金屬開採公司完成併購，拓展黃金資產",
+      "sector": "energy",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/versamet-finalises-eskay-creek-gold-134351205.html",
       "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "Tens of billions in days: CoreWeave shows how aggressively AI infrastructure is being funded",
-      "zh": "數日內數百億美元：CoreWeave展示AI基礎設施融資的激進程度",
-      "impact": "AI基礎設施投資激增，科技板塊融資活躍，估值可能過熱",
-      "sector": "tech",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq slide after Trump orders Hormuz blockade against Iran",
+      "zh": "美股今日行情：川普下令封鎖荷莫茲海峽對伊朗後，道瓊、標普500、納斯達克下滑",
+      "impact": "地緣政治風險升溫，引發全球股市連鎖下跌",
+      "sector": "general",
       "priority": "high",
-      "link": "https://fortune.com/2026/04/13/tens-billions-days-coreweave-shows-how-aggressively-ai-infrastructure-being-funded/",
-      "source": "Fortune | FORTUNE",
+      "link": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-slide-after-trump-orders-hormuz-blockade-against-iran-225150081.html",
+      "source": "Yahoo Finance",
       "tickers": []
     },
     {
-      "title": "China went from uninvestable to unavoidable—and Hong Kong is cashing in with a slew of AI-centric IPOs",
-      "zh": "中國從不可投資轉變為不可迴避——香港正通過一系列AI中心IPO大幅獲利",
-      "impact": "中資AI企業赴港上市潮起，香港資本市場活躍度提升",
-      "sector": "tech",
+      "title": "TotalEnergies Strikes Oil and Gas at Congo's Moho License",
+      "zh": "道達爾能源在剛果莫霍油氣區塊發現石油和天然氣",
+      "impact": "新增油氣儲量，強化能源公司資源基礎",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Strikes-Oil-and-Gas-at-Congos-Moho-License.html",
+      "source": "Oilprice.com",
+      "tickers": []
+    },
+    {
+      "title": "Saudi Oil Exports to China Set to Halve as War Upends Supply and Prices",
+      "zh": "沙烏地阿拉伯對華石油出口將減半，因戰爭擾亂供應和價格",
+      "impact": "原油供應鏈受阻，全球能源價格面臨上升壓力",
+      "sector": "energy",
       "priority": "high",
-      "link": "https://fortune.com/2026/04/13/china-uninvestable-unavoidable-hong-kong-cashing-ai-centric-ipos/",
-      "source": "Fortune | FORTUNE",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Oil-Exports-to-China-Set-to-Halve-as-War-Upends-Supply-and-Prices.html",
+      "source": "Oilprice.com",
       "tickers": []
     }
   ]
