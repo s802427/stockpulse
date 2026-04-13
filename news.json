@@ -1,10 +1,20 @@
 {
-  "updated": "2026/04/14 06:01",
+  "updated": "2026/04/14 06:51",
   "news": [
     {
+      "title": "Here's what smart people are saying about what the failed US-Iran peace talks and Trump's blockade mean for markets - markets.businessinsider.com",
+      "zh": "聰明人士談論美伊和談失敗及川普封鎖對市場的影響",
+      "impact": "地緣政治風險升高，市場波動性增加",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://markets.businessinsider.com/news/stocks/what-smart-people-saying-failed-us-iran-peace-talks-2026-4",
+      "source": "Business Insider",
+      "tickers": []
+    },
+    {
       "title": "Global economic outlook darkens as policymakers count cost of Iran war - Financial Times",
-      "zh": "全球經濟前景黯淡，政策制定者計算伊朗戰爭成本",
-      "impact": "地緣政治風險升高，全球經濟增長面臨下行壓力",
+      "zh": "全球經濟展望惡化，政策制定者計算伊朗戰爭成本",
+      "impact": "經濟增長前景黯淡，全球衰退風險上升",
       "sector": "general",
       "priority": "high",
       "link": "https://www.ft.com/content/3050d862-7e94-47e3-8a17-42896c1a4383?syn-25a6b1a6\\\\u003d1",
@@ -15,8 +25,8 @@
     },
     {
       "title": "Oil prices soar above $100 per barrel as hope fades of end to Iran war - Financial Times",
-      "zh": "伊朗戰爭結束希望消退，油價飆升至每桶100美元以上",
-      "impact": "能源成本上升，推升通膨壓力，消費和生產成本增加",
+      "zh": "油價飆升至每桶100美元以上，伊朗戰爭結束希望破滅",
+      "impact": "能源成本上升，通膨壓力加大",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.ft.com/content/4dbf076f-004b-4244-8579-2aca3e60e05c?syn-25a6b1a6\\\\u003d1",
@@ -24,29 +34,29 @@
       "tickers": []
     },
     {
-      "title": "Why inflation is the economic problem of the decade - Axios",
-      "zh": "為何通膨是十年來的經濟問題",
-      "impact": "通膨成為長期經濟隱憂，影響貨幣政策和投資決策",
-      "sector": "general",
+      "title": "An Iran War Winner: China’s Green Industrial Complex - WSJ",
+      "zh": "伊朗戰爭贏家：中國綠色工業複合體",
+      "impact": "中國綠能產業受惠，地緣政治格局轉變",
+      "sector": "energy",
       "priority": "medium",
+      "link": "https://www.wsj.com/business/energy-oil/an-iran-war-winner-chinas-green-industrial-complex-1ef8a2bc",
+      "source": "The Wall Street Journal",
+      "tickers": []
+    },
+    {
+      "title": "Why inflation is the economic problem of the decade - Axios",
+      "zh": "為何通膨是十年來最大經濟問題",
+      "impact": "央行政策面臨挑戰，購買力持續下降",
+      "sector": "general",
+      "priority": "high",
       "link": "https://www.axios.com/2026/04/12/inflation-economy-decade-iran-oil",
       "source": "Axios",
       "tickers": []
     },
     {
-      "title": "Lessons learned in '70s have made the US and world economies less vulnerable to oil shocks - AP News",
-      "zh": "從70年代吸取的教訓使美國和世界經濟對油價衝擊的抵抗力更強",
-      "impact": "經濟韌性較強，油價飆升對經濟的負面影響有限",
-      "sector": "energy",
-      "priority": "low",
-      "link": "https://apnews.com/article/oil-shocks-inflation-energy-stagflation-1970s-f12d886ce8af46862ad69be98f75a5d0",
-      "source": "Associated Press",
-      "tickers": []
-    },
-    {
       "title": "Wall Street banks set to report $40bn trading haul as Iran war rekindles volatility - Financial Times",
-      "zh": "華爾街銀行準備報告400億美元交易收入，伊朗戰爭重燃波動性",
-      "impact": "金融機構交易利潤大幅增長，市場波動性提高利好投行",
+      "zh": "華爾街銀行因伊朗戰爭波動有望獲得400億美元交易收入",
+      "impact": "金融機構盈利增加，市場波動帶來交易機會",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.ft.com/content/7dfb2398-f414-4c82-927c-5db4d34cb5da?syn-25a6b1a6\\\\u003d1",
@@ -55,8 +65,8 @@
     },
     {
       "title": "A Panicked Race for Barrels Is Gripping the Global Oil Market - Bloomberg.com",
-      "zh": "全球石油市場陷入慌張的搶購狂潮",
-      "impact": "石油供應緊張，能源價格進一步上升，市場恐慌加劇",
+      "zh": "全球石油市場陷入恐慌搶購浪潮",
+      "impact": "油價持續上升，供應鏈中斷風險",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/the-oil-market-is-in-the-grip-of-a-panicked-race-for-barrels",
@@ -65,62 +75,40 @@
     },
     {
       "title": "Japan Bets $16 Billion to Propel Startup Rapidus Into AI Chips - Bloomberg.com",
-      "zh": "日本投資160億美元推動新創公司Rapidus進入AI晶片領域",
-      "impact": "日本加大AI晶片投資，全球半導體競爭格局變化",
+      "zh": "日本投資160億美元助力新興晶片公司Rapidus進軍AI晶片",
+      "impact": "日本半導體實力提升，AI晶片競爭加劇",
       "sector": "tech",
-      "priority": "medium",
+      "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/japan-bets-16-billion-to-propel-startup-rapidus-into-ai-chips",
       "source": "Bloomberg",
       "tickers": []
     },
     {
+      "title": "People Who Lose Their Job to AI Are in for a World of Pain, Goldman Sachs Report Finds - Futurism",
+      "zh": "高盛報告：失業於AI的人面臨困境",
+      "impact": "大規模結構性失業風險，社會經濟不穩定",
+      "sector": "tech",
+      "priority": "medium",
+      "link": "http://futurism.com/artificial-intelligence/ai-job-loss-consequences",
+      "source": "Futurism",
+      "tickers": []
+    },
+    {
       "title": "Fuel Shortages From Iran War Threaten Asia’s Biggest Food Staple - Bloomberg.com",
-      "zh": "伊朗戰爭引發燃料短缺威脅亞洲最大糧食主食",
-      "impact": "能源危機波及糧食生產，亞洲糧食安全面臨風險",
-      "sector": "energy",
+      "zh": "伊朗戰爭燃料短缺威脅亞洲最大食品主食",
+      "impact": "糧食安全受威脅，農產品價格上漲",
+      "sector": "consumer",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/fuel-shortages-from-iran-war-threaten-asia-s-biggest-food-staple",
       "source": "Bloomberg",
       "tickers": []
     },
     {
-      "title": "Why Needham Analysts Slashed Their Price Targets on IBM Stock Ahead of Earnings",
-      "zh": "奈德漢分析師在IBM財報前下調股票目標價格的原因",
-      "impact": "IBM股票目標價格下調，反映投資者對其前景看淡",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-needham-analysts-slashed-price-131502174.html",
-      "source": "Yahoo Finance",
-      "tickers": [
-        "$IBM（IBM）"
-      ]
-    },
-    {
-      "title": "As the Iran conflict squeezes global energy supplies, U.S. oil is now a vital safety net in the market",
-      "zh": "伊朗衝突擠壓全球能源供應，美國石油成為市場重要安全網",
-      "impact": "美國能源供應地位提升，有利於美國能源企業和經濟",
-      "sector": "energy",
-      "priority": "medium",
-      "link": "https://www.marketwatch.com/story/as-iran-conflict-squeezes-global-energy-supplies-american-oil-becomes-a-vital-safety-net-15ce3c82?mod=mw_rss_topstories",
-      "source": "MarketWatch.com - Top Stories",
-      "tickers": []
-    },
-    {
-      "title": "Time to Plan for Months of Oil, Gas Shortage",
-      "zh": "應為數月石油、天然氣短缺做準備",
-      "impact": "油氣供應緊張，能源價格上漲壓力增加，衝擊全球經濟",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://oilprice.com/Energy/Energy-General/Time-to-Plan-for-Months-of-Oil-Gas-Shortage.html",
-      "source": "Oilprice.com",
-      "tickers": []
-    },
-    {
       "title": "World’s Top Oil Trader Hit by Massive Loss on Bets Gone Wrong",
       "zh": "全球頂級石油交易商因押注失誤遭受巨額虧損",
-      "impact": "全球石油市場波動加劇，交易風險暴露，金融系統穩定性受關注",
-      "sector": "finance",
-      "priority": "high",
+      "impact": "大宗商品交易風險暴露，可能影響能源市場流動性和價格波動",
+      "sector": "energy",
+      "priority": "medium",
       "link": "https://oilprice.com/Energy/Crude-Oil/Worlds-Top-Oil-Trader-Hit-by-Massive-Loss-on-Bets-Gone-Wrong.html",
       "source": "Oilprice.com",
       "tickers": []
