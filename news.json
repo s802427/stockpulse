@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/13 23:20",
+  "updated": "2026/04/14 00:01",
   "news": [
     {
       "title": "Why inflation is the economic problem of the decade - Axios",
-      "zh": "為什麼通膨是這個十年的經濟問題",
-      "impact": "通膨持續上升威脅經濟增長和消費者購買力",
+      "zh": "為什麼通膨是十年來的經濟問題",
+      "impact": "通膨成為長期經濟挑戰，影響投資策略與政策制定",
       "sector": "general",
       "priority": "high",
       "link": "https://www.axios.com/2026/04/12/inflation-economy-decade-iran-oil",
@@ -13,8 +13,8 @@
     },
     {
       "title": "44-year-old burger chain’s franchisee files Chapter 11 bankruptcy - thestreet.com",
-      "zh": "44年歷史的漢堡連鎖餐廳特許經營商申請第11章破產",
-      "impact": "餐飲業經營困難，消費支出承壓信號",
+      "zh": "44年歷史漢堡連鎖店特許經營商申請第11章破產",
+      "impact": "消費餐飲業困境顯現，經營壓力持續",
       "sector": "consumer",
       "priority": "medium",
       "link": "https://www.thestreet.com/restaurants/farmer-boys-franchisee-files-chapter-11-bankruptcy",
@@ -23,9 +23,9 @@
     },
     {
       "title": "The Dollar’s Special Status: Sources and Threats - Paul Krugman | Substack",
-      "zh": "美元的特殊地位：來源與威脅",
-      "impact": "分析美元儲備貨幣地位面臨的長期挑戰",
-      "sector": "general",
+      "zh": "美元特殊地位：來源與威脅 - 保羅‧克魯格曼",
+      "impact": "美元儲備貨幣地位面臨長期挑戰分析",
+      "sector": "finance",
       "priority": "medium",
       "link": "https://paulkrugman.substack.com/p/the-dollars-special-status-sources",
       "source": "Substack.com",
@@ -33,8 +33,8 @@
     },
     {
       "title": "Wall Street banks set to report $40bn trading haul as Iran war rekindles volatility - Financial Times",
-      "zh": "華爾街銀行預計錄得400億美元交易收入，伊朗戰爭重燃波動性",
-      "impact": "地緣政治緊張推高交易量，銀行利潤增加",
+      "zh": "華爾街銀行因伊朗戰爭重燃波動性，預計報告400億美元交易收入",
+      "impact": "地緣政治風險推高交易收益，波動性上升",
       "sector": "finance",
       "priority": "high",
       "link": "https://www.ft.com/content/7dfb2398-f414-4c82-927c-5db4d34cb5da?syn-25a6b1a6\\\\u003d1",
@@ -43,8 +43,8 @@
     },
     {
       "title": "Trump name-drops Palantir by ticker symbol, 1st president to hype a stock. It surged $10B in minutes amid a 16% freefall - Yahoo Finance",
-      "zh": "特朗普點名Palantir股票代碼，首位美國總統炒作股票。股價在16%跌幅中數分鐘內飆升100億美元",
-      "impact": "總統言論操縱股價，引發市場操縱和監管風險",
+      "zh": "川普點名提及Palantir股票代碼，首位美國總統炒作個股，數分鐘內市值飆升100億美元後暴跌16%",
+      "impact": "總統言論直接推高股價後暴跌，監管爭議升溫",
       "sector": "tech",
       "priority": "high",
       "link": "https://finance.yahoo.com/markets/stocks/articles/trump-name-drops-palantir-ticker-154500129.html",
@@ -53,8 +53,8 @@
     },
     {
       "title": "A Panicked Race for Barrels Is Gripping the Global Oil Market - Bloomberg.com",
-      "zh": "全球石油市場陷入恐慌性搶購桶裝油",
-      "impact": "伊朗局勢推升油價，威脅能源供應安全",
+      "zh": "全球油市爆發恐慌性搶購桶裝油潮",
+      "impact": "地緣政治衝擊能源市場，油價波動加劇",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/the-oil-market-is-in-the-grip-of-a-panicked-race-for-barrels",
@@ -62,39 +62,19 @@
       "tickers": []
     },
     {
-      "title": "Anthropic closes in on OpenAI as US business use surges - Financial Times",
-      "zh": "Anthropic逼近OpenAI，美國商業使用激增",
-      "impact": "人工智慧競爭加劇，科技領導力格局變化",
+      "title": "Battery recycler Ascend Elements files for bankruptcy - TechCrunch",
+      "zh": "電池回收商Ascend Elements申請破產",
+      "impact": "綠能產業供應鏈受挫，技術公司面臨困境",
       "sector": "tech",
       "priority": "medium",
-      "link": "https://www.ft.com/content/abb93a6f-9060-4095-8045-84b97d394a4c?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "‘Fortress China’ shows cracks as Iran war strains supply chains - Financial Times",
-      "zh": "「堡壘中國」出現裂縫，伊朗戰爭加劇供應鏈緊張",
-      "impact": "地緣政治風險擾亂全球供應鏈和貿易",
-      "sector": "general",
-      "priority": "high",
-      "link": "https://www.ft.com/content/f201105e-cb6c-49ca-9c40-26eb52b41607?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
-      "tickers": []
-    },
-    {
-      "title": "Fuel Shortages From Iran War Threaten Asia’s Biggest Food Staple - Bloomberg.com",
-      "zh": "伊朗戰爭燃油短缺威脅亞洲最大食物主食",
-      "impact": "能源危機威脅亞洲糧食安全和農業生產",
-      "sector": "energy",
-      "priority": "high",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-11/fuel-shortages-from-iran-war-threaten-asia-s-biggest-food-staple",
-      "source": "Bloomberg",
+      "link": "https://techcrunch.com/2026/04/10/battery-recycler-ascend-elements-files-for-bankruptcy/",
+      "source": "TechCrunch",
       "tickers": []
     },
     {
       "title": "Inflation goes up by a whopping monthly rate of nearly 1%—and it’s hitting you at the grocery store and gas station - Yahoo Finance",
-      "zh": "通膨月增率達近1%，衝擊雜貨店和加油站物價",
-      "impact": "通膨加速威脅消費者生活成本上升",
+      "zh": "通膨單月漲幅高達近1%，打擊雜貨店和加油站物價",
+      "impact": "月度通膨加速，消費者購買力持續受壓",
       "sector": "general",
       "priority": "high",
       "link": "https://finance.yahoo.com/economy/articles/inflation-goes-whopping-monthly-rate-172123415.html",
@@ -102,19 +82,9 @@
       "tickers": []
     },
     {
-      "title": "Why Starlink is so important to SpaceX's IPO",
-      "zh": "星鏈為何對SpaceX上市至關重要",
-      "impact": "星鏈可能成為SpaceX上市時的核心估值驅動力和收益來源",
-      "sector": "tech",
-      "priority": "high",
-      "link": "https://finance.yahoo.com/sectors/technology/article/why-starlink-is-so-important-to-spacexs-ipo-174446711.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
       "title": "Stock market today: Dow, S&P 500, Nasdaq mixed after Trump orders Hormuz blockade against Iran",
-      "zh": "股市今日：川普下令封鎖荷莫茲海峽對伊朗後，道瓊、標普500、納斯達克漲跌互見",
-      "impact": "地緣政治緊張局勢引發市場波動和不確定性，影響全球風險資產表現",
+      "zh": "股市今日：川普下令封鎖荷莫茲海峽對抗伊朗後，道瓊、標普500、那斯達克漲跌互現",
+      "impact": "地緣政治衝突引發市場波動，風險情緒升溫",
       "sector": "general",
       "priority": "high",
       "link": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-mixed-after-trump-orders-hormuz-blockade-against-iran-145712025.html",
@@ -122,12 +92,32 @@
       "tickers": []
     },
     {
-      "title": "EU Considers Lower Energy Taxes as Hormuz Crisis Drives Costs Higher",
-      "zh": "荷莫茲危機推高成本之際，歐盟考慮降低能源稅",
-      "impact": "地緣政治衝擊全球能源價格，歐盟調整稅收政策因應通膨壓力",
+      "title": "Earnings Season Is Here. Microsoft and 7 More Companies That Usually Deliver.",
+      "zh": "財報季來臨。微軟等8家通常表現亮麗的公司",
+      "impact": "科技龍頭財報預期市場走向，具關鍵指標作用",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://www.barrons.com/articles/earnings-season-here-microsoft-and-7-more-stocks-cb39d12e?siteid=yhoof2&yptr=yahoo",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Oil prices rise nearly 6% as U.S. military blockade of Iranian ports takes effect",
+      "zh": "美國軍事封鎖伊朗港口生效，油價上漲近6%",
+      "impact": "原油供應受限推高油價，全球能源成本上升，通膨壓力增加",
+      "sector": "energy",
+      "priority": "high",
+      "link": "https://www.marketwatch.com/story/oil-prices-rise-as-failed-deal-between-u-s-and-iran-raises-risk-of-prolonged-war-54d27150?mod=mw_rss_topstories",
+      "source": "MarketWatch.com - Top Stories",
+      "tickers": []
+    },
+    {
+      "title": "BP Joins Shell and TotalEnergies in Namibia's Offshore Rush",
+      "zh": "英國石油公司加入殼牌和道達爾能源，搶進納米比亞離岸油氣開發",
+      "impact": "大型能源公司在納米比亞加大投資，推動新油氣資源開發",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/EU-Considers-Lower-Energy-Taxes-as-Hormuz-Crisis-Drives-Costs-Higher.html",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/BP-Joins-Shell-and-TotalEnergies-in-Namibias-Offshore-Rush.html",
       "source": "Oilprice.com",
       "tickers": []
     }
