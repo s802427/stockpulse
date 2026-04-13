@@ -1,21 +1,21 @@
 {
-  "updated": "2026/04/13 18:02",
+  "updated": "2026/04/13 20:01",
   "news": [
     {
-      "title": "Commodity traders lost ‘billions’ in early days of Iran war - Financial Times",
-      "zh": "商品交易員在伊朗戰爭初期損失「數十億美元」",
-      "impact": "伊朗戰爭導致商品市場大幅波動，交易員蒙受巨大損失",
+      "title": "U.S. oil exports seen hitting record 5.2M bbl/day as Iran war sparks supply race (USO:NYSEARCA) - Seeking Alpha",
+      "zh": "美國石油出口預計將創紀錄的520萬桶/日，伊朗戰爭引發供應競賽",
+      "impact": "油價上升，能源成本增加，全球通脹壓力加大",
       "sector": "energy",
       "priority": "high",
-      "link": "https://www.ft.com/content/3baeeff3-8c7e-4fcd-b704-3ddde3abdbcc?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
+      "link": "https://seekingalpha.com/news/4574171-us-oil-exports-seen-hitting-record-52m-bblday-as-iran-war-sparks-supply-race",
+      "source": "Seeking Alpha",
       "tickers": []
     },
     {
       "title": "Trump name-drops Palantir by ticker symbol, 1st president to hype a stock. It surged $10B in minutes amid a 16% freefall - Yahoo Finance",
-      "zh": "川普點名帕蘭提爾股票代碼，首位總統為股票造勢。股價在16%跌幅中數分鐘內飆升100億美元",
-      "impact": "總統公開推薦個股引發市場劇烈波動，引發監管疑慮",
-      "sector": "general",
+      "zh": "川普以股票代碼點名Palantir，史上首位總統炒作個股。該股在16%跌幅中數分鐘內飆升100億美元市值",
+      "impact": "股價劇烈波動，監管風險，市場信心受挫",
+      "sector": "tech",
       "priority": "high",
       "link": "https://finance.yahoo.com/markets/stocks/articles/trump-name-drops-palantir-ticker-154500129.html",
       "source": "Yahoo Entertainment",
@@ -23,8 +23,8 @@
     },
     {
       "title": "A Panicked Race for Barrels Is Gripping the Global Oil Market - Bloomberg.com",
-      "zh": "全球石油市場掀起恐慌搶購浪潮",
-      "impact": "伊朗戰爭引發石油供應緊張，全球市場陷入搶購狀態",
+      "zh": "全球石油市場陷入恐慌搶購風潮",
+      "impact": "石油供應緊張，能源價格飆升，經濟風險加劇",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/the-oil-market-is-in-the-grip-of-a-panicked-race-for-barrels",
@@ -32,39 +32,39 @@
       "tickers": []
     },
     {
+      "title": "From coffee to home prices, costs are up everywhere - Yahoo Finance",
+      "zh": "從咖啡到房價，各類成本普遍上漲",
+      "impact": "消費者購買力下降，通脹持續侵蝕生活成本",
+      "sector": "consumer",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/economy/article/from-coffee-to-home-prices-costs-are-up-everywhere-174715881.html",
+      "source": "Yahoo Entertainment",
+      "tickers": []
+    },
+    {
       "title": "People Who Lose Their Job to AI Are in for a World of Pain, Goldman Sachs Report Finds - Futurism",
-      "zh": "失業於人工智能的員工將面臨極大困境，高盛報告發現",
-      "impact": "人工智能導致大規模失業，勞動力市場面臨結構性轉變",
-      "sector": "tech",
+      "zh": "高盛報告發現：因AI失業者面臨極大困境",
+      "impact": "勞動力市場風險，社會問題凸顯，失業率可能上升",
+      "sector": "general",
       "priority": "medium",
       "link": "http://futurism.com/artificial-intelligence/ai-job-loss-consequences",
       "source": "Futurism",
       "tickers": []
     },
     {
-      "title": "How the Iran war could create a new global order in oil - Axios",
-      "zh": "伊朗戰爭如何創造新的全球石油格局",
-      "impact": "地緣政治變化將重塑全球能源市場結構與秩序",
-      "sector": "energy",
+      "title": "Uncomfortably high inflation is a real problem and it’s not going away anytime soon - CNN",
+      "zh": "居高不下的通膨確實是嚴重問題，短期內不會消退",
+      "impact": "央行政策困境，消費和投資信心受打擊",
+      "sector": "finance",
       "priority": "high",
-      "link": "https://www.axios.com/2026/04/10/oil-iran-war-trump",
-      "source": "Axios",
-      "tickers": []
-    },
-    {
-      "title": "Anthropic closes in on OpenAI as US business use surges - Financial Times",
-      "zh": "人工智能公司Anthropic在美國商業應用激增中逼近OpenAI",
-      "impact": "Anthropic商業應用成長迅速，AI市場競爭格局發生變化",
-      "sector": "tech",
-      "priority": "medium",
-      "link": "https://www.ft.com/content/abb93a6f-9060-4095-8045-84b97d394a4c?syn-25a6b1a6\\\\u003d1",
-      "source": "Financial Times",
+      "link": "https://www.cnn.com/2026/04/11/business/high-inflation-rate-problem",
+      "source": "CNN",
       "tickers": []
     },
     {
       "title": "‘Fortress China’ shows cracks as Iran war strains supply chains - Financial Times",
-      "zh": "「堡壘中國」因伊朗戰爭出現裂痕，供應鏈受到衝擊",
-      "impact": "伊朗戰爭加劇中國供應鏈風險，全球產業面臨重組",
+      "zh": "「堡壘中國」出現裂縫，伊朗戰爭對供應鏈造成壓力",
+      "impact": "中國經濟韌性下降，全球貿易風險增加",
       "sector": "general",
       "priority": "high",
       "link": "https://www.ft.com/content/f201105e-cb6c-49ca-9c40-26eb52b41607?syn-25a6b1a6\\\\u003d1",
@@ -73,8 +73,8 @@
     },
     {
       "title": "Fuel Shortages From Iran War Threaten Asia’s Biggest Food Staple - Bloomberg.com",
-      "zh": "伊朗戰爭導致燃料短缺，威脅亞洲最大食品主食",
-      "impact": "能源短缺威脅亞洲糧食安全，可能引發全球糧價上漲",
+      "zh": "伊朗戰爭導致燃料短缺，威脅亞洲最大主食生產",
+      "impact": "糧食安全隱患，亞洲糧價上漲，全球食安風險",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/fuel-shortages-from-iran-war-threaten-asia-s-biggest-food-staple",
@@ -83,8 +83,8 @@
     },
     {
       "title": "Anthropic Agrees to Rent CoreWeave AI Capacity to Power Claude - Bloomberg.com",
-      "zh": "Anthropic同意租借CoreWeave人工智能運算容量為Claude提供動力",
-      "impact": "Anthropic擴大AI基礎設施投資，支持Claude業務增長",
+      "zh": "Anthropic同意租賃CoreWeave AI運算容量以驅動Claude",
+      "impact": "AI基礎設施投資加大，雲運算需求增長",
       "sector": "tech",
       "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-10/anthropic-agrees-to-rent-coreweave-ai-capacity-to-power-claude",
@@ -92,9 +92,19 @@
       "tickers": []
     },
     {
+      "title": "Battery recycler Ascend Elements files for bankruptcy - TechCrunch",
+      "zh": "電池回收商Ascend Elements申請破產",
+      "impact": "綠能產業前景堪憂，供應鏈受阻",
+      "sector": "energy",
+      "priority": "medium",
+      "link": "https://techcrunch.com/2026/04/10/battery-recycler-ascend-elements-files-for-bankruptcy/",
+      "source": "TechCrunch",
+      "tickers": []
+    },
+    {
       "title": "Private equity has a private credit problem - Axios",
-      "zh": "私募股權基金面臨私募信貸問題",
-      "impact": "私募信貸市場風險暴露，威脅私募股權基金穩定性",
+      "zh": "私募股權基金面臨私人信貸問題",
+      "impact": "私募股權融資面臨信貸市場風險，影響投資回報",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.axios.com/2026/04/10/private-equity-private-credit-problem",
@@ -102,23 +112,63 @@
       "tickers": []
     },
     {
-      "title": "Stock futures sink while oil spikes as the U.S. Navy looks to squeeze Iran’s economy and break its grip on the Strait of Hormuz",
-      "zh": "美國海軍尋求擠壓伊朗經濟並控制荷莫茲海峽之際，股指期貨下跌而油價飆升",
-      "impact": "地緣政治緊張推高油價，股市承壓，能源和海運風險升高",
-      "sector": "energy",
+      "title": "The biggest IPO in history has a hole in its safety net - Financial Times",
+      "zh": "歷史上最大的IPO存在安全網漏洞",
+      "impact": "重大IPO存在監管風險，可能影響市場穩定性",
+      "sector": "finance",
       "priority": "high",
-      "link": "https://fortune.com/2026/04/12/stock-futures-oil-prices-navy-blockade-iran-exports-strait-of-hormuz/",
+      "link": "https://www.ft.com/content/92128bde-0646-4dc8-88db-7f4846330faa",
+      "source": "Financial Times",
+      "tickers": []
+    },
+    {
+      "title": "Goldman Sachs profits rise on stock trading, M&A surge",
+      "zh": "高盛利潤因股票交易和併購浪潮而上升",
+      "impact": "投資銀行業績提升，股市交易活躍度增加",
+      "sector": "finance",
+      "priority": "medium",
+      "link": "https://finance.yahoo.com/markets/article/goldman-sachs-profits-rise-on-stock-trading-ma-surge-113011227.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Earnings live updates: Q1 earnings season kicks off with bank results as macro pressures mount",
+      "zh": "盈利直播更新：宏觀壓力加大下第一季度財報季正式啟動，銀行業績領先",
+      "impact": "企業財報季開始，經濟前景評估關鍵期",
+      "sector": "general",
+      "priority": "high",
+      "link": "https://finance.yahoo.com/markets/article/earnings-live-updates-q1-earnings-season-kicks-off-with-bank-results-as-macro-pressures-mount-104416663.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Julius Baer finance chief to step down",
+      "zh": "瑞銀集團財務長茱麗葉·貝爾辭職",
+      "impact": "瑞銀管理層變動，短期內組織穩定性受影響",
+      "sector": "finance",
+      "priority": "low",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/julius-baer-finance-chief-step-114656972.html",
+      "source": "Yahoo Finance",
+      "tickers": []
+    },
+    {
+      "title": "Tens of billions in days: CoreWeave shows how aggressively AI infrastructure is being funded",
+      "zh": "數日內數百億美元：CoreWeave展示AI基礎設施融資的激進程度",
+      "impact": "AI基礎設施投資激增，科技板塊融資活躍，估值可能過熱",
+      "sector": "tech",
+      "priority": "high",
+      "link": "https://fortune.com/2026/04/13/tens-billions-days-coreweave-shows-how-aggressively-ai-infrastructure-being-funded/",
       "source": "Fortune | FORTUNE",
       "tickers": []
     },
     {
-      "title": "LNG Shock Hits Asia as War Disrupts Gulf Exports and Prices Soar",
-      "zh": "戰爭擾亂波斯灣出口，液化天然氣衝擊亞洲市場，價格飆升",
-      "impact": "亞洲能源供應受威脅，液化天然氣價格暴漲，通脹和能源安全風險上升",
-      "sector": "energy",
+      "title": "China went from uninvestable to unavoidable—and Hong Kong is cashing in with a slew of AI-centric IPOs",
+      "zh": "中國從不可投資轉變為不可迴避——香港正通過一系列AI中心IPO大幅獲利",
+      "impact": "中資AI企業赴港上市潮起，香港資本市場活躍度提升",
+      "sector": "tech",
       "priority": "high",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Shock-Hits-Asia-as-War-Disrupts-Gulf-Exports-and-Prices-Soar.html",
-      "source": "Oilprice.com",
+      "link": "https://fortune.com/2026/04/13/china-uninvestable-unavoidable-hong-kong-cashing-ai-centric-ipos/",
+      "source": "Fortune | FORTUNE",
       "tickers": []
     }
   ]
