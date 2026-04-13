@@ -1,10 +1,10 @@
 {
-  "updated": "2026/04/14 03:21",
+  "updated": "2026/04/14 04:00",
   "news": [
     {
       "title": "Failure of US-Iran Talks Set to Weigh on Risk Assets Monday - Bloomberg.com",
-      "zh": "美伊談判失敗預計將對風險資產造成周一壓力",
-      "impact": "地緣政治緊張推高市場風險溢價，股市承壓",
+      "zh": "美伊談判失敗預計將打壓風險資產週一走勢",
+      "impact": "地緣政治緊張推高市場風險溢價",
       "sector": "general",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-12/failure-of-us-iran-talks-set-to-weigh-on-risk-assets-monday",
@@ -13,8 +13,8 @@
     },
     {
       "title": "Global economic outlook darkens as policymakers count cost of Iran war - Financial Times",
-      "zh": "全球經濟前景黯淡，決策者計算伊朗戰爭成本",
-      "impact": "地緣政治衝突威脅全球經濟增長，風險資產面臨壓力",
+      "zh": "全球經濟前景黯淡，決策者評估伊朗戰爭成本",
+      "impact": "地緣政治衝突威脅全球經濟增長",
       "sector": "general",
       "priority": "high",
       "link": "https://www.ft.com/content/3050d862-7e94-47e3-8a17-42896c1a4383?syn-25a6b1a6\\\\u003d1",
@@ -25,8 +25,8 @@
     },
     {
       "title": "Why inflation is the economic problem of the decade - Axios",
-      "zh": "為何通膨是十年來的經濟問題",
-      "impact": "通膨持續困擾經濟，影響貨幣政策與投資策略",
+      "zh": "為何通膨是這十年的經濟問題",
+      "impact": "通膨成為長期經濟挑戰",
       "sector": "general",
       "priority": "medium",
       "link": "https://www.axios.com/2026/04/12/inflation-economy-decade-iran-oil",
@@ -34,19 +34,9 @@
       "tickers": []
     },
     {
-      "title": "The mystery variable that explains stubbornly low consumer sentiment - Strength In Numbers | G. Elliott Morris",
-      "zh": "解釋消費者信心頑固低迷的神祕變數",
-      "impact": "消費信心疲弱影響零售銷售與經濟成長前景",
-      "sector": "consumer",
-      "priority": "medium",
-      "link": "https://www.gelliottmorris.com/p/2026-04-12-sunday-roundup",
-      "source": "Gelliottmorris.com",
-      "tickers": []
-    },
-    {
       "title": "Bessent and Powell call emergency meeting with bank CEOs after Anthropic's Mythos AI finds thousands of zero-day exploits - moneywise.com",
-      "zh": "Bessent和Powell在Anthropic的Mythos AI發現數千個零日漏洞後召開銀行CEO緊急會議",
-      "impact": "AI發現重大安全漏洞，金融系統面臨網路安全威脅",
+      "zh": "貝森特與鮑威爾在Anthropic的Mythos人工智能發現數千個零日漏洞後召集銀行執行長緊急會議",
+      "impact": "人工智能安全漏洞引發金融系統性風險擔憂",
       "sector": "tech",
       "priority": "high",
       "link": "https://moneywise.com/news/top-stories/bessent-powell-emergency-meeting-bank-ceos-anthropic-mythos-ai",
@@ -55,8 +45,8 @@
     },
     {
       "title": "Wall Street banks set to report $40bn trading haul as Iran war rekindles volatility - Financial Times",
-      "zh": "伊朗戰爭重燃波動性，華爾街銀行預計報告400億美元交易收益",
-      "impact": "地緣政治波動增加交易收益機會，金融股受利",
+      "zh": "伊朗戰爭重燃波動性，華爾街銀行預計將錄得400億美元交易收益",
+      "impact": "市場波動增加銀行交易利潤",
       "sector": "finance",
       "priority": "medium",
       "link": "https://www.ft.com/content/7dfb2398-f414-4c82-927c-5db4d34cb5da?syn-25a6b1a6\\\\u003d1",
@@ -65,8 +55,8 @@
     },
     {
       "title": "A Panicked Race for Barrels Is Gripping the Global Oil Market - Bloomberg.com",
-      "zh": "全球油市陷入恐慌搶油潮",
-      "impact": "供應中斷推高油價，能源股上揚、通膨壓力加重",
+      "zh": "全球石油市場陷入恐慌搶購浪潮",
+      "impact": "能源價格波動加劇，供應風險上升",
       "sector": "energy",
       "priority": "high",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/the-oil-market-is-in-the-grip-of-a-panicked-race-for-barrels",
@@ -75,18 +65,18 @@
     },
     {
       "title": "Japan Bets $16 Billion to Propel Startup Rapidus Into AI Chips - Bloomberg.com",
-      "zh": "日本投入160億美元推動新興公司Rapidus進入AI晶片領域",
-      "impact": "日本加強AI晶片自主，全球半導體競爭格局變化",
+      "zh": "日本投資160億美元推動初創企業Rapidus進軍人工智能芯片領域",
+      "impact": "日本戰略性投資芯片產業與美國競爭",
       "sector": "tech",
-      "priority": "high",
+      "priority": "medium",
       "link": "https://www.bloomberg.com/news/articles/2026-04-11/japan-bets-16-billion-to-propel-startup-rapidus-into-ai-chips",
       "source": "Bloomberg",
       "tickers": []
     },
     {
       "title": "‘Fortress China’ shows cracks as Iran war strains supply chains - Financial Times",
-      "zh": "「堡壘中國」出現裂縫，伊朗戰爭加劇供應鏈緊張",
-      "impact": "地緣政治衝突衝擊中國供應鏈，全球製造業面臨風險",
+      "zh": "「堡壘中國」顯露裂縫，伊朗戰爭緊張供應鏈",
+      "impact": "地緣衝突衝擊中國供應鏈韌性",
       "sector": "general",
       "priority": "high",
       "link": "https://www.ft.com/content/f201105e-cb6c-49ca-9c40-26eb52b41607?syn-25a6b1a6\\\\u003d1",
@@ -94,32 +84,12 @@
       "tickers": []
     },
     {
-      "title": "CoStar Group Earnings Preview: What to Expect",
-      "zh": "CoStar Group財報預期：將呈現什麼表現",
-      "impact": "房地產科技公司財報數據，反映房市景氣信號",
-      "sector": "tech",
-      "priority": "low",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/costar-group-earnings-preview-expect-100758382.html",
-      "source": "Yahoo Finance",
-      "tickers": []
-    },
-    {
-      "title": "Policy Failure Is Dragging Ecuador’s Oil Sector Lower",
-      "zh": "政策失誤拖累厄瓜多爾石油部門下滑",
-      "impact": "厄瓜多爾油氣產能下降，全球能源供應面臨壓力",
+      "title": "World’s Top Oil Trader Hit by Massive Loss on Bets Gone Wrong",
+      "zh": "全球頂級石油交易商因押注失誤蒙受巨大虧損",
+      "impact": "能源交易商面臨重大虧損風險",
       "sector": "energy",
       "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/Policy-Failure-Is-Dragging-Ecuadors-Oil-Sector-Lower.html",
-      "source": "Oilprice.com",
-      "tickers": []
-    },
-    {
-      "title": "The Chinese Bank Targeting Infrastructure Projects Across Central Asia",
-      "zh": "中國銀行瞄準中亞基礎設施項目",
-      "impact": "中國擴大在中亞地區金融影響力，地緣政治格局變化",
-      "sector": "finance",
-      "priority": "medium",
-      "link": "https://oilprice.com/Energy/Energy-General/The-Chinese-Bank-Targeting-Infrastructure-Projects-Across-Central-Asia.html",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Worlds-Top-Oil-Trader-Hit-by-Massive-Loss-on-Bets-Gone-Wrong.html",
       "source": "Oilprice.com",
       "tickers": []
     }
